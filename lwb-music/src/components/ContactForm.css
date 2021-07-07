@@ -1,0 +1,91 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #313a61;
+    display: flex;
+}
+.contents{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 30vw;
+    height: 65vh;
+    padding: 50px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    /* background: rgba(0,0,0,.5); */
+    margin-top: 4%;
+}
+
+.contents input, textarea{
+    color: #f6eaf4;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contents input[type="text"],
+.contents input[type="email"] {
+    border: none;
+    border-bottom: 1px solid #eff9f0;
+    background: transparent;
+    outline: none;
+    height: 5vh;
+    color: #eff9f0;
+    font-size: 1.2vw;
+}
+
+::placeholder{
+    color:#eff9f0;
+}
+
+.contents textarea {
+    border: none;
+    border-bottom: 1px solid #eff9f0;
+    background: transparent;
+    outline: white;
+    color: #eff9f0;
+    font-size: 1.2vw;
+}
+
+.contents input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 5vh;
+    color: #f6eaf4;
+    font-size: 1.2vw;
+    background: #487c7c;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+* {
+    max-width: 100%;
+}
+
+@media only screen 
+    
+    and (min-device-width: 375px)
+
+    and (orientation: portrait) { 
+        .container{
+            height: 75vh;
+        }
+        .contents{
+            width: 60vw;
+            height: 70vh;
+        }
+        .contents textarea{
+            font-size: 2.5vw;
+        }
+        .contents input[type="text"],
+        .contents input[type="email"],
+        .contents input[type="submit"]{ 
+            font-size: 2.5vw;
+        }
+    }
