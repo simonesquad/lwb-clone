@@ -1,5 +1,6 @@
 import React from 'react';
-import './App.css';
+import MMenu from '../src/components/Menu';
+// import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { extendTheme, ChakraProvider } from '@chakra-ui/react';
 
@@ -29,6 +30,7 @@ function App() {
     <Router>
       <ChakraProvider>
     <div className="App">
+      <MMenu />
       <Switch>
         <Route exact path='/contact' component={Contact} />
         <Route exact path='/resources' component={Resources} />

@@ -1385,7 +1385,7 @@
     "@chakra-ui/react-env" "1.1.4"
     "@chakra-ui/utils" "1.10.2"
 
-"@chakra-ui/menu@1.8.6":
+"@chakra-ui/menu@^1.8.6", "@chakra-ui/menu@1.8.6":
   "integrity" "sha512-b5KcXZFQRsgu7XXHz/3yyNB0K4NFvIYVSDTfMmRQKKExEjQ7az7mtVNAUFDQIYXXoj4QhLXPfWISw1Ijgw1LHA=="
   "resolved" "https://registry.npmjs.org/@chakra-ui/menu/-/menu-1.8.6.tgz"
   "version" "1.8.6"

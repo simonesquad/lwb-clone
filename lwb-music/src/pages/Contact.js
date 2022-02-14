@@ -1,11 +1,11 @@
 import React from 'react';
-import Menu from '../components/Menu';
+// import Menu from '../components/MainMenu';
 import ContactForm from '../components/ContactForm';
 
 function Contact() {
     return (
         <div>
-          <Menu 
+          {/* <Menu 
             oneTxt='Home'
             oneLink='/'
             twoTxt='About'
@@ -16,7 +16,7 @@ function Contact() {
             fourLink='/music'
             fiveTxt='Resources'
             fiveLink='/resources'
-        />
+        /> */}
         <div>
             <ContactForm />
         </div>

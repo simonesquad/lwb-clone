@@ -1,7 +1,7 @@
 import React from 'react'
-import Menu from '../components/Menu';
-import Atom from '../components/Atom';
-import LWB from '../assets/lwb_1.jpg'
+// import Menu from '../components/Menu';
+// import Atom from '../components/Atom';
+// import LWB from '../assets/lwb_1.jpg'
 import {
     VStack, 
     Heading,
@@ -10,20 +10,8 @@ import {
 
 function Home() {
     return (
-
-        <div>
-        <Menu 
-            oneTxt='About'
-            oneLink='/about'
-            twoTxt='Music'
-            twoLink='/music'
-            threeTxt='Gallery'
-            threeLink='/gallery'
-            fourTxt='Resources'
-            fourLink='/resources'
-            fiveTxt='Contact'
-            fiveLink='/contact'
-        />
+       <div>
+        {/* <Menu /> */}
         <div>
         {/* <Atom 
             title='In memory of Louis W. Ballard...'
