@@ -3,6 +3,14 @@ import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { extendTheme, ChakraProvider } from '@chakra-ui/react';
 
+//components
+import Contact from './pages/Contact';
+import Resources from './pages/Resources';
+import Gallery from './pages/Gallery';
+import Music from './pages/Music';
+import About from './pages/About';
+import Home from './pages/Home';
+
 // color directly from Chakra, mimicked from the original design
 const colors = {
   brand: {
@@ -14,18 +22,12 @@ const colors = {
     yellow500: '#D69E2E'
   },
 }
-//components
-import Contact from './pages/Contact';
-import Resources from './pages/Resources';
-import Gallery from './pages/Gallery';
-import Music from './pages/Music';
-import About from './pages/About';
-import Home from './pages/Home';
 
 function App() {
   return (
-    <ChakraProvider>
+    
     <Router>
+      <ChakraProvider>
     <div className="App">
       <Switch>
         <Route exact path='/contact' component={Contact} />
@@ -36,8 +38,9 @@ function App() {
         <Route exact path='/' component={Home} />
       </Switch>
     </div>
-    </Router>
     </ChakraProvider>
+    </Router>
+    
   );
 }
 
