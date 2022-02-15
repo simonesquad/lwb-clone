@@ -23,8 +23,8 @@
 
 .contents input, textarea{
     color: #f6eaf4;
-    font-family: 'Poiret One', cursive;
-    font-weight: bold;
+    /* font-family: 'Poiret One', cursive;
+    font-weight: bold; */
     width: 100%;
     margin-bottom: 20px;
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import Menu from '../components/Menu'
+// import Menu from '../components/MainMenu'
 import Tile1 from '../components/Tile1';
 import Tile2 from '../components/Tile2';
 import Decoy from '../assets/santafe colors.png';
@@ -7,7 +7,7 @@ import Decoy from '../assets/santafe colors.png';
 function Music() {
     return (
         <div>
-        <Menu 
+        {/* <Menu 
             oneTxt='Home'
             oneLink='/'
             twoTxt='About'
@@ -18,7 +18,7 @@ function Music() {
             fourLink='/resources'
             fiveTxt='Contact'
             fiveLink='/contact'
-        />
+        /> */}
         <div>
             <Tile1 
                 icon={Decoy}

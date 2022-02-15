@@ -1,5 +1,5 @@
 import React from 'react';
-import Menu from '../components/Menu';
+// import Menu from '../components/MainMenu';
 import GPanel from '../components/GPanel';
 import GPanel3 from '../components/GPanel3';
 //pics panel one
@@ -15,7 +15,7 @@ import g12 from '../assets/gallery/g_12.png';
 function Gallery() {
     return (
         <div>
-        <Menu 
+        {/* <Menu 
         oneTxt='Home'
         oneLink='/'
         twoTxt='About'
@@ -26,7 +26,7 @@ function Gallery() {
         fourLink='/resources'
         fiveTxt='Contact'
         fiveLink='/contact'
-        />
+        /> */}
         <div>
             <GPanel 
                 g1={g7}

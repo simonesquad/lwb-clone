@@ -1,12 +1,12 @@
 import React from 'react'
-import Menu from '../components/Menu'
+// import Menu from '../components/MainMenu'
 import LWBlinks from '../components/LWBlinks';
 import NAlinks from '../components/NAlinks';
 
 function Resources() {
     return (
         <div>
-          <Menu 
+          {/* <Menu 
             oneTxt='Home'
             oneLink='/'
             twoTxt='About'
@@ -17,7 +17,7 @@ function Resources() {
             fourLink='/music'
             fiveTxt='Contact'
             fiveLink='/contact'
-        />
+        /> */}
         <LWBlinks />
         <NAlinks />
         </div>
