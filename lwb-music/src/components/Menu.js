@@ -5,18 +5,29 @@ import {
 } from "@chakra-ui/react"
 
 import styled from 'styled-components';
+import Zia from '../assets/th-1.webp'
 
 const StyledBar = styled.div`
     background-color: #A0AEC0;
     display: flex;
+    height: 17vh;
 `
 const StyledSig = styled.div`
+    display: flex;
     width: 40vw;
-    flex-direction: column;
-    margin-left: 5%;
+    margin-left: 0%;
     margin-top: 0.5%;
 `
+const StyledText = styled.div`
+    display: flex;
+    flex-direction: column;
+`
+// const StyledLogo = styled.div`
+//     width: 7vw;
+//     height: 7vh;
+// `
 const StyledName = styled.div`
+    width: 25vw;
     font-size: 1.5rem;
     margin-left: 5%;
     margin-top: 1%;
@@ -45,12 +56,17 @@ function MMenu() {
         <StyledBar>
         <Menu>
             <StyledSig>
+            {/* <StyledLogo>
+                <img src={Zia} alt="logo-zia"></img>
+            </StyledLogo> */}
+            <StyledText>
             <StyledName>
                <h1>Louis Wayne Ballard</h1> 
             </StyledName>
             <StyledQuote>
                 <h5>Life Music Legacy</h5>
             </StyledQuote>
+            </StyledText>
             </StyledSig>
             <StyledLinks>
                 <StyledButton>
