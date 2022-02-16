@@ -21,22 +21,22 @@ function About() {
         <div>
             <VStack 
                 divider={<StackDivider borderColor='gray.200' />}
-                spacing={4}
-                align='stretch'
+                spacing={1}
+                align='center'
             >
-                <HStack w='100vw' h='60vh' spacing='50px'>
+                <HStack w='100vw' h='60vh' spacing='70px'>
                 <Box w='50vw' h='50vh' borderWidth='1px' borderRadius='sm' overflow='hidden'>
-                <Image src={School} alt="boarding-school-image" />
+                <Image src={School} alt="boarding-school-image" width={750} height={450}/>
                 </Box>
                 <VStack>
-                <Box w='50vw' h='50vh'>
+                <Box w='40vw' h='50vh'>
                 <Heading as='h3' size='md'>Humble Beginnings: "Kill the Indian in him and save the man"</Heading>
                 <Text>Louis was born to Quapaw and Cherokee parents near Devils Promenade, Oklahoma on July 8, 1931. He attended the Seneca Indian Boarding School that was located in Wyandotte, Oklahoma from the age of six. Boys at the school were taught carpentry and farm management. The school was initially founded in the 1870s by Quakers as a mission. The general purpose of all Indian boarding schools was to remove children from their traditional customs and assimilate them into the predominant European culture. Louis resisted the strict indoctrination techniques and contiuned to speak his native Quapaw language and practice native dances. He was punished for doing so, but left the school retaining his culture and language.</Text>
                 </Box>
                 </VStack>
                 </HStack>
 
-                <HStack w='100vw' h='60vh' spacing='50px'>
+                <HStack w='100vw' h='60vh' spacing='70px'>
                 <VStack 
                     align='center'
                 >
@@ -46,7 +46,7 @@ function About() {
                 </Box>
                 </VStack>
                 <Box w='50vw' h='50vh' borderWidth='1px' borderRadius='sm' overflow='hidden'>
-                <Image src={Flute} alt="lwb-holding-flute-image" />
+                <Image src={Flute} alt="lwb-holding-flute-image" width={750} height={450} style={{ marginleft: '20px' }} />
                 </Box>
                 </HStack>
             </VStack>
