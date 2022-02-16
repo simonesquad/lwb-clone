@@ -29,12 +29,13 @@ function Gallery() {
     return (
         <>
         <Button {...getButtonProps()}>Next</Button>
-        <SimpleGrid columns={[2, null, 3]} spacing='40px'>
+        <SimpleGrid columns={[2, null, 2]} spacing='40px' style={{ margin: '20px'}}>
             
-                <Box bg='papayawhip' height='180px'></Box>
-                <Box bg='papayawhip' height='180px'></Box>
-                <Box bg='papayawhip' height='180px'></Box>
-                <Box bg='papayawhip' height='180px'></Box>
+                <Box bg='papayawhip' height='280px'></Box>
+                <Box bg='papayawhip' height='280px'></Box>
+                <Box bg='papayawhip' height='280px'></Box>
+                <Box bg='papayawhip' height='280px'></Box>
+
             <motion.div
                 {...getDisclosureProps()}
                 hidden={hidden}
