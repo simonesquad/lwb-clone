@@ -15,18 +15,6 @@ import g12 from '../assets/gallery/g_12.png';
 function Gallery() {
     return (
         <div>
-        {/* <Menu 
-        oneTxt='Home'
-        oneLink='/'
-        twoTxt='About'
-        twoLink='/about'
-        threeTxt='Music'
-        threeLink='/music'
-        fourTxt='Resources'
-        fourLink='/resources'
-        fiveTxt='Contact'
-        fiveLink='/contact'
-        /> */}
         <div>
             <GPanel 
                 g1={g7}
