@@ -13,7 +13,12 @@ import g11 from '../assets/gallery/g_11.png';
 import g12 from '../assets/gallery/g_12.png';
 
 // experimental sliders
-import { useDisclosure } from "@chakra-ui/react";
+import { 
+    useDisclosure,
+    Button, 
+    SimpleGrid,
+    Box,
+} from "@chakra-ui/react";
 import { motion } from "framer-motion";
 import { useState } from "react";
 
@@ -22,28 +27,35 @@ function Gallery() {
     const [hidden, setHidden] = useState(!isOpen);
 
     return (
-        <div>
-            <button {...getButtonProps()}>Toggle</button>
+        <>
+        <Button {...getButtonProps()}>Next</Button>
+        <SimpleGrid columns={[2, null, 3]} spacing='40px'>
+            
+                <Box bg='papayawhip' height='180px'></Box>
+                <Box bg='papayawhip' height='180px'></Box>
+                <Box bg='papayawhip' height='180px'></Box>
+                <Box bg='papayawhip' height='180px'></Box>
             <motion.div
                 {...getDisclosureProps()}
                 hidden={hidden}
                 initial={false}
                 onAnimationStart={() => setHidden(false)}
                 onAnimationComplete={() => setHidden(!isOpen)}
-                animate={{ width: isOpen ? 1000 : 0 }}
+                animate={{ width: isOpen ? 800 : 0 }}
                 style={{
-                background: "red",
+                background: "#319795",
                 overflow: "hidden",
                 whiteSpace: "nowrap",
                 position: "absolute",
                 right: "0",
-                height: "80vh",
-                top: "20vh"
+                height: "83vh",
+                top: "17vh"
                 }}
             >
                 welcome home
             </motion.div>
-            </div>
+            </SimpleGrid>
+            </>
         );
         }
 
