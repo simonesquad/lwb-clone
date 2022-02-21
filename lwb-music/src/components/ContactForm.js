@@ -22,7 +22,7 @@ function ContactForm() {
                         <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message here" name="message"></textarea>
                     </div>
                     <div className="col-8 pt-2 mx-auto">
-                        <input type="submit" className="btn btn-info" value="Introduce Yourself"></input>
+                        <input type="submit" className="btn btn-info" value="Hello!"></input>
                         </div>
                     </div>
                 </div>

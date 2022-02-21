@@ -1,7 +1,5 @@
 import React from 'react';
-// import Menu from '../components/MainMenu';
-// import GPanel from '../components/GPanel';
-// import GPanel3 from '../components/GPanel3';
+// import '../styles/Gallery.css'
 //pics panel one
 import g1 from '../assets/gallery/g_1.png';
 import g2 from '../assets/gallery/g_2.png';
@@ -12,50 +10,111 @@ import g5 from '../assets/gallery/g_5.png';
 import g11 from '../assets/gallery/g_11.png';
 import g12 from '../assets/gallery/g_12.png';
 
-//pure carousel
-import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext, Image, ImageWithZoom } from 'pure-react-carousel';
-import 'pure-react-carousel/dist/react-carousel.es.css';
+//other style sheet with styled components built in
+import {
+    Card,
+    ButtonContainer,
+    SliderContainer,
+    StyledSlide,
+    StyledSlider,
+    BackButton,
+    NextButton,
+    CardText,
+  } from "./gstyles";
 
-// experimental sliders
-// import { 
-//     useDisclosure,
-//     Button, 
-//     SimpleGrid,
-//     Box,
-//     Image,
-// } from "@chakra-ui/react";
-// import { motion } from "framer-motion";
-// import { useState } from "react";
+//pure carousel
+import { CarouselProvider, ImageWithZoom } from 'pure-react-carousel';
+import 'pure-react-carousel/dist/react-carousel.es.css';
+import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+
+
 
 function Gallery() {
     return (
-        <>
         <CarouselProvider
-        naturalSlideWidth={100}
-        naturalSlideHeight={125}
-        totalSlides={3}
-      >
-        <Slider>
-          <Slide index={0}>I am the first Slide.
-          <ImageWithZoom
-           className='d-block w-100'
-           src={g1}></ImageWithZoom>
-          </Slide>
-          <Slide index={1}>I am the second Slide.
+            naturalSlideWidth={90}
+            naturalSlideHeight={105}
+            totalSlides={5}
+            visibleSlides={2}
+            step={2}
+        >
+        <ButtonContainer>
+        <BackButton>
+            <ArrowBackIosIcon fontSize="large" /> 
+        </BackButton>
+        <NextButton>
+            <ArrowForwardIosIcon fontSize="large" />
+        </NextButton>
+        </ButtonContainer>
+        <SliderContainer>
+        <StyledSlider classNameAnimation="animating">
+          <StyledSlide 
+            index={0}
+            classNameHidden="hidden"
+            classNameVisible="visible"
+          >
+            <Card>
+            <ImageWithZoom
+            className='d-block w-100'
+            src={g1}></ImageWithZoom>
+                <CardText>
+                    <h1>TEST</h1>
+                    <h4>caption something here</h4>
+                </CardText>
+            </Card>
+          </StyledSlide>
+          <StyledSlide 
+            index={1}
+            classNameHidden="hidden"
+            classNameVisible="visible"
+        >
+          <Card>
           <ImageWithZoom
            className='d-block w-100'
            src={g2}></ImageWithZoom>
-          </Slide>
-          <Slide index={2}>I am the third Slide.
+                <CardText>
+                    <h1>TEST</h1>
+                    <h4>caption something here</h4>
+                </CardText>
+          </Card>
+          </StyledSlide>
+          <StyledSlide 
+            index={2}
+            classNameHidden="hidden"
+            classNameVisible="visible"
+          >
+          <Card>
           <ImageWithZoom
            className='d-block w-100' 
            src={g7}></ImageWithZoom>
-          </Slide>
-          </Slider>
-          <ButtonBack>Back</ButtonBack>
-          <ButtonNext>Next</ButtonNext>
+                <CardText>
+                    <h1>TEST</h1>
+                    <h4>caption something here</h4>
+                </CardText>
+          </Card>
+          </StyledSlide>
+          <StyledSlide 
+            index={3}
+            classNameHidden="hidden"
+            classNameVisible="visible"
+            >I am the third Slide.
+          <ImageWithZoom
+           className='d-block w-100' 
+           src={g4}></ImageWithZoom>
+          </StyledSlide>
+          <StyledSlide 
+            index={4}
+            classNameHidden="hidden"
+            classNameVisible="visible"
+            >I am the third Slide.
+          <ImageWithZoom
+           className='d-block w-100' 
+           src={g5}></ImageWithZoom>
+          </StyledSlide>
+          </StyledSlider>
+          </SliderContainer>
           </CarouselProvider>
-        </>
       
         /* <Button {...getButtonProps()}>Next</Button>
         <SimpleGrid columns={[2, null, 2]} spacing='45px' style={{ margin: '35px'}}>
@@ -110,6 +169,7 @@ function Gallery() {
 //         </div>
 //     )
 // }
-    )
-}
-export default Gallery
+    );
+};
+
+export default Gallery;
