@@ -2,24 +2,43 @@ import React from 'react'
 // import Menu from '../components/MainMenu'
 import LWBlinks from '../components/LWBlinks';
 import NAlinks from '../components/NAlinks';
+//chakra ui styles for this section
+import {
+    Tabs,
+    TabList,
+    TabPanels,
+    Tab,
+    TabPanel
+} from '@chakra-ui/react'
+
 
 function Resources() {
     return (
         <div>
-          {/* <Menu 
-            oneTxt='Home'
-            oneLink='/'
-            twoTxt='About'
-            twoLink='/about'
-            threeTxt='Gallery'
-            threeLink='/gallery'
-            fourTxt='Music'
-            fourLink='/music'
-            fiveTxt='Contact'
-            fiveLink='/contact'
-        /> */}
-        <LWBlinks />
-        <NAlinks />
+
+        <Tabs>
+        <TabList>
+            <Tab>Biographical</Tab>
+            <Tab>Featured</Tab>
+            <Tab>Historical</Tab>
+            <Tab>Tribal</Tab>
+            <Tab>Cultural</Tab>
+            <Tab>Academic</Tab>
+        </TabList>
+
+        <TabPanels>
+            <TabPanel>
+            <p>one!</p>
+            </TabPanel>
+            <TabPanel>
+            <p>two!</p>
+            </TabPanel>
+            <TabPanel>
+            <p>three!</p>
+            </TabPanel>
+        </TabPanels>
+        </Tabs>
+
         </div>
     )
 }
