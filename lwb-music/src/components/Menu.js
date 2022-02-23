@@ -56,9 +56,6 @@ function MMenu() {
         <StyledBar>
         <Menu>
             <StyledSig>
-            {/* <StyledLogo>
-                <img src={Zia} alt="logo-zia"></img>
-            </StyledLogo> */}
             <StyledText>
             <StyledName>
                <h1>Louis Wayne Ballard</h1> 

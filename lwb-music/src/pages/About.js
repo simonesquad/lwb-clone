@@ -1,7 +1,4 @@
 import React from 'react'
-// import Menu from '../components/MainMenu';
-import Atom from '../components/Atom';
-import Atom2 from '../components/Atom2';
 import School from '../assets/seneca_ndns.png';
 import Flute from '../assets/lwb_flute.png';
 
