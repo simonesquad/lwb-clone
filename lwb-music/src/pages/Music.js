@@ -7,18 +7,6 @@ import Decoy from '../assets/santafe colors.png';
 function Music() {
     return (
         <div>
-        {/* <Menu 
-            oneTxt='Home'
-            oneLink='/'
-            twoTxt='About'
-            twoLink='/about'
-            threeTxt='Gallery'
-            threeLink='/gallery'
-            fourTxt='Resources'
-            fourLink='/resources'
-            fiveTxt='Contact'
-            fiveLink='/contact'
-        /> */}
         <div>
             <Tile1 
                 icon={Decoy}
