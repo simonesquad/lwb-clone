@@ -14,54 +14,42 @@ import g12 from '../assets/gallery/g_12.png';
 
 function Gallery() {
   const items = [
-    // {
-    //   itemId: 'g2',
-    //   mediaUrl: `${g2}`,
-    //   metaData: {
-    //     type: 'image',
-    //     height: 200,
-    //     width: 100,
-    //     title: 'some-picture',
-    //     description: 'all the knowledge',
-    //     focalPoint: [0, 0],
-    //   }
-    // },
-    // {
-    //   itemId: 'g1',
-    //   mediaUrl: `${g1}`,
-    //   metaData: {
-    //     type: 'image',
-    //     height: 200,
-    //     width: 100,
-    //     title: 'some-picture',
-    //     description: 'all the knowledge',
-    //     focalPoint: [0, 0],
-    //   }
-    // },
-    // {
-    //   itemId: 'g7',
-    //   mediaUrl: `${g7}`,
-    //   metaData: {
-    //     type: 'image',
-    //     height: 200,
-    //     width: 100,
-    //     title: 'some-picture',
-    //     description: 'all the knowledge',
-    //     focalPoint: [0, 0],
-    //   }
-    // },
-    // {
-    //   itemId: 'g4',
-    //   mediaUrl: `${g4}`,
-    //   metaData: {
-    //     type: 'image',
-    //     height: 200,
-    //     width: 100,
-    //     title: 'some-picture',
-    //     description: 'all the knowledge',
-    //     focalPoint: [0, 0],
-    //   }
-    // },
+    {
+      itemId: 'g2',
+      mediaUrl: `${g2}`,
+      metaData: {
+        type: 'image',
+        height: 200,
+        width: 100,
+        title: 'some-picture',
+        description: 'all the knowledge',
+        focalPoint: [0, 0],
+      }
+    },
+    {
+      itemId: 'g1',
+      mediaUrl: `${g1}`,
+      metaData: {
+        type: 'image',
+        height: 200,
+        width: 100,
+        title: 'some-picture',
+        description: 'all the knowledge',
+        focalPoint: [0, 0],
+      }
+    },
+    {
+      itemId: 'g7',
+      mediaUrl: `${g7}`,
+      metaData: {
+        type: 'image',
+        height: 200,
+        width: 100,
+        title: 'some-picture',
+        description: 'all the knowledge',
+        focalPoint: [0, 0],
+      }
+    },
     {
       itemId: 'g5',
       mediaUrl: `${g5}`,
@@ -98,14 +86,26 @@ function Gallery() {
         focalPoint: [0, 0],
       }
     },
+    {
+      itemId: 'g4',
+      mediaUrl: `${g4}`,
+      metaData: {
+        type: 'image',
+        height: 200,
+        width: 100,
+        title: 'some-picture',
+        description: 'all the knowledge',
+        focalPoint: [0, 0],
+      }
+    },
 
   ]
   const options = {
-		galleryLayout: 5,
+		galleryLayout: 0,
 	};
 
   const container = {
-		width: 1000,
+		width: 1100,
 		height: 750
 	};
 
