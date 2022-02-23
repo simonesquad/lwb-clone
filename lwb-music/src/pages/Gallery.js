@@ -6,17 +6,18 @@ import 'pro-gallery/dist/statics/main.css';
 // //pics panel one
 import g1 from '../assets/gallery/g_1.png';
 import g2 from '../assets/gallery/g_2.png';
-import g7 from '../assets/gallery/g_7.png';
 import g4 from '../assets/gallery/g_4.png';
 import g5 from '../assets/gallery/g_5.png';
+import g8 from '../assets/gallery/g_8.png';
+import g9 from '../assets/gallery/g_9.png';
 import g11 from '../assets/gallery/g_11.png';
 import g12 from '../assets/gallery/g_12.png';
 
 function Gallery() {
   const items = [
     {
-      itemId: 'g2',
-      mediaUrl: `${g2}`,
+      itemId: 'g9',
+      mediaUrl: `${g9}`,
       metaData: {
         type: 'image',
         height: 200,
@@ -39,8 +40,8 @@ function Gallery() {
       }
     },
     {
-      itemId: 'g7',
-      mediaUrl: `${g7}`,
+      itemId: 'g2',
+      mediaUrl: `${g2}`,
       metaData: {
         type: 'image',
         height: 200,
@@ -51,11 +52,23 @@ function Gallery() {
       }
     },
     {
-      itemId: 'g5',
-      mediaUrl: `${g5}`,
+      itemId: 'g12',
+      mediaUrl: `${g12}`,
       metaData: {
         type: 'image',
         height: 100,
+        width: 100,
+        title: 'some-picture',
+        description: 'all the knowledge',
+        focalPoint: [0, 0],
+      }
+    },
+    {
+      itemId: 'g8',
+      mediaUrl: `${g8}`,
+      metaData: {
+        type: 'image',
+        height: 200,
         width: 100,
         title: 'some-picture',
         description: 'all the knowledge',
@@ -65,18 +78,6 @@ function Gallery() {
     {
       itemId: 'g11',
       mediaUrl: `${g11}`,
-      metaData: {
-        type: 'image',
-        height: 100,
-        width: 100,
-        title: 'some-picture',
-        description: 'all the knowledge',
-        focalPoint: [0, 0],
-      }
-    },
-    {
-      itemId: 'g12',
-      mediaUrl: `${g12}`,
       metaData: {
         type: 'image',
         height: 100,
@@ -98,15 +99,15 @@ function Gallery() {
         focalPoint: [0, 0],
       }
     },
-
   ]
   const options = {
-		galleryLayout: 0,
+		galleryLayout: 11,
+    rotatingGroupTypes: '1,3l,1,3r',
 	};
 
   const container = {
-		width: 1100,
-		height: 750
+		width: 1000,
+		height: 1000
 	};
 
   const eventsListener = (eventName, eventData) => console.log({eventName, eventData}); 

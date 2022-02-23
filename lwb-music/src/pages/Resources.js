@@ -58,6 +58,8 @@ function Resources() {
             </TabPanel>
             <TabPanel>
             <a rel="noreferrer" href="https://ufdc.ufl.edu/UFE0046553/00001" target="_blank">Louis W. Ballard: Composer and Music Educator [by Karl Erik Ettinger]</a>
+            <br></br>
+            <a rel="noreferrer" href="https://www.proquest.com/openview/b1343db3374ad0f2e7148d2de435c625/1?pq-origsite=gscholar&cbl=18750" target="_blank">Native American influence in the piano music of Louis W. Ballard [by Courtney J. Crappell]</a>
             </TabPanel>
         </TabPanels>
         </Tabs>
