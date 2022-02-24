@@ -44,6 +44,8 @@ function Resources() {
             <a rel="noreferrer" href="https://italianacademy.columbia.edu/event/american-voices-selected-piano-works-by-black-and-native-american-composers" target="_blank">American Voices: Selected Piano Works by Black and Native American Composers</a>
             <br></br>
             <a rel="noreferrer" href="https://live.stanford.edu/blog/february-2018/composing-american-sound" target="_blank">Composing the American Sound [Standford Live]</a>
+            <br></br>
+            <a rel="noreferrer" href="https://nmbx.newmusicusa.org/native-american-composers/" target="_blank">Native American Composers [by Gail Wein]</a>
             </TabPanel>
             <TabPanel>
             <a rel="noreferrer" href="https://www.okhistory.org/index.php" target="_blank">Oklahoma Historical Society</a>
