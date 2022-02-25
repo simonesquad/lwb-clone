@@ -2,7 +2,7 @@ import React from 'react';
 import MMenu from '../src/components/Menu';
 // import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { extendTheme, ChakraProvider } from '@chakra-ui/react';
+import { ChakraProvider } from '@chakra-ui/react';
 
 //components
 import Contact from './pages/Contact';
