@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container } from '@chakra-ui/react'
 import { ProGallery } from 'pro-gallery';
 import 'pro-gallery/dist/statics/main.css';
 // import '../styles/Gallery.css'
@@ -45,6 +46,18 @@ function Gallery() {
       metaData: {
         type: 'image',
         height: 200,
+        width: 100,
+        title: 'some-picture',
+        description: 'all the knowledge',
+        focalPoint: [0, 0],
+      }
+    },
+    {
+      itemId: 'g5',
+      mediaUrl: `${g5}`,
+      metaData: {
+        type: 'image',
+        height: 100,
         width: 100,
         title: 'some-picture',
         description: 'all the knowledge',
@@ -115,6 +128,7 @@ function Gallery() {
   const scrollingElement = window;
 
   return (
+
 		<ProGallery
 			items={items}
 			options={options}
