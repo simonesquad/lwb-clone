@@ -1,39 +1,137 @@
 import React from 'react'
-// import Menu from '../components/MainMenu'
-import Tile1 from '../components/Tile1';
-import Tile2 from '../components/Tile2';
+import  {
+    Stack,
+    HStack,
+    VStack,
+    Box,
+    Image,
+    Heading,
+    Text,
+    StackDivider,
+} from '@chakra-ui/react';
 import Decoy from '../assets/santafe colors.png';
 
 function Music() {
     return (
-        <div>
-        <div>
-            <Tile1 
-                icon={Decoy}
-                title='The Katcina Dances'
-                link=''
-                text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed nulla nisi. Quisque suscipit urna vel sem venenatis semper. Nam vehicula sollicitudin dignissim. Aenean non sem a mauris aliquam mattis. Aenean non hendrerit diam, quis lacinia mi. Nam sollicitudin euismod mi, sed molestie nisl congue vitae. Maecenas interdum enim orci, eget lobortis diam pellentesque nec. Morbi pretium felis et lectus volutpat porttitor.'
-            />
-            <Tile2 
-                icon={Decoy}
-                title='Incident at Wounded Knee'
-                link=''
-                text='Nulla sit amet lectus ac mi laoreet dictum eleifend et diam. In et pellentesque mi, vel mollis magna. Fusce maximus tempus lacus malesuada tristique. Quisque commodo nisi nec efficitur aliquet. Nam et lacinia mi. Phasellus mollis tellus eu vulputate gravida. Vestibulum sodales a velit eu tincidunt. Fusce convallis faucibus justo, a feugiat nisi porttitor in. Nulla ac sagittis dolor.'
-            />
-            <Tile1 
-                icon={Decoy}
-                title='The Fire Moon'
-                link=''
-                text='Sed congue posuere velit id condimentum. Proin pulvinar consequat urna nec viverra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque at orci non nibh aliquam cursus. In viverra lobortis nisl at sodales. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin sed purus eget erat vulputate volutpat vel vel orci. Aliquam magna massa, convallis non vulputate vitae, sagittis et orci. Ut quis enim rutrum, rhoncus nisi non, posuere eros. Ut sit amet posuere metus.'
-            />
-            <Tile2 
-                icon={Decoy}
-                title='Four American Indian Piano Preludes'
-                link=''
-                text='Curabitur faucibus quam id nisl mollis, in dignissim mauris ornare. Praesent rutrum nisl sed nisi bibendum rutrum eu eget urna. Quisque eget molestie purus. Mauris et fringilla tellus, quis malesuada enim. Morbi ut luctus mauris. Aliquam tempus porta arcu, consequat scelerisque dolor ullamcorper consectetur. Fusce scelerisque augue nulla, ac efficitur justo lacinia in. Aliquam suscipit malesuada justo a consectetur. Pellentesque auctor lectus quam, ut consectetur dolor faucibus vitae.'
-            />
-        </div>
-        </div>
+        <Stack>
+            <VStack 
+                divider={<StackDivider borderColor='gray.200' />}
+                spacing={1}
+                align='center'
+            >
+
+                <HStack w='100vw' h='60vh' spacing='70px'>
+                <VStack 
+                    align='center'
+                >
+                <Box w='40vw' h='50vh' margin-left='5px' style={{ margin: '35px' }}>
+                    <Heading as='h3' size='md'>Incident at Wounded Knee</Heading>
+                    <Text></Text>
+                </Box>
+                </VStack>
+                </HStack>
+
+                <HStack w='100vw' h='60vh' spacing='70px'>
+                <VStack 
+                    align='center'
+                >
+                <Box w='40vw' h='50vh' margin-left='5px' style={{ margin: '35px' }}>
+                    <Heading as='h3' size='md'>Katcina Dances</Heading>
+                    <Text></Text>
+                </Box>
+                </VStack>
+                </HStack>
+
+                <HStack w='100vw' h='60vh' spacing='70px'>
+                <VStack 
+                    align='center'
+                >
+                <Box w='40vw' h='50vh' margin-left='5px' style={{ margin: '35px' }}>
+                    <Heading as='h3' size='md'>Four American Indian Preludes</Heading>
+                    <Text></Text>
+                </Box>
+                </VStack>
+                </HStack>
+
+                <HStack w='100vw' h='60vh' spacing='70px'>
+                <VStack 
+                    align='center'
+                >
+                <Box w='40vw' h='50vh' margin-left='5px' style={{ margin: '35px' }}>
+                    <Heading as='h3' size='md'>Why the Duck Has a Short Tail</Heading>
+                    <Text></Text>
+                </Box>
+                </VStack>
+                </HStack>
+
+                <HStack w='100vw' h='60vh' spacing='70px'>
+                <VStack 
+                    align='center'
+                >
+                <Box w='40vw' h='50vh' margin-left='5px' style={{ margin: '35px' }}>
+                    <Heading as='h3' size='md'>Ritmo Indio</Heading>
+                    <Text></Text>
+                </Box>
+                </VStack>
+                </HStack>
+
+                <HStack w='100vw' h='60vh' spacing='70px'>
+                <VStack 
+                    align='center'
+                >
+                <Box w='40vw' h='50vh' margin-left='5px' style={{ margin: '35px' }}>
+                    <Heading as='h3' size='md'>Fire Moon String Quartet</Heading>
+                    <Text></Text>
+                </Box>
+                </VStack>
+                </HStack>
+
+                <HStack w='100vw' h='60vh' spacing='70px'>
+                <VStack 
+                    align='center'
+                >
+                <Box w='40vw' h='50vh' margin-left='5px' style={{ margin: '35px' }}>
+                    <Heading as='h3' size='md'>Music for Earth and Sky</Heading>
+                    <Text></Text>
+                </Box>
+                </VStack>
+                </HStack>
+
+                <HStack w='100vw' h='60vh' spacing='70px'>
+                <VStack 
+                    align='center'
+                >
+                <Box w='40vw' h='50vh' margin-left='5px' style={{ margin: '35px' }}>
+                    <Heading as='h3' size='md'>Will Rogers: Tribute to a Great American</Heading>
+                    <Text></Text>
+                </Box>
+                </VStack>
+                </HStack>
+
+                <HStack w='100vw' h='60vh' spacing='70px'>
+                <VStack 
+                    align='center'
+                >
+                <Box w='40vw' h='50vh' margin-left='5px' style={{ margin: '35px' }}>
+                    <Heading as='h3' size='md'>The Four Moons</Heading>
+                    <Text></Text>
+                </Box>
+                </VStack>
+                </HStack>
+
+                <HStack w='100vw' h='60vh' spacing='70px'>
+                <VStack 
+                    align='center'
+                >
+                <Box w='40vw' h='50vh' margin-left='5px' style={{ margin: '35px' }}>
+                    <Heading as='h3' size='md'>Desert Triology</Heading>
+                    <Text></Text>
+                </Box>
+                </VStack>
+                </HStack>
+
+            </VStack>
+        </Stack>
     )
 }
 

@@ -3,6 +3,7 @@ import School from '../assets/seneca_ndns.png';
 import Flute from '../assets/lwb_flute.png';
 
 import  {
+    Stack,
     HStack,
     VStack,
     Box,
@@ -14,8 +15,7 @@ import  {
 
 function About() {
     return (
-        <div>
-        <div>
+        <Stack>
             <VStack 
                 divider={<StackDivider borderColor='gray.200' />}
                 spacing={1}
@@ -47,8 +47,7 @@ function About() {
                 </Box>
                 </HStack>
             </VStack>
-        </div>
-        </div>
+        </Stack>
     )
 }
 
