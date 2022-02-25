@@ -4,7 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #313a61;
+    background-color: none;
     display: flex;
 }
 .contents{
@@ -17,14 +17,12 @@
     padding: 50px;
     border-radius: 10px;
     box-sizing: border-box;
-    /* background: rgba(0,0,0,.5); */
+    background: rgba(0,0,0,.5);
     margin-top: 4%;
 }
 
 .contents input, textarea{
-    color: #f6eaf4;
-    /* font-family: 'Poiret One', cursive;
-    font-weight: bold; */
+    color: black;
     width: 100%;
     margin-bottom: 20px;
 }
