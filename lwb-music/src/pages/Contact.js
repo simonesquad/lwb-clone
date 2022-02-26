@@ -1,13 +1,12 @@
 import React from 'react';
+import { Stack } from '@chakra-ui/react';
 import ContactForm from '../components/ContactForm';
 
 function Contact() {
     return (
-        <div>
-        <div>
+        <Stack>
             <ContactForm />
-        </div>
-        </div>
+        </Stack>
     )
 }
 

@@ -25,8 +25,7 @@ const colors = {
 }
 
 function App() {
-  return (
-    
+  return ( 
     <Router>
       <ChakraProvider>
     <div className="App">
@@ -36,7 +35,7 @@ function App() {
         <Route exact path='/resources' component={Resources} />
         <Route exact path='/gallery' component={Gallery} />
         <Route exact path='/music' component={Music} />
-        <Route exact path='/about' component={About} />
+        <Route exact path='/bio' component={About} />
         <Route exact path='/' component={Home} />
       </Switch>
     </div>

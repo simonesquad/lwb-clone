@@ -4,7 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #313a61;
+    background-color: none;
     display: flex;
 }
 .contents{
@@ -22,9 +22,6 @@
 }
 
 .contents input, textarea{
-    color: #f6eaf4;
-    /* font-family: 'Poiret One', cursive;
-    font-weight: bold; */
     width: 100%;
     margin-bottom: 20px;
 }

@@ -78,6 +78,8 @@ function Resources() {
             <a rel="noreferrer" href="https://digital.library.unt.edu/ark:/67531/metadc28485/m2/1/high_res_d/dissertation.pdf" target="_blank">Native American Elements in Piano Repertoire by the Indianist and Present-Day Native American Composers [by Lisa Cheryl Thomas]</a>
             <br></br>
             <a rel="noreferrer" href="https://studylibit.com/doc/1599546/louis-w.-ballard-e-la-musica-colta-dei-nativi-americani" target="_blank">Louis W. Ballard E La Musica Colta Dei Nativi Americani [by Emanuele Arciuli]</a>
+            <br></br>
+            <a rel="noreferrer" href="https://fau.digital.flvc.org/islandora/object/fau%3A31263/datastream/OBJ/view/Finding_a_place_for_Cacega_Ayuwipi_within_the_structure_of_American_Indian_music_and_dance_traditions.pdf" target="_blank">Finding a Place for Cacega Ayuwipi within the Structure of American Indian Music and Dance Traditions [by Adam Eric Berkowitz]</a>
             </TabPanel>
         </TabPanels>
         </Tabs>
