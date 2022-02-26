@@ -112,20 +112,25 @@ function Music() {
                     align='center'
                 >
                 <Box w='100vw' h='50vh' margin-left='5px' style={{ margin: '35px' }}>
-                    <Heading as='h3' size='md'>Will Rogers: Tribute to a Great American</Heading>
+                    <Heading as='h3' size='md'>Portrait of Will Rogers</Heading>
                     <Text></Text>
                 </Box>
                 </VStack>
                 </HStack>
 
-                <HStack w='80vw' h='60vh' spacing='70px'>
+                <HStack w='80vw' h='70vh' spacing='70px'>
                 <VStack 
                     align='center'
                 >
-                <Box w='100vw' h='50vh' margin-left='5px' style={{ margin: '35px' }}>
+                <Box w='100vw' style={{ margin: '5px' }}>
+                    <Box h='5vh'>
                     <Heading as='h3' size='md'>The Four Moons</Heading>
+                    </Box>
                     <Text>The Four Moons is a ballet composed during a special moment in history, when Oklahoma had produced four world-renowned Native ballerinas who were at the height of their careers. Those four ballerinas were Yvonne Chouteau (Cherokee), Rosella Hightower (Choctaw), Moscelyne Larkin (Shawnee), and Marjorie Tallchief (Osage). An honorable mention has to be made for Marjorie’s older sister Maria Tallchief, who did not participate in the ballet because she had retired; however, she was already known worldwide as one of the greatest prima ballerinas the U.S. had ever produced, a founding member of New York City Ballet, and a member of the Osage tribe of Oklahoma whom Dolores Lookout, Ballard’s first wife and mother of his three children, also belonged to. It was truly a family affair type of project. 
-                    <br></br>
+                    </Text>
+                </Box>
+                <Box w='100vw' style={{ margin: '5px' }}>
+                    <Text>
                     At this point Ballard had composed two previous ballets based on Iroquois and Hopi tribal mythology. Those ballets are Ji-jo-gweh and Koshare. The Four Moons was different because it wasn’t based on mythology, but rather an actual historical event that marked a turning point for many tribes. That event was the Trail of Tears and the mass forced removal of many Native Americans from their ancestral homelands onto less hospitable land in what is now Oklahoma. Due to Ballard’s Cherokee and Quapaw heritage, the subject matter held special significance for all primary artists involved. The 22-minute long ballet is structured as a pas de quatre, with solos from each ballerina and an ensemble finale. The choreography was highly personalized to each ballerina’s story and style. There was a reception at the Governor’s Mansion in Oklahoma to celebrate the announcement, and the ballet itself premiered later that year at the Tulsa Municipal Theater on October 28th, 1967 as a part of Oklahoma’s 60th Anniversary of Statehood celebration. The ballet received a glowing review from dance critic Walter Terry in World of Dance: “...and to the art of ballet in this fascinating and wholly rewarding Oklahoma Indian Ballerina Festival, for in their care the four moons did, indeed, shine warmly and brightly.”</Text>
                 </Box>
                 </VStack>
