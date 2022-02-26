@@ -176,23 +176,16 @@ function Music() {
                 </VStack>
                 </HStack>
 
-                <HStack w='80vw' h='60vh' spacing='70px'>
-                <VStack 
-                    align='center'
-                >
-                <Box w='100vw' h='50vh' margin-left='5px' style={{ margin: '35px' }}>
-                    <Heading as='h3' size='md'>Desert Triology</Heading>
-                    <Text></Text>
-                </Box>
-                </VStack>
-                </HStack>
+            
 
-                <HStack w='80vw' h='60vh' spacing='70px'>
+                <HStack w='80vw' h='70vh' spacing='70px'>
                 <VStack 
                     align='center'
                 >
-                <Box w='100vw' h='50vh' margin-left='5px' style={{ margin: '35px' }}>
+                <Box w='100vw' style={{ margin: '5px' }}>
+                    <Box h='5vh'>
                     <Heading as='h3' size='md'>Chamber Music Overview</Heading>
+                    </Box>
                     <List>
                         <ListItem>String Trio [1959]</ListItem>
                         <ListItem>Perc Ego [1962]</ListItem>
