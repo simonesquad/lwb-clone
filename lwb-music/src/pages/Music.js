@@ -10,7 +10,6 @@ import  {
     List,
     ListItem,
 } from '@chakra-ui/react';
-import Decoy from '../assets/santafe colors.png';
 
 function Music() {
     return (
