@@ -60,9 +60,16 @@ function Music() {
                 <VStack 
                     align='center'
                 >
-                <Box w='100vw' h='50vh' margin-left='5px' style={{ margin: '35px' }}>
+                <Box w='100vw' style={{ margin: '5px' }}>
+                    <Box h='5vh'>
                     <Heading as='h3' size='md'>Four American Indian Preludes</Heading>
-                    <Text></Text>
+                    </Box>
+                    <Text>The Four American Indian Preludes were composed during a special time for Ballard, when he was under the tutelage of Darius Milhaud at the Aspen Music Festival in 1963. When Darius first heard the performance of the preludes he supposedly remarked: “Louis, now you are a real composer!” This was a pivotal and proud moment for Ballard as he felt he had crossed an important personal and professional milestone. The Preludes remain his most outstanding work for piano and were often played during his lifetime and is still a sought after piece now. The piece was selected for the tribute concert to Ballard at the Smithsonian National Museum of the American Indian in November, 2007. It is also frequently played by his friend Italian pianist Emanuele Arciuli. 
+                    </Text>
+                    </Box>
+                    <Box w='100vw' style={{ margin: '10px' }}>
+                    <Text>
+                    The Preludes marks Ballard’s chosen departure from his original training via Béla Rózsa at the University of Tulsa, who had studied from Schoenberg. His techniques were primarily twelve-tone music and atonal writing before. The atonal writing persisted, however the preludes represented his foray into intervals of a perfect fourth and diminished fifth. Each titled prelude depicts a scene relevant to Native American life in the past, and each scene’s title is in the Quapaw language. The four scenes are: “Ombáska” (Daylight), “Tabideh” (The Hunt), “Nekátohe” (Lovesong), and “T’ohkáne” (Warrior Dance). The entire set only lasts about 10 minutes total. According to Native pianist Tim Hays: “In the Preludes he looked at the piano in two different ways. He looked at it to be a percussion band and as a source for vocal lines at the same time. … The audience gets it; they understand it immediately.” </Text>
                 </Box>
                 </VStack>
                 </HStack>
@@ -118,13 +125,20 @@ function Music() {
                 </VStack>
                 </HStack>
 
-                <HStack w='80vw' h='60vh' spacing='70px'>
+                <HStack w='80vw' h='70vh' spacing='70px'>
                 <VStack 
                     align='center'
                 >
-                <Box w='100vw' h='50vh' margin-left='5px' style={{ margin: '35px' }}>
-                    <Heading as='h3' size='md'>Music for Earth and Sky</Heading>
-                    <Text></Text>
+                <Box w='100vw' style={{ margin: '5px' }}>
+                    <Box h='5vh'>
+                    <Heading as='h3' size='md'>Three Cities</Heading>
+                    </Box>
+                    <Text>	The Three Cities consists of three pieces: A City of Silver (1981), A City of Fire (1984), and A City of Light (1987). Ballard visited Buenos Aires, Argentina for the first time in 1980 for the world premiere of his choral cantata Thus Spoke Abraham as performed by the Choro Conservatorio Gilardo Gilardi. The trip had a deep impact on him and prompted him to begin composing the first city piece, A City of Silver. He dedicated this piece: “Para todos los desaparecidos del mundo,” or “For all the disappeared ones of the world.” His visit coincided with the aftermath of Argentina’s “Dirty War” from 1975-1978 and the military’s brutal mass executions of dissenters. This theme would inspire him through the following pieces.
+                    </Text>
+                    </Box>
+                    <Box w='100vw' style={{ margin: '5px' }}>
+                    <Text>
+                    The world premiere for A City of Silver was on April 30th, 1981 at Northeastern Oklahoma University in Tahlequah. A few years later the piece was also premiered at Carnegie Hall featuring pianist Roberta Rust. The New York Tribune stated that Rust’s performance: “held the promise of raising Native American music into new and undiscovered dimensions.” The performance itself was historic in that it was the first performance in Carnegie Hall of a Native composer by a Native concert pianist. A City of Fire was also performed during this concert. A City of Fire paid tribute to Los Alamos, New Mexico as one of the first nuclear testing sites, a place Ballard saw in person and had a morbid fascination with. Finally, the City of Light was inspired by Ballard’s trip to Paris, France. In Paris he sought out the district of his ancestral namesake, the “Place Balárd,” where the original music publishing house of the sixteenth century was located. A City of Light premiered at Carnegie Hall on February 8th, 1987 and was performed by pianist Stephan Drury. Ballard would later perform the piece himself at the Beethoven-Haus in Bonn, Germany in 1989.</Text>
                 </Box>
                 </VStack>
                 </HStack>
