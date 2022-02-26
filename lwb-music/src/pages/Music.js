@@ -7,6 +7,8 @@ import  {
     Heading,
     Text,
     StackDivider,
+    List,
+    ListItem,
 } from '@chakra-ui/react';
 import Decoy from '../assets/santafe colors.png';
 
@@ -191,7 +193,23 @@ function Music() {
                 >
                 <Box w='100vw' h='50vh' margin-left='5px' style={{ margin: '35px' }}>
                     <Heading as='h3' size='md'>Chamber Music Overview</Heading>
-                    <Text></Text>
+                    <List>
+                        <ListItem>String Trio [1959]</ListItem>
+                        <ListItem>Perc Ego [1962]</ListItem>
+                        <ListItem>Rhapsody [1963]</ListItem>
+                        <ListItem>Cacega Ayuwipi [1969]</ListItem>
+                        <ListItem>Katcina Dances [1969]</ListItem>
+                        <ListItem>Ritmo Indio for Wind Quintet [1969]</ListItem>
+                        <ListItem>Desert Triology [1970]</ListItem>
+                        <ListItem>Midwinter Fires [1970]</ListItem>
+                        <ListItem>Pan Indian Dance Rhythms [1970]</ListItem>
+                        <ListItem>Rio Grande Sonata [1976]</ListItem>
+                        <ListItem>Bellum atramentum [1988]</ListItem>
+                        <ListItem>Capientur a nullo [1988]</ListItem>
+                        <ListItem>The Lonely Sentinel [1993]</ListItem>
+                        <ListItem>The Fire Moon for String Quartet [1997]</ListItem>
+                        <ListItem>Music for the Earth and the Sky [1986]</ListItem>
+                    </List>
                 </Box>
                 </VStack>
                 </HStack>
