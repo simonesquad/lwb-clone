@@ -22,7 +22,7 @@ function About() {
                 align='center'
             >
                 <HStack w='100vw' h='60vh' spacing='70px'>
-                <Box w='50vw' h='50vh' borderWidth='1px' borderRadius='sm' overflow='hidden' style={{ margin: '0px' }}>
+                <Box w='50vw' h='50vh' borderWidth='1px' borderRadius='sm' overflow='hidden' >
                 <Image src={School} alt="boarding-school-image" width={550} height={350}/>
                 </Box>
                 <VStack>
