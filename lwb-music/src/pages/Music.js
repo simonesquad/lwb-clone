@@ -182,13 +182,15 @@ function Music() {
                 </VStack>
                 </HStack>
 
-                <HStack w='80vw' h='60vh' spacing='70px'>
+                <HStack w='80vw' h='70vh' spacing='70px'>
                 <VStack 
                     align='center'
                 >
-                <Box w='100vw' h='50vh' margin-left='5px' style={{ margin: '35px' }}>
+                <Box w='100vw' style={{ margin: '5px' }}>
+                    <Box h='5vh'>
                     <Heading as='h3' size='md'>Native American Indian Songs</Heading>
-                    <Text></Text>
+                    </Box>
+                    <Text>A lasting legacy is nothing without a way to pass the most important lessons onto the youth. In 1973, Ballard began teaching children in the classroom about Native American music. The sessions would include call-and-response singing, exposure to traditional instruments, new rhythm exercises and some overall tribal history lessons. Ballard’s commitment to passing on Native cultural values through accessible music education would continue for the rest of his career and his collection of unique Native educational material remains unmatched. It is our immediate goal in the revival of his legacy now to make accessible once again these materials in an updated format for wide distribution and use. </Text>
                 </Box>
                 </VStack>
                 </HStack>
