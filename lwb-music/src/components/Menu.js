@@ -5,7 +5,6 @@ import {
 } from "@chakra-ui/react"
 
 import styled from 'styled-components';
-import Zia from '../assets/th-1.webp'
 
 const StyledBar = styled.div`
     background-color: #A0AEC0;
@@ -67,7 +66,7 @@ function MMenu() {
             </StyledSig>
             <StyledLinks>
                 <StyledButton>
-                <MenuButton as="a" href='/about'>About</MenuButton>
+                <MenuButton as="a" href='/bio'>Bio</MenuButton>
                 </StyledButton>
                 <StyledButton>
                 <MenuButton as="a" href='/music'>Music</MenuButton>
