@@ -10,7 +10,6 @@ import  {
     List,
     ListItem,
 } from '@chakra-ui/react';
-import Decoy from '../assets/santafe colors.png';
 
 function Music() {
     return (
@@ -153,7 +152,9 @@ function Music() {
                     <Box h='5vh'>
                     <Heading as='h3' size='md'>Portrait of Will Rogers</Heading>
                     </Box>
-                    <Text>A unique and perhaps “tongue-and-cheek” piece is the Portrait of Will Rogers (Tribute to a Great American). It’s a piece that gave Ballard the opportunity to flex his literary side as well as his cultural sensibilities in reading the audience of the day. It was commissioned by The William Jewell College Choir and conducted by his friend, Wesley Forbis, while Will Rogers Jr. narrated the premiere. In the construction of the piece, Ballard states that: “I used a half-dozen quotes from Will Rogers in the libretto I wrote for the piece, something in the manner of Copland’s Lincoln Portrait.” Will Rogers was an American vaudeville performer, actor, and comedian known colloquially as “Oklahoma’s Favorite Son.” He was also of Cherokee descent, and Ballard’s father “Smokey” being involved in rodeo in the same area means their paths likely crossed. Rogers died tragically in a plane crash, but still had a legacy nationwide and the work was received very well. </Text>
+                    <Text>
+                    A unique and perhaps “tongue-and-cheek” piece is the Portrait of Will Rogers (Tribute to a Great American). It’s a piece that gave Ballard the opportunity to flex his literary side as well as his cultural sensibilities in reading the audience of the day. It was commissioned by The William Jewell College Choir and conducted by his friend, Wesley Forbis, while Will Rogers Jr. narrated the premiere. In the construction of the piece, Ballard states that: “I used a half-dozen quotes from Will Rogers in the libretto I wrote for the piece, something in the manner of Copland’s Lincoln Portrait.” Will Rogers was an American vaudeville performer, actor, and comedian known colloquially as “Oklahoma’s Favorite Son.” He was also of Cherokee descent, and Ballard’s father “Smokey” being involved in rodeo in the same area means their paths likely crossed. Rogers was a well-known Oklahoman celebrity and was the best man in Smokey’s parents’ wedding at the 1904 World Fair, so the families knew each other before.
+                     </Text>
                 </Box>
                 </VStack>
                 </HStack>
@@ -176,7 +177,18 @@ function Music() {
                 </VStack>
                 </HStack>
 
-            
+                <HStack w='80vw' h='70vh' spacing='70px'>
+                <VStack 
+                    align='center'
+                >
+                <Box w='100vw' style={{ margin: '5px' }}>
+                    <Box h='5vh'>
+                    <Heading as='h3' size='md'>Native American Indian Songs</Heading>
+                    </Box>
+                    <Text>A lasting legacy is nothing without a way to pass the most important lessons onto the youth. In 1973, Ballard began teaching children in the classroom about Native American music. The sessions would include call-and-response singing, exposure to traditional instruments, new rhythm exercises and some overall tribal history lessons. Ballard’s commitment to passing on Native cultural values through accessible music education would continue for the rest of his career and his collection of unique Native educational material remains unmatched. It is our immediate goal in the revival of his legacy now to make accessible once again these materials in an updated format for wide distribution and use. </Text>
+                </Box>
+                </VStack>
+                </HStack>
 
                 <HStack w='80vw' h='70vh' spacing='70px'>
                 <VStack 
@@ -203,19 +215,6 @@ function Music() {
                         <ListItem>The Fire Moon for String Quartet [1997]</ListItem>
                         <ListItem>Music for the Earth and the Sky [1986]</ListItem>
                     </List>
-                </Box>
-                </VStack>
-                </HStack>
-
-                <HStack w='80vw' h='70vh' spacing='70px'>
-                <VStack 
-                    align='center'
-                >
-                <Box w='100vw' style={{ margin: '5px' }}>
-                    <Box h='5vh'>
-                    <Heading as='h3' size='md'>Native American Indian Songs</Heading>
-                    </Box>
-                    <Text>A lasting legacy is nothing without a way to pass the most important lessons onto the youth. In 1973, Ballard began teaching children in the classroom about Native American music. The sessions would include call-and-response singing, exposure to traditional instruments, new rhythm exercises and some overall tribal history lessons. Ballard’s commitment to passing on Native cultural values through accessible music education would continue for the rest of his career and his collection of unique Native educational material remains unmatched. It is our immediate goal in the revival of his legacy now to make accessible once again these materials in an updated format for wide distribution and use. </Text>
                 </Box>
                 </VStack>
                 </HStack>
