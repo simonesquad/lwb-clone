@@ -30,7 +30,7 @@ function About() {
                 <Box h='5vh'>
                 <Heading as='h5' size='md'>"Kill the Indian in Him and Save the Man"</Heading>
                 </Box>
-                <Text>Louis Wayne Ballard was born on July 8th, 1931 in Devil’s Promenade, Oklahoma, close to Miami, Oklahoma today. His mother was Leona Mae Quapaw of the Quapaw tribe of Oklahoma and his father was Charles Guthrie “Smokey” Ballard of the Cherokee tribe of Oklahoma. His Quapaw lineage traces back to a prominent traditional medicine family and his Cherokee lineage to the chief’s line. His mother spoke her native tongue and Ballard himself was one of the last born native speakers of the Quapaw language. At only the age of six, Ballard was sent to the Seneca Indian Training School, one of the infamous government operated boarding schools for native children across the U.S. at the time. The official mission of these schools was to assimilate Native American children into American society and give them useful trades after tribes had been forced to resettle all over the country under varying conditions. </Text>
+                <Text>Louis Wayne Ballard, or “Honga-no-zhe” meaning “Grand Eagle” in Quapaw, was born on July 8th, 1931 in Devil’s Promenade, Oklahoma, close to Miami, Oklahoma today. His mother was Leona Mae Quapaw of the Quapaw tribe of Oklahoma and his father was Charles “Smokey” Guthrie Ballard of the Cherokee tribe of Oklahoma. His Quapaw lineage traces back to a prominent traditional medicine family and his Cherokee lineage to the chief’s line. His mother spoke her native tongue and Ballard himself was one of the last born native speakers of the Quapaw language. At only the age of six, Ballard was sent to the Seneca Indian Training School, one of the infamous government operated boarding schools for native children across the U.S. at the time. The official mission of these schools was to assimilate Native children into American society and give them useful trades after tribes had been forced to resettle all over the country under varying conditions.</Text>
                 </Box>
                 <Box w='100vw' style={{ margin: '10px' }}>
                 <Text>
@@ -98,6 +98,27 @@ function About() {
                 <Box w='100vw' style={{ margin: '10px' }}>
                 <Text>
                 In 1964, Ballard separated from his first wife Delores and began to throw himself into his work. He officially became a resident of Santa Fe and formed critical local alliances, such as with the Sante Fe Symphony. Ruth and he began collaborating not just in performances, but she also assumed a role as his default manager and publicist, in addition to wife. Their debut as a professional couple would lead Ballard down a permanently altered path. He was almost immediately sent to Europe for an American Music tour that largely relied on his Native identity and storytelling approach to captivate audiences. Then back in Santa Fe, he debuted the first orchestral work Fantasy Aborigine No. 1 (Sipapu) to good reviews. He would later go on to compose six orchestral works total under the Fantasy Aborigine name. This same year he composed Scenes from Indian Life, an orchestral work,  and The Gods Will Hear, a work for soloists, mixed chorus, piano or orchestra, and percussion. Thus began the period where Ballard would take on larger and more ambitious projects such as orchestral works and ballets.
+                </Text>
+                </Box>
+                </VStack>
+                </HStack>
+
+                <HStack w='80vw' h='80vh' spacing='70px'>
+                <VStack 
+                    align='center'
+                >
+                <Box w='100vw' style={{ margin: '5px' }}>
+                <Box h= '7vh'>
+                <Heading as='h3' size='xl'>Spreading the Gospel</Heading>
+                </Box>
+                <Box h='5vh'>
+                <Heading as='h5' size='md'>"Let the Children Sing"</Heading>
+                </Box>
+                <Text>The decade when Ballard first moved to Santa Fe and was music director at IAIA (between 1962-1969) were very active. His work with students never really stopped and the simultaneous mix of composition and education would shape his trajectory in the following decade. It culminated with the composition of Ritmo Indio in 1969 that won the very first Marion Nevins McDowell Award for American Chamber Music. By this point Ballard was established as an American composer and as a representative for Native culture to a larger Western audience. He was well-known in the growing Santa Fe community that had already become an art scene and national trend meter. New possibilities were on the horizon and the Native arts were growing into a freshly established phase amongst all categories.</Text>
+                </Box>
+                <Box w='100vw' style={{ margin: '10px' }}>
+                <Text>
+                With this new momentum, Ballard was able to secure funding through a variety of means to expand his educational aims. One of those was a large work-study grant from the Department of Social Development via the Ford Foundation to begin compiling traditional Native music specifically for educational purposes in the classroom. Combined with Ballard’s previous experience working with students and giving lectures across disciplines, the grant was a formalization of his years of ground level work. The title of the initiative became “Put American Indian Music in the Classroom” and there was a good deal of press about it in Santa Fe. This would gain momentum and eventually lead to the composition of Why the Duck Has a Short Tail in 1971 that would become one of his most popular and accessible pieces to date.
                 </Text>
                 </Box>
                 </VStack>
