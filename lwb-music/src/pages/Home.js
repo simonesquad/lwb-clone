@@ -10,15 +10,13 @@ import {
     Stack,
     StackDivider,
     Heading,
-    Text,
     Image,
     Box,
-    AspectRatio,
 } from '@chakra-ui/react';
 
 function Home() {
     return (
-       <div>
+       <div className="whole_screen">
         <div>
         <Stack>
         <VStack 
@@ -26,7 +24,7 @@ function Home() {
                 spacing={1}
                 align='center'
             >
-
+            <div className="mobile-test">
             <HStack w='97vw' h='85vh'>
             <Image src={LWB} />
                 <VStack 
@@ -41,7 +39,7 @@ function Home() {
                 </VStack>
                 
             </HStack>
-
+            </div>
             <HStack w='97vw' h='85vh'>
                 <VStack 
                     align='center'
