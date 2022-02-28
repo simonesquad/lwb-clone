@@ -27,6 +27,7 @@ function Home() {
             >
 
             <HStack w='97vw' h='85vh'>
+            <Image src={LWB} />
                 <VStack 
                     align='right'
                     w='60vw'
@@ -37,7 +38,7 @@ function Home() {
                 —Louis Ballard, program note for Incident at Wounded Knee, performed at Carnegie Hall, 1999
                 </Heading>
                 </VStack>
-                <Image src={LWB} />
+                
             </HStack>
 
             <HStack w='100vw' h='120vh'>
@@ -46,15 +47,12 @@ function Home() {
                     align='center'
                     w='30vw'
                 >
-                    <Heading as='h3' size='md'>Louis Wayne Ballard</Heading>
                     <Heading>1931-2008</Heading>
                 </VStack>
             </HStack>
 
             <HStack w='97vw' h='85vh'>
-                <Image 
-                    src={LWB2} 
-                />
+                
                 <VStack 
                     align='left'
                     w='60vw'
@@ -66,7 +64,25 @@ function Home() {
                 </Heading>
                 </VStack>
                 
+                <Image 
+                    src={LWB2} 
+                />
+
             </HStack>
+
+            <HStack w='97vw' h='85vh'>
+                <VStack 
+                    align='center'
+                    w='60vw'
+                >
+                <Heading as='h2' size='2xl'>Welcome to the Louis W. Ballard Memorial Page</Heading>
+                <Heading as='h3' size='sm'>
+                    This page has been created and will be being updated by his granddaughter, Simone A. Ballard from 2022 onwards. Louis left his family in 2008, but we never wanted to forget his legacy. While some performances of his music have taken place in the interim, and further articles have been written, this is the first family-sponsored revival of his story in 15 years. We sincerely thank our friends and family who helped us reach this point. If you have an inquiry about LWB music please feel free to use the contact form here and otherwise we hope you enjoy learning about his unique journey and thanks for visiting! 
+                </Heading>
+                </VStack>
+
+            </HStack>
+
 
         </VStack>
         </Stack>
