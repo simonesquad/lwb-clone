@@ -2,12 +2,15 @@ import React from 'react';
 import {
     Menu,
     MenuButton,
+    Heading,
+    Image,
 } from "@chakra-ui/react"
+import Icon from '../assets/example.png'
 
 import styled from 'styled-components';
 
 const StyledBar = styled.div`
-    background-color: #A0AEC0;
+    background-color: none;
     display: flex;
     height: 17vh;
 `
@@ -15,16 +18,15 @@ const StyledSig = styled.div`
     display: flex;
     width: 40vw;
     margin-left: 0%;
-    margin-top: 0.5%;
 `
 const StyledText = styled.div`
     display: flex;
     flex-direction: column;
 `
-// const StyledLogo = styled.div`
-//     width: 7vw;
-//     height: 7vh;
-// `
+const StyledLogo = styled.div`
+    width: 5vw;
+    height: 5vh;
+`
 const StyledName = styled.div`
     width: 25vw;
     font-size: 1.5rem;
@@ -34,14 +36,14 @@ const StyledName = styled.div`
 `
 const StyledQuote = styled.div`
     font-size: 1.1rem;
-    margin-left: 30%;
+    margin-left: 50%;
     margin-top: 2%;
 `
 const StyledLinks = styled.div`
     height: 12vh;
     width: 60vw;
     margin-top: 1%;
-    margin-left: 3%;
+    margin-left: 10%;
 `
 const StyledButton = styled.button`
     height: 5vh;
@@ -55,12 +57,17 @@ function MMenu() {
         <StyledBar>
         <Menu>
             <StyledSig>
+            <StyledLogo>
+                <a href='/'>
+                    <Image src={Icon} alt='logo' />
+                </a>
+            </StyledLogo>
             <StyledText>
             <StyledName>
-               <h1>Louis Wayne Ballard</h1> 
+               <Heading>Louis Wayne Ballard</Heading> 
             </StyledName>
             <StyledQuote>
-                <h5>Life Music Legacy</h5>
+                <Heading as='h3' size='md'>Life Music Legacy</Heading>
             </StyledQuote>
             </StyledText>
             </StyledSig>

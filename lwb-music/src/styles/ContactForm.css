@@ -17,36 +17,36 @@
     padding: 50px;
     border-radius: 10px;
     box-sizing: border-box;
-    /* background: rgba(0,0,0,.5); */
     margin-top: 4%;
 }
 
 .contents input, textarea{
     width: 100%;
     margin-bottom: 20px;
+    color: black;
 }
 
 .contents input[type="text"],
 .contents input[type="email"] {
     border: none;
-    border-bottom: 1px solid #eff9f0;
+    border-bottom: 1px solid black;
     background: transparent;
     outline: none;
     height: 5vh;
-    color: #eff9f0;
+    color: black;
     font-size: 1.2vw;
 }
 
 ::placeholder{
-    color:#eff9f0;
+    color: black;
 }
 
 .contents textarea {
     border: none;
-    border-bottom: 1px solid #eff9f0;
+    border-bottom: 1px solid black;
     background: transparent;
     outline: white;
-    color: #eff9f0;
+    color: black;
     font-size: 1.2vw;
 }
 
@@ -54,9 +54,9 @@
     border: none;
     outline: none;
     height: 5vh;
-    color: #f6eaf4;
+    color: whitesmoke;
     font-size: 1.2vw;
-    background: #487c7c;
+    background: grey;
     cursor: pointer;
     border-radius: 10px;
 }
