@@ -2,6 +2,7 @@ import React from 'react'
 import LWB from '../assets/long-shot.png'
 import LWB2 from '../assets/4-moons.png'
 import LWB3 from '../assets/lwb_1.jpg'
+import LWB4 from '../assets/gallery/g_6.png'
 
 import {
     VStack, 
@@ -41,14 +42,21 @@ function Home() {
                 
             </HStack>
 
-            <HStack w='100vw' h='120vh'>
-                <Image src={LWB3} />
-                <VStack
+            <HStack w='97vw' h='85vh'>
+                <VStack 
                     align='center'
-                    w='30vw'
+                    w='60vw'
                 >
-                    <Heading>1931-2008</Heading>
+                <Box h='22vh'>
+                <Heading as='h2' size='2xl'>Welcome to the Louis W. Ballard Memorial Page</Heading>
+                </Box>
+                <Box marginLeft={20}>
+                <Heading as='h3' size='sm'>
+                    This page has been created and will be being updated by his granddaughter, Simone A. Ballard from 2022 onwards. Louis left his family in 2008, but we never wanted to forget his legacy. While some performances of his music have taken place in the interim, and further articles have been written, this is the first family-sponsored revival of his story in 15 years. We sincerely thank our friends and family who helped us reach this point. If you have an inquiry about LWB music please feel free to use the contact form here and otherwise we hope you enjoy learning about his unique journey and thanks for visiting! 
+                </Heading>
+                </Box>
                 </VStack>
+
             </HStack>
 
             <HStack w='97vw' h='85vh'>
@@ -71,18 +79,31 @@ function Home() {
             </HStack>
 
             <HStack w='97vw' h='85vh'>
+                <Image 
+                        src={LWB4} 
+                    />
                 <VStack 
-                    align='center'
+                    align='left'
                     w='60vw'
                 >
-                <Heading as='h2' size='2xl'>Welcome to the Louis W. Ballard Memorial Page</Heading>
-                <Heading as='h3' size='sm'>
-                    This page has been created and will be being updated by his granddaughter, Simone A. Ballard from 2022 onwards. Louis left his family in 2008, but we never wanted to forget his legacy. While some performances of his music have taken place in the interim, and further articles have been written, this is the first family-sponsored revival of his story in 15 years. We sincerely thank our friends and family who helped us reach this point. If you have an inquiry about LWB music please feel free to use the contact form here and otherwise we hope you enjoy learning about his unique journey and thanks for visiting! 
+                <Heading as='h2' size='xl'>
+                Don't think because you're a non-Indian</Heading><Heading as='h3' size='md'>you can't sing Indian songs. These are our songs as Americans and we must learn to recognize it.</Heading><Heading as='h2' size='2xl'>Indian singing is the most natural in the world'...</Heading><Heading as='h3' size='md'>Find an Indian who knows songs, he said, and listen carefully...</Heading><Heading as='h2' size='xl'>Learn so you can sing them under water or in your sleep!</Heading><Heading as='h3' size='md'>When a lead Indian singer dies its like an archive burning down...</Heading><Heading as='h2' size='2xl'>Here's epic literature. Here's epic poetry - and it's unwritten.</Heading>
+                <Heading as='h3' size='md'>
+                —Louis Ballard
                 </Heading>
                 </VStack>
 
             </HStack>
 
+            <HStack w='100vw' h='120vh'>
+                <Image src={LWB3} />
+                <VStack
+                    align='center'
+                    w='30vw'
+                >
+                    <Heading>1931-2008</Heading>
+                </VStack>
+            </HStack>
 
         </VStack>
         </Stack>
