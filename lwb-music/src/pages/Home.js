@@ -13,18 +13,29 @@ import {
     Image,
     Box,
 } from '@chakra-ui/react';
+import { extendTheme } from '@chakra-ui/react';
+import { createBreakpoints } from '@chakra-ui/theme-tools';
+
+const breakpoints = createBreakpoints({
+    sm: '30em',
+    md: '48em',
+    lg: '62em',
+    xl: '80em',
+    '2xl': '96em',
+  })
+
+const theme = extendTheme({ breakpoints })
 
 function Home() {
     return (
-       <div className="whole_screen">
         <div>
         <Stack>
+        
         <VStack 
                 divider={<StackDivider borderColor='gray.200' />}
                 spacing={1}
                 align='center'
             >
-            <div className="mobile-test">
             <HStack w='97vw' h='85vh'>
             <Image src={LWB} />
                 <VStack 
@@ -37,9 +48,7 @@ function Home() {
                 —Louis Ballard, program note for Incident at Wounded Knee, performed at Carnegie Hall, 1999
                 </Heading>
                 </VStack>
-                
             </HStack>
-            </div>
             <HStack w='97vw' h='85vh'>
                 <VStack 
                     align='center'
@@ -100,14 +109,7 @@ function Home() {
         </VStack>
         </Stack>
         </div>
-    </div>
     )
 }
 
 export default Home
-
-
-{/* <Box boxSize='sm'>
-    <Heading size="2x1">In memory of Louis W. Ballard | 1931-2007</Heading>
-    <Text>Ballard is widely recognized as the "grandfather of Native American classical music" and was one of the premier classical music composers of the 20th century. This site is set up and maintained by his family to honor his unique legacy and continue celebrating his pioneering spirit.</Text>
-    </Box> */}

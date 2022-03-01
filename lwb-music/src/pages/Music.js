@@ -192,7 +192,7 @@ function Music() {
                     Some of the songs he recorded and interpreted for the classroom are listed below:
                     </Text>
                     <List>
-                        <ListItem>Legend Song and Lullaby Song [Paiute tribe]</ListItem>
+                        <ListItem>Legend Song and Lullaby Song [Paiute]</ListItem>
                         <ListItem>Ice Cream Song [Eskimo-Inuit]</ListItem>
                         <ListItem>Love Song [Lakota-Dakota]</ListItem>
                         <ListItem>Corn Grinding Song [Navajo-Diné]</ListItem>
