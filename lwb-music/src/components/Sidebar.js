@@ -1,3 +1,4 @@
+import React from 'react'
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import {
@@ -34,7 +35,7 @@ import {
               router.events.off("routeChangeComplete", onClose);
           };
       }, [router.events, onClose]);
-      
+
       return (
         <Box
         transition="3s ease"

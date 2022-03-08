@@ -3,6 +3,7 @@ import LWB from '../assets/long-shot.png'
 import LWB2 from '../assets/4-moons.png'
 import LWB3 from '../assets/lwb_1.jpg'
 import LWB4 from '../assets/gallery/g_6.png'
+import Sidebar from '../components/Sidebar'
 
 import {
     VStack, 
@@ -12,8 +13,11 @@ import {
     Heading,
     Image,
     Box,
-    useMediaQuery,
     extendTheme,
+    Drawer,
+    DrawerContent,
+    useDisclosure,
+    useMediaQuery,
 } from '@chakra-ui/react';
 import { createBreakpoints } from '@chakra-ui/theme-tools';
 
@@ -28,24 +32,28 @@ const breakpoints = createBreakpoints({
 const theme = extendTheme({ breakpoints })
 
 function Home() {
-    const [isMobile] = useMediaQuery(
-        "(min-width: 768px)"
-    )
-
-    function determineText() {
-        if (isLargerThanHD) {
-            return `${
-                isDisplayingInBrowser ? '' : ''
-            }`
-        }
-
-    return isDisplayingInBrowser
-        ? ''
-        : ''
-    }
-
+    const { isOpen, onOpen, onClose } = useDisclosure();
     return (
         <div>
+        <Box minH="100vh" bg="gray.100">
+        <Sidebar
+            onClose={() => onClose}
+            display={{ base: "none", md: "block" }}
+        />
+        <Drawer
+            autoFocus={false}
+            isOpen={isOpen}
+            placement="left"
+            onClose={onClose}
+            returnFocusOnClose={false}
+            onOverlayClick={onClose}
+            size="full"
+        >
+            <DrawerContent>
+            <Sidebar onClose={onClose} />
+            </DrawerContent>
+        </Drawer>
+
         <Stack>
         <VStack 
                 divider={<StackDivider borderColor='gray.200' />}
@@ -58,7 +66,7 @@ function Home() {
                     align='right'
                     w='60vw'
                 >
-                <Heading as='h2' size='2xl'>{determineText()}
+                <Heading as='h2' size='2xl'>
                 Music history</Heading><Heading as='h3' size='md'>is replete with examples of composers who championed the cause of </Heading><Heading as='h2' size='2xl'>oppressed people. Composers </Heading><Heading as='h3' size='md'>and their music sustained the spirit of their people at a time of foreign cultural attack and domination. Dvořák, in 1893, predicted that America should have a form of nationalistic music</Heading><Heading as='h2' size='2xl'>built upon Indian music and black slave songs.</Heading><Heading as='h3' size='md'>So I felt that I was in good company when I took up my pen to express the sufferings of my people, their regeneration and hopes for a better future life…</Heading><Heading as='h2' size='xl'>It is my hope that this work will be indelibly associated with the Indian movement and ideals, but also that the worth of the work itself shall rise above all political emotions of this epoch.</Heading>
                 <Heading as='h3' size='md'>
                 —Louis Ballard, program note for Incident at Wounded Knee, performed at Carnegie Hall, 1999
@@ -124,6 +132,7 @@ function Home() {
 
         </VStack>
         </Stack>
+        </Box>
         </div>
     )
 }

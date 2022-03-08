@@ -1,3 +1,4 @@
+import React from 'react'
 import NextLink from "next/link";
 import {
     Flex,
@@ -9,6 +10,7 @@ export default function NavLink({ link, ...rest }) {
     const { label, icon, href } = link;
 
     return (
+        <div>
         <NextLink href={href} passHref>
             <a>
                 <Flex
@@ -38,5 +40,6 @@ export default function NavLink({ link, ...rest }) {
                 </Flex>
             </a>
         </NextLink>
+        </div>
     );
 }
