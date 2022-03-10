@@ -1,12 +1,14 @@
 import React from 'react'
 import { useEffect } from "react";
 import { useRouter } from "next/router";
+
 import {
     Box,
     CloseButton,
     Flex,
     Text,
 } from "@chakra-ui/react";
+
 import {
     FiHome,
     FiCircle,
@@ -15,6 +17,7 @@ import {
     FiBookmark,
     FiSend,
   } from "react-icons/fi";
+  
   import NavLink from "./NavLink";
 
   const LinkItems = [

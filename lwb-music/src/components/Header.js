@@ -1,19 +1,21 @@
 import React from 'react';
+
 import {
+    Flex,
     Menu,
     MenuButton,
     Heading,
     Image,
 } from "@chakra-ui/react"
-import Icon from '../assets/example.png'
 
+import Icon from '../assets/example.png'
 import styled from 'styled-components';
 
-const StyledBar = styled.div`
-    background-color: none;
-    display: flex;
-    height: 17vh;
-`
+// const StyledBar = styled.div`
+//     background-color: none;
+//     display: flex;
+//     height: 17vh;
+// `
 const StyledSig = styled.div`
     display: flex;
     width: 40vw;
@@ -52,9 +54,22 @@ const StyledButton = styled.button`
     border: none;
 `
 
-function MMenu() {
+export default function Header({ onOpen, ...rest }) {
     return (
-        <StyledBar>
+    <Flex
+      ml={{ base: 0, md: 60 }}
+      px="4"
+      position="sticky"
+      top="0"
+      height="20"
+      zIndex="1"
+      alignItems="center"
+      bg="white"
+      borderBottomWidth="1px"
+      borderBottomColor="gray.200"
+      justifyContent={{ base: "space-between", md: "flex-end" }}
+      {...rest}
+    >
         <Menu>
             <StyledSig>
             <StyledLogo>
@@ -89,8 +104,6 @@ function MMenu() {
                 </StyledButton>
             </StyledLinks>
         </Menu>
-        </StyledBar>
-    )
+    </Flex>
+    );
 }
-
-export default MMenu
