@@ -1,6 +1,5 @@
 import React from 'react'
 import { useEffect } from "react";
-import { useRouter } from "next/router";
 
 import {
     Box,
@@ -17,7 +16,7 @@ import {
     FiBookmark,
     FiSend,
   } from "react-icons/fi";
-  
+
   import NavLink from "./NavLink";
 
   const LinkItems = [
@@ -30,15 +29,6 @@ import {
   ];
 
   export default function Sidebar({ onClose, ...rest }) {
-      const router = useRouter();
-
-      useEffect(() => {
-          router.events.on("routeChangeComplete", onClose);
-          return () => {
-              router.events.off("routeChangeComplete", onClose);
-          };
-      }, [router.events, onClose]);
-
       return (
         <Box
         transition="3s ease"
