@@ -1,5 +1,5 @@
 import React from 'react'
-import { useEffect } from "react";
+import NavLink from "./NavLink";
 
 import {
     Box,
@@ -8,24 +8,14 @@ import {
     Text,
 } from "@chakra-ui/react";
 
-import {
-    FiHome,
-    FiCircle,
-    FiMusic,
-    FiStar,
-    FiBookmark,
-    FiSend,
-  } from "react-icons/fi";
-
-  import NavLink from "./NavLink";
 
   const LinkItems = [
-      { label: "Home", icon: FiHome, href: "/" },
-      { label: "Bio", icon: FiCircle, href: "/bio" },
-      { label: "Music", icon: FiMusic, href: "/music" },
-      { label: "Gallery", icon: FiStar, href: "/gallery" },
-      { label: "Resources", icon: FiBookmark, href: "/resources" },
-      { label: "Contact", icon: FiSend, href: "/contact" },
+      { label: "Home", href: "/" },
+      { label: "Bio", href: "/bio" },
+      { label: "Music", href: "/music" },
+      { label: "Gallery", href: "/gallery" },
+      { label: "Resources", href: "/resources" },
+      { label: "Contact", href: "/contact" },
   ];
 
   export default function Sidebar({ onClose, ...rest }) {
@@ -42,7 +32,7 @@ import {
       >
         <Flex h="20" alignItems="center" mx="8" justifyContent="space-between">
         <Text fontSize="2xl" fontFamily="monospace" fontWeight="bold">
-          Some Logo
+          LWB Composer
         </Text>
         <CloseButton display={{ base: "flex", md: "none" }} onClick={onClose} />
       </Flex>
