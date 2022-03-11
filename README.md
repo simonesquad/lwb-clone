@@ -1,2 +1,8 @@
 # front-end
-Building the frontend for Ballard legacy website. Frontend stack will start with React. 
+Building the frontend for the LWB music website...
+
+#REACT ETC.
+#CHAKRA-UI
+#WIX GALLERY
+
+
