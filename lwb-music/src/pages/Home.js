@@ -36,10 +36,10 @@ function Home() {
     return (
         <div>
         <Box minH="100vh" bg="gray.100">
-        <Sidebar
+        {/* <Sidebar
             onClose={() => onClose}
             display={{ base: "none", md: "block" }}
-        />
+        /> */}
         <Drawer
             autoFocus={false}
             isOpen={isOpen}

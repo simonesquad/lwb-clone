@@ -1,58 +1,12 @@
 import React from 'react';
+import { FiMenu } from "react-icons/fi";
 
 import {
     Flex,
-    Menu,
-    MenuButton,
-    Heading,
-    Image,
+    Text,
+    IconButton,
 } from "@chakra-ui/react"
 
-import Icon from '../assets/example.png'
-import styled from 'styled-components';
-
-// const StyledBar = styled.div`
-//     background-color: none;
-//     display: flex;
-//     height: 17vh;
-// `
-const StyledSig = styled.div`
-    display: flex;
-    width: 40vw;
-    margin-left: 0%;
-`
-const StyledText = styled.div`
-    display: flex;
-    flex-direction: column;
-`
-const StyledLogo = styled.div`
-    width: 5vw;
-    height: 5vh;
-`
-const StyledName = styled.div`
-    width: 25vw;
-    font-size: 1.5rem;
-    margin-left: 5%;
-    margin-top: 1%;
-
-`
-const StyledQuote = styled.div`
-    font-size: 1.1rem;
-    margin-left: 50%;
-    margin-top: 2%;
-`
-const StyledLinks = styled.div`
-    height: 12vh;
-    width: 60vw;
-    margin-top: 1%;
-    margin-left: 10%;
-`
-const StyledButton = styled.button`
-    height: 5vh;
-    width: 10vw;
-    background-color: transparent;
-    border: none;
-`
 
 export default function Header({ onOpen, ...rest }) {
     return (
@@ -70,40 +24,22 @@ export default function Header({ onOpen, ...rest }) {
       justifyContent={{ base: "space-between", md: "flex-end" }}
       {...rest}
     >
-        <Menu>
-            <StyledSig>
-            <StyledLogo>
-                <a href='/'>
-                    <Image src={Icon} alt='logo' />
-                </a>
-            </StyledLogo>
-            <StyledText>
-            <StyledName>
-               <Heading>Louis Wayne Ballard</Heading> 
-            </StyledName>
-            <StyledQuote>
-                <Heading as='h3' size='md'>Life Music Legacy</Heading>
-            </StyledQuote>
-            </StyledText>
-            </StyledSig>
-            <StyledLinks>
-                <StyledButton>
-                <MenuButton as="a" href='/bio'>Bio</MenuButton>
-                </StyledButton>
-                <StyledButton>
-                <MenuButton as="a" href='/music'>Music</MenuButton>
-                </StyledButton>
-                <StyledButton>
-                <MenuButton as="a" href='/gallery'>Gallery</MenuButton>
-                </StyledButton>
-                <StyledButton>
-                <MenuButton as="a" href='/resources'>Resources</MenuButton>
-                </StyledButton>
-                <StyledButton>
-                <MenuButton as="a" href='/contact'>Contact</MenuButton>
-                </StyledButton>
-            </StyledLinks>
-        </Menu>
+    <IconButton
+        display={{ base: "flex", md: "none" }}
+        onClick={onOpen}
+        variant="outline"
+        aria-label="open menu"
+        icon={<FiMenu />}
+      />
+
+    <Text
+        display={{ base: "flex", md: "none" }}
+        fontSize="2xl"
+        fontFamily="monospace"
+        fontWeight="bold"
+      >
+        LWB
+      </Text>
     </Flex>
     );
 }
