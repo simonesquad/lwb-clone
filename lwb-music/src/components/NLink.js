@@ -1,18 +1,17 @@
 import React from 'react'
-import NextLink from "next/link";
+import { NavLink } from 'react-router-dom';
 
 import {
     Flex,
-    Icon,
     Text
 } from "@chakra-ui/react";
 
-export default function NavLink({ link, ...rest }) {
-    const { label, icon, href } = link;
+export default function NLink({ link, ...rest }) {
+    const { label, href } = link;
 
     return (
         <div>
-        <NextLink href={href} passHref>
+        <NavLink to={href} passHref>
             <a>
                 <Flex
                     align="center"
@@ -27,20 +26,10 @@ export default function NavLink({ link, ...rest }) {
                     }}
                     {...rest}
                 >
-                    {icon && (
-                        <Icon
-                            mr="4"
-                            fontSize="16"
-                            _groupHover={{
-                                color: "white",
-                            }}
-                            as={icon}
-                        />
-                    )}
                     <Text fontSize="1.2rem">{label}</Text>
                 </Flex>
             </a>
-        </NextLink>
+        </NavLink>
         </div>
     );
 }

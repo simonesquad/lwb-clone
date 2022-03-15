@@ -1,5 +1,5 @@
 import React from 'react'
-import NavLink from "./NavLink";
+import NLink from "./NLink";
 
 import {
     Box,
@@ -37,7 +37,7 @@ import {
         <CloseButton display={{ base: "flex", md: "none" }} onClick={onClose} />
       </Flex>
         {LinkItems.map((link, i) => (
-        <NavLink key={i} link={link} />
+        <NLink key={i} link={link} />
       ))}
     </Box>
     );
