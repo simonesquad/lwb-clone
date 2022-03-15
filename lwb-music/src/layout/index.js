@@ -33,7 +33,7 @@ export default function Layout({ children }) {
 
             {/**place for the default menu is now here instead of original App.js file */}
             <Header onOpen={onOpen} />
-            <Box ml={{ base: 0, md: 60 }} p="4">
+            <Box ml={{ base: 0, md: 60 }} p="1">
                 {children}
             </Box>  
         </Box>
