@@ -37,7 +37,7 @@ import {
         <CloseButton display={{ base: "flex", md: "none" }} onClick={onClose} />
       </Flex>
         {LinkItems.map((link, i) => (
-        <NLink key={i} link={link} />
+        <NLink key={i} link={link} onClick={onClose} />
       ))}
     </Box>
     );
