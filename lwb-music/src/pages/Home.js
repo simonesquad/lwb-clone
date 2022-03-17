@@ -13,11 +13,13 @@ import {
     Heading,
     Image,
     Box,
+    Text,
     extendTheme,
     Drawer,
     DrawerContent,
     useDisclosure,
     useMediaQuery,
+    useBreakpointValue,
 } from '@chakra-ui/react';
 import { createBreakpoints } from '@chakra-ui/theme-tools';
 
@@ -31,6 +33,7 @@ const breakpoints = createBreakpoints({
 
 function Home() {
     const { isOpen, onOpen, onClose } = useDisclosure();
+    const shrink = useBreakpointValue({ base: 'md', lg: '2xl' })
     return (
         <div>
         <Box minH="100vh" bg="gray.100">
@@ -54,12 +57,22 @@ function Home() {
                 spacing={1}
                 align='center'
             >
-            <HStack w='97vw' h='85vh'>
+            <HStack 
+                w={{
+                    base: '90vw',
+                    md: '94vw',
+                    lg: '97vw' 
+                }}
+                h={{
+                    base: '100vh',
+                    lg: '100vh'
+                }}
+                >
             <Image 
                 src={LWB} 
                 height={{
-                    base: '70%',
-                    sm: '75%',
+                    base: '50%',
+                    sm: '55%',
                     md: '80%',
                     lg: '85%',
                     xl: '100%',
@@ -67,16 +80,39 @@ function Home() {
                 />
                 <VStack 
                     align='right'
-                    w='60vw'
+                    w={{
+                        base: '45vw',
+                        md: '50vw',
+                        lg: '60vw'
+                    }}
+                    h={{
+                        base: '70vh',
+                        md: '80vh',
+                        lg: '90vh'
+                    }}
                 >
-                <Heading as='h2' size={{ }}>
+                <Box fontSize={["sm"]}>
+                <Heading 
+                    as='h2' 
+                    size='2xl'>
                 Music history</Heading><Heading as='h3' size='md'>is replete with examples of composers who championed the cause of </Heading><Heading as='h2' size='2xl'>oppressed people. Composers </Heading><Heading as='h3' size='md'>and their music sustained the spirit of their people at a time of foreign cultural attack and domination. Dvořák, in 1893, predicted that America should have a form of nationalistic music</Heading><Heading as='h2' size='2xl'>built upon Indian music and black slave songs.</Heading><Heading as='h3' size='md'>So I felt that I was in good company when I took up my pen to express the sufferings of my people, their regeneration and hopes for a better future life…</Heading><Heading as='h2' size='xl'>It is my hope that this work will be indelibly associated with the Indian movement and ideals, but also that the worth of the work itself shall rise above all political emotions of this epoch.</Heading>
                 <Heading as='h3' size='md'>
                 —Louis Ballard, program note for Incident at Wounded Knee, performed at Carnegie Hall, 1999
                 </Heading>
+                </Box>
                 </VStack>
             </HStack>
-            <HStack w='97vw' h='85vh'>
+            <HStack 
+                w={{
+                    base: '90vw',
+                    md: '94vw',
+                    lg: '97vw' 
+                }}
+                h={{
+                    base: '85vh',
+                    lg: '100vh'
+                }}
+                >
                 <VStack 
                     align='center'
                     w='60vw'
@@ -92,9 +128,17 @@ function Home() {
                 </VStack>
 
             </HStack>
-
-            <HStack w='97vw' h='85vh'>
-                
+            <HStack 
+                w={{
+                    base: '90vw',
+                    md: '94vw',
+                    lg: '97vw' 
+                }}
+                h={{
+                    base: '85vh',
+                    lg: '100vh'
+                }}
+                >
                 <VStack 
                     align='left'
                     w='60vw'
@@ -115,8 +159,17 @@ function Home() {
                 />
 
             </HStack>
-
-            <HStack w='97vw' h='85vh'>
+            <HStack 
+                w={{
+                    base: '90vw',
+                    md: '94vw',
+                    lg: '97vw' 
+                }}
+                h={{
+                    base: '85vh',
+                    lg: '100vh'
+                }}
+                >
                 <Image 
                     src={LWB4} 
                     height={{
@@ -137,7 +190,17 @@ function Home() {
 
             </HStack>
 
-            <HStack w='100vw' h='120vh'>
+            <HStack 
+                w={{
+                    base: '90vw',
+                    md: '94vw',
+                    lg: '100vw' 
+                }}
+                h={{
+                    base: '85vh',
+                    lg: '120vh'
+                }}
+                >
             <VStack
                     align='center'
                     w='90vw'
@@ -148,11 +211,11 @@ function Home() {
                         base: '30%',
                         sm: '35%',
                         md: '40%',
-                        lg: '45%',
-                        xl: '90%',
+                        lg: '40%',
+                        xl: '70%',
                     }}
                     />
-                <Heading size={{ base: 'sm' }}>1931-2008</Heading>
+                <Text size={{ base: '24px', md: '40px', lg: '56px' }}>1931-2008</Text>
                 </VStack>
             </HStack>
 
