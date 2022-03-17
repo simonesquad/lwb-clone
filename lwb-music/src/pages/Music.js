@@ -19,8 +19,17 @@ function Music() {
                 spacing={1}
                 align='center'
             >
-
-                <HStack w='80vw' h='70vh' spacing='70px'>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '160vh',
+                        md: '95vh',
+                        lg:'80vh'
+                        }} spacing='70px'>
                 <VStack 
                     align='center'
                 >
@@ -38,7 +47,17 @@ function Music() {
                 </VStack>
                 </HStack>
 
-                <HStack w='80vw' h='70vh' spacing='70px'>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '160vh',
+                        md: '95vh',
+                        lg:'80vh'
+                        }} spacing='70px'>
                 <VStack 
                     align='center'
                 >
@@ -57,7 +76,17 @@ function Music() {
                 </VStack>
                 </HStack>
 
-                <HStack w='80vw' h='70vh' spacing='70px'>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '160vh',
+                        md: '95vh',
+                        lg:'80vh'
+                        }} spacing='70px'>
                 <VStack 
                     align='center'
                 >
@@ -75,7 +104,17 @@ function Music() {
                 </VStack>
                 </HStack>
 
-                <HStack w='80vw' h='70vh' spacing='70px'>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '160vh',
+                        md: '95vh',
+                        lg:'80vh'
+                        }} spacing='70px'>
                 <VStack 
                     align='center'
                 >
@@ -94,7 +133,17 @@ function Music() {
                 </VStack>
                 </HStack>
 
-                <HStack w='80vw' h='70vh' spacing='70px'>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '130vh',
+                        md: '95vh',
+                        lg:'80vh'
+                        }} spacing='70px'>
                 <VStack 
                     align='center'
                 >
@@ -107,7 +156,17 @@ function Music() {
                 </VStack>
                 </HStack>
 
-                <HStack w='80vw' h='70vh' spacing='70px'>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '130vh',
+                        md: '95vh',
+                        lg:'80vh'
+                        }} spacing='70px'>
                 <VStack 
                     align='center'
                 >
@@ -126,7 +185,17 @@ function Music() {
                 </VStack>
                 </HStack>
 
-                <HStack w='80vw' h='70vh' spacing='70px'>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '160vh',
+                        md: '95vh',
+                        lg:'80vh'
+                        }} spacing='70px'>
                 <VStack 
                     align='center'
                 >
@@ -144,7 +213,17 @@ function Music() {
                 </VStack>
                 </HStack>
 
-                <HStack w='80vw' h='60vh' spacing='70px'>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '120vh',
+                        md: '95vh',
+                        lg:'80vh'
+                        }} spacing='70px'>
                 <VStack 
                     align='center'
                 >
@@ -159,7 +238,17 @@ function Music() {
                 </VStack>
                 </HStack>
 
-                <HStack w='80vw' h='70vh' spacing='70px'>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '170vh',
+                        md: '95vh',
+                        lg:'80vh'
+                        }} spacing='70px'>
                 <VStack 
                     align='center'
                 >
@@ -177,7 +266,17 @@ function Music() {
                 </VStack>
                 </HStack>
 
-                <HStack w='80vw' h='70vh' spacing='70px'>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '140vh',
+                        md: '95vh',
+                        lg:'80vh'
+                        }} spacing='70px'>
                 <VStack 
                     align='center'
                 >
@@ -207,7 +306,17 @@ function Music() {
                 </VStack>
                 </HStack>
 
-                <HStack w='80vw' h='70vh' spacing='70px'>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '100vh',
+                        md: '95vh',
+                        lg:'80vh'
+                        }} spacing='70px'>
                 <VStack 
                     align='center'
                 >
