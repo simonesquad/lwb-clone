@@ -3,17 +3,14 @@ import LWB from '../assets/long-shot.png'
 import LWB2 from '../assets/4-moons.png'
 import LWB3 from '../assets/lwb_1.jpg'
 import LWB4 from '../assets/gallery/g_6.png'
-import Sidebar from '../components/Sidebar'
 
 import {
     VStack, 
-    HStack,
+    Box,
     Stack,
     StackDivider,
     Heading,
     Image,
-    Box,
-    Text,
     Drawer,
     DrawerContent,
     useDisclosure,
@@ -29,7 +26,7 @@ const breakpoints = createBreakpoints({
     '2xl': '96em',
   })
 
-function Home() {
+  function HomeMobile() {
     const { isOpen, onOpen, onClose } = useDisclosure();
     const shrink = useBreakpointValue({ base: 'md', lg: '2xl' })
     return (
@@ -48,25 +45,13 @@ function Home() {
             <Sidebar onClose={onClose} />
             </DrawerContent>
         </Drawer>
-
         <Stack>
         <VStack 
                 divider={<StackDivider borderColor='gray.200' />}
                 spacing={1}
                 align='center'
             >
-            <HStack 
-                    w={{
-                        base: '100vw',
-                        md: '90vw',
-                        lg:'97vw'
-                        }} 
-                    h={{
-                        base: '150vh',
-                        md: '95vh',
-                        lg:'100vh'
-                        }} spacing='70px'>
-            <Image 
+        <Image 
                 src={LWB} 
                 height={{
                     base: '10%',
@@ -76,7 +61,7 @@ function Home() {
                     xl: '100%',
                 }}
                 />
-                <VStack 
+        <VStack 
                     align='right'
                     w={{
                         base: '55vw',
@@ -89,7 +74,7 @@ function Home() {
                         lg: '90%'
                     }}
                 >
-                <Box fontSize={["sm"]}>
+        <Box fontSize={["sm"]}>
                 <Heading 
                     as='h2' 
                     size='2xl'>
@@ -97,20 +82,9 @@ function Home() {
                 <Heading as='h3' size='md'>
                 —Louis Ballard, program note for Incident at Wounded Knee, performed at Carnegie Hall, 1999
                 </Heading>
-                </Box>
+                    </Box>
                 </VStack>
-            </HStack>
-            <HStack 
-                    w={{
-                        base: '100vw',
-                        md: '90vw',
-                        lg:'97vw'
-                        }} 
-                    h={{
-                        base: '120vh',
-                        md: '95vh',
-                        lg:'100vh'
-                        }} spacing='70px'>
+                
                 <VStack 
                     align='center'
                     w='60vw'
@@ -125,18 +99,7 @@ function Home() {
                 </Box>
                 </VStack>
 
-            </HStack>
-            <HStack 
-                    w={{
-                        base: '100vw',
-                        md: '90vw',
-                        lg:'97vw'
-                        }} 
-                    h={{
-                        base: '200vh',
-                        md: '95vh',
-                        lg:'100vh'
-                        }} spacing='70px'>
+
                 <VStack 
                     align='left'
                     w='60vw'
@@ -144,7 +107,7 @@ function Home() {
                 <Heading as='h2' size='2xl'>
                 I have found myself</Heading><Heading as='h3' size='md'>in a curious circumstance, in that I am literally</Heading><Heading as='h2' size='2xl'>between two worlds ...</Heading><Heading as='h3' size='md'>that of the American Indian and that of Western society. These two worlds, of historical necessity, have been forced to coexist yet their</Heading><Heading as='h2' size='xl'>values and aesthetic concepts have remained almost irreconcilable.</Heading><Heading as='h3' size='md'>In my music I have sought to fuse these worlds for I believe that an artist can get to the heart of a culture through</Heading><Heading as='h2' size='2xl'>new forms alien to that culture.</Heading>
                 </VStack>
-                
+
                 <Image 
                     src={LWB2} 
                     height={{
@@ -156,23 +119,14 @@ function Home() {
                     }}
                 />
 
-            </HStack>
-            <HStack 
-                    w={{
-                        base: '100vw',
-                        md: '90vw',
-                        lg:'97vw'
-                        }} 
-                    h={{
-                        base: '120vh',
-                        md: '95vh',
-                        lg:'100vh'
-                        }} 
-                        spacing=
-                        {{
-                        base:'30px',
-                        lg: '70px'
-                        }}>
+                <VStack 
+                    align='left'
+                    w='60vw'
+                >
+                <Heading as='h2' size='xl'>
+                Don't think because you're a non-Indian</Heading><Heading as='h3' size='md'>you can't sing Indian songs. These are our songs as Americans and we must learn to recognize it.</Heading><Heading as='h2' size='2xl'>Indian singing is the most natural in the world'...</Heading><Heading as='h3' size='md'>Find an Indian who knows songs, he said, and listen carefully...</Heading><Heading as='h2' size='xl'>Learn so you can sing them under water or in your sleep!</Heading><Heading as='h3' size='md'>When a lead Indian singer dies its like an archive burning down...</Heading><Heading as='h2' size='xl'>Here's epic literature. Here's epic poetry - and it's unwritten.</Heading>
+                </VStack>
+
                 <Image 
                     src={LWB4} 
                     height={{
@@ -183,6 +137,7 @@ function Home() {
                         xl: '90%',
                     }}
                     />
+
                 <VStack 
                     align='left'
                     w='60vw'
@@ -191,20 +146,7 @@ function Home() {
                 Don't think because you're a non-Indian</Heading><Heading as='h3' size='md'>you can't sing Indian songs. These are our songs as Americans and we must learn to recognize it.</Heading><Heading as='h2' size='2xl'>Indian singing is the most natural in the world'...</Heading><Heading as='h3' size='md'>Find an Indian who knows songs, he said, and listen carefully...</Heading><Heading as='h2' size='xl'>Learn so you can sing them under water or in your sleep!</Heading><Heading as='h3' size='md'>When a lead Indian singer dies its like an archive burning down...</Heading><Heading as='h2' size='xl'>Here's epic literature. Here's epic poetry - and it's unwritten.</Heading>
                 </VStack>
 
-            </HStack>
-
-            <HStack 
-                    w={{
-                        base: '100vw',
-                        md: '90vw',
-                        lg:'97vw'
-                        }} 
-                    h={{
-                        base: '80vh',
-                        md: '95vh',
-                        lg:'100vh'
-                        }} spacing='70px'>
-            <VStack
+                <VStack
                     align='center'
                     w='90vw'
                 >
@@ -220,13 +162,12 @@ function Home() {
                     />
                 <Text size={{ base: '24px', md: '40px', lg: '56px' }}>1931-2008</Text>
                 </VStack>
-            </HStack>
-
-        </VStack>
+    
+            </VStack>
         </Stack>
-        </Box>
-        </div>
+    </Box>
+</div>
     )
-}
+  }
 
-export default Home
+  export default HomeMobile
