@@ -1,5 +1,8 @@
 import React from 'react';
-import { Box } from '@chakra-ui/react'
+import { 
+  Box,
+  useMediaQuery 
+} from '@chakra-ui/react'
 import { ProGallery } from 'pro-gallery';
 import 'pro-gallery/dist/statics/main.css';
 // //pics panel one
@@ -127,7 +130,7 @@ function Gallery() {
 	};
 
   const container = {
-		width: 1000,
+		width: 645,
 		height: 1000
 	};
 
@@ -136,13 +139,7 @@ function Gallery() {
   const scrollingElement = window;
 
   return (
-    <Box
-      w={{
-        base: '45%',
-        md: '70%',
-        lg:'100%'
-        }} 
-    >
+  
 		<ProGallery
 			items={items}
 			options={options}
@@ -150,7 +147,6 @@ function Gallery() {
 			eventsListener={eventsListener}
 			scrollingElement={scrollingElement}
 		/>
-    </Box>
 	);
 }
 
