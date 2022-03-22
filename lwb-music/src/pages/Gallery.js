@@ -1,8 +1,15 @@
 import React from 'react';
-import { Container } from '@chakra-ui/react'
+import { Box } from '@chakra-ui/react'
 import { ProGallery } from 'pro-gallery';
 import 'pro-gallery/dist/statics/main.css';
-// import '../styles/Gallery.css'
+import { createBreakpoints } from '@chakra-ui/theme-tools';
+const breakpoints = createBreakpoints({
+  sm: '30em',
+  md: '48em',
+  lg: '62em',
+  xl: '80em',
+  '2xl': '96em',
+})
 
 // //pics panel one
 import g1 from '../assets/gallery/g_1.png';
@@ -128,7 +135,13 @@ function Gallery() {
   const scrollingElement = window;
 
   return (
-
+    <Box
+      w={{
+        base: '45%',
+        md: '70%',
+        lg:'100%'
+        }} 
+    >
 		<ProGallery
 			items={items}
 			options={options}
@@ -136,6 +149,7 @@ function Gallery() {
 			eventsListener={eventsListener}
 			scrollingElement={scrollingElement}
 		/>
+    </Box>
 	);
 }
 
