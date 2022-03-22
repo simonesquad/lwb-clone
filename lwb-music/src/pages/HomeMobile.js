@@ -3,10 +3,12 @@ import LWB from '../assets/long-shot.png'
 import LWB2 from '../assets/4-moons.png'
 import LWB3 from '../assets/lwb_1.jpg'
 import LWB4 from '../assets/gallery/g_6.png'
+import Sidebar from '../components/Sidebar'
 
 import {
     VStack, 
     Box,
+    Text,
     Stack,
     StackDivider,
     Heading,
