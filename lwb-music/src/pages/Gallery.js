@@ -2,15 +2,6 @@ import React from 'react';
 import { Box } from '@chakra-ui/react'
 import { ProGallery } from 'pro-gallery';
 import 'pro-gallery/dist/statics/main.css';
-import { createBreakpoints } from '@chakra-ui/theme-tools';
-const breakpoints = createBreakpoints({
-  sm: '30em',
-  md: '48em',
-  lg: '62em',
-  xl: '80em',
-  '2xl': '96em',
-})
-
 // //pics panel one
 import g1 from '../assets/gallery/g_1.png';
 import g2 from '../assets/gallery/g_2.png';
@@ -20,6 +11,16 @@ import g8 from '../assets/gallery/g_8.png';
 import g9 from '../assets/gallery/g_9.png';
 import g11 from '../assets/gallery/g_11.png';
 import g12 from '../assets/gallery/g_12.png';
+import { createBreakpoints } from '@chakra-ui/theme-tools';
+const breakpoints = createBreakpoints({
+  sm: '30em',
+  md: '48em',
+  lg: '62em',
+  xl: '80em',
+  '2xl': '96em',
+})
+
+
 
 function Gallery() {
   const items = [
