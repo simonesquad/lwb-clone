@@ -53,28 +53,10 @@ const breakpoints = createBreakpoints({
                 spacing={1}
                 align='center'
             >
-        <Image 
-                src={LWB} 
-                height={{
-                    base: '10%',
-                    sm: '55%',
-                    md: '80%',
-                    lg: '85%',
-                    xl: '100%',
-                }}
-                />
         <VStack 
-                    align='right'
-                    w={{
-                        base: '55vw',
-                        md: '50vw',
-                        lg: '60vw'
-                    }}
-                    h={{
-                        base: '70%',
-                        md: '80%',
-                        lg: '90%'
-                    }}
+                    marginTop='45px'
+                    w='80vw'
+                    h='120vh'
                 >
         <Box fontSize={["sm"]}>
                 <Heading 
@@ -86,10 +68,17 @@ const breakpoints = createBreakpoints({
                 </Heading>
                     </Box>
                 </VStack>
+            
+                <Image 
+                src={LWB} 
+                h='100vw'
+                w='50vw'
+                />
                 
                 <VStack 
-                    align='center'
-                    w='60vw'
+                    marginTop='60px'
+                    w='80vw'
+                    h='70vh'
                 >
                 <Box h='22vh'>
                 <Heading as='h2' size='2xl'>Welcome to the Louis W. Ballard Memorial Page</Heading>
@@ -101,48 +90,30 @@ const breakpoints = createBreakpoints({
                 </Box>
                 </VStack>
 
+                <Image 
+                    src={LWB2} 
+                    w='85vw'
+                />
 
                 <VStack 
-                    align='left'
-                    w='60vw'
+                    marginTop='45px'
+                    w='80vw'
+                    h='85vh'
                 >
                 <Heading as='h2' size='2xl'>
                 I have found myself</Heading><Heading as='h3' size='md'>in a curious circumstance, in that I am literally</Heading><Heading as='h2' size='2xl'>between two worlds ...</Heading><Heading as='h3' size='md'>that of the American Indian and that of Western society. These two worlds, of historical necessity, have been forced to coexist yet their</Heading><Heading as='h2' size='xl'>values and aesthetic concepts have remained almost irreconcilable.</Heading><Heading as='h3' size='md'>In my music I have sought to fuse these worlds for I believe that an artist can get to the heart of a culture through</Heading><Heading as='h2' size='2xl'>new forms alien to that culture.</Heading>
                 </VStack>
 
-                <Image 
-                    src={LWB2} 
-                    height={{
-                        base: '45%',
-                        sm: '50%',
-                        md: '55%',
-                        lg: '60%',
-                        xl: '100%',
-                    }}
-                />
-
-                <VStack 
-                    align='left'
-                    w='60vw'
-                >
-                <Heading as='h2' size='xl'>
-                Don't think because you're a non-Indian</Heading><Heading as='h3' size='md'>you can't sing Indian songs. These are our songs as Americans and we must learn to recognize it.</Heading><Heading as='h2' size='2xl'>Indian singing is the most natural in the world'...</Heading><Heading as='h3' size='md'>Find an Indian who knows songs, he said, and listen carefully...</Heading><Heading as='h2' size='xl'>Learn so you can sing them under water or in your sleep!</Heading><Heading as='h3' size='md'>When a lead Indian singer dies its like an archive burning down...</Heading><Heading as='h2' size='xl'>Here's epic literature. Here's epic poetry - and it's unwritten.</Heading>
-                </VStack>
 
                 <Image 
                     src={LWB4} 
-                    height={{
-                        base: '12%',
-                        sm: '20%',
-                        md: '40%',
-                        lg: '45%',
-                        xl: '90%',
-                    }}
+                    w='90vw'
                     />
 
                 <VStack 
-                    align='left'
-                    w='60vw'
+                    marginTop='45px'
+                    h='95vh'
+                    w='80vw'
                 >
                 <Heading as='h2' size='xl'>
                 Don't think because you're a non-Indian</Heading><Heading as='h3' size='md'>you can't sing Indian songs. These are our songs as Americans and we must learn to recognize it.</Heading><Heading as='h2' size='2xl'>Indian singing is the most natural in the world'...</Heading><Heading as='h3' size='md'>Find an Indian who knows songs, he said, and listen carefully...</Heading><Heading as='h2' size='xl'>Learn so you can sing them under water or in your sleep!</Heading><Heading as='h3' size='md'>When a lead Indian singer dies its like an archive burning down...</Heading><Heading as='h2' size='xl'>Here's epic literature. Here's epic poetry - and it's unwritten.</Heading>
@@ -150,19 +121,15 @@ const breakpoints = createBreakpoints({
 
                 <VStack
                     align='center'
-                    w='90vw'
+                    w='100vw'
+                    h='60vh'
                 >
                 <Image 
                     src={LWB3} 
-                    height={{
-                        base: '30%',
-                        sm: '35%',
-                        md: '40%',
-                        lg: '40%',
-                        xl: '70%',
-                    }}
+                    w='90vw'
+                    marginTop='25px'
                     />
-                <Text size={{ base: '24px', md: '40px', lg: '56px' }}>1931-2008</Text>
+                <Heading as='h3' size='md'>1931-2008</Heading>
                 </VStack>
     
             </VStack>
