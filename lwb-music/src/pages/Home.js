@@ -56,23 +56,19 @@ function Home() {
             >
             <HStack 
                     w={{
-                        base: '100vw',
-                        md: '70vw',
+                        md: '80vw',
                         lg:'90vw',
                         xl: '90vw'
                         }} 
                     h={{
-                        base: '150vh',
-                        md: '115vh',
+                        md: '170vh',
                         lg:'100vh'
                         }} 
                     spacing='2vw'>
             <Image 
                 src={LWB} 
                 height={{
-                    base: '10%',
-                    sm: '55%',
-                    md: '70%',
+                    md: '50%',
                     lg: '85%',
                     xl: '95%',
                 }}
@@ -103,13 +99,11 @@ function Home() {
             </HStack>
             <HStack 
                     w={{
-                        base: '100vw',
                         md: '90vw',
                         lg:'97vw'
                         }} 
                     h={{
-                        base: '120vh',
-                        md: '130vh',
+                        md: '110vh',
                         lg:'100vh'
                         }} spacing='70px'>
                 <VStack 
@@ -135,7 +129,7 @@ function Home() {
                         }} 
                     h={{
                         base: '200vh',
-                        md: '95vh',
+                        md: '160vh',
                         lg:'100vh'
                         }} spacing='70px'>
                 <VStack 
@@ -149,9 +143,7 @@ function Home() {
                 <Image 
                     src={LWB2} 
                     height={{
-                        base: '45%',
-                        sm: '50%',
-                        md: '55%',
+                        md: '32%',
                         lg: '60%',
                         xl: '100%',
                     }}
@@ -166,7 +158,7 @@ function Home() {
                         }} 
                     h={{
                         base: '120vh',
-                        md: '120vh',
+                        md: '160vh',
                         lg:'100vh'
                         }} 
                         spacing=
@@ -177,9 +169,7 @@ function Home() {
                 <Image 
                     src={LWB4} 
                     height={{
-                        base: '12%',
-                        sm: '20%',
-                        md: '40%',
+                        md: '30%',
                         lg: '45%',
                         xl: '90%',
                     }}
@@ -196,26 +186,26 @@ function Home() {
 
             <HStack 
                     w={{
-                        base: '100vw',
                         md: '90vw',
                         lg:'97vw'
                         }} 
                     h={{
-                        base: '80vh',
-                        md: '120vh',
+                        md: '160vh',
                         lg:'100vh'
                         }} spacing='70px'>
             <VStack
                     align='center'
                     w='90vw'
+                    h={{
+                        md: '50vh',
+                        lg: '70vh'
+                    }}
                 >
                 <Image 
                     src={LWB3} 
                     height={{
-                        base: '30%',
-                        sm: '35%',
-                        md: '40%',
-                        lg: '40%',
+                        md: '50vw',
+                        lg: '80%',
                         xl: '70%',
                     }}
                     />
