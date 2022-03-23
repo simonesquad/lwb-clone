@@ -1,12 +1,14 @@
 import React from 'react';
-import { Stack } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 import ContactForm from '../components/ContactForm';
 
 function Contact() {
     return (
-        <Stack>
+        <Box
+            marginLeft={20}
+        >
             <ContactForm />
-        </Stack>
+        </Box>
     )
 }
 

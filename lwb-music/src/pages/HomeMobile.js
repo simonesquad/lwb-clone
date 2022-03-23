@@ -8,7 +8,6 @@ import Sidebar from '../components/Sidebar'
 import {
     VStack, 
     Box,
-    Text,
     Stack,
     StackDivider,
     Heading,

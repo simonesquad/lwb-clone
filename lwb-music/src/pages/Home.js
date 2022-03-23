@@ -13,7 +13,6 @@ import {
     Heading,
     Image,
     Box,
-    Text,
     Drawer,
     DrawerContent,
     useDisclosure,
@@ -58,22 +57,24 @@ function Home() {
             <HStack 
                     w={{
                         base: '100vw',
-                        md: '90vw',
-                        lg:'97vw'
+                        md: '70vw',
+                        lg:'90vw',
+                        xl: '90vw'
                         }} 
                     h={{
                         base: '150vh',
-                        md: '95vh',
+                        md: '115vh',
                         lg:'100vh'
-                        }} spacing='70px'>
+                        }} 
+                    spacing='2vw'>
             <Image 
                 src={LWB} 
                 height={{
                     base: '10%',
                     sm: '55%',
-                    md: '80%',
+                    md: '70%',
                     lg: '85%',
-                    xl: '100%',
+                    xl: '95%',
                 }}
                 />
                 <VStack 
@@ -81,7 +82,7 @@ function Home() {
                     w={{
                         base: '55vw',
                         md: '50vw',
-                        lg: '60vw'
+                        lg: '57vw'
                     }}
                     h={{
                         base: '70%',
@@ -108,7 +109,7 @@ function Home() {
                         }} 
                     h={{
                         base: '120vh',
-                        md: '95vh',
+                        md: '130vh',
                         lg:'100vh'
                         }} spacing='70px'>
                 <VStack 
@@ -165,7 +166,7 @@ function Home() {
                         }} 
                     h={{
                         base: '120vh',
-                        md: '95vh',
+                        md: '120vh',
                         lg:'100vh'
                         }} 
                         spacing=
@@ -201,7 +202,7 @@ function Home() {
                         }} 
                     h={{
                         base: '80vh',
-                        md: '95vh',
+                        md: '120vh',
                         lg:'100vh'
                         }} spacing='70px'>
             <VStack
@@ -218,7 +219,7 @@ function Home() {
                         xl: '70%',
                     }}
                     />
-                <Text size={{ base: '24px', md: '40px', lg: '56px' }}>1931-2008</Text>
+                <Heading as='h3' size='md'>1931-2008</Heading>
                 </VStack>
             </HStack>
 
