@@ -19,8 +19,17 @@ function Music() {
                 spacing={1}
                 align='center'
             >
-
-                <HStack w='80vw' h='70vh' spacing='70px'>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '160vh',
+                        md: '95vh',
+                        lg:'80vh'
+                        }} spacing='70px'>
                 <VStack 
                     align='center'
                 >
@@ -38,7 +47,17 @@ function Music() {
                 </VStack>
                 </HStack>
 
-                <HStack w='80vw' h='70vh' spacing='70px'>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '160vh',
+                        md: '95vh',
+                        lg:'80vh'
+                        }} spacing='70px'>
                 <VStack 
                     align='center'
                 >
@@ -57,7 +76,17 @@ function Music() {
                 </VStack>
                 </HStack>
 
-                <HStack w='80vw' h='70vh' spacing='70px'>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '160vh',
+                        md: '95vh',
+                        lg:'80vh'
+                        }} spacing='70px'>
                 <VStack 
                     align='center'
                 >
@@ -75,7 +104,17 @@ function Music() {
                 </VStack>
                 </HStack>
 
-                <HStack w='80vw' h='70vh' spacing='70px'>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '160vh',
+                        md: '95vh',
+                        lg:'80vh'
+                        }} spacing='70px'>
                 <VStack 
                     align='center'
                 >
@@ -94,7 +133,17 @@ function Music() {
                 </VStack>
                 </HStack>
 
-                <HStack w='80vw' h='70vh' spacing='70px'>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '130vh',
+                        md: '95vh',
+                        lg:'80vh'
+                        }} spacing='70px'>
                 <VStack 
                     align='center'
                 >
@@ -107,7 +156,17 @@ function Music() {
                 </VStack>
                 </HStack>
 
-                <HStack w='80vw' h='70vh' spacing='70px'>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '130vh',
+                        md: '95vh',
+                        lg:'80vh'
+                        }} spacing='70px'>
                 <VStack 
                     align='center'
                 >
@@ -126,7 +185,17 @@ function Music() {
                 </VStack>
                 </HStack>
 
-                <HStack w='80vw' h='70vh' spacing='70px'>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '160vh',
+                        md: '95vh',
+                        lg:'80vh'
+                        }} spacing='70px'>
                 <VStack 
                     align='center'
                 >
@@ -144,7 +213,17 @@ function Music() {
                 </VStack>
                 </HStack>
 
-                <HStack w='80vw' h='60vh' spacing='70px'>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '120vh',
+                        md: '95vh',
+                        lg:'80vh'
+                        }} spacing='70px'>
                 <VStack 
                     align='center'
                 >
@@ -159,7 +238,17 @@ function Music() {
                 </VStack>
                 </HStack>
 
-                <HStack w='80vw' h='70vh' spacing='70px'>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '170vh',
+                        md: '95vh',
+                        lg:'80vh'
+                        }} spacing='70px'>
                 <VStack 
                     align='center'
                 >
@@ -177,7 +266,17 @@ function Music() {
                 </VStack>
                 </HStack>
 
-                <HStack w='80vw' h='70vh' spacing='70px'>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '140vh',
+                        md: '95vh',
+                        lg:'80vh'
+                        }} spacing='70px'>
                 <VStack 
                     align='center'
                 >
@@ -185,12 +284,39 @@ function Music() {
                     <Box h='5vh'>
                     <Heading as='h3' size='md'>Native American Indian Songs</Heading>
                     </Box>
-                    <Text>A lasting legacy is nothing without a way to pass the most important lessons onto the youth. In 1973, Ballard began teaching children in the classroom about Native American music. The sessions would include call-and-response singing, exposure to traditional instruments, new rhythm exercises and some overall tribal history lessons. Ballard’s commitment to passing on Native cultural values through accessible music education would continue for the rest of his career and his collection of unique Native educational material remains unmatched. It is our immediate goal in the revival of his legacy now to make accessible once again these materials in an updated format for wide distribution and use. </Text>
+                    <Text>A lasting legacy is nothing without a way to pass the most important lessons onto the youth. In 1973, Ballard began teaching children in the classroom about Native American music. The sessions would include call-and-response singing, exposure to traditional instruments, new rhythm exercises and some overall tribal history lessons. Ballard’s commitment to passing on Native cultural values through accessible music education would continue for the rest of his career and his collection of unique Native educational material remains unmatched. It is our current goal in the revival of his legacy now to make accessible once again these materials in an updated format for wide distribution and use. </Text>
+                    </Box>
+                    <Box w='100vw' style={{ margin: '10px' }}>
+                    <Text>
+                    Some of the songs he recorded and interpreted for the classroom are listed below:
+                    </Text>
+                    <List>
+                        <ListItem>Legend Song and Lullaby Song [Paiute]</ListItem>
+                        <ListItem>Ice Cream Song [Eskimo-Inuit]</ListItem>
+                        <ListItem>Love Song [Lakota-Dakota]</ListItem>
+                        <ListItem>Corn Grinding Song [Navajo-Diné]</ListItem>
+                        <ListItem>War Mother’s Song [Osage]</ListItem>
+                        <ListItem>Stomp Dance Song [Shawnee]</ListItem>
+                        <ListItem>Rabbit Dance Song [Iroquois]</ListItem>
+                        <ListItem>Bird Dance Songs 1 and 2 [Mojave]</ListItem>
+                        <ListItem>Hand Game Songs [Ponca, Comanche/Otoe]</ListItem>
+                        <ListItem>Walk Dance Song [Choctaw]</ListItem>
+                    </List>
                 </Box>
                 </VStack>
                 </HStack>
 
-                <HStack w='80vw' h='70vh' spacing='70px'>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '100vh',
+                        md: '95vh',
+                        lg:'80vh'
+                        }} spacing='70px'>
                 <VStack 
                     align='center'
                 >

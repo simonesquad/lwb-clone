@@ -9,6 +9,15 @@ import  {
     Text,
     StackDivider,
 } from '@chakra-ui/react';
+import { createBreakpoints } from '@chakra-ui/theme-tools';
+
+const breakpoints = createBreakpoints({
+    sm: '30em',
+    md: '48em',
+    lg: '62em',
+    xl: '80em',
+    '2xl': '96em',
+  })
 
 function About() {
     return (
@@ -19,16 +28,26 @@ function About() {
                 align='center'
             >
 
-                <HStack w='80vw' h='80vh' spacing='70px'>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '160vh',
+                        md: '95vh',
+                        lg:'80vh'
+                        }} spacing='70px'>
                 <VStack 
                     align='center'
                 >
                 <Box w='100vw' style={{ margin: '5px' }}>
-                <Box h= '7vh'>
+                <Box h='7vh'>
                 <Heading as='h3' size='xl'>Humble Beginnings</Heading>
                 </Box>
                 <Box h='5vh'>
-                <Heading as='h5' size='md'>"Kill the Indian in Him and Save the Man"</Heading>
+                <Heading as='h5' size='md'>"Kill the Indian and Save the Man"</Heading>
                 </Box>
                 <Text>Louis Wayne Ballard, or “Honga-no-zhe” meaning “Grand Eagle” in Quapaw, was born on July 8th, 1931 in Devil’s Promenade, Oklahoma, close to Miami, Oklahoma today. His mother was Leona Mae Quapaw of the Quapaw tribe of Oklahoma and his father was Charles “Smokey” Guthrie Ballard of the Cherokee tribe of Oklahoma. His Quapaw lineage traces back to a prominent traditional medicine family and his Cherokee lineage to the chief’s line. His mother spoke her native tongue and Ballard himself was one of the last born native speakers of the Quapaw language. At only the age of six, Ballard was sent to the Seneca Indian Training School, one of the infamous government operated boarding schools for native children across the U.S. at the time. The official mission of these schools was to assimilate Native children into American society and give them useful trades after tribes had been forced to resettle all over the country under varying conditions.</Text>
                 </Box>
@@ -40,7 +59,17 @@ function About() {
                 </VStack>
                 </HStack>
 
-                <HStack w='80vw' h='80vh' spacing='70px'>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '160vh',
+                        md: '95vh',
+                        lg:'80vh'
+                        }} spacing='70px'>
                 <VStack 
                     align='center'
                 >
@@ -61,7 +90,17 @@ function About() {
                 </VStack>
                 </HStack>
 
-                <HStack w='80vw' h='80vh' spacing='70px'>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '160vh',
+                        md: '95vh',
+                        lg:'80vh'
+                        }} spacing='70px'>
                 <VStack 
                     align='center'
                 >
@@ -82,7 +121,17 @@ function About() {
                 </VStack>
                 </HStack>
 
-                <HStack w='80vw' h='80vh' spacing='70px'>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '180vh',
+                        md: '95vh',
+                        lg:'80vh'
+                        }} spacing='70px'>
                 <VStack 
                     align='center'
                 >
@@ -103,7 +152,17 @@ function About() {
                 </VStack>
                 </HStack>
 
-                <HStack w='80vw' h='80vh' spacing='70px'>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '160vh',
+                        md: '95vh',
+                        lg:'80vh'
+                        }} spacing='70px'>
                 <VStack 
                     align='center'
                 >
