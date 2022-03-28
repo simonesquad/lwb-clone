@@ -198,7 +198,7 @@ function Home() {
                     w='90vw'
                     h={{
                         md: '50vh',
-                        lg: '70vh'
+                        lg: '100vh'
                     }}
                 >
                 <Image 
@@ -206,7 +206,7 @@ function Home() {
                     height={{
                         md: '50vw',
                         lg: '80%',
-                        xl: '70%',
+                        xl: '50vw',
                     }}
                     />
                 <Heading as='h3' size='md'>1931-2008</Heading>
