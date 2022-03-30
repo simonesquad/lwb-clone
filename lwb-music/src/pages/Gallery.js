@@ -117,7 +117,10 @@ function Gallery() {
   const options = {
 		galleryLayout: 11,
     rotatingGroupTypes: '1,3l,1,3r',
-    hoveringBehaviour: 'NEVER_SHOW'
+    hoveringBehaviour: 'NEVER_SHOW',
+    itemBorderWidth: 4,
+    itemBorderRadius: 6,
+    itemBorderColor: 'rgba(255,255,255,1)'
 	};
 
   const container = {
