@@ -35,7 +35,7 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '160vh',
+                        base: '155vh',
                         md: '95vh',
                         lg:'80vh'
                         }} spacing='70px'>
@@ -66,7 +66,7 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '160vh',
+                        base: '150vh',
                         md: '95vh',
                         lg:'80vh'
                         }} spacing='70px'>
@@ -97,7 +97,7 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '160vh',
+                        base: '150vh',
                         md: '95vh',
                         lg:'80vh'
                         }} spacing='70px'>
@@ -159,7 +159,7 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '160vh',
+                        base: '150vh',
                         md: '95vh',
                         lg:'80vh'
                         }} spacing='70px'>
