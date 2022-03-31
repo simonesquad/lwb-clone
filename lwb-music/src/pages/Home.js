@@ -61,8 +61,8 @@ function Home() {
                         xl: '100vw'
                         }} 
                     h={{
-                        sm: '170vh',
-                        md: '210vh',
+                        sm: '155vh',
+                        md: '218vh',
                         lg:'150vh',
                         xl: '110vh'
                         }} 
@@ -97,10 +97,10 @@ function Home() {
             </HStack>
             <HStack 
                     w={{
-                        md: '90vw',
                         lg:'97vw'
                         }} 
                     h={{
+                        sm: '90vh',
                         md: '120vh',
                         lg:'110vh',
                         xl: '110vh'
@@ -108,6 +108,7 @@ function Home() {
                 <VStack 
                     align='left'
                     w={{
+                        sm: '80vw',
                         md: '65vw',
                         lg:'70vw',
                         xl: '65vw'
@@ -131,7 +132,7 @@ function Home() {
                         }} 
                     h={{
                         sm: '120vh',
-                        md: '160vh',
+                        md: '170vh',
                         lg:'125vh',
                         xl: '110vh'
                         }} spacing='3vw'>
@@ -147,7 +148,7 @@ function Home() {
                     src={LWB2} 
                     height={{
                         sm: '50%',
-                        md: '40%',
+                        md: '35%',
                         lg: '50%',
                         xl: '75%',
                     }}
@@ -161,7 +162,7 @@ function Home() {
                         xl: '95vw'
                         }} 
                     h={{
-                        md: '160vh',
+                        md: '170vh',
                         lg:'110vh',
                         xl: '120vh'
                         }} 
@@ -170,7 +171,7 @@ function Home() {
                 <Image 
                     src={LWB4} 
                     height={{
-                        md: '30%',
+                        md: '23%',
                         lg: '45%',
                         xl: '70%',
                     }}
