@@ -18,6 +18,7 @@ import {
     useDisclosure,
     useBreakpointValue,
 } from '@chakra-ui/react';
+import { AspectRatio } from "@chakra-ui/layout";
 import { createBreakpoints } from '@chakra-ui/theme-tools';
 
 const breakpoints = createBreakpoints({
@@ -185,6 +186,23 @@ function Home() {
                 Don't think because you're a non-Indian</Heading><Heading as='h3' size='md'>you can't sing Indian songs. These are our songs as Americans and we must learn to recognize it.</Heading><Heading as='h2' size='2xl'>Indian singing is the most natural in the world'...</Heading><Heading as='h3' size='md'>Find an Indian who knows songs, he said, and listen carefully...</Heading><Heading as='h2' size='xl'>Learn so you can sing them under water or in your sleep!</Heading><Heading as='h3' size='md'>When a lead Indian singer dies its like an archive burning down...</Heading><Heading as='h2' size='xl'>Here's epic literature. Here's epic poetry - and it's unwritten.</Heading>
                 </VStack>
 
+            </HStack>
+
+            <HStack 
+                    w={{
+                        lg:'97vw'
+                        }} 
+                    h={{
+                        sm: '90vh',
+                        md: '120vh',
+                        lg:'110vh',
+                        xl: '110vh'
+                        }} spacing='2vw'>
+
+                    <iframe
+                        title='em_piano'
+                        src='https://www.youtube.com/embed/ZMkSVs4WC3Q'>
+                    </iframe>
             </HStack>
 
             <HStack 
