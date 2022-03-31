@@ -21,8 +21,8 @@ export default function NLink({ link, ...rest }) {
                     role="group"
                     cursor="pointer"
                     _hover={{
-                        bg: "cyan.400",
-                        color: "white",
+                        bg: "gray.200",
+                        color: "black",
                     }}
                     {...rest}
                 >
