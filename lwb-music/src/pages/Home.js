@@ -18,7 +18,6 @@ import {
     useDisclosure,
     useBreakpointValue,
 } from '@chakra-ui/react';
-import { AspectRatio } from "@chakra-ui/layout";
 import { createBreakpoints } from '@chakra-ui/theme-tools';
 
 const breakpoints = createBreakpoints({
@@ -188,21 +187,22 @@ function Home() {
 
             </HStack>
 
-            <HStack 
-                    w={{
-                        lg:'97vw'
-                        }} 
-                    h={{
-                        sm: '90vh',
-                        md: '120vh',
-                        lg:'110vh',
-                        xl: '110vh'
-                        }} spacing='2vw'>
-
+            <HStack
+                w='100vw'
+                h='100vh'
+            >
+                <VStack
+                    align='center'
+                    w='90vw'
+                >
                     <iframe
                         title='em_piano'
-                        src='https://www.youtube.com/embed/ZMkSVs4WC3Q'>
+                        src='https://www.youtube.com/embed/ZMkSVs4WC3Q'
+                        height="500"
+                        width="800"
+                        >
                     </iframe>
+                </VStack>
             </HStack>
 
             <HStack 
