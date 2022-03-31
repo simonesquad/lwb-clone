@@ -41,6 +41,18 @@ function Gallery() {
         focalPoint: [0, 0],
       }
     },
+    { // HTML item:
+      itemId: 'htmlItem',
+      html: "<div style='width: 200px; height: 100px; background:grey;'>Rehearsals for the Four Moons</div>",
+      metadata: {
+              type: "text",
+              height: 100,
+              width: 100,
+              title: 'sample-title',
+              description: 'sample-description',
+              backgroundColor: 'grey'
+      },
+    },
     {
       itemId: 'g2',
       mediaUrl: `${g2}`,
@@ -76,6 +88,18 @@ function Gallery() {
         description: 'all the knowledge',
         focalPoint: [0, 0],
       }
+    },
+    { // HTML item:
+      itemId: 'htmlItem',
+      html: "<div style='width: 200px; height: 100px; background:grey;'>The making of the Portrait of Will Rogers</div>",
+      metadata: {
+              type: "text",
+              height: 100,
+              width: 100,
+              title: 'sample-title',
+              description: 'sample-description',
+              backgroundColor: 'grey'
+      },
     },
     {
       itemId: 'g8',
