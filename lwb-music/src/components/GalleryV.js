@@ -23,8 +23,8 @@ function GalleryV() {
       mediaUrl: `${g9}`,
       metaData: {
         type: 'image',
-        height: 50,
-        width: 50,
+        height: 200,
+        width: 100,
         title: 'some-picture',
         description: 'all the knowledge',
         focalPoint: [0, 0],
@@ -35,8 +35,8 @@ function GalleryV() {
       mediaUrl: `${g1}`,
       metaData: {
         type: 'image',
-        height: 100,
-        width: 50,
+        height: 200,
+        width: 100,
         title: 'some-picture',
         description: 'all the knowledge',
         focalPoint: [0, 0],
@@ -83,7 +83,7 @@ function GalleryV() {
         mediaUrl: `${g5}`,
         metaData: {
           type: 'image',
-          height: 100,
+          height: 200,
           width: 100,
           title: 'some-picture',
           description: 'all the knowledge',
@@ -95,7 +95,7 @@ function GalleryV() {
         mediaUrl: `${g11}`,
         metaData: {
           type: 'image',
-          height: 100,
+          height: 200,
           width: 100,
           title: 'some-picture',
           description: 'all the knowledge',
@@ -107,7 +107,7 @@ function GalleryV() {
         mediaUrl: `${g12}`,
         metaData: {
           type: 'image',
-          height: 100,
+          height: 200,
           width: 100,
           title: 'some-picture',
           description: 'all the knowledge',

@@ -14,18 +14,19 @@ export default function Header({ onOpen, ...rest }) {
       ml={{ base: 0, md: 60 }}
       px="4"
       position="sticky"
+      display="flex"
       top="0"
       height="20"
       zIndex="1"
-      alignItems="center"
+      // alignItems="center"
       bg="white"
       borderBottomWidth="1px"
       borderBottomColor="gray.200"
-      justifyContent={{ base: "space-between", md: "flex-end" }}
+      // justifyContent="flex-end"
       {...rest}
     >
     <IconButton
-        display={{ base: "flex", md: "none" }}
+        // display="flex"
         onClick={onOpen}
         variant="outline"
         aria-label="open menu"
@@ -33,7 +34,7 @@ export default function Header({ onOpen, ...rest }) {
       />
 
     <Text
-        display={{ base: "flex", md: "none" }}
+        // display="flex"
         fontSize="2xl"
         fontFamily="monospace"
         fontWeight="bold"
