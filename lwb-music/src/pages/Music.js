@@ -26,7 +26,7 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '160vh',
+                        base: '155vh',
                         md: '95vh',
                         lg:'80vh'
                         }} spacing='70px'>
@@ -54,7 +54,7 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '160vh',
+                        base: '140vh',
                         md: '95vh',
                         lg:'80vh'
                         }} spacing='70px'>
@@ -83,7 +83,7 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '160vh',
+                        base: '140vh',
                         md: '95vh',
                         lg:'80vh'
                         }} spacing='70px'>
@@ -111,7 +111,7 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '160vh',
+                        base: '135vh',
                         md: '95vh',
                         lg:'80vh'
                         }} spacing='70px'>
@@ -140,7 +140,7 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '130vh',
+                        base: '110vh',
                         md: '95vh',
                         lg:'80vh'
                         }} spacing='70px'>
@@ -163,7 +163,7 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '130vh',
+                        base: '125vh',
                         md: '95vh',
                         lg:'80vh'
                         }} spacing='70px'>
@@ -192,7 +192,7 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '160vh',
+                        base: '150vh',
                         md: '95vh',
                         lg:'80vh'
                         }} spacing='70px'>
@@ -220,7 +220,7 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '120vh',
+                        base: '105vh',
                         md: '95vh',
                         lg:'80vh'
                         }} spacing='70px'>
@@ -273,7 +273,7 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '140vh',
+                        base: '120vh',
                         md: '95vh',
                         lg:'80vh'
                         }} spacing='70px'>
@@ -313,7 +313,7 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '100vh',
+                        base: '80vh',
                         md: '95vh',
                         lg:'80vh'
                         }} spacing='70px'>
