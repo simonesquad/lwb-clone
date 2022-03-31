@@ -6,6 +6,7 @@
     background-size: cover;
     background-color: none;
     display: flex;
+    
 }
 .contents{
     position: absolute;
@@ -18,6 +19,7 @@
     border-radius: 10px;
     box-sizing: border-box;
     margin-top: 4%;
+    margin-left: 9%;
 }
 
 .contents input, textarea{
@@ -76,6 +78,7 @@
         .contents{
             width: 60vw;
             height: 70vh;
+            margin-left: 0%;
         }
         .contents textarea{
             font-size: 2.5vw;
