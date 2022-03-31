@@ -23,6 +23,8 @@ export default function NLink({ link, ...rest }) {
                     _hover={{
                         bg: "gray.200",
                         color: "black",
+                        fontWeight: "bold",
+                        textDecoration: "none"
                     }}
                     {...rest}
                 >
