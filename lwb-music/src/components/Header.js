@@ -3,7 +3,9 @@ import { FiMenu } from "react-icons/fi";
 
 import {
     Flex,
-    Text,
+    Spacer,
+    Box,
+    // Text,
     IconButton,
 } from "@chakra-ui/react"
 
@@ -11,20 +13,18 @@ import {
 export default function Header({ onOpen, ...rest }) {
     return (
     <Flex
-      ml={{ base: 0, md: 60 }}
       px="4"
       position="sticky"
-      display="flex"
       top="0"
       height="20"
       zIndex="1"
-      // alignItems="center"
       bg="white"
       borderBottomWidth="1px"
       borderBottomColor="gray.200"
-      // justifyContent="flex-end"
+      flexDirection="row"
       {...rest}
     >
+    <Box p='4'>
     <IconButton
         // display="flex"
         onClick={onOpen}
@@ -32,7 +32,9 @@ export default function Header({ onOpen, ...rest }) {
         aria-label="open menu"
         icon={<FiMenu />}
       />
-
+    </Box>
+    <Spacer />
+    {/* <Box p='4'>
     <Text
         // display="flex"
         fontSize="2xl"
@@ -40,7 +42,8 @@ export default function Header({ onOpen, ...rest }) {
         fontWeight="bold"
       >
         LWB
-      </Text>
+    </Text>
+    </Box> */}
     </Flex>
     );
 }
