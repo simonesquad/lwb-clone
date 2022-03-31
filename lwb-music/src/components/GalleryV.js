@@ -118,6 +118,8 @@ function GalleryV() {
   ]
   const options = {
 	galleryLayout: 4,
+    slideshowLoop: true,
+    isAutoSlideshow: true,
     hoveringBehaviour: 'NEVER_SHOW',
     itemBorderWidth: 15,
     itemBorderRadius: 2,
