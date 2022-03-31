@@ -61,7 +61,7 @@ function Home() {
                         xl: '100vw'
                         }} 
                     h={{
-                        sm: '155vh',
+                        sm: '150vh',
                         md: '218vh',
                         lg:'150vh',
                         xl: '110vh'
@@ -70,7 +70,7 @@ function Home() {
             <Image 
                 src={LWB} 
                 height={{
-                    sm: '40%',
+                    sm: '45%',
                     md: '35%',
                     lg: '65%',
                     xl: '85%',
@@ -127,11 +127,10 @@ function Home() {
             </HStack>
             <HStack 
                     w={{
-                        md: '90vw',
                         lg:'97vw'
                         }} 
                     h={{
-                        sm: '120vh',
+                        sm: '130vh',
                         md: '170vh',
                         lg:'125vh',
                         xl: '110vh'
@@ -147,8 +146,8 @@ function Home() {
                 <Image 
                     src={LWB2} 
                     height={{
-                        sm: '50%',
-                        md: '35%',
+                        sm: '35%',
+                        md: '30%',
                         lg: '50%',
                         xl: '75%',
                     }}
@@ -162,6 +161,7 @@ function Home() {
                         xl: '95vw'
                         }} 
                     h={{
+                        sm: '120vh',
                         md: '170vh',
                         lg:'110vh',
                         xl: '120vh'
@@ -171,6 +171,7 @@ function Home() {
                 <Image 
                     src={LWB4} 
                     height={{
+                        sm: '32%',
                         md: '23%',
                         lg: '45%',
                         xl: '70%',
