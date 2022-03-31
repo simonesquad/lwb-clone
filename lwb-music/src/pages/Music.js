@@ -78,7 +78,14 @@ function Music() {
                     </Text>
                 </Box>
                 <a href="https://www.youtube.com/watch?v=BoIZ7uBh1Nk" target="_blank">
-                    <YouTubeIcon />
+                    <YouTubeIcon
+                        sx={{
+                            "&:hover": {
+                                backgroundColor: "yellow",
+                                cursor: "default"
+                            }
+                        }}
+                    />
                 </a>
                 </VStack>
                 </HStack>
@@ -109,7 +116,14 @@ function Music() {
                     The Preludes marks Ballard’s chosen departure from his original training via Béla Rózsa at the University of Tulsa, who had studied from Schoenberg. His techniques were primarily twelve-tone music and atonal writing before. The atonal writing persisted, however the preludes represented his foray into intervals of a perfect fourth and diminished fifth. Each titled prelude depicts a scene relevant to Native American life in the past, and each scene’s title is in the Quapaw language. The four scenes are: “Ombáska” (Daylight), “Tabideh” (The Hunt), “Nekátohe” (Lovesong), and “T’ohkáne” (Warrior Dance). The entire set only lasts about 10 minutes total. According to Native pianist Tim Hays: “In the Preludes he looked at the piano in two different ways. He looked at it to be a percussion band and as a source for vocal lines at the same time. … The audience gets it; they understand it immediately.” </Text>
                 </Box>
                 <a href="https://open.spotify.com/album/4dOgH1viKCbfX2h56VoPvh" target="_blank">
-                    <LibraryMusicIcon />
+                    <LibraryMusicIcon
+                        sx={{
+                            "&:hover": {
+                                backgroundColor: "yellow",
+                                cursor: "default"
+                            }
+                        }}
+                    />
                 </a>
                 </VStack>
                 </HStack>
@@ -164,7 +178,14 @@ function Music() {
                     <Text>Ritmo Indio: A study in American Indian Rhythms for woodwind quintet was commissioned by the Martha Baird Rockefeller Foundation and written for the Dorian Woodwind Quintet. The Bourne Music Company originally published the work and the Dorian Woodwind Quintet gave the world premiere on Saturday, March 8th, 1969 in the Kiva Theater on the IAIA campus in Santa Fe, New Mexico. The original concert was made possible by a grant from the Ford Foundation and presented by Mrs. Stewart Udall, the head of the Center for Arts of Indian America in Washington, D.C. at the time. The work includes the use of the Sioux Indian flageolet which was described as a “lovely native instrument, visually attractive with a beautiful tone.” It was originally performed by the Quintet of Karl Kraber (flute), William Lewis (clarinet), Jane Taylor (bassoon), Barry Benjamin (French horn), and Charles Kuskin (oboe and Sioux flute). Following the premiere, the piece became a part of the Quintet’s repertoire for a tour of 150 concerts for Native American children across the Southwest of the U.S. </Text>
                 </Box>
                 <a href="https://www.youtube.com/watch?v=HFGK7rLwTwY" target="_blank">
-                    <YouTubeIcon />
+                    <YouTubeIcon
+                        sx={{
+                            "&:hover": {
+                                backgroundColor: "yellow",
+                                cursor: "default"
+                            }
+                        }}
+                    />
                 </a>
                 </VStack>
                 </HStack>
@@ -260,7 +281,7 @@ function Music() {
                     h={{
                         base: '170vh',
                         md: '95vh',
-                        lg:'80vh'
+                        lg:'85vh'
                         }} spacing='70px'>
                 <VStack 
                     align='left'
@@ -277,7 +298,14 @@ function Music() {
                     At this point Ballard had composed two previous ballets based on Iroquois and Hopi tribal mythology. Those ballets are Ji-jo-gweh and Koshare. The Four Moons was different because it wasn’t based on mythology, but rather an actual historical event that marked a turning point for many tribes. That event was the Trail of Tears and the mass forced removal of many Native Americans from their ancestral homelands onto less hospitable land in what is now Oklahoma. Due to Ballard’s Cherokee and Quapaw heritage, the subject matter held special significance for all primary artists involved. The 22-minute long ballet is structured as a pas de quatre, with solos from each ballerina and an ensemble finale. The choreography was highly personalized to each ballerina’s story and style. There was a reception at the Governor’s Mansion in Oklahoma to celebrate the announcement, and the ballet itself premiered later that year at the Tulsa Municipal Theater on October 28th, 1967 as a part of Oklahoma’s 60th Anniversary of Statehood celebration. The ballet received a glowing review from dance critic Walter Terry in World of Dance: “...and to the art of ballet in this fascinating and wholly rewarding Oklahoma Indian Ballerina Festival, for in their care the four moons did, indeed, shine warmly and brightly.”</Text>
                 </Box>
                 <a href="https://open.spotify.com/album/4dOgH1viKCbfX2h56VoPvh" target="_blank">
-                    <LibraryMusicIcon />
+                    <LibraryMusicIcon
+                        sx={{
+                            "&:hover": {
+                                backgroundColor: "yellow",
+                                cursor: "default"
+                            }
+                        }}
+                    />
                 </a>
                 </VStack>
                 </HStack>
