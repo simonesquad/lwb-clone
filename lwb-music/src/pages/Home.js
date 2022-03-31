@@ -187,26 +187,22 @@ function Home() {
 
             <HStack 
                     w={{
-                        md: '90vw',
                         lg:'97vw'
                         }} 
                     h={{
-                        md: '160vh',
-                        lg:'100vh',
+                        sm: '90vh',
+                        md: '100vh',
+                        lg:'110vh',
                         xl: '120vh'
                         }} spacing='3vw'>
             <VStack
                     align='center'
                     w='90vw'
-                    h={{
-                        md: '50vh',
-                        lg: '100vh'
-                    }}
                 >
                 <Image 
                     src={LWB3} 
                     height={{
-                        md: '50vw',
+                        md: '130%',
                         lg: '80%',
                         xl: '100%'
                     }}
