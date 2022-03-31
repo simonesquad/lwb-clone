@@ -193,7 +193,10 @@ function Home() {
             >
                 <VStack
                     align='center'
-                    w='90vw'
+                    w={{
+                        sm: '100vw',
+                        md:'90vw'
+                    }}
                 >
                     <iframe
                         title='em_piano'
