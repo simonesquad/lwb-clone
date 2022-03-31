@@ -106,7 +106,7 @@ function Home() {
                         xl: '110vh'
                         }} spacing='2vw'>
                 <VStack 
-                    align='center'
+                    align='left'
                     w={{
                         md: '65vw',
                         lg:'70vw',
@@ -114,7 +114,7 @@ function Home() {
                     }}
                 >
                 <Box h='22vh'>
-                <Heading as='h2' size='2xl'>Welcome to the Louis W. Ballard Memorial Page</Heading>
+                <Heading as='h2' size='2xl'>Welcome to the Louis W. Ballard <br></br>Memorial Page</Heading>
                 </Box>
                 <Box marginLeft={20}>
                 <Heading as='h3' size='sm'>
