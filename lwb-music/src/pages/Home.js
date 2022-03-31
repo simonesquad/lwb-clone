@@ -58,32 +58,30 @@ function Home() {
                     w={{
                         md: '80vw',
                         lg:'90vw',
-                        xl: '90vw'
+                        xl: '100vw'
                         }} 
                     h={{
-                        md: '170vh',
-                        lg:'100vh'
+                        sm: '170vh',
+                        md: '210vh',
+                        lg:'150vh',
+                        xl: '110vh'
                         }} 
-                    spacing='2vw'>
+                    spacing='3vw'>
             <Image 
                 src={LWB} 
                 height={{
-                    md: '50%',
-                    lg: '85%',
-                    xl: '95%',
+                    sm: '40%',
+                    md: '35%',
+                    lg: '65%',
+                    xl: '85%',
                 }}
                 />
                 <VStack 
                     align='right'
                     w={{
                         base: '55vw',
-                        md: '50vw',
-                        lg: '57vw'
-                    }}
-                    h={{
-                        base: '70%',
-                        md: '80%',
-                        lg: '90%'
+                        md: '45vw',
+                        lg: '55vw'
                     }}
                 >
                 <Box fontSize={["sm"]}>
@@ -103,12 +101,17 @@ function Home() {
                         lg:'97vw'
                         }} 
                     h={{
-                        md: '110vh',
-                        lg:'100vh'
-                        }} spacing='70px'>
+                        md: '120vh',
+                        lg:'110vh',
+                        xl: '110vh'
+                        }} spacing='2vw'>
                 <VStack 
                     align='center'
-                    w='60vw'
+                    w={{
+                        md: '65vw',
+                        lg:'70vw',
+                        xl: '65vw'
+                    }}
                 >
                 <Box h='22vh'>
                 <Heading as='h2' size='2xl'>Welcome to the Louis W. Ballard Memorial Page</Heading>
@@ -123,15 +126,15 @@ function Home() {
             </HStack>
             <HStack 
                     w={{
-                        base: '100vw',
                         md: '90vw',
                         lg:'97vw'
                         }} 
                     h={{
-                        base: '200vh',
+                        sm: '120vh',
                         md: '160vh',
-                        lg:'100vh'
-                        }} spacing='70px'>
+                        lg:'125vh',
+                        xl: '110vh'
+                        }} spacing='3vw'>
                 <VStack 
                     align='left'
                     w='60vw'
@@ -143,35 +146,33 @@ function Home() {
                 <Image 
                     src={LWB2} 
                     height={{
-                        md: '32%',
-                        lg: '60%',
-                        xl: '100%',
+                        sm: '50%',
+                        md: '40%',
+                        lg: '50%',
+                        xl: '75%',
                     }}
                 />
 
             </HStack>
             <HStack 
                     w={{
-                        base: '100vw',
                         md: '90vw',
-                        lg:'97vw'
+                        lg:'97vw',
+                        xl: '95vw'
                         }} 
                     h={{
-                        base: '120vh',
                         md: '160vh',
-                        lg:'100vh'
+                        lg:'110vh',
+                        xl: '120vh'
                         }} 
-                        spacing=
-                        {{
-                        base:'30px',
-                        lg: '70px'
-                        }}>
+                        spacing='3vw'
+                >
                 <Image 
                     src={LWB4} 
                     height={{
                         md: '30%',
                         lg: '45%',
-                        xl: '90%',
+                        xl: '70%',
                     }}
                     />
                 <VStack 
@@ -191,8 +192,9 @@ function Home() {
                         }} 
                     h={{
                         md: '160vh',
-                        lg:'100vh'
-                        }} spacing='70px'>
+                        lg:'100vh',
+                        xl: '120vh'
+                        }} spacing='3vw'>
             <VStack
                     align='center'
                     w='90vw'
@@ -206,7 +208,7 @@ function Home() {
                     height={{
                         md: '50vw',
                         lg: '80%',
-                        xl: '50vw',
+                        xl: '100%'
                     }}
                     />
                 <Heading as='h3' size='md'>1931-2008</Heading>
