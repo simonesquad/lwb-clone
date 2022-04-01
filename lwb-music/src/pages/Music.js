@@ -11,6 +11,10 @@ import  {
     ListItem,
 } from '@chakra-ui/react';
 
+//icons for external links to recording sources
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import LibraryMusicIcon from '@mui/icons-material/LibraryMusic';
+
 function Music() {
     return (
         <Stack>
@@ -59,7 +63,7 @@ function Music() {
                         lg:'80vh'
                         }} spacing='70px'>
                 <VStack 
-                    align='center'
+                    align='left'
                 >
                 <Box w='100vw' style={{ margin: '5px' }}>
                     <Box h='5vh'>
@@ -68,11 +72,21 @@ function Music() {
                     <Text>The Katcina Dances: Suite for Violoncello and Pianoforte was commissioned by and dedicated to Herbert and Bernice Beenhouwer. The piece is named for mythical spirits originating from the Hopi tribe in New Mexico, where Ballard lived most of his life. They are respected spirits that the Hopi believe manifest themselves for six months here on Earth. Ballard initially started visiting the Hopi reservation while doing research for the ballet Koshare. He witnessed ceremonial Katcina dances first hand that would later inspire this work. The piece consists of 10 movements corresponding to different Katcina manifestations and their distinguishing characteristics. Those movements are: “Powamu (Coming of the Gods)”, “Ahul (Sun God)”, “Kwahu (Eagle)”, “Momo (Bees)”, “Monwu (Owls)”, “Koyimsi (Foolish Ones)”, “Calako (Huge Birds)”, “Tumas, Tunwup (Crow Mother and Sons)”, “Soyokos (Monsters)”, and “Niman (Departure of the Gods)”.
                     </Text>
                 </Box>
-                <Box w='100vw' style={{ margin: '10px' }}>
+                <Box w='100vw' style={{ margin: '5px' }}>
                     <Text>
                     The clear marker of Ballard’s European training is present in this work, as well as his cultural anthropological ambitions to capture the essence of other tribe’s symbols deeper meanings without encroaching on their religious rights. It was a delicate approach to take, but one that seems to have weathered the test of time, as Katcina Dances remains an alluring piece and has been preferentially performed in recent years. The original world premiere was on July 28th, 1970 in Santa Fe, New Mexico featuring cellist James Holoshovsky and Ballard’s then wife and accomplished pianist Ruth Doré. 
                     </Text>
                 </Box>
+                <a href="https://www.youtube.com/watch?v=BoIZ7uBh1Nk" target="_blank">
+                    <YouTubeIcon
+                        sx={{
+                            "&:hover": {
+                                backgroundColor: "yellow",
+                                cursor: "default"
+                            }
+                        }}
+                    />
+                </a>
                 </VStack>
                 </HStack>
 
@@ -88,7 +102,7 @@ function Music() {
                         lg:'80vh'
                         }} spacing='70px'>
                 <VStack 
-                    align='center'
+                    align='left'
                 >
                 <Box w='100vw' style={{ margin: '5px' }}>
                     <Box h='5vh'>
@@ -97,10 +111,20 @@ function Music() {
                     <Text>The Four American Indian Preludes were composed during a special time for Ballard, when he was under the tutelage of Darius Milhaud at the Aspen Music Festival in 1963. When Darius first heard the performance of the preludes he supposedly remarked: “Louis, now you are a real composer!” This was a pivotal and proud moment for Ballard as he felt he had crossed an important personal and professional milestone. The Preludes remain his most outstanding work for piano and were often played during his lifetime and is still a sought after piece now. The piece was selected for the tribute concert to Ballard at the Smithsonian National Museum of the American Indian in November, 2007. It is also frequently played by his friend Italian pianist Emanuele Arciuli. 
                     </Text>
                     </Box>
-                    <Box w='100vw' style={{ margin: '10px' }}>
+                    <Box w='100vw' style={{ margin: '5px' }}>
                     <Text>
                     The Preludes marks Ballard’s chosen departure from his original training via Béla Rózsa at the University of Tulsa, who had studied from Schoenberg. His techniques were primarily twelve-tone music and atonal writing before. The atonal writing persisted, however the preludes represented his foray into intervals of a perfect fourth and diminished fifth. Each titled prelude depicts a scene relevant to Native American life in the past, and each scene’s title is in the Quapaw language. The four scenes are: “Ombáska” (Daylight), “Tabideh” (The Hunt), “Nekátohe” (Lovesong), and “T’ohkáne” (Warrior Dance). The entire set only lasts about 10 minutes total. According to Native pianist Tim Hays: “In the Preludes he looked at the piano in two different ways. He looked at it to be a percussion band and as a source for vocal lines at the same time. … The audience gets it; they understand it immediately.” </Text>
                 </Box>
+                <a href="https://open.spotify.com/album/4dOgH1viKCbfX2h56VoPvh" target="_blank">
+                    <LibraryMusicIcon
+                        sx={{
+                            "&:hover": {
+                                backgroundColor: "yellow",
+                                cursor: "default"
+                            }
+                        }}
+                    />
+                </a>
                 </VStack>
                 </HStack>
 
@@ -145,7 +169,7 @@ function Music() {
                         lg:'80vh'
                         }} spacing='70px'>
                 <VStack 
-                    align='center'
+                    align='left'
                 >
                 <Box w='100vw' style={{ margin: '5px' }}>
                     <Box h='5vh'>
@@ -153,6 +177,16 @@ function Music() {
                     </Box>
                     <Text>Ritmo Indio: A study in American Indian Rhythms for woodwind quintet was commissioned by the Martha Baird Rockefeller Foundation and written for the Dorian Woodwind Quintet. The Bourne Music Company originally published the work and the Dorian Woodwind Quintet gave the world premiere on Saturday, March 8th, 1969 in the Kiva Theater on the IAIA campus in Santa Fe, New Mexico. The original concert was made possible by a grant from the Ford Foundation and presented by Mrs. Stewart Udall, the head of the Center for Arts of Indian America in Washington, D.C. at the time. The work includes the use of the Sioux Indian flageolet which was described as a “lovely native instrument, visually attractive with a beautiful tone.” It was originally performed by the Quintet of Karl Kraber (flute), William Lewis (clarinet), Jane Taylor (bassoon), Barry Benjamin (French horn), and Charles Kuskin (oboe and Sioux flute). Following the premiere, the piece became a part of the Quintet’s repertoire for a tour of 150 concerts for Native American children across the Southwest of the U.S. </Text>
                 </Box>
+                <a href="https://www.youtube.com/watch?v=HFGK7rLwTwY" target="_blank">
+                    <YouTubeIcon
+                        sx={{
+                            "&:hover": {
+                                backgroundColor: "yellow",
+                                cursor: "default"
+                            }
+                        }}
+                    />
+                </a>
                 </VStack>
                 </HStack>
 
@@ -247,10 +281,10 @@ function Music() {
                     h={{
                         base: '170vh',
                         md: '95vh',
-                        lg:'80vh'
+                        lg:'85vh'
                         }} spacing='70px'>
                 <VStack 
-                    align='center'
+                    align='left'
                 >
                 <Box w='100vw' style={{ margin: '5px' }}>
                     <Box h='5vh'>
@@ -259,10 +293,20 @@ function Music() {
                     <Text>The Four Moons is a ballet composed during a special moment in history, when Oklahoma had produced four world-renowned Native ballerinas who were at the height of their careers. Those four ballerinas were Yvonne Chouteau (Cherokee), Rosella Hightower (Choctaw), Moscelyne Larkin (Shawnee), and Marjorie Tallchief (Osage). An honorable mention has to be made for Marjorie’s older sister Maria Tallchief, who did not participate in the ballet because she had retired; however, she was already known worldwide as one of the greatest prima ballerinas the U.S. had ever produced, a founding member of New York City Ballet, and a member of the Osage tribe of Oklahoma whom Dolores Lookout, Ballard’s first wife and mother of his three children, also belonged to. It was truly a family affair type of project. 
                     </Text>
                 </Box>
-                <Box w='100vw' style={{ margin: '10px' }}>
+                <Box w='100vw' style={{ margin: '5px' }}>
                     <Text>
                     At this point Ballard had composed two previous ballets based on Iroquois and Hopi tribal mythology. Those ballets are Ji-jo-gweh and Koshare. The Four Moons was different because it wasn’t based on mythology, but rather an actual historical event that marked a turning point for many tribes. That event was the Trail of Tears and the mass forced removal of many Native Americans from their ancestral homelands onto less hospitable land in what is now Oklahoma. Due to Ballard’s Cherokee and Quapaw heritage, the subject matter held special significance for all primary artists involved. The 22-minute long ballet is structured as a pas de quatre, with solos from each ballerina and an ensemble finale. The choreography was highly personalized to each ballerina’s story and style. There was a reception at the Governor’s Mansion in Oklahoma to celebrate the announcement, and the ballet itself premiered later that year at the Tulsa Municipal Theater on October 28th, 1967 as a part of Oklahoma’s 60th Anniversary of Statehood celebration. The ballet received a glowing review from dance critic Walter Terry in World of Dance: “...and to the art of ballet in this fascinating and wholly rewarding Oklahoma Indian Ballerina Festival, for in their care the four moons did, indeed, shine warmly and brightly.”</Text>
                 </Box>
+                <a href="https://open.spotify.com/album/4dOgH1viKCbfX2h56VoPvh" target="_blank">
+                    <LibraryMusicIcon
+                        sx={{
+                            "&:hover": {
+                                backgroundColor: "yellow",
+                                cursor: "default"
+                            }
+                        }}
+                    />
+                </a>
                 </VStack>
                 </HStack>
 

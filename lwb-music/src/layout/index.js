@@ -30,9 +30,10 @@ export default function Layout({ children }) {
                     <Sidebar onClose={onClose} />
                 </DrawerContent>
             </Drawer>
-
-            {/**place for the default menu is now here instead of original App.js file */}
-            <Header onOpen={onOpen} />
+            <Header 
+                onOpen={onOpen}
+                display={{ md: "none"}}
+            />
             <Box ml={{ base: 0, md: 60 }} p="1">
                 {children}
             </Box>  

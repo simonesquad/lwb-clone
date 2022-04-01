@@ -187,6 +187,27 @@ function Home() {
 
             </HStack>
 
+            <HStack
+                w='100vw'
+                h='100vh'
+            >
+                <VStack
+                    align='center'
+                    w={{
+                        sm: '100vw',
+                        md:'90vw'
+                    }}
+                >
+                    <iframe
+                        title='em_piano'
+                        src='https://www.youtube.com/embed/ZMkSVs4WC3Q'
+                        height="500"
+                        width="800"
+                        >
+                    </iframe>
+                </VStack>
+            </HStack>
+
             <HStack 
                     w={{
                         lg:'97vw'

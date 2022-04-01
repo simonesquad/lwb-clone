@@ -1276,6 +1276,15 @@
     "@chakra-ui/react-utils" "1.2.3"
     "@chakra-ui/utils" "1.10.4"
 
+"@chakra-ui/layout@^1.7.8":
+  "integrity" "sha512-zXMS/TEjqYDCgG3zwS/PcSTNBs1OMyuY92WP5HBxJLGipGxVLTvmIt0cPDiodTqLNfFsalBUMH6lR79pxk6ZtA=="
+  "resolved" "https://registry.npmjs.org/@chakra-ui/layout/-/layout-1.7.8.tgz"
+  "version" "1.7.8"
+  dependencies:
+    "@chakra-ui/icon" "2.0.5"
+    "@chakra-ui/react-utils" "1.2.3"
+    "@chakra-ui/utils" "1.10.4"
+
 "@chakra-ui/layout@1.7.6":
   "integrity" "sha512-tggUAEwKuSFpdCmARZ9X+mPvRxF6FRve6HT38V/taqLo8V5t5GGH7HjeT1k6/SYPtrkJ/ZXVOvYrUDwWN23MwQ=="
   "resolved" "https://registry.npmjs.org/@chakra-ui/layout/-/layout-1.7.6.tgz"
@@ -8638,7 +8647,7 @@
   "resolved" "https://registry.npmjs.org/next-tick/-/next-tick-1.0.0.tgz"
   "version" "1.0.0"
 
-"next@^12.1.0", "next@>=2":
+"next@>=2":
   "integrity" "sha512-s885kWvnIlxsUFHq9UGyIyLiuD0G3BUC/xrH0CEnH5lHEWkwQcHOORgbDF0hbrW9vr/7am4ETfX4A7M6DjrE7Q=="
   "resolved" "https://registry.npmjs.org/next/-/next-12.1.0.tgz"
   "version" "12.1.0"

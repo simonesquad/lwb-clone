@@ -120,6 +120,21 @@ const breakpoints = createBreakpoints({
                 <VStack
                     align='center'
                     w='100vw'
+                    h='50vh'
+                    marginTop={65}
+                >
+                    <iframe
+                        title='em_piano'
+                        src='https://www.youtube.com/embed/ZMkSVs4WC3Q'
+                        height="300"
+                        width="500"
+                        >
+                    </iframe>
+                </VStack>
+
+                <VStack
+                    align='center'
+                    w='100vw'
                     h='60vh'
                 >
                 <Image 
