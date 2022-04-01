@@ -36,8 +36,8 @@ function About() {
                         }} 
                     h={{
                         base: '155vh',
-                        md: '95vh',
-                        lg:'80vh'
+                        md: '125vh',
+                        lg:'90vh'
                         }} spacing='70px'>
                 <VStack 
                     align='center'
@@ -67,8 +67,8 @@ function About() {
                         }} 
                     h={{
                         base: '150vh',
-                        md: '95vh',
-                        lg:'80vh'
+                        md: '125vh',
+                        lg:'90vh'
                         }} spacing='70px'>
                 <VStack 
                     align='center'
@@ -98,8 +98,8 @@ function About() {
                         }} 
                     h={{
                         base: '150vh',
-                        md: '95vh',
-                        lg:'80vh'
+                        md: '125vh',
+                        lg:'90vh'
                         }} spacing='70px'>
                 <VStack 
                     align='center'
@@ -129,8 +129,8 @@ function About() {
                         }} 
                     h={{
                         base: '180vh',
-                        md: '95vh',
-                        lg:'80vh'
+                        md: '145vh',
+                        lg:'100vh'
                         }} spacing='70px'>
                 <VStack 
                     align='center'
@@ -160,8 +160,8 @@ function About() {
                         }} 
                     h={{
                         base: '150vh',
-                        md: '95vh',
-                        lg:'80vh'
+                        md: '125vh',
+                        lg:'90vh'
                         }} spacing='70px'>
                 <VStack 
                     align='center'
@@ -178,6 +178,38 @@ function About() {
                 <Box w='100vw' style={{ margin: '10px' }}>
                 <Text>
                 With this new momentum, Ballard was able to secure funding through a variety of means to expand his educational aims. One of those was a large work-study grant from the Department of Social Development via the Ford Foundation to begin compiling traditional Native music specifically for educational purposes in the classroom. Combined with Ballard’s previous experience working with students and giving lectures across disciplines, the grant was a formalization of his years of ground level work. The title of the initiative became “Put American Indian Music in the Classroom” and there was a good deal of press about it in Santa Fe. This would gain momentum and eventually lead to the composition of Why the Duck Has a Short Tail in 1971 that would become one of his most popular and accessible pieces to date.
+                </Text>
+                </Box>
+                </VStack>
+                </HStack>
+
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '180vh',
+                        md: '165vh',
+                        lg:'110vh'
+                        }} spacing='70px'>
+                <VStack 
+                    align='center'
+                >
+                <Box w='100vw' style={{ margin: '5px' }}>
+                <Box h= '7vh'>
+                <Heading as='h3' size='xl'>Critical Acclaim</Heading>
+                </Box>
+                <Box h='5vh'>
+                <Heading as='h5' size='md'>"Local support and national outreach"</Heading>
+                </Box>
+                <Text>In the year 1970, Ballard showcased The Gods Will Hear alongside two other “west coast” composers and adapted The Four Moons ballet into a concert suite for the Tulsa Philharmonic Orchestra. He also debuted two new pieces: Cacéga Ayuwípi and Katcina Dances. Cacéga Ayuwípi is a piece composed for percussion quartet and emulates traditional rhythm structures of other native tribes including the Eskimo, Tlingit, Mojave, Ute, Pueblo, Apache, Sioux, Comanche, Creek, Seminole, Seneca tribes and more. The piece incorporates rattles and whistles from the traditions of various tribes as well, such as Ute and Apache bull-roarers, whips, and an eagle-bone whistle. The premiere of this work and Katcina Dances took place on July 28th, 1970 at the Kiva Theater of IAIA. Katcina Dances was written for piano and cello and portrays the mythical kachina spirits from Pueblo tribal lore. The piece struck a chord both locally and nationally as it effectively captures a fascinating cultural story and adapts it to a western musical format seamlessly. The premiere was the only show available to the public at the American Forum for International Studies that year, and it was sold out.</Text>
+                </Box>
+                <Box w='100vw' style={{ margin: '10px' }}>
+                <Text>
+                Following good reviews and growing local notoriety, Ballard branched into a new educational format to promote native music. After being approached by Bailey Film Associates, who were creating similar cultural topic piece films at the time, he agreed to work on “Discovering American Indian Music.” The 24-minute long piece was filmed in the National Parks of New Mexico and some locations in Arizona. It features performances of songs from various regional tribes and dances from local IAIA students and tribal dancers. In the end of the film, Ballard quotes:<Heading size='sm'>“I feel that music of the American Indian is unique, valuable, and can serve as a springboard for the composer in creating new works, which reflect the voice and the soul of indigenous America.”</Heading>
+                The breakout year concluded with two more pieces: Awakening of Love and Mojave Bird Dance Song. The first piece is an organ arrangement section from his first ballet Koshare, and the second piece is a similar style arrangement for chorus and percussion. The following year Ballard resumed teaching and the combined era of being spokesperson, educator, composer, and cultural advocate had been formalized and would last for the rest of his life. 
                 </Text>
                 </Box>
                 </VStack>
