@@ -241,7 +241,7 @@ function About() {
                     h={{
                         base: '23vh',
                         md: '15vh',
-                        lg: '15vh'
+                        lg: '11vh'
                     }}      
                 >
                 <Text as='i'> “These art forms offer the basis for the development of a truly indigenous American expression which will be a contribution to the stream of world arts forms… Such expression need not be limited to the visual arts, but can infuse new life and vitality into our literature, architecture, and even our way of life.” </Text>
@@ -266,7 +266,7 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '210vh',
+                        base: '205vh',
                         md: '175vh',
                         lg:'120vh'
                         }} spacing='70px'>
@@ -275,7 +275,7 @@ function About() {
                 >
                 <Box w='100vw' style={{ margin: '5px' }}>
                 <Box h='9vh'>
-                <Heading as='h3' size='xl'>A Battle Cry</Heading>
+                <Heading as='h3' size='xl'>Wounded Knee Battle Cry</Heading>
                 </Box>
                 <Box h='7vh'>
                 <Heading as='h5' size='md'>"A Defining Native Moment"</Heading>
@@ -302,35 +302,33 @@ function About() {
                     h={{
                         base: '235vh',
                         md: '195vh',
-                        lg:'140vh'
+                        lg:'120vh'
                         }} spacing='70px'>
                 <VStack 
                     align='center'
                 >
                 <Box w='100vw' style={{ margin: '5px' }}>
                 <Box h='9vh'>
-                <Heading as='h3' size='xl'>Native World Citizen</Heading>
+                <Heading as='h3' size='xl'>Visibility for the Unseen</Heading>
                 </Box>
                 <Box h='7vh'>
-                <Heading as='h5' size='md'>"Poised for Exposure"</Heading>
+                <Heading as='h5' size='md'>"The Natives are Here"</Heading>
                 </Box>
                 <Box 
                     h={{
                         base: '23vh',
                         md: '15vh',
-                        lg: '15vh'
+                        lg: '9vh'
                     }}      
                 >
-                <Text as='i'> “These art forms offer the basis for the development of a truly indigenous American expression which will be a contribution to the stream of world arts forms… Such expression need not be limited to the visual arts, but can infuse new life and vitality into our literature, architecture, and even our way of life.” </Text>
+                <Text as='i'> “‘I first wrote Indian music as a protest to correct stereotypes and cliches,’ he said. Until Dr. Ballard, no ‘Indian’ music was written by Indians, but by Caucasians who transcribed Indian themes for piano and orchestra for pseudo ‘Indian-sounding’ music.” </Text>
                 </Box>
                 <Box w='100vw' style={{ marginTop: '1vh' }}>
-                <Text>Ballard debuted his work in the 1970’s to a strikingly different audience and rapidly growing momentum. He was poised during the rise of more socially conscious events in the Southwest bringing pride to indigenous heritage and trying to bring new life to Native American identity over a painful past. The enlightened art community in Santa Fe was attracting national and international talent, and the local opera had been frequented by the likes of Igor Stravinsky and Aaron Copeland. Ballard once brought Stravinsky to a Deer Dance in New Mexico, where he heard tribal rhythms for the first time live. Ballard made many local appearances and gave an impressive number of innovative lectures during this period, thereby cementing the foundation for Native American artists in not only classical music, but in all dominant art forms for decades to come. Most of his success lay in effectively communicating traditional Native American pan-tribal cultural epithets to western audiences so they felt they could take part without trepidation. Certainly one of his greatest representations of this successful cultural crossover was the local and national reception of Why the Duck Has A Short Tail. </Text>
+                <Text> The pinnacle of this expansion epoch for Ballard was when the Indian Honor Band performed during halftime of the Washington Redskins, Dallas Cowboys National Football League game in Washington, D.C. on Sunday, November 27th, 1977. After many years of devotion to his compositional craft, and becoming a spokesperson for Native American culture and musical education through the Bureau of Indian Affairs role, he was able to showcase Native music and performers on a national scale. It was truly a unique and unprecedented event. The event was conceived as part of a larger initiative to create opportunities for talented Native youth in the arts. Auditions were held in the late summer of 1977 and 150 Native high school students were selected out of 700 total auditionees. The final group represented 80 tribes from 30 different states. The marching band was co-directed by Fred Shields and Jack Romine during all rehearsals and performances. </Text>
                 </Box>
                 <Box w='100vw' style={{ marginTop: '3vh' }}>
                 <Text>
-                From the early 70’s onwards Ballard’s work was starting to be recorded to international standards and more frequently played around the country. In 1972 some of his works were broadcast across the Smithsonian’s 80 FM member stations, as well as snippets played on Swedish national television. He created his first educational products for the classroom: American Indians: Yesterday and Today and Oklahoma Indian Chants for the Classroom, both of which were precursors to American Indian Music for the Classroom. In 1973 he accepted the Indian Achievement Award and was the first Quapaw tribal member, and fifth Cherokee tribal member, to win that award. Upon receipt, the president of the council stated:</Text>
-                <Text as='i'> “Mr. Ballard fully epitomizes the spirit and philosophy of the Indian Achievement Award…It is given in recognition of achievement and accomplishment, either personal in nature or humanitarian in endeavor. He is a combination of both – in his personal life he has struggled to rise in his chosen profession, and in his work he is helping to usher in a new era of enlightenment concerning Indians and their culture.” </Text><Text>
-                He also received an honorary doctorate from the College of Santa Fe during this same year, and it was quoted in the Santa Fe New Mexican:</Text><Text as='i'>“His honorary degree praised his commitment to enrich the lives of young people, whatever their origin.” </Text>
+                The final performance included the Indian Honor Band and 50 tribal dancers performing four compositions by Ballard, which were: <Text as='i'>“Hymn to the Sun,” “Stand for the Tall Chiefs (Kihekastenozhe),” “Eagle March (Hunka-No-zhe),”</Text> and an unnamed percussion welcome march with accompanying choreography. During Hymn to the Sun, the dancers formed traditional geometric patterns on the football field representing the Sun, Smoke, Moon, and Arrows. During Stand for the Tall Chiefs large banners were carried onto the field representing four great historical chiefs: Powhatan, Sitting Bull, Geronimo, and Seattle. A dancer from the Laguna Pueble tribe led a ceremonial Eagle Dance to conclude the showcase. It is estimated that 100,000 people were in attendance and the performance was recorded and televised in 1978. Louis and Ruth Ballard were in attendance, as well as the chairman of the board of the Kennedy Center at the time Mr. Roger L. Stevens, his wife, and the Secretary of the Interior. </Text>
                 </Box>
                 </Box>
                 </VStack>
