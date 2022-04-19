@@ -333,6 +333,46 @@ function About() {
                 </Box>
                 </VStack>
                 </HStack>
+
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '235vh',
+                        md: '195vh',
+                        lg:'120vh'
+                        }} spacing='70px'>
+                <VStack 
+                    align='center'
+                >
+                <Box w='100vw' style={{ margin: '5px' }}>
+                <Box h='9vh'>
+                <Heading as='h3' size='xl'>The Three Cities & Reflections</Heading>
+                </Box>
+                <Box h='7vh'>
+                <Heading as='h5' size='md'>"What the Golden Hour Did"</Heading>
+                </Box>
+                <Box 
+                    h={{
+                        base: '23vh',
+                        md: '15vh',
+                        lg: '9vh'
+                    }}      
+                >
+                </Box>
+                <Box w='100vw' style={{ marginTop: '1vh' }}>
+                <Text> As the 1980’s began, Ballard had left a large body of work and a triumphant decade of educational materials behind for future generations through the BIA. He toured Europe and the U.S. and made lifelong connections both locally and internationally. He gained traction with local and national media entities and published compositions, textbooks, guides, and worked on films. This was certainly a golden era in Santa Fe and in the U.S. for many cultural “firsts” nationwide, as American Black, Latino, and Asian communities were simultaneously making significant strides into the arts and other industries. As with all golden eras however, momentum can wax and wane over the years. Ballard’s relationships with several music groups in New Mexico had deteriorated and he felt he was being intentionally left out of programming due to racial bias. It was objectively true that as one of the only Native American composers ever, his material did not fit the other more classical composers and required some further effort to appreciate and present correctly. Nonetheless, he had enjoyed some higher levels of exposure due to his Native heritage and approach. </Text>
+                </Box>
+                <Box w='100vw' style={{ marginTop: '3vh' }}>
+                <Text>
+                As exciting and novel as his work in the 70’s was, the 80’s would beget a more introspective and oftentimes abstract artist who was in some ways more sensitive to the inputs around him and less concerned with exterior consumption. This was demonstrated after he and Ruth took a trip to Argentina together to visit members of Ruth’s family and for an honorary performance of Ballard’s music. This trip and the exposure to post-war Argentina inspired Ballard to begin composing solo works for piano that described mythical cities of pre-colonial South America. The first of these works was A City of Silver: Concert Fantasy for Piano, which was premiered by pianist Val Goff in Oklahoma. He was also continuing the Fantasy Aborigine orchestral series, and the fourth installment entitled “Fantasy Aborigine No. 4: Xacteoyan, Companion of Talking God” premiered in New York in 1982 and was later nominated for a Pulitzer Prize. It was performed by the American Composer’s Orchestra at Alice Tully Hall and conducted by Ballard’s then long-time friend Denis Russell Davies. </Text>
+                </Box>
+                </Box>
+                </VStack>
+                </HStack>
                 
             </VStack>
         </Stack>
