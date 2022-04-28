@@ -1,3 +1,4 @@
+
 # Welcome to the Ballard website!
 
 This is a simple user-friendly webpage built in React.js and styled with the Chakra-UI styling library. 
@@ -11,3 +12,4 @@ Thank you and it has been a pleasure to revive this story and create a unique vi
 Sincerely,
 
 Simone 
+
