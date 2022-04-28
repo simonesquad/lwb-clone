@@ -42,21 +42,21 @@ const ContactForm = () => {
         <label htmlFor="message">Message:</label>
         <textarea id="message" required />
       </div>
-      <div className="buttons">
-      <div className="checkbox">
-      <label htmlFor="permission">Permission to play:</label>
-        <input type="checkbox" value="yes" />
-      </div>
-      <div className="checkbox">
-      <label htmlFor="research">Academic research:</label>
-        <input type="checkbox" value="yes" />
-      </div>
-      <div className="checkbox">
-      <label htmlFor="info">General inquiry:</label>
-        <input type="checkbox" value="yes" />
+      <div className="checkboxes">
+        <div className="check">
+        <label htmlFor="permission">Permission to play:</label>
+            <input type="checkbox" value="yes" id="permission"/>
+        </div>
+        <div className="check">
+        <label htmlFor="research">Academic research:</label>
+            <input type="checkbox" value="yes" id="research"/>
+        </div>
+        <div className="check">
+        <label htmlFor="info">General inquiry:</label>
+            <input type="checkbox" value="yes" id="info" />
+        </div>
       </div>
       <button type="submit">{status}</button>
-      </div>
       </div>
     </form>
     </div>
