@@ -117,6 +117,16 @@ const breakpoints = createBreakpoints({
                 Don't think because you're a non-Indian</Heading><Heading as='h3' size='md'>you can't sing Indian songs. These are our songs as Americans and we must learn to recognize it.</Heading><Heading as='h2' size='2xl'>Indian singing is the most natural in the world'...</Heading><Heading as='h3' size='md'>Find an Indian who knows songs, he said, and listen carefully...</Heading><Heading as='h2' size='xl'>Learn so you can sing them under water or in your sleep!</Heading><Heading as='h3' size='md'>When a lead Indian singer dies its like an archive burning down...</Heading><Heading as='h2' size='xl'>Here's epic literature. Here's epic poetry - and it's unwritten.</Heading>
                 </VStack>
 
+                <VStack 
+                    marginTop='45px'
+                    w='80vw'
+                    h='100vh'
+                >
+                <Heading as='h2' size='2xl'>
+                "I want to thank you for the excellent coverage of my activities...</Heading><Heading as='h3' size='md'>Society, of course, needs the composer, but often it is felt that the composer does not need society. This is not true and I take the opportunity to verify it.</Heading><Heading as='h2' size='xl'>Many people have called to express their interest in my work and the thriving Santa Fe music scene.</Heading><Heading as='h3' size='md'>I even received an invitation to conduct a program of my music in the Midwest by a gentleman who was passing through our town.</Heading><Heading as='h2' size='xl'>Keep up your coverage of Santa Fe arts and artists."</Heading>
+                <Heading as='h3' size='md'>- Louis Ballard, Letter to the Editor of Santa Fe New Mexican, 1975</Heading>
+                </VStack>
+
                 <VStack
                     align='center'
                     w='100vw'

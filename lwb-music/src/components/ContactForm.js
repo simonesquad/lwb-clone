@@ -1,35 +1,49 @@
-import React from 'react';
+import React, { useState } from "react";
 import '../styles/ContactForm.css';
 
-
-function ContactForm() {
-    return (
+const ContactForm = () => {
+  const [status, setStatus] = useState("Submit!");
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus("Sending...");
+    const { name, email, message } = e.target.elements;
+    let details = {
+      name: name.value,
+      email: email.value,
+      message: message.value,
+    };
+    let response = await fetch("http://localhost:5000/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json;charset=utf-8",
+      },
+      body: JSON.stringify(details),
+    });
+    setStatus("Submit");
+    let result = await response.json();
+    alert(result.status);
+  };
+  return (
+    <div className="container">
+    <form onSubmit={handleSubmit}>
+      <div className="contents">
         <div>
-            <div className="container">
-            <form>
-            <div className="contents">
-                <div className="row pt-5 mx-auto">
-                    <div className="col-8 form-group mx-auto">
-                        <input type="text" className="form-control" placeholder="Name" name="name" />
-                    </div>
-                    <div className="col-8 form-group mx-auto">
-                        <input type="email" className="form-control" placeholder="Email" name="email" />
-                    </div>
-                    <div className="col-8 form-group mx-auto">
-                        <input type="text" className="form-control" placeholder="Subject" name="subject" />
-                    </div>
-                    <div className="col-8 form-group mx-auto">
-                        <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message here" name="message"></textarea>
-                    </div>
-                    <div className="col-8 pt-2 mx-auto">
-                        <input type="submit" className="btn btn-info" value="Hello!"></input>
-                        </div>
-                    </div>
-                </div>
-            </form>
-        </div>
-        </div>
-    )
-}
+        <label htmlFor="name">Name:</label>
+        <input type="text" id="name" required />
+      </div>
+      <div>
+        <label htmlFor="email">Email:</label>
+        <input type="email" id="email" required />
+      </div>
+      <div>
+        <label htmlFor="message">Message:</label>
+        <textarea id="message" required />
+      </div>
+      <button type="submit">{status}</button>
+      </div>
+    </form>
+    </div>
+  );
+};
 
-export default ContactForm
+export default ContactForm;
