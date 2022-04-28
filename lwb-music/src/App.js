@@ -10,6 +10,7 @@ import Gallery from './pages/Gallery';
 import Music from './pages/Music';
 import About from './pages/About';
 import LandingPage from './pages/LandingPage';
+import Greeting from './components/Greeting';
 
 // color directly from Chakra, mimicked from the original design
 const colors = {
@@ -29,6 +30,7 @@ function App() {
       <ChakraProvider>
       <Layout>
       <Switch>
+        <Route exact path='/thankyou' component={Greeting} />
         <Route exact path='/contact' component={Contact} />
         <Route exact path='/resources' component={Resources} />
         <Route exact path='/gallery' component={Gallery} />

@@ -1,8 +1,12 @@
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 import '../styles/ContactForm.css';
 
 const ContactForm = () => {
   const [status, setStatus] = useState("Send");
+
+  let history = useHistory();
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus("Sending...");
@@ -25,7 +29,9 @@ const ContactForm = () => {
     setStatus("Submit");
     let result = await response.json();
     alert(result.status);
+    history.push('/thankyou')
   };
+
   return (
     <div className="container">
     <form onSubmit={handleSubmit}>
