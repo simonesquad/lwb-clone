@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import '../styles/ContactForm.css';
 
 const ContactForm = () => {
-  const [status, setStatus] = useState("Submit");
+  const [status, setStatus] = useState("Send");
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus("Sending...");
@@ -44,16 +44,16 @@ const ContactForm = () => {
       </div>
       <div className="checkboxes">
         <div className="check">
-        <label htmlFor="permission">Permission to play:</label>
             <input type="checkbox" value="yes" id="permission"/>
+            <label htmlFor="permission">Permission to play</label>
         </div>
         <div className="check">
-        <label htmlFor="research">Academic research:</label>
             <input type="checkbox" value="yes" id="research"/>
+            <label htmlFor="research">Academic research</label>
         </div>
         <div className="check">
-        <label htmlFor="info">General inquiry:</label>
             <input type="checkbox" value="yes" id="info" />
+            <label htmlFor="info">General inquiry</label>
         </div>
       </div>
       <button type="submit">{status}</button>

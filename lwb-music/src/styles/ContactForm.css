@@ -35,7 +35,7 @@
     background: transparent;
     outline: none;
     height: 5vh;
-    color: black;
+    color: blue;
     font-size: 1.2vw;
 }
 
@@ -48,7 +48,7 @@
     border-bottom: 1px solid black;
     background: transparent;
     outline: white;
-    color: black;
+    color: blue;
     font-size: 1.2vw;
     height: 15vh;
 }
@@ -56,16 +56,17 @@
 .checkboxes {
     font-size: 1.1vw;
     justify-content: right;
-}
-
-.checkboxes input[type="checkbox"] {
-    width: 2vw;
+    margin-top: 3%;
 }
 
 .check {
     display: flex;
     height: 5vh;
-    width: 100%;
+}
+
+.checkboxes input[type="checkbox"] {
+    width: 2.5vw;
+    margin-top: 1.25%;
 }
 
 .contents input[type="submit"] {
@@ -76,19 +77,14 @@
 .contents > button {
     height: 6vh;
     width: 10vw;
-    background: lightslategray;
-    border-radius: 10%;
+    background: lightgrey;
     margin-left: 35%;
 }
 
 .contents > button:hover {
-    background-color: darkslategrey;
-    color: white;
+    background-color: lightblue;
+    color: blue;
 }
-
-/* .checkbox {
-    display: flex;
-} */
 
 
 * {
