@@ -2,15 +2,18 @@ import React, { useState } from "react";
 import '../styles/ContactForm.css';
 
 const ContactForm = () => {
-  const [status, setStatus] = useState("Submit!");
+  const [status, setStatus] = useState("Submit");
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus("Sending...");
-    const { name, email, message } = e.target.elements;
+    const { name, email, message, permission, research, info } = e.target.elements;
     let details = {
       name: name.value,
       email: email.value,
       message: message.value,
+      permission: permission.value,
+      research: research.value,
+      info: info.value
     };
     let response = await fetch("http://localhost:5000/contact", {
       method: "POST",
@@ -39,7 +42,21 @@ const ContactForm = () => {
         <label htmlFor="message">Message:</label>
         <textarea id="message" required />
       </div>
+      <div className="buttons">
+      <div className="checkbox">
+      <label htmlFor="permission">Permission to play:</label>
+        <input type="checkbox" value="yes" />
+      </div>
+      <div className="checkbox">
+      <label htmlFor="research">Academic research:</label>
+        <input type="checkbox" value="yes" />
+      </div>
+      <div className="checkbox">
+      <label htmlFor="info">General inquiry:</label>
+        <input type="checkbox" value="yes" />
+      </div>
       <button type="submit">{status}</button>
+      </div>
       </div>
     </form>
     </div>
