@@ -13,8 +13,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 30vw;
-    height: 65vh;
+    width: 35vw;
+    height: 75vh;
     padding: 50px;
     border-radius: 10px;
     box-sizing: border-box;
@@ -22,7 +22,7 @@
     margin-left: 7%;
 }
 
-.contents input, textarea{
+.contents input, textarea, .checkboxes{
     width: 100%;
     margin-bottom: 20px;
     color: black;
@@ -35,7 +35,7 @@
     background: transparent;
     outline: none;
     height: 5vh;
-    color: black;
+    color: blue;
     font-size: 1.2vw;
 }
 
@@ -48,20 +48,44 @@
     border-bottom: 1px solid black;
     background: transparent;
     outline: white;
-    color: black;
+    color: blue;
     font-size: 1.2vw;
+    height: 15vh;
+}
+
+.checkboxes {
+    font-size: 1.1vw;
+    justify-content: right;
+    margin-top: 3%;
+}
+
+.check {
+    display: flex;
+    height: 5vh;
+}
+
+.checkboxes input[type="checkbox"] {
+    width: 2.5vw;
+    margin-top: 1.25%;
 }
 
 .contents input[type="submit"] {
-    border: none;
-    outline: none;
-    height: 5vh;
-    color: whitesmoke;
     font-size: 1.2vw;
-    background: grey;
-    cursor: pointer;
-    border-radius: 10px;
+    cursor: crosshair;
 }
+
+.contents > button {
+    height: 6vh;
+    width: 10vw;
+    background: lightgrey;
+    margin-left: 35%;
+}
+
+.contents > button:hover {
+    background-color: lightblue;
+    color: blue;
+}
+
 
 * {
     max-width: 100%;
@@ -76,7 +100,7 @@
             height: 75vh;
         }
         .contents{
-            width: 60vw;
+            width: 100%;
             height: 70vh;
             margin-left: 0%;
         }
@@ -87,5 +111,20 @@
         .contents input[type="email"],
         .contents input[type="submit"]{ 
             font-size: 2.5vw;
+        }
+
+        .contents > button {
+            height: 6vh;
+            width: 25vw;
+        }
+
+        .checkboxes {
+            font-size: 2.5vw;
+            margin-top: 1.5%;
+        }
+
+        .checkboxes input[type="checkbox"] {
+            width: 5vw;
+            margin-top: 0.7%;
         }
     }
