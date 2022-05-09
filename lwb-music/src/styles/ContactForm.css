@@ -28,8 +28,8 @@
     color: black;
 }
 
-.contents input[type="text"],
-.contents input[type="email"] {
+.contents input[name="name"],
+.contents input[name="email"] {
     border: none;
     border-bottom: 1px solid black;
     background: transparent;
@@ -124,7 +124,7 @@
         }
 
         .checkboxes input[type="checkbox"] {
-            width: 5vw;
+            width: 4.5vw;
             margin-top: 0.7%;
         }
     }

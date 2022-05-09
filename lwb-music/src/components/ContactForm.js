@@ -3,66 +3,118 @@ import { useHistory } from "react-router-dom";
 import '../styles/ContactForm.css';
 
 const ContactForm = () => {
-  const [status, setStatus] = useState("Send");
+  const [mailerState, setMailerState] = useState({
+    name: "",
+    email: "",
+    message: "",
+    permission: [],
+    research: [],
+    info: [],
+  });
 
   let history = useHistory();
 
-  const handleSubmit = async (e) => {
+// might need to add more here for the checkboxes state*
+  function handleStateChange(e) {
+    setMailerState((prevState) => ({
+      ...prevState,
+      [e.target.name]: e.target.value,
+    }));
+  }
+
+  const submitEmail = async (e) => {
     e.preventDefault();
-    setStatus("Sending...");
-    const { name, email, message, permission, research, info } = e.target.elements;
-    let details = {
-      name: name.value,
-      email: email.value,
-      message: message.value,
-      permission: permission.value,
-      research: research.value,
-      info: info.value
-    };
-    let response = await fetch("http://localhost:5000/contact", {
+    console.log({ mailerState });
+    const response = await fetch("http://localhost:3001/send", {
       method: "POST",
       headers: {
-        "Content-Type": "application/json;charset=utf-8",
+        "Content-type": "application/json",
       },
-      body: JSON.stringify(details),
-    });
-    setStatus("Submit");
-    let result = await response.json();
-    alert(result.status);
-    history.push('/thankyou')
+      body: JSON.stringify({ mailerState }),
+    })
+      .then((res) => res.json())
+      .then(async (res) => {
+        const resData = await res;
+        console.log(resData);
+        if (resData.status === "success") {
+          alert("Message Sent");
+        } else if (resData.status === "fail") {
+          alert("Message failed to send");
+        }
+      })
+      .then(() => {
+        setMailerState({
+          email: "",
+          name: "",
+          message: "",
+        });
+      });
   };
 
   return (
     <div className="container">
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={submitEmail}>
       <div className="contents">
         <div>
         <label htmlFor="name">Name:</label>
-        <input type="text" id="name" required />
+        <input 
+          onChange={handleStateChange}
+          name="name"
+          value={mailerState.name}
+          required 
+        />
       </div>
       <div>
         <label htmlFor="email">Email:</label>
-        <input type="email" id="email" required />
+        <input 
+          onChange={handleStateChange}
+          name="email"
+          value={mailerState.email}
+          required 
+        />
       </div>
       <div>
         <label htmlFor="message">Message:</label>
-        <textarea id="message" required />
+        <textarea 
+          onChange={handleStateChange}
+          name="message"
+          value={mailerState.message}
+          required 
+        />
       </div>
       <div className="checkboxes">
         <div className="check">
-            <input type="checkbox" value="yes" id="permission"/>
+            <input 
+              type="checkbox"
+              placeholder="Permission" 
+              onChange={handleStateChange} 
+              name="permission"
+              value={mailerState.permission}
+            />
             <label htmlFor="permission">Permission to play</label>
         </div>
         <div className="check">
-            <input type="checkbox" value="yes" id="research"/>
+            <input 
+              type="checkbox"
+              placeholder="Research" 
+              onChange={handleStateChange} 
+              name="research"
+              value={mailerState.research}
+            />
             <label htmlFor="research">Academic research</label>
         </div>
         <div className="check">
-            <input type="checkbox" value="yes" id="info" />
+        <input 
+              type="checkbox"
+              placeholder="Info" 
+              onChange={handleStateChange} 
+              name="info"
+              value={mailerState.info}
+            />
             <label htmlFor="info">General inquiry</label>
         </div>
       </div>
-      <button type="submit">{status}</button>
+      <button type="submit">Send</button>
       </div>
     </form>
     </div>
