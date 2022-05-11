@@ -16,18 +16,19 @@ const useStyles = makeStyles({
         width: 250,
         height: 65,
         borderRadius: 6,
-        textTransofrm: 'uppercase',
-        boxShadow: '0 30px 5px 2px rgba(255, 105, 135, .3)',
+        // textTransofrm: 'uppercase',
+        // boxShadow: '0 30px 5px 2px rgba(255, 105, 135, .3)',
         cursor: 'pointer',
-        color: '#fff',
+        color: '#575fcf',
         backgroundSize: '200%',
         transition: '0.4s',
         '&:hover': {
-            backgroundPosition: 'right'
+            backgroundPosition: 'right',
+            color: '#3c40c6'
         }
     },
     btn1: {
-        backgroundImage: 'linear-gradient(45deg, #FFC312, #EE5A24, #00A8FF)'
+        backgroundImage: 'linear-gradient(45deg, #bdc3c7, #778beb, #f3a683)'
     }
 })
 
@@ -36,7 +37,7 @@ export default function Buttons() {
     return (
         <>
         <div className={classes.container}>
-            <Button className={ `${classes.btn} ${classes.btn1}`}>Hover Button</Button>
+            <Button className={ `${classes.btn} ${classes.btn1}`}>Listen Here</Button>
         </div>
         </>
     )
