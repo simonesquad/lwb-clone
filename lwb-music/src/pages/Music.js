@@ -10,6 +10,7 @@ import  {
     List,
     ListItem,
 } from '@chakra-ui/react';
+import { Buttons } from '../components'
 
 //icons for external links to recording sources
 import YouTubeIcon from '@mui/icons-material/YouTube';
@@ -77,16 +78,11 @@ function Music() {
                     The clear marker of Ballard’s European training is present in this work, as well as his cultural anthropological ambitions to capture the essence of other tribe’s symbols deeper meanings without encroaching on their religious rights. It was a delicate approach to take, but one that seems to have weathered the test of time, as Katcina Dances remains an alluring piece and has been preferentially performed in recent years. The original world premiere was on July 28th, 1970 in Santa Fe, New Mexico featuring cellist James Holoshovsky and Ballard’s then wife and accomplished pianist Ruth Doré. 
                     </Text>
                 </Box>
+                
                 <a href="https://www.youtube.com/watch?v=BoIZ7uBh1Nk" target="_blank">
-                    <YouTubeIcon
-                        sx={{
-                            "&:hover": {
-                                backgroundColor: "yellow",
-                                cursor: "default"
-                            }
-                        }}
-                    />
+                <Buttons />
                 </a>
+                
                 </VStack>
                 </HStack>
 

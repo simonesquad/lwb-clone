@@ -2,6 +2,8 @@ import React from 'react';
 import Layout from "../src/layout/index";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { ChakraProvider } from '@chakra-ui/react';
+import { MuiThemeProvider } from '@material-ui/core/styles';
+import CssBaseline from '@material-ui/core/CssBaseline';
 
 //components
 import Contact from './pages/Contact';
@@ -12,21 +14,12 @@ import About from './pages/About';
 import LandingPage from './pages/LandingPage';
 import Greeting from './components/Greeting';
 
-// color directly from Chakra, mimicked from the original design
-const colors = {
-  brand: {
-    gray400: '#A0AEC0',
-    red400: '#F56565',
-    orange300: '#F6AD55',
-    green600: '#2F855A',
-    teal500: '#319795',
-    yellow500: '#D69E2E'
-  },
-}
 
 function App() {
   return ( 
     <Router>
+      <MuiThemeProvider>
+      <CssBaseline />
       <ChakraProvider>
       <Layout>
       <Switch>
@@ -40,9 +33,23 @@ function App() {
       </Switch>
       </Layout>
     </ChakraProvider>
+    </MuiThemeProvider>
     </Router>
     
   );
 }
 
 export default App;
+
+
+// color directly from Chakra, mimicked from the original design
+// const colors = {
+//   brand: {
+//     gray400: '#A0AEC0',
+//     red400: '#F56565',
+//     orange300: '#F6AD55',
+//     green600: '#2F855A',
+//     teal500: '#319795',
+//     yellow500: '#D69E2E'
+//   },
+// }
