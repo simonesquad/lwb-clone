@@ -4,9 +4,9 @@ import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles({
     container: {
-        position: 'absolute',
-        left: '50%',
-        top: '50%',
+        // position: 'absolute',
+        // left: '50%',
+        // top: '50%',
         transform: 'translate(-50%, -50%)',
         textAlign: 'center'
     },
@@ -19,12 +19,12 @@ const useStyles = makeStyles({
         // textTransofrm: 'uppercase',
         // boxShadow: '0 30px 5px 2px rgba(255, 105, 135, .3)',
         cursor: 'pointer',
-        color: '#575fcf',
+        color: 'black',
         backgroundSize: '200%',
         transition: '0.4s',
         '&:hover': {
             backgroundPosition: 'right',
-            color: '#3c40c6'
+            color: 'black'
         }
     },
     btn1: {
@@ -32,12 +32,12 @@ const useStyles = makeStyles({
     }
 })
 
-export default function Buttons() {
+export default function Buttons({text}) {
     const classes = useStyles()
     return (
         <>
         <div className={classes.container}>
-            <Button className={ `${classes.btn} ${classes.btn1}`}>Listen Here</Button>
+            <Button className={ `${classes.btn} ${classes.btn1}`}>{text}</Button>
         </div>
         </>
     )

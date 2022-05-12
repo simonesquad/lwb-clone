@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 import '../styles/ContactForm.css';
+import { Box } from '@chakra-ui/react';
+import { Buttons } from '../components'
 
 const ContactForm = () => {
   const [mailerState, setMailerState] = useState({
@@ -114,7 +116,12 @@ const ContactForm = () => {
             <label htmlFor="info">General inquiry</label>
         </div>
       </div>
-      <button type="submit">Send</button>
+      <Box style={{ marginTop: '15%', marginLeft: '50%' }}>
+      <Buttons 
+        type="submit"
+        text="Send">
+        </Buttons>
+        </Box>
       </div>
     </form>
     </div>
