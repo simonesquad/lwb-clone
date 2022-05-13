@@ -120,7 +120,7 @@ function GalleryV() {
 	galleryLayout: 4,
     slideshowLoop: true,
     isAutoSlideshow: true,
-    hoveringBehaviour: 'NEVER_SHOW',
+    hoveringBehaviour: 'APPEARS',
     itemBorderWidth: 15,
     itemBorderRadius: 2,
     itemBorderColor: '#FFFFFF'
