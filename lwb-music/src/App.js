@@ -1,8 +1,8 @@
-import React from 'react';
+import * as React from 'react';
 import Layout from "../src/layout/index";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { ChakraProvider } from '@chakra-ui/react';
-import { MuiThemeProvider } from '@material-ui/core/styles';
+import { ThemeProvider, createTheme } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 
 //components
@@ -16,9 +16,20 @@ import Greeting from './components/Greeting';
 
 
 function App() {
+
+  const theme = React.useMemo(
+    () =>
+      createTheme({
+        palette: {
+          
+        },
+      }),
+    [],
+  );
+
   return ( 
     <Router>
-      <MuiThemeProvider>
+      <ThemeProvider theme={theme}>
       <CssBaseline />
       <ChakraProvider>
       <Layout>
@@ -33,7 +44,7 @@ function App() {
       </Switch>
       </Layout>
     </ChakraProvider>
-    </MuiThemeProvider>
+    </ThemeProvider>
     </Router>
     
   );
