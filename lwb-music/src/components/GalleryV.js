@@ -126,7 +126,7 @@ function GalleryV() {
   return (
   
 		<ProGallery
-      customHoverRenderer={itemProps => <div style={{ width: '50vw', color: 'white', fontSize: '1.5rem', marginLeft: '3%' }}>{itemProps.description}</div>}
+      customHoverRenderer={itemProps => <div style={{ width: '47vw', color: 'white', fontSize: '1.5rem', marginLeft: '3%' }}>{itemProps.description}</div>}
 			items={items}
 			options={options}
 			container={container}
