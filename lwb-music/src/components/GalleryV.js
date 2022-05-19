@@ -109,9 +109,9 @@ function GalleryV() {
     slideshowLoop: true,
     isAutoSlideshow: true,
     hoveringBehaviour: 'APPEARS',
-    itemBorderWidth: 15,
-    itemBorderRadius: 2,
-    itemBorderColor: '#FFFFFF'
+    itemBorderWidth: 10,
+    itemBorderRadius: 1,
+    itemBorderColor: '#dfe6e9'
 	};
 
   const container = {
