@@ -24,9 +24,9 @@ const ContactForm = () => {
     }));
   }
 
-  function handleClick() {
-    history.push('/thankyou');
-  }
+  // function handleClick() {
+  //   history.push('/thankyou');
+  // }
 
   const submitEmail = async (e) => {
     e.preventDefault();
@@ -124,7 +124,6 @@ const ContactForm = () => {
       <Buttons 
         type="submit"
         text="Send"
-        onClick={handleClick}
         >
         </Buttons>
         </Box>
