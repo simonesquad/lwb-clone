@@ -35,7 +35,7 @@
     background: transparent;
     outline: none;
     height: 5vh;
-    color: blue;
+    color: #6c5ce7;
     font-size: 1.2vw;
 }
 
@@ -48,7 +48,7 @@
     border-bottom: 1px solid black;
     background: transparent;
     outline: white;
-    color: blue;
+    color: #6c5ce7;
     font-size: 1.2vw;
     height: 15vh;
 }
@@ -79,11 +79,6 @@
     width: 10vw;
     background: lightgrey;
     margin-left: 35%;
-}
-
-.contents > button:hover {
-    background-color: lightblue;
-    color: blue;
 }
 
 
