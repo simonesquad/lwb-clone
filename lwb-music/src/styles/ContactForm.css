@@ -74,13 +74,6 @@
     cursor: crosshair;
 }
 
-.contents > button {
-    height: 6vh;
-    width: 10vw;
-    background: lightgrey;
-    margin-left: 35%;
-}
-
 
 * {
     max-width: 100%;

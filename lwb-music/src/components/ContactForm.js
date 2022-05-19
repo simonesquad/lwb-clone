@@ -9,9 +9,9 @@ const ContactForm = () => {
     name: "",
     email: "",
     message: "",
-    permission: [],
-    research: [],
-    info: [],
+    // permission: [],
+    // research: [],
+    // info: [],
   });
 
   let history = useHistory();
@@ -22,6 +22,10 @@ const ContactForm = () => {
       ...prevState,
       [e.target.name]: e.target.value,
     }));
+  }
+
+  function handleClick() {
+    history.push('/thankyou');
   }
 
   const submitEmail = async (e) => {
@@ -84,7 +88,7 @@ const ContactForm = () => {
           required 
         />
       </div>
-      <div className="checkboxes">
+      {/* <div className="checkboxes">
         <div className="check">
             <input 
               type="checkbox"
@@ -112,14 +116,16 @@ const ContactForm = () => {
               onChange={handleStateChange} 
               name="info"
               value={mailerState.info}
-            />
-            <label htmlFor="info">General inquiry</label>
+            /> */}
+            {/* <label htmlFor="info">General inquiry</label>
         </div>
-      </div>
-      <Box style={{ marginTop: '15%', marginLeft: '50%' }}>
+      </div> */}
+      <Box style={{ marginTop: '15%', marginLeft: '45%' }}>
       <Buttons 
         type="submit"
-        text="Send">
+        text="Send"
+        onClick={handleClick}
+        >
         </Buttons>
         </Box>
       </div>
