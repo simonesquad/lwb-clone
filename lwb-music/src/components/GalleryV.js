@@ -138,11 +138,13 @@ function GalleryV() {
   return (
   
 		<ProGallery
+      customHoverRenderer={itemProps => <div>{itemProps.description}</div>}
 			items={items}
 			options={options}
 			container={container}
 			eventsListener={eventsListener}
 			scrollingElement={scrollingElement}
+      
 		/>
 	);
 }
