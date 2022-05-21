@@ -59,7 +59,7 @@ function Music() {
                     h={{
                         base: '140vh',
                         md: '95vh',
-                        lg:'80vh'
+                        lg:'95vh'
                         }} spacing='70px'>
                 <VStack 
                     align='left'
@@ -95,7 +95,7 @@ function Music() {
                     h={{
                         base: '140vh',
                         md: '95vh',
-                        lg:'80vh'
+                        lg:'95vh'
                         }} spacing='70px'>
                 <VStack 
                     align='left'
@@ -166,7 +166,7 @@ function Music() {
                 <VStack 
                     align='left'
                 >
-                <Box w='100vw' style={{ margin: '5px' }}>
+                <Box w='100vw' style={{ marginTop: '5%' }}>
                     <Box h='5vh'>
                     <Heading as='h3' size='md'>Ritmo Indio</Heading>
                     </Box>
@@ -277,7 +277,7 @@ function Music() {
                     h={{
                         base: '170vh',
                         md: '95vh',
-                        lg:'85vh'
+                        lg:'100vh'
                         }} spacing='70px'>
                 <VStack 
                     align='left'
