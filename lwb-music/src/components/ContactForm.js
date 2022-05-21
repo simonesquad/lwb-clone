@@ -14,7 +14,7 @@ const ContactForm = () => {
     // info: [],
   });
 
-  let history = useHistory();
+  // let history = useHistory();
 
 // might need to add more here for the checkboxes state*
   function handleStateChange(e) {
@@ -122,9 +122,8 @@ const ContactForm = () => {
       </div> */}
       <Box style={{ marginTop: '15%', marginLeft: '45%' }}>
       <Buttons 
-        type="submit"
         text="Send"
-        >
+      >
         </Buttons>
         </Box>
       </div>
