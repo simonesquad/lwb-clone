@@ -3,7 +3,6 @@ import emailjs from '@emailjs/browser';
 // import { useHistory } from "react-router-dom";
 import '../styles/ContactForm.css';
 import { Box } from '@chakra-ui/react';
-import { Buttons } from '../components'
 
 const ContactForm = () => {
   const form = useRef();
@@ -50,15 +49,12 @@ const ContactForm = () => {
           required 
         />
       </div>
-      <input type="submit" value="Send" />
-      {/* <Box style={{ marginTop: '15%', marginLeft: '45%' }}>
-      <Buttons 
-        type="submit"
-        text="Send"
-        value="Send"
-      >
-        </Buttons> */}
-        {/* </Box> */}
+      <Box style={{ marginTop: '15%' }}>
+      <input 
+        className="send" 
+        type="submit" 
+        value="Send" />
+      </Box>
       </div>
     </form>
     </div>

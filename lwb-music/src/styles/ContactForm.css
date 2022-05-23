@@ -22,14 +22,14 @@
     margin-left: 7%;
 }
 
-.contents input, textarea, .checkboxes{
+.contents input, textarea {
     width: 100%;
     margin-bottom: 20px;
     color: black;
 }
 
-.contents input[name="name"],
-.contents input[name="email"] {
+.contents input[name="user_name"],
+.contents input[name="user_email"] {
     border: none;
     border-bottom: 1px solid black;
     background: transparent;
