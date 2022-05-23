@@ -1,11 +1,16 @@
 import React, { useRef } from "react";
 import emailjs from '@emailjs/browser';
-// import { useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import '../styles/ContactForm.css';
 import { Box } from '@chakra-ui/react';
 
 const ContactForm = () => {
   const form = useRef();
+  const history = useHistory();
+
+  const handleRoute = () => {
+    history.push("/thankyou")
+  }
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -52,7 +57,9 @@ const ContactForm = () => {
       <Box style={{ marginTop: '12%', marginLeft: '27%' }}>
       <input
         type="submit" 
-        value="Send" />
+        value="Send"
+        onClick={handleRoute}
+        />
       </Box>
       </div>
     </form>
