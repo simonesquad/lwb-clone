@@ -13,10 +13,13 @@ import {
     Heading,
     Image,
     Box,
+    Button,
     Drawer,
     DrawerContent,
     useDisclosure,
     useBreakpointValue,
+    useColorMode,
+    useColorModeValue,
 } from '@chakra-ui/react';
 import { createBreakpoints } from '@chakra-ui/theme-tools';
 
@@ -30,7 +33,10 @@ const breakpoints = createBreakpoints({
 
 function Home() {
     const { isOpen, onOpen, onClose } = useDisclosure();
-    const shrink = useBreakpointValue({ base: 'md', lg: '2xl' })
+    const shrink = useBreakpointValue({ base: 'md', lg: '2xl' });
+    const { toggleColorMode } = useColorMode();
+    const bgColor = useColorModeValue("gray.50", "whiteAlpha.50");
+
     return (
         <div>
         <Box minH="100vh" bg="gray.100">
@@ -53,6 +59,7 @@ function Home() {
                 divider={<StackDivider borderColor='gray.200' />}
                 spacing={1}
                 align='center'
+                bg={bgColor}
             >
             <HStack 
                     w={{
@@ -66,7 +73,8 @@ function Home() {
                         lg:'150vh',
                         xl: '110vh'
                         }} 
-                    spacing='3vw'>
+                    spacing='3vw'
+                    >
             <Image 
                 src={LWB} 
                 height={{
@@ -85,6 +93,9 @@ function Home() {
                     }}
                 >
                 <Box fontSize={["sm"]}>
+                    <Button onClick={toggleColorMode} variant="link" colorScheme="black">
+                        Switch to Dark
+                    </Button>
                 <Heading 
                     as='h2' 
                     size='2xl'>

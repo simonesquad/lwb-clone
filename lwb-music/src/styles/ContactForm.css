@@ -28,14 +28,14 @@
     color: black;
 }
 
-.contents input[type="text"],
-.contents input[type="email"] {
+.contents input[name="name"],
+.contents input[name="email"] {
     border: none;
     border-bottom: 1px solid black;
     background: transparent;
     outline: none;
     height: 5vh;
-    color: blue;
+    color: #6c5ce7;
     font-size: 1.2vw;
 }
 
@@ -48,7 +48,7 @@
     border-bottom: 1px solid black;
     background: transparent;
     outline: white;
-    color: blue;
+    color: #6c5ce7;
     font-size: 1.2vw;
     height: 15vh;
 }
@@ -72,18 +72,6 @@
 .contents input[type="submit"] {
     font-size: 1.2vw;
     cursor: crosshair;
-}
-
-.contents > button {
-    height: 6vh;
-    width: 10vw;
-    background: lightgrey;
-    margin-left: 35%;
-}
-
-.contents > button:hover {
-    background-color: lightblue;
-    color: blue;
 }
 
 
@@ -124,7 +112,7 @@
         }
 
         .checkboxes input[type="checkbox"] {
-            width: 5vw;
+            width: 4.5vw;
             margin-top: 0.7%;
         }
     }

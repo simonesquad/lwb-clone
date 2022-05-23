@@ -25,8 +25,8 @@ function GalleryV() {
         type: 'image',
         height: 200,
         width: 100,
-        title: 'some-picture',
-        description: 'all the knowledge',
+        title: 'Headshot',
+        description: 'The composer Louis W. Ballard in a promotional shot that he often used. Probably taken in Oklahoma, USA.',
         focalPoint: [0, 0],
       }
     },
@@ -37,8 +37,8 @@ function GalleryV() {
         type: 'image',
         height: 200,
         width: 100,
-        title: 'some-picture',
-        description: 'all the knowledge',
+        title: 'Koshare',
+        description: 'The choreographer Donald Saddler with ballerina Marjorie Tallchief, dancers, and Louis W. Ballard seated in the background for rehearsal of the ballet Koshare.',
         focalPoint: [0, 0],
       }
     },
@@ -49,20 +49,8 @@ function GalleryV() {
         type: 'image',
         height: 200,
         width: 100,
-        title: 'some-picture',
-        description: 'all the knowledge',
-        focalPoint: [0, 0],
-      }
-    },
-    {
-      itemId: 'g8',
-      mediaUrl: `${g8}`,
-      metaData: {
-        type: 'image',
-        height: 200,
-        width: 100,
-        title: 'some-picture',
-        description: 'all the knowledge',
+        title: 'Flute',
+        description: 'Ballard holding a Sioux flute from his personal collection.',
         focalPoint: [0, 0],
       }
     },
@@ -73,8 +61,8 @@ function GalleryV() {
         type: 'image',
         height: 200,
         width: 100,
-        title: 'some-picture',
-        description: 'all the knowledge',
+        title: 'Koshare-2',
+        description: 'Again pictured Donald Sadler and Louis W. Ballard along with George Skibine director of the Harkness Ballet in rehearsal for the 1965 performance of Koshare.',
         focalPoint: [0, 0],
       }
     },
@@ -85,8 +73,8 @@ function GalleryV() {
           type: 'image',
           height: 200,
           width: 100,
-          title: 'some-picture',
-          description: 'all the knowledge',
+          title: 'Will Rogers',
+          description: 'The world premiere of the Portrait of Will Rogers in 1972. Pictured are Dr. Wesley Forbis and Will Rogers Jr. in the center alongside Ballard.',
           focalPoint: [0, 0],
         }
       },
@@ -97,8 +85,8 @@ function GalleryV() {
           type: 'image',
           height: 200,
           width: 100,
-          title: 'some-picture',
-          description: 'all the knowledge',
+          title: 'Sammy Davis Jr.',
+          description: 'Sammy Davis Jr. and Louis W. Ballard attending the Tulsa Philharmonic Silver Anniversary in 1973. Sammy Davis Jr. performed and two Ballard pieces were performed.',
           focalPoint: [0, 0],
         }
       },
@@ -109,8 +97,8 @@ function GalleryV() {
           type: 'image',
           height: 200,
           width: 100,
-          title: 'some-picture',
-          description: 'all the knowledge',
+          title: 'Will Rogers-2',
+          description: 'The world premiere of a Portrait of Will Rogers.',
           focalPoint: [0, 0],
         }
       },
@@ -120,10 +108,10 @@ function GalleryV() {
 	galleryLayout: 4,
     slideshowLoop: true,
     isAutoSlideshow: true,
-    hoveringBehaviour: 'NEVER_SHOW',
-    itemBorderWidth: 15,
-    itemBorderRadius: 2,
-    itemBorderColor: '#FFFFFF'
+    hoveringBehaviour: 'APPEARS',
+    itemBorderWidth: 10,
+    itemBorderRadius: 1,
+    itemBorderColor: '#dfe6e9'
 	};
 
   const container = {
@@ -138,11 +126,13 @@ function GalleryV() {
   return (
   
 		<ProGallery
+      customHoverRenderer={itemProps => <div style={{ width: '47vw', color: 'white', fontSize: '1.5rem', marginLeft: '3%' }}>{itemProps.description}</div>}
 			items={items}
 			options={options}
 			container={container}
 			eventsListener={eventsListener}
 			scrollingElement={scrollingElement}
+      
 		/>
 	);
 }
