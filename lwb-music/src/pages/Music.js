@@ -222,7 +222,7 @@ function Music() {
                     h={{
                         base: '150vh',
                         md: '95vh',
-                        lg:'100vh'
+                        lg:'95vh'
                         }} spacing='70px'>
                 <VStack 
                     align='center'
