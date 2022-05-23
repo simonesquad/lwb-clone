@@ -53,25 +53,16 @@
     height: 15vh;
 }
 
-.checkboxes {
-    font-size: 1.1vw;
-    justify-content: right;
-    margin-top: 3%;
-}
-
-.check {
-    display: flex;
-    height: 5vh;
-}
-
-.checkboxes input[type="checkbox"] {
-    width: 2.5vw;
-    margin-top: 1.25%;
-}
-
 .contents input[type="submit"] {
-    font-size: 1.2vw;
-    cursor: crosshair;
+    height: 7vh;
+    width: 12vw;
+    background-color: #778beb;
+    border-radius: 2%;
+    font-size: 1rem;
+}
+
+.contents input[type="submit"]:hover {
+    opacity: 80%;
 }
 
 

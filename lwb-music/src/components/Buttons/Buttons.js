@@ -4,9 +4,6 @@ import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles({
     container: {
-        // position: 'absolute',
-        // left: '50%',
-        // top: '50%',
         transform: 'translate(-50%, -50%)',
         textAlign: 'center'
     },
@@ -16,8 +13,6 @@ const useStyles = makeStyles({
         width: 250,
         height: 65,
         borderRadius: 6,
-        // textTransofrm: 'uppercase',
-        // boxShadow: '0 30px 5px 2px rgba(255, 105, 135, .3)',
         cursor: 'pointer',
         color: 'black',
         backgroundSize: '200%',

@@ -49,9 +49,8 @@ const ContactForm = () => {
           required 
         />
       </div>
-      <Box style={{ marginTop: '15%' }}>
-      <input 
-        className="send" 
+      <Box style={{ marginTop: '12%', marginLeft: '27%' }}>
+      <input
         type="submit" 
         value="Send" />
       </Box>
