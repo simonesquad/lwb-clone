@@ -76,7 +76,7 @@ const ContactForm = () => {
       <Box h='15vh'>
       <Textarea
                 name='message'
-                placeholder='Write some thoughts...'
+                placeholder='Tell us your favorite color'
                 value={toSend.message}
                 onChange={handleChange}
                 maxLength='500'
