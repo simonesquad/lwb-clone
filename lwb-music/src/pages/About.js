@@ -6,6 +6,7 @@ import  {
     VStack,
     Box,
     Heading,
+    Link,
     Text,
     StackDivider,
 } from '@chakra-ui/react';
@@ -27,7 +28,28 @@ function About() {
                 spacing={1}
                 align='center'
             >
+            <VStack
+                h='70vh'
+                align='left'
+            >
+                <Link href='#humble'>Humble Beginnings</Link>
+                <Link href='#oklahoma'>Oklahoma Roots</Link>
+                <Link href='#aspen'>Aspen Music Festival</Link>
+                <Link href='#santafe'>Santa Fe Begins</Link>
+                <Link href='#gospel'>Spreading the Gospel</Link>
+                <Link href='#acclaim'>Critical Acclaim</Link>
+                <Link href='#citizen'>Poised for Exposure</Link>
+                <Link href='#woundedknee'>Wounded Knee Battle Cry</Link>
+                <Link href='#unseen'>Visibility for the Unseen</Link>
+                <Link href='#cities'>The Three Cities</Link>
+                <Link href='#jewel'>European Crown Jewel</Link>
+                <Link href='#newera'>A New Era Begins</Link>
+                <Link href='#achievement'>Lifetime Achievements</Link>
+                <Link href='#torch'>Passing the Torch</Link>
+                <Link href='#revival'>An Ongoing Revival</Link>
+            </VStack>
 
+            <a id="humble"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -58,7 +80,9 @@ function About() {
                 </Box>
                 </VStack>
                 </HStack>
-
+                
+                
+                <a id="oklahoma"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -89,7 +113,9 @@ function About() {
                 </Box>
                 </VStack>
                 </HStack>
+                
 
+                <a id="aspen"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -120,7 +146,9 @@ function About() {
                 </Box>
                 </VStack>
                 </HStack>
-
+                
+                
+                <a id="santafe"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -151,7 +179,9 @@ function About() {
                 </Box>
                 </VStack>
                 </HStack>
+                
 
+                <a id="gospel"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -182,7 +212,9 @@ function About() {
                 </Box>
                 </VStack>
                 </HStack>
+                
 
+                <a id="acclaim"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -215,7 +247,9 @@ function About() {
                 </Box>
                 </VStack>
                 </HStack>
+                
 
+                <a id="citizen"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -258,7 +292,9 @@ function About() {
                 </Box>
                 </VStack>
                 </HStack>
+                
 
+                <a id="woundedknee"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -292,7 +328,9 @@ function About() {
                 </Box>
                 </VStack>
                 </HStack>
+                
 
+                <a id="unseen"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -333,7 +371,9 @@ function About() {
                 </Box>
                 </VStack>
                 </HStack>
+                
 
+                <a id="cities"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -365,7 +405,9 @@ function About() {
                 </Box>
                 </VStack>
                 </HStack>
+                
 
+                <a id="jewel"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -398,7 +440,9 @@ function About() {
                 </Box>
                 </VStack>
                 </HStack>
-
+                
+                
+                <a id="newera"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -441,7 +485,9 @@ function About() {
                 </Box>
                 </VStack>
                 </HStack>
+                
 
+                <a id="achievement"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -486,7 +532,9 @@ function About() {
                 </Box>
                 </VStack>
                 </HStack>
+                
 
+                <a id="torch"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -531,7 +579,9 @@ function About() {
                 </Box>
                 </VStack>
                 </HStack>
+                
 
+                <a id="revival"></a>
                 <HStack 
                     w={{
                         base: '75vw',
