@@ -222,7 +222,7 @@ function Music() {
                     h={{
                         base: '150vh',
                         md: '95vh',
-                        lg:'80vh'
+                        lg:'95vh'
                         }} spacing='70px'>
                 <VStack 
                     align='center'
@@ -239,6 +239,12 @@ function Music() {
                     <Text>
                     The world premiere for A City of Silver was on April 30th, 1981 at Northeastern Oklahoma University in Tahlequah. A few years later, it premiered at Carnegie Hall with pianist Roberta Rust. The New York Tribune stated that Rust’s performance: <Text as='i'>“held the promise of raising Native American music into new and undiscovered dimensions.”</Text> The performance itself was historic in that it was the first performance in Carnegie Hall of music by a Native American composer and performed by a Native American concert pianist. A City of Fire was also performed during this concert and it is a tribute to Los Alamos, New Mexico and the nuclear testing sites, a location that Ballard saw in person and had a morbid fascination with afterwards. Finally, a City of Light was inspired by Ballard’s first trip to Paris, France. In Paris, he sought out the district of his ancestral namesake, the <Text as='i'>“Place Balárd,”</Text> where the original music publishing house of the sixteenth century was located. A City of Light premiered at Carnegie Hall on February 8th, 1987 and was performed by pianist Stephan Drury. Ballard would later perform the piece himself at the Beethoven-Haus in Bonn, Germany in 1989.
                     </Text>
+                </Box>
+                <Box style={{ marginTop: '10%', marginLeft: '25%' }}>
+                    <a href="https://www.navonarecords.com/catalog/nv6429/" target="_blank">
+                    <Buttons
+                        text="Listen" />
+                    </a>
                 </Box>
                 </VStack>
                 </HStack>

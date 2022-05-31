@@ -1,7 +1,6 @@
 import * as React from 'react';
 import Layout from "../src/layout/index";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { ChakraProvider } from '@chakra-ui/react';
 import { ThemeProvider, createTheme } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 
@@ -31,7 +30,6 @@ function App() {
     <Router>
       <ThemeProvider theme={theme}>
       <CssBaseline />
-      <ChakraProvider>
       <Layout>
       <Switch>
         <Route exact path='/thankyou' component={Greeting} />
@@ -43,7 +41,6 @@ function App() {
         <Route exact path='/' component={LandingPage} />
       </Switch>
       </Layout>
-    </ChakraProvider>
     </ThemeProvider>
     </Router>
     

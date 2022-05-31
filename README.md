@@ -1,15 +1,10 @@
 
-# Welcome to the Ballard website!
+# About to be released...
 
-This is a simple user-friendly webpage built in React.js and styled with the Chakra-UI styling library. 
+This website was a long time coming. About 15 years since my grandfather had his own website up on the way-way back machine. 
+This will be the official landing page of Louis W. Ballard music going forward. I wrote the copy and designed the react app front-end using Chakra-UI. For now there is no back-end but if music rentals/sales occur on this website in the future then functionality will be extended. 
 
-All text is written by myself and content will be updated by me going forward. 
 
-Please use the submission form on the website to contact me about any discrepancies, inquiries, suggestions, etc. 
+Comments and suggestions are always welcome through the contact form.
 
-Thank you and it has been a pleasure to revive this story and create a unique vision for maintaining communications and image going forward. 
-
-Sincerely,
-
-Simone 
 
