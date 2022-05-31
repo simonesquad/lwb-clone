@@ -77,14 +77,14 @@ const breakpoints = createBreakpoints({
               <VStack
                 w='100%'
                 h={{
-                    sm: '85vh',
+                    sm: '90vh',
                     md: '100vh',
                     lg: '120vh'
                 }}
               >
             <Box
                 h={{
-                    sm: '75vh',
+                    sm: '82vh',
                     md: '85vh',
                     lg: '95vh'
                 }}
