@@ -50,10 +50,20 @@ const breakpoints = createBreakpoints({
                 w='95%'
                 h='120vh'
               >
+                <Box
+                    w={{
+                        md: '40vw',
+                        lg: '35vw'
+                    }}
+                >
                 <Image src={g1} alt='koshare-ballet' />
+                </Box>
                 <Spacer />
                 <Box
-                    w='40vw'
+                    w={{
+                        md: '35vw',
+                        lg: '40vw'
+                    }}
                 >
                 <Heading as='h4' size='lg'>The choreographer Donald Saddler with ballerina Marjorie Tallchief, dancers, and Louis W. Ballard seated in the background for rehearsal of the ballet Koshare.</Heading>
                 </Box>
@@ -63,12 +73,15 @@ const breakpoints = createBreakpoints({
                 w='100%'
                 h={{
                     sm: '34vh',
-                    md: '60vh',
+                    md: '100vh',
                     lg: '120vh'
                 }}
               >
             <Box
-                h='95vh'
+                h={{
+                    md: '85vh',
+                    lg: '95vh'
+                }}
 
             >
                 <Grid templateColumns='repeat(2, 1fr)' gap={10}>
@@ -81,7 +94,10 @@ const breakpoints = createBreakpoints({
                 </Grid>
             </Box>
             <Box
-                h='15vh'
+                h={{
+                    md: '30vh',
+                    lg: '15vh'
+                }}
                 w='70vw'
                 marginTop='6vh'
             >
@@ -137,19 +153,28 @@ const breakpoints = createBreakpoints({
                 The composer in a promotional shot that he often used. Probably taken in Oklahoma, USA.
                 </Heading>
                 </Box>
+                <Box
+                    w={{
+                        md: '50vw'
+                    }}
+                >
                 <Image src={g8} alt='lwb-flute2' />
+                </Box>
               </HStack>
 
               <VStack
                 w='100%'
                 h={{
                     sm: '34vh',
-                    md: '60vh',
+                    md: '80vh',
                     lg: '100vh'
                 }}
               >
             <Box
-                h='15vh'
+                h={{
+                    md: '20vh',
+                    lg: '15vh'
+                }}
                 w='70vw'
                 marginTop='6vh'
                 >
