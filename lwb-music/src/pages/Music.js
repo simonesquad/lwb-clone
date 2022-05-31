@@ -5,6 +5,7 @@ import  {
     VStack,
     Box,
     Heading,
+    Link,
     Text,
     StackDivider,
     List,
@@ -20,6 +21,41 @@ function Music() {
                 spacing={1}
                 align='center'
             >
+            <VStack
+                h='70vh'
+            >
+                <Box 
+                    w='40vw'
+                >
+                <Link href='#incident'>Incident at Wounded Knee</Link>
+                <br></br>
+                <Link href='#katcina'>Katcina Dances</Link>
+                <br></br>
+                <Link href='#preludes'>Four American Indian Preludes</Link>
+                <br></br>
+                <Link href='#short_tail'>Why the Duck Has a Short Tail</Link>
+                <br></br>
+                <Link href='#ritmo_indio'>Ritmo Indio</Link>
+                <br></br>
+                <Link href='#fire_moon'>Fire Moon String Quartet</Link>
+                <br></br>
+                <Link href='#three_cities'>Three Cities</Link>
+                <br></br>
+                <Link href='#will_rogers'>Portrait of Will Rogers</Link>
+                <br></br>
+                <Link href='#four_moons'>The Four Moons</Link>
+                <br></br>
+                <Link href='#three_cities'>The Three Cities</Link>
+                <br></br>
+                <Link href='#na_songs'>Native American Indian Songs</Link>
+                <br></br>
+                <Link href='#chamber_music'>Chamber Music Overview</Link>
+                <br></br>
+                <Link href='#notes'>Note on music:</Link>
+                </Box>
+            </VStack>
+
+                <a id="incident"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -49,7 +85,8 @@ function Music() {
                 </Box>
                 </VStack>
                 </HStack>
-
+                
+                <a id="katcina"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -85,7 +122,8 @@ function Music() {
                     </Box>
                 </VStack>
                 </HStack>
-
+                
+                <a id="preludes"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -121,7 +159,8 @@ function Music() {
                     </Box>
                 </VStack>
                 </HStack>
-
+                
+                <a id="short_tail"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -151,7 +190,8 @@ function Music() {
                 </Box>
                 </VStack>
                 </HStack>
-
+                
+                <a id="ritmo_indio"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -182,7 +222,8 @@ function Music() {
                     </Box>
                 </VStack>
                 </HStack>
-
+                
+                <a id="fire_moon"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -212,7 +253,8 @@ function Music() {
                 </Box>
                 </VStack>
                 </HStack>
-
+                
+                <a id="three_cities"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -248,7 +290,8 @@ function Music() {
                 </Box>
                 </VStack>
                 </HStack>
-
+                
+                <a id="will_rogers"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -273,7 +316,8 @@ function Music() {
                 </Box>
                 </VStack>
                 </HStack>
-
+                
+                <a id="four_moons"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -309,7 +353,8 @@ function Music() {
                     </Box>
                 </VStack>
                 </HStack>
-
+                
+                <a id="na_songs"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -351,7 +396,8 @@ function Music() {
                 </Box>
                 </VStack>
                 </HStack>
-
+                
+                <a id="chamber_music"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -390,7 +436,8 @@ function Music() {
                 </Box>
                 </VStack>
                 </HStack>
-
+                
+                <a id="notes"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -415,9 +462,6 @@ function Music() {
                 </Box>
                 </VStack>
                 </HStack>
-
-
-
             </VStack>
         </Stack>
     )

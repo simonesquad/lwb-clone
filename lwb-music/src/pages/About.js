@@ -30,23 +30,38 @@ function About() {
             >
             <VStack
                 h='70vh'
-                align='left'
             >
+                <Box>
                 <Link href='#humble'>Humble Beginnings</Link>
+                <br></br>
                 <Link href='#oklahoma'>Oklahoma Roots</Link>
+                <br></br>
                 <Link href='#aspen'>Aspen Music Festival</Link>
+                <br></br>
                 <Link href='#santafe'>Santa Fe Begins</Link>
+                <br></br>
                 <Link href='#gospel'>Spreading the Gospel</Link>
+                <br></br>
                 <Link href='#acclaim'>Critical Acclaim</Link>
+                <br></br>
                 <Link href='#citizen'>Poised for Exposure</Link>
+                <br></br>
                 <Link href='#woundedknee'>Wounded Knee Battle Cry</Link>
+                <br></br>
                 <Link href='#unseen'>Visibility for the Unseen</Link>
+                <br></br>
                 <Link href='#cities'>The Three Cities</Link>
+                <br></br>
                 <Link href='#jewel'>European Crown Jewel</Link>
+                <br></br>
                 <Link href='#newera'>A New Era Begins</Link>
+                <br></br>
                 <Link href='#achievement'>Lifetime Achievements</Link>
+                <br></br>
                 <Link href='#torch'>Passing the Torch</Link>
+                <br></br>
                 <Link href='#revival'>An Ongoing Revival</Link>
+                </Box>
             </VStack>
 
             <a id="humble"></a>
