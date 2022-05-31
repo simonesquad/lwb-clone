@@ -8,7 +8,7 @@ import {
 
 const Greeting = () => {
   return (
-    <Box w='100vw' h='70vh'>
+    <Box w='100vw' h='50vh'>
         <Box 
           w='50vw' 
           h='50vh'

@@ -566,6 +566,9 @@ function About() {
                     style={{ marginTop: '5vh', marginLeft: '8vw' }}
                     h='7vh'>
                 <Heading as='h5' size='lg'>Simone</Heading>
+                <a rel="noreferrer" href="https://www.simoneballard.com" target="_blank">
+                    www.simoneballard.com
+                </a>
                 </Box>
                 </Box>
                 </VStack>

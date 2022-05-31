@@ -41,7 +41,7 @@ export default function Layout({ children }) {
             </Header>
             <Box ml={{ base: 0, md: 60 }} p="1">
                 <IconButton 
-                        icon={ colorMode === 'light' ? <FaSun /> : <FaMoon />}
+                        icon={ colorMode === 'light' ? <FaSun /> : <FaMoon /> }
                         isRound='true'
                         size='lg'
                         alignSelf='flex-end'
