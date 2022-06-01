@@ -42,6 +42,7 @@ function About() {
                 align='left'
             >
                 <Box
+                    marginTop='5%'
                     h={{
                         md: '13vh',
                         lg:'9vh'
