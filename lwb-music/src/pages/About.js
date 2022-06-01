@@ -308,8 +308,10 @@ function About() {
                 <Box w='100vw' style={{ marginTop: '3vh' }}>
                 <Text>
                 From the early 70’s onwards, Ballard’s work was recorded to meet international standards and more frequently played around the country. In 1972, some of his music was broadcast across the Smithsonian’s 80 FM member stations, as well as snippets played on Swedish national television. He created his first educational products for the classroom including: American Indians: Yesterday and Today and Oklahoma Indian Chants for the Classroom, both of which were precursors to American Indian Music for the Classroom. The following year, he accepted the Indian Achievement Award and was the first Quapaw tribal member, and fifth Cherokee tribal member, to win. The president of the council stated:</Text>
+                <Box w='100vw' style={{ marginTop: '3vh' }}>
                 <Text as='i'> “Mr. Ballard fully epitomizes the spirit and philosophy of the Indian Achievement Award…It is given in recognition of achievement and accomplishment, either personal in nature or humanitarian in endeavor. He is a combination of both – in his personal life he has struggled to rise in his chosen profession, and in his work he is helping to usher in a new era of enlightenment concerning Indians and their culture.” </Text><Text>
                 He also received an honorary doctorate from the College of Santa Fe that year, and according to the Santa Fe New Mexican:</Text><Text as='i'>“His honorary degree praised his commitment to enrich the lives of young people, whatever their origin.”</Text>
+                </Box>
                 </Box>
                 </Box>
                 </VStack>
@@ -344,8 +346,13 @@ function About() {
                 <Box w='100vw' style={{ marginTop: '3vh' }}>
                 <Text>
                 The piece premiered both in the U.S. and Europe and was performed by the St. Paul Chamber Orchestra and conducted by Denis Russell Davies. The reception on both sides had a deep impact on Ballard at the time, as he quoted:</Text>
-                <Text as='i'> “A series of musical episodes depict the emotional procession toward the town, the state of the souls in torment, and the violent conflict. The work culminates in musical and dance forms affirming the essential spirituality of Native American people. Incident is not a political work, but it drew a strong reaction from oppressed peoples when it was played in Poland and Czechoslovakia, as well as the cities of Western Europe. The fact that I was taking a bow onstage with a white American orchestra and conductor did more than words can to show that we live in a free country.” </Text><Text>
+                <Box w='100vw' style={{ marginTop: '3vh' }}>
+                <Text as='i'> “A series of musical episodes depict the emotional procession toward the town, the state of the souls in torment, and the violent conflict. The work culminates in musical and dance forms affirming the essential spirituality of Native American people. Incident is not a political work, but it drew a strong reaction from oppressed peoples when it was played in Poland and Czechoslovakia, as well as the cities of Western Europe. The fact that I was taking a bow onstage with a white American orchestra and conductor did more than words can to show that we live in a free country.” </Text>
+                </Box>
+                <Box w='100vw' style={{ marginTop: '3vh' }}>
+                <Text>
                 The premiere of Incident at Wounded Knee brought Ballard into realms that few American classical composers, and no Native American classical composers had reached before. He suddenly gained access to an international network of musicians and support networks. When he returned home from the European tour, he had more invitations to compose music and he continued securing grants more easily.</Text>
+                </Box>
                 </Box>
                 </Box>
                 </VStack>
