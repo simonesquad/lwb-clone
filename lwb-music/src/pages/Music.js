@@ -89,7 +89,7 @@ function Music() {
                         }} 
                     h={{
                         base: '165vh',
-                        md: '120vh',
+                        md: '140vh',
                         lg:'100vh'
                         }}>
                 <VStack 
@@ -120,7 +120,7 @@ function Music() {
                         }} 
                     h={{
                         base: '150vh',
-                        md: '120vh',
+                        md: '140vh',
                         lg:'115vh'
                         }}>
                 <VStack 
@@ -160,7 +160,7 @@ function Music() {
                         }} 
                     h={{
                         base: '160vh',
-                        md: '120vh',
+                        md: '140vh',
                         lg:'115vh'
                         }}>
                 <VStack 
@@ -231,7 +231,7 @@ function Music() {
                         }} 
                     h={{
                         base: '130vh',
-                        md: '100vh',
+                        md: '120vh',
                         lg:'100vh'
                         }}>
                 <VStack 
@@ -299,7 +299,7 @@ function Music() {
                         }} 
                     h={{
                         base: '170vh',
-                        md: '135vh',
+                        md: '145vh',
                         lg:'115vh'
                         }}>
                 <VStack 
@@ -339,7 +339,7 @@ function Music() {
                         }} 
                     h={{
                         base: '105vh',
-                        md: '95vh',
+                        md: '120vh',
                         lg:'100vh'
                         }} spacing='70px'>
                 <VStack 
@@ -365,7 +365,7 @@ function Music() {
                         }} 
                     h={{
                         base: '190vh',
-                        md: '150vh',
+                        md: '170vh',
                         lg:'130vh'
                         }} >
                 <VStack 
@@ -402,7 +402,7 @@ function Music() {
                         }} 
                     h={{
                         base: '120vh',
-                        md: '110vh',
+                        md: '125vh',
                         lg:'105vh'
                         }}>
                 <VStack 
@@ -450,7 +450,7 @@ function Music() {
                         }} 
                     h={{
                         base: '80vh',
-                        md: '95vh',
+                        md: '120vh',
                         lg:'100vh'
                         }} spacing='70px'>
                 <VStack 
@@ -490,7 +490,7 @@ function Music() {
                         }} 
                     h={{
                         base: '105vh',
-                        md: '95vh',
+                        md: '120vh',
                         lg:'100vh'
                         }} spacing='70px'>
                 <VStack 
