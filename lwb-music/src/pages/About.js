@@ -6,8 +6,8 @@ import  {
     VStack,
     Box,
     Heading,
+    Link,
     Text,
-    StackDivider,
 } from '@chakra-ui/react';
 import { createBreakpoints } from '@chakra-ui/theme-tools';
 
@@ -23,11 +23,65 @@ function About() {
     return (
         <Stack>
             <VStack 
-                divider={<StackDivider borderColor='gray.200' />}
                 spacing={1}
                 align='center'
             >
+            <VStack
+                w={{
+                    sm: '75vw',
+                    md: '60vw',
+                    lg:'70vw'
+                }}
+                h={{
+                    sm: '80vh',
+                    md: '77vh',
+                    lg: '75vh'
+                }}
+                align='left'
+            >
+                <Box
+                    marginTop='5%'
+                    h={{
+                        md: '13vh',
+                        lg:'9vh'
+                    }}
+                >
+                    <Heading>Biographical Table of Contents</Heading>
+                </Box>
+                <Box>
+                <Link href='#humble'>Humble Beginnings</Link>
+                <br></br>
+                <Link href='#oklahoma'>Oklahoma Roots</Link>
+                <br></br>
+                <Link href='#aspen'>Aspen Music Festival</Link>
+                <br></br>
+                <Link href='#santafe'>Santa Fe Begins</Link>
+                <br></br>
+                <Link href='#gospel'>Spreading the Gospel</Link>
+                <br></br>
+                <Link href='#acclaim'>Critical Acclaim</Link>
+                <br></br>
+                <Link href='#citizen'>Poised for Exposure</Link>
+                <br></br>
+                <Link href='#woundedknee'>Wounded Knee Battle Cry</Link>
+                <br></br>
+                <Link href='#unseen'>Visibility for the Unseen</Link>
+                <br></br>
+                <Link href='#cities'>The Three Cities</Link>
+                <br></br>
+                <Link href='#jewel'>European Crown Jewel</Link>
+                <br></br>
+                <Link href='#newera'>A New Era Begins</Link>
+                <br></br>
+                <Link href='#achievement'>Lifetime Achievements</Link>
+                <br></br>
+                <Link href='#torch'>Passing the Torch</Link>
+                <br></br>
+                <Link href='#revival'>An Ongoing Revival</Link>
+                </Box>
+            </VStack>
 
+            <a id="humble"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -35,10 +89,10 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '155vh',
-                        md: '125vh',
+                        base: '175vh',
+                        md: '150vh',
                         lg:'90vh'
-                        }} spacing='70px'>
+                        }}>
                 <VStack 
                     align='center'
                 >
@@ -58,7 +112,9 @@ function About() {
                 </Box>
                 </VStack>
                 </HStack>
-
+                
+                
+                <a id="oklahoma"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -89,7 +145,9 @@ function About() {
                 </Box>
                 </VStack>
                 </HStack>
+                
 
+                <a id="aspen"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -120,7 +178,9 @@ function About() {
                 </Box>
                 </VStack>
                 </HStack>
-
+                
+                
+                <a id="santafe"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -151,7 +211,9 @@ function About() {
                 </Box>
                 </VStack>
                 </HStack>
+                
 
+                <a id="gospel"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -160,7 +222,7 @@ function About() {
                         }} 
                     h={{
                         base: '150vh',
-                        md: '125vh',
+                        md: '140vh',
                         lg:'90vh'
                         }} spacing='70px'>
                 <VStack 
@@ -182,7 +244,9 @@ function About() {
                 </Box>
                 </VStack>
                 </HStack>
+                
 
+                <a id="acclaim"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -190,8 +254,8 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '190vh',
-                        md: '165vh',
+                        base: '210vh',
+                        md: '175vh',
                         lg:'110vh'
                         }} spacing='70px'>
                 <VStack 
@@ -215,7 +279,9 @@ function About() {
                 </Box>
                 </VStack>
                 </HStack>
+                
 
+                <a id="citizen"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -223,8 +289,8 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '235vh',
-                        md: '195vh',
+                        base: '255vh',
+                        md: '200vh',
                         lg:'140vh'
                         }} spacing='70px'>
                 <VStack 
@@ -239,7 +305,7 @@ function About() {
                 </Box>
                 <Box 
                     h={{
-                        base: '23vh',
+                        base: '24vh',
                         md: '15vh',
                         lg: '11vh'
                     }}      
@@ -252,13 +318,17 @@ function About() {
                 <Box w='100vw' style={{ marginTop: '3vh' }}>
                 <Text>
                 From the early 70’s onwards, Ballard’s work was recorded to meet international standards and more frequently played around the country. In 1972, some of his music was broadcast across the Smithsonian’s 80 FM member stations, as well as snippets played on Swedish national television. He created his first educational products for the classroom including: American Indians: Yesterday and Today and Oklahoma Indian Chants for the Classroom, both of which were precursors to American Indian Music for the Classroom. The following year, he accepted the Indian Achievement Award and was the first Quapaw tribal member, and fifth Cherokee tribal member, to win. The president of the council stated:</Text>
+                <Box w='100vw' style={{ marginTop: '3vh' }}>
                 <Text as='i'> “Mr. Ballard fully epitomizes the spirit and philosophy of the Indian Achievement Award…It is given in recognition of achievement and accomplishment, either personal in nature or humanitarian in endeavor. He is a combination of both – in his personal life he has struggled to rise in his chosen profession, and in his work he is helping to usher in a new era of enlightenment concerning Indians and their culture.” </Text><Text>
                 He also received an honorary doctorate from the College of Santa Fe that year, and according to the Santa Fe New Mexican:</Text><Text as='i'>“His honorary degree praised his commitment to enrich the lives of young people, whatever their origin.”</Text>
                 </Box>
                 </Box>
+                </Box>
                 </VStack>
                 </HStack>
+                
 
+                <a id="woundedknee"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -266,8 +336,8 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '205vh',
-                        md: '175vh',
+                        base: '225vh',
+                        md: '185vh',
                         lg:'120vh'
                         }} spacing='70px'>
                 <VStack 
@@ -286,13 +356,20 @@ function About() {
                 <Box w='100vw' style={{ marginTop: '3vh' }}>
                 <Text>
                 The piece premiered both in the U.S. and Europe and was performed by the St. Paul Chamber Orchestra and conducted by Denis Russell Davies. The reception on both sides had a deep impact on Ballard at the time, as he quoted:</Text>
-                <Text as='i'> “A series of musical episodes depict the emotional procession toward the town, the state of the souls in torment, and the violent conflict. The work culminates in musical and dance forms affirming the essential spirituality of Native American people. Incident is not a political work, but it drew a strong reaction from oppressed peoples when it was played in Poland and Czechoslovakia, as well as the cities of Western Europe. The fact that I was taking a bow onstage with a white American orchestra and conductor did more than words can to show that we live in a free country.” </Text><Text>
+                <Box w='100vw' style={{ marginTop: '3vh' }}>
+                <Text as='i'> “A series of musical episodes depict the emotional procession toward the town, the state of the souls in torment, and the violent conflict. The work culminates in musical and dance forms affirming the essential spirituality of Native American people. Incident is not a political work, but it drew a strong reaction from oppressed peoples when it was played in Poland and Czechoslovakia, as well as the cities of Western Europe. The fact that I was taking a bow onstage with a white American orchestra and conductor did more than words can to show that we live in a free country.” </Text>
+                </Box>
+                <Box w='100vw' style={{ marginTop: '3vh' }}>
+                <Text>
                 The premiere of Incident at Wounded Knee brought Ballard into realms that few American classical composers, and no Native American classical composers had reached before. He suddenly gained access to an international network of musicians and support networks. When he returned home from the European tour, he had more invitations to compose music and he continued securing grants more easily.</Text>
+                </Box>
                 </Box>
                 </Box>
                 </VStack>
                 </HStack>
+                
 
+                <a id="unseen"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -316,9 +393,9 @@ function About() {
                 </Box>
                 <Box 
                     h={{
-                        base: '23vh',
+                        base: '21vh',
                         md: '15vh',
-                        lg: '10vh'
+                        lg: '8vh'
                     }}      
                 >
                 <Text as='i'> “‘I first wrote Indian music as a protest to correct stereotypes and cliches,’ he said. Until Dr. Ballard, no ‘Indian’ music was written by Indians, but by Caucasians who transcribed Indian themes for piano and orchestra for pseudo ‘Indian-sounding’ music.” </Text>
@@ -333,7 +410,9 @@ function About() {
                 </Box>
                 </VStack>
                 </HStack>
+                
 
+                <a id="cities"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -365,7 +444,9 @@ function About() {
                 </Box>
                 </VStack>
                 </HStack>
+                
 
+                <a id="jewel"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -374,7 +455,7 @@ function About() {
                         }} 
                     h={{
                         base: '200vh',
-                        md: '195vh',
+                        md: '175vh',
                         lg:'110vh'
                         }} spacing='70px'>
                 <VStack 
@@ -398,7 +479,9 @@ function About() {
                 </Box>
                 </VStack>
                 </HStack>
-
+                
+                
+                <a id="newera"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -407,7 +490,7 @@ function About() {
                         }} 
                     h={{
                         base: '200vh',
-                        md: '195vh',
+                        md: '175vh',
                         lg:'110vh'
                         }} spacing='70px'>
                 <VStack 
@@ -424,16 +507,16 @@ function About() {
                 <Text>As Ballard approached elderly status, he began to see the fruits of his labor take hold in a more receptive national and international discourse. He composed an opera in 1994 entitled <Text as='i'>Moontide: The Man Who Hated Money,</Text> that premiered in Norden, Germany. The next year, the final installment of <Text as='i'>Scenes From Indian Life</Text> entitled <Text as='i'>Feast Day</Text> was performed alongside works by Aaron Copeland and Leonard Berstein. It was clear that his music was finally going to rest among the top American classical music composers of the century. Around this time, the first music composition software was being developed alongside other software transforming the way music had traditionally been written and shared. Likewise, recording equipment had advanced significantly, and Ballard was able to adapt quickly to the new composing options.</Text>
                 </Box>
                 <Box 
-                    style={{ marginTop: '3.5vh' }}
+                    style={{ marginTop: '3vh' }}
                     h={{
-                        base: '23vh',
+                        base: '17vh',
                         md: '15vh',
-                        lg: '11vh'
+                        lg: '7vh'
                     }}      
                 >
                 <Text as='i'> “Ballard has embraced changes of his own, the latest being composing via computer, which allows him to hear the sounds right after writing them. It’s the best thing to happen to the composer since the invention of ink.” </Text>
                 </Box>
-                <Box w='100vw' style={{ marginTop: '0.3vh' }}>
+                <Box w='100vw' style={{ marginTop: '3vh' }}>
                 <Text>
                 The technology allowed Ballard to compose new scores more easily and revisit old ones for revision with a new perspective. Besides technology, new Native American composers had begun to enter the field and follow in Ballard’s trailblazing footsteps. A Mohican composer, Brent Michael Davids mentioned Ballard in an Indian Country Today article for his ideas towards a Native American Music Association and also the more sophisticated role that Natives could potentially occupy in Hollywood.
                 </Text>
@@ -441,7 +524,9 @@ function About() {
                 </Box>
                 </VStack>
                 </HStack>
+                
 
+                <a id="achievement"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -450,7 +535,7 @@ function About() {
                         }} 
                     h={{
                         base: '200vh',
-                        md: '195vh',
+                        md: '175vh',
                         lg:'110vh'
                         }} spacing='70px'>
                 <VStack 
@@ -473,7 +558,7 @@ function About() {
                     h={{
                         base: '23vh',
                         md: '15vh',
-                        lg: '11vh'
+                        lg: '9vh'
                     }}      
                 >
                 <Text as='i'> “I’m very gratified and proud to have this opportunity to make my contributions known in the musical field… A lot of my work is based upon my heritage…It’s important for young people…I want to encourage young composers and artists.” </Text>
@@ -486,7 +571,9 @@ function About() {
                 </Box>
                 </VStack>
                 </HStack>
+                
 
+                <a id="torch"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -518,12 +605,12 @@ function About() {
                     h={{
                         base: '23vh',
                         md: '15vh',
-                        lg: '11vh'
+                        lg: '7vh'
                     }}      
                 >
                 <Text as='i'> “This guidebook means a lot to me, and to Americans everywhere, including Native Americans…This is America’s cultural heritage. I want the tradition of our songs and our music to live on, and the best way to do that is to teach all teachers how to teach them. Simple as that.” </Text>
                 </Box>
-                <Box w='100vw' style={{ marginTop: '0.3vh' }}>
+                <Box w='100vw' style={{ marginTop: '3vh' }}>
                 <Text>
                 In 2006, the newly created Smithsonian Museum of the American Indian welcomed Ballard three separate times to hear performances of his music. It was truly a full circle moment as Ballard had worked in D.C. on the all Native half-time show which was the pinnacle of his career with the BIA decades prior, and he had a long relationship with government initiatives for Native American youth. It seemed only fitting that he was alive to see Native American culture take a rightful and symbolic place on the National Mall. Unfortunately, unbeknownst to the musical community at the time, this was also to be Ballard’s last year of life. He had been diagnosed with and was quietly battling cancer since 2004. In February 2007, he succumbed to his illness and died in his home in Santa Fe. He was survived by Ruth Ballard and his three children and five grandchildren. He was mourned by his artistic community in Santa Fe and by the Quapaw tribe and Oklahoma community who knew him as a pioneer and elder. At the time of his death, Ballard left two works unfinished, a piano concerto and an opera. The piano concerto was finished by his friend, the Mohican composer Brent Michael Davids. It was entitled <Text as='i'>“A Spirited Farewell”</Text> and was performed by the Indianapolis Symphony in 2007.
                 </Text>
@@ -531,7 +618,9 @@ function About() {
                 </Box>
                 </VStack>
                 </HStack>
+                
 
+                <a id="revival"></a>
                 <HStack 
                     w={{
                         base: '75vw',
@@ -540,7 +629,7 @@ function About() {
                         }} 
                     h={{
                         base: '150vh',
-                        md: '195vh',
+                        md: '175vh',
                         lg:'110vh'
                         }} spacing='70px'>
                 <VStack 
@@ -566,6 +655,9 @@ function About() {
                     style={{ marginTop: '5vh', marginLeft: '8vw' }}
                     h='7vh'>
                 <Heading as='h5' size='lg'>Simone</Heading>
+                <a rel="noreferrer" href="https://www.simoneballard.com" target="_blank">
+                    www.simoneballard.com
+                </a>
                 </Box>
                 </Box>
                 </VStack>

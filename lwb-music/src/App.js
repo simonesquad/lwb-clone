@@ -1,8 +1,6 @@
 import * as React from 'react';
 import Layout from "../src/layout/index";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { ThemeProvider, createTheme } from '@material-ui/core/styles';
-import CssBaseline from '@material-ui/core/CssBaseline';
 
 //components
 import Contact from './pages/Contact';
@@ -16,20 +14,8 @@ import Greeting from './components/Greeting';
 
 function App() {
 
-  const theme = React.useMemo(
-    () =>
-      createTheme({
-        palette: {
-          
-        },
-      }),
-    [],
-  );
-
   return ( 
     <Router>
-      <ThemeProvider theme={theme}>
-      <CssBaseline />
       <Layout>
       <Switch>
         <Route exact path='/thankyou' component={Greeting} />
@@ -41,7 +27,6 @@ function App() {
         <Route exact path='/' component={LandingPage} />
       </Switch>
       </Layout>
-    </ThemeProvider>
     </Router>
     
   );

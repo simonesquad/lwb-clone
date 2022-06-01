@@ -9,7 +9,6 @@ import {
     VStack, 
     HStack,
     Stack,
-    StackDivider,
     Heading,
     Image,
     Box,
@@ -53,7 +52,6 @@ function Home() {
 
         <Stack>
         <VStack 
-                divider={<StackDivider borderColor='gray.200' />}
                 spacing={1}
                 align='center'
             >

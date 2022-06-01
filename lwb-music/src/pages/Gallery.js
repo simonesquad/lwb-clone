@@ -1,6 +1,5 @@
 import React from 'react';
-// import GalleryH from '../components/GalleryH';
-import GalleryV from '../components/GalleryV';
+import GridGallery from '../components/GridGallery';
 
 function Gallery() {
 
@@ -8,7 +7,7 @@ function Gallery() {
   return (
   <div>
 
-    <GalleryV />
+    <GridGallery />
     
   </div>
 	);
