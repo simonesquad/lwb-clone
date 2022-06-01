@@ -29,12 +29,23 @@ function About() {
                 align='center'
             >
             <VStack
-                w='70vw'
-                h='65vh'
+                w={{
+                    sm: '75vw',
+                    md: '60vw',
+                    lg:'70vw'
+                }}
+                h={{
+                    sm: '80vh',
+                    md: '77vh',
+                    lg: '75vh'
+                }}
                 align='left'
             >
                 <Box
-                    h='9vh'
+                    h={{
+                        md: '13vh',
+                        lg:'9vh'
+                    }}
                 >
                     <Heading>Biographical Table of Contents</Heading>
                 </Box>
@@ -79,7 +90,7 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '155vh',
+                        base: '175vh',
                         md: '125vh',
                         lg:'90vh'
                         }} spacing='70px'>
@@ -244,7 +255,7 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '190vh',
+                        base: '210vh',
                         md: '165vh',
                         lg:'110vh'
                         }} spacing='70px'>
@@ -279,7 +290,7 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '235vh',
+                        base: '255vh',
                         md: '195vh',
                         lg:'140vh'
                         }} spacing='70px'>
@@ -326,7 +337,7 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '205vh',
+                        base: '225vh',
                         md: '175vh',
                         lg:'120vh'
                         }} spacing='70px'>
