@@ -8,7 +8,6 @@ import  {
     Heading,
     Link,
     Text,
-    StackDivider,
 } from '@chakra-ui/react';
 import { createBreakpoints } from '@chakra-ui/theme-tools';
 
@@ -24,7 +23,6 @@ function About() {
     return (
         <Stack>
             <VStack 
-                divider={<StackDivider borderColor='gray.200' />}
                 spacing={1}
                 align='center'
             >

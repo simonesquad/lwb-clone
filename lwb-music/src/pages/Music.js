@@ -7,7 +7,6 @@ import  {
     Heading,
     Link,
     Text,
-    StackDivider,
     List,
     ListItem,
 } from '@chakra-ui/react';
@@ -26,7 +25,6 @@ function Music() {
     return (
         <Stack>
             <VStack 
-                divider={<StackDivider borderColor='gray.200' />}
                 spacing={1}
                 align='center'
             >
