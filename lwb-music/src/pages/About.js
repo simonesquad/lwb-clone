@@ -29,8 +29,15 @@ function About() {
                 align='center'
             >
             <VStack
-                h='70vh'
+                w='70vw'
+                h='65vh'
+                align='left'
             >
+                <Box
+                    h='9vh'
+                >
+                    <Heading>Biographical Table of Contents</Heading>
+                </Box>
                 <Box>
                 <Link href='#humble'>Humble Beginnings</Link>
                 <br></br>
