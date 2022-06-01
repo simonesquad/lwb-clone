@@ -22,11 +22,16 @@ function Music() {
                 align='center'
             >
             <VStack
-                h='70vh'
+                w='70vw'
+                h='65vh'
+                align='left'
             >
-                <Box 
-                    w='40vw'
+                <Box
+                    h='9vh'
                 >
+                    <Heading>Music Highlights Table of Contents</Heading>
+                </Box>
+                <Box>
                 <Link href='#incident'>Incident at Wounded Knee</Link>
                 <br></br>
                 <Link href='#katcina'>Katcina Dances</Link>
@@ -51,7 +56,7 @@ function Music() {
                 <br></br>
                 <Link href='#chamber_music'>Chamber Music Overview</Link>
                 <br></br>
-                <Link href='#notes'>Note on music:</Link>
+                <Link href='#notes'>Note on music*</Link>
                 </Box>
             </VStack>
 
