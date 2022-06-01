@@ -52,10 +52,11 @@ const ContactForm = () => {
   return (
     <form onSubmit={onSubmit}>
       <Box h='15vh'>
-      <Input 
+      <Input    
                 type='text'
                 name='user_name'
                 placeholder='Name'
+                _placeholder={{ color: 'black' }}
                 value={toSend.user_name}
                 onChange={handleChange}
                 maxLength='30'
@@ -67,6 +68,7 @@ const ContactForm = () => {
                 type='email'
                 name='user_email'
                 placeholder='Email'
+                _placeholder={{ color: 'black' }}
                 value={toSend.user_email}
                 onChange={handleChange}
                 maxLength='50'
@@ -77,6 +79,7 @@ const ContactForm = () => {
       <Textarea
                 name='message'
                 placeholder='Tell us your favorite color'
+                _placeholder={{ color: 'black' }}
                 value={toSend.message}
                 onChange={handleChange}
                 maxLength='500'
@@ -92,6 +95,7 @@ const ContactForm = () => {
             }}
         >
         <Button
+            colorScheme='blackAlpha'
             w={{
                 sm: '25vw',
                 md: '21vw',
