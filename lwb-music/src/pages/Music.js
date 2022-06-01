@@ -90,7 +90,7 @@ function Music() {
                     h={{
                         base: '165vh',
                         md: '120vh',
-                        lg:'80vh'
+                        lg:'100vh'
                         }}>
                 <VStack 
                     align='center'
@@ -121,7 +121,7 @@ function Music() {
                     h={{
                         base: '150vh',
                         md: '120vh',
-                        lg:'95vh'
+                        lg:'115vh'
                         }}>
                 <VStack 
                     align='left'
@@ -134,7 +134,7 @@ function Music() {
                     The Katcina Dances: Suite for Violoncello and Pianoforte was commissioned by and dedicated to Herbert and Bernice Beenhouwer. The piece is named after mythical spirits originating from the Hopi tribe in New Mexico, where Ballard lived most of his life. They are spirits that the Hopi believe manifest themselves for six months here on Earth to give guidance. Ballard initially started visiting the Hopi reservation while doing research for his first ballet composition <Text as='i'>Koshare.</Text> He witnessed the ceremonial Katcina dances first hand on tribal grounds which inspired the project. Katcina Dances consists of 10 movements corresponding to different Katcina manifestations and their distinguishing characteristics. Those movements are: <Text as='i'>“Powamu (Coming of the Gods)”, “Ahul (Sun God)”, “Kwahu (Eagle)”, “Momo (Bees)”, “Monwu (Owls)”, “Koyimsi (Foolish Ones)”, “Calako (Huge Birds)”, “Tumas, Tunwup (Crow Mother and Sons)”, “Soyokos (Monsters)”, and “Niman (Departure of the Gods)”.</Text>
                     </Text>
                 </Box>
-                <Box w='100vw' style={{ margin: '3vh' }}>
+                <Box w='100vw' style={{ margin: '5px', marginTop: '3vh' }}>
                     <Text>
                     Ballard’s European training becomes evident in this work, as well as his cultural anthropological ambitions to capture the essence of other tribe’s folklore without disturbing their religious significance. These were delicate matters, and it seems that his approach with Katcina Dances paid off as it remains an alluring piece and is still preferentially performed. The world premiere was on July 28th, 1970 in Santa Fe, New Mexico featuring cellist James Holoshovsky and Ruth Doré. 
                     </Text>
@@ -161,7 +161,7 @@ function Music() {
                     h={{
                         base: '160vh',
                         md: '120vh',
-                        lg:'100vh'
+                        lg:'115vh'
                         }}>
                 <VStack 
                     align='left'
@@ -174,7 +174,7 @@ function Music() {
                     The Four American Indian Preludes were composed during a unique time in Ballard’s career, when he was under the tutelage of Darius Milhaud at the Aspen Music Festival in 1963. When Darius first heard the preludes he allegedly remarked: <Text as='i'>“Louis, now you are a real composer!”</Text> This was a pivotal moment for Ballard as he felt he had crossed an important personal and professional milestone. The Preludes remain his most outstanding work for piano and were often played during his lifetime. The piece was selected for a tribute concert to Ballard at the Smithsonian National Museum of the American Indian in November, 2007. It is also frequently played by his friend Italian pianist Emanuele Arciuli. 
                     </Text>
                     </Box>
-                    <Box w='100vw' style={{ margin: '3vh' }}>
+                    <Box w='100vw' style={{ margin: '5px', marginTop: '3vh' }}>
                     <Text>
                     The Preludes marks Ballard’s chosen departure from his original training via Béla Rózsa at the University of Tulsa, who had studied from Schoenberg. His original techniques primarily involved twelve-tone music and atonal writing. The atonal writing persisted, however, the preludes represented his foray into intervals of a perfect fourth and diminished fifth. Each prelude depicts a scene relevant to historical Native American life, and each scene’s title is presented in the Quapaw language. The four scenes are: “Ombáska” (Daylight), “Tabideh” (The Hunt), “Nekátohe” (Lovesong), and “T’ohkáne” (Warrior Dance). The entire set is 10 minutes in duration. According to Native pianist Tim Hays: <Text as='i'>“In the Preludes he looked at the piano in two different ways. He looked at it as a percussion band and as a source for vocal lines at the same time. … The audience gets it; they understand it immediately.”</Text>
                     </Text>
@@ -232,7 +232,7 @@ function Music() {
                     h={{
                         base: '130vh',
                         md: '100vh',
-                        lg:'80vh'
+                        lg:'100vh'
                         }}>
                 <VStack 
                     align='left'
@@ -269,7 +269,7 @@ function Music() {
                     h={{
                         base: '135vh',
                         md: '120vh',
-                        lg:'80vh'
+                        lg:'100vh'
                         }} >
                 <VStack 
                     align='center'
@@ -340,7 +340,7 @@ function Music() {
                     h={{
                         base: '105vh',
                         md: '95vh',
-                        lg:'80vh'
+                        lg:'100vh'
                         }} spacing='70px'>
                 <VStack 
                     align='center'
@@ -366,8 +366,8 @@ function Music() {
                     h={{
                         base: '190vh',
                         md: '150vh',
-                        lg:'110vh'
-                        }} spacing='70px'>
+                        lg:'130vh'
+                        }} >
                 <VStack 
                     align='left'
                 >
@@ -379,7 +379,7 @@ function Music() {
                     The Four Moons is a ballet composed during a unique moment in history, when Oklahoma had produced four world-renowned Native American ballerinas who were all actively dancing over a few decades. Those four ballerinas were Yvonne Chouteau (Cherokee), Rosella Hightower (Choctaw), Moscelyne Larkin (Shawnee), and Marjorie Tallchief (Osage). An honorable mention has to be made for Marjorie’s older sister Maria Tallchief, who did not participate in the ballet at that time because she had already retired. She was known worldwide as one of the greatest prima ballerinas the U.S. had ever produced, a founding member of New York City Ballet, and a member of the Osage tribe of Oklahoma whom Dolores Lookout, Ballard’s first wife and mother of his three children, also belonged to. It was truly a family affair moment. 
                     </Text>
                 </Box>
-                <Box w='100vw' style={{ margin: '3vh' }}>
+                <Box w='100vw' style={{ margin: '5px', marginTop: '3vh' }}>
                     <Text>
                     At this stage, Ballard had composed two previous ballets based on Iroquois and Hopi tribal mythology. Those ballets are <Text as='i'>Ji-jo-gweh and Koshare.</Text> The Four Moons was different because it wasn’t based on mythology, but rather an actual historical event that marked a turning point for many tribes. That event was the Trail of Tears and the forced migration of Native Americans from their ancestral homelands within the U.S. to less favorable land out west. Due to Ballard’s Cherokee and Quapaw heritage, the subject matter held a special significance for all artists involved. The 22-minute long ballet is structured as a <Text as='i'>pas de quatre,</Text> with solos from each ballerina and an <Text as='i'>ensemble</Text> finale. The choreography was highly personalized to each ballerina’s story and style. There was a reception at the Governor’s Mansion in Oklahoma to celebrate the announcement, and the ballet itself premiered later that year at the Tulsa Municipal Theater on October 28th, 1967 as a part of Oklahoma’s 60th Anniversary of Statehood celebration. The ballet received a glowing review from dance critic Walter Terry in World of Dance: <Text as='i'>“...and to the art of ballet in this fascinating and wholly rewarding Oklahoma Indian Ballerina Festival, for in their care the four moons did, indeed, shine warmly and brightly.”</Text>
                     </Text>
@@ -403,8 +403,8 @@ function Music() {
                     h={{
                         base: '120vh',
                         md: '110vh',
-                        lg:'85vh'
-                        }} spacing='70px'>
+                        lg:'105vh'
+                        }}>
                 <VStack 
                     align='center'
                 >
@@ -451,7 +451,7 @@ function Music() {
                     h={{
                         base: '80vh',
                         md: '95vh',
-                        lg:'80vh'
+                        lg:'100vh'
                         }} spacing='70px'>
                 <VStack 
                     align='center'
@@ -491,7 +491,7 @@ function Music() {
                     h={{
                         base: '105vh',
                         md: '95vh',
-                        lg:'80vh'
+                        lg:'100vh'
                         }} spacing='70px'>
                 <VStack 
                     align='center'
