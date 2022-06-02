@@ -64,7 +64,7 @@ const ContactForm = () => {
                 id='name'
                 type='text'
                 name='user_name'
-                placeholder='Name'
+                placeholder='Anastasia Smith'
                 _placeholder={{ color: 'grey' }}
                 value={toSend.user_name}
                 onChange={handleChange}
@@ -79,7 +79,7 @@ const ContactForm = () => {
             <Input
                 type='email'
                 name='user_email'
-                placeholder='Email'
+                placeholder='asmith@hotmail.com'
                 _placeholder={{ color: 'grey' }}
                 value={toSend.user_email}
                 onChange={handleChange}
