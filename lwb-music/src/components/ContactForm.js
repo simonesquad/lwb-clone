@@ -8,7 +8,11 @@ import {
   Box,
   Button,
   Input,
-  Textarea 
+  Textarea,
+  FormControl,
+  FormLabel,
+  FormErrorMessage,
+  FormHelperText,
 } from '@chakra-ui/react';
 import { createBreakpoints } from '@chakra-ui/theme-tools';
 
@@ -49,42 +53,52 @@ const ContactForm = () => {
       setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
 
+  const isError = toSend === ''
+
   return (
     <form onSubmit={onSubmit}>
       <Box h='15vh'>
-      <Input    
+        <FormControl isRequired>
+            <FormLabel htmlFor='name'>Name</FormLabel>
+            <Input    
+                id='name'
                 type='text'
                 name='user_name'
-                placeholder='Name'
-                _placeholder={{ color: 'black' }}
+                placeholder='Anastasia Smith'
+                _placeholder={{ color: 'grey' }}
                 value={toSend.user_name}
                 onChange={handleChange}
                 maxLength='30'
             />
-            <br></br>
+        </FormControl>
       </Box>
+
       <Box h='15vh'>
-      <Input
+        <FormControl isRequired>
+            <FormLabel htmlFor='email'>Email address</FormLabel>
+            <Input
                 type='email'
                 name='user_email'
-                placeholder='Email'
-                _placeholder={{ color: 'black' }}
+                placeholder='asmith@hotmail.com'
+                _placeholder={{ color: 'grey' }}
                 value={toSend.user_email}
                 onChange={handleChange}
                 maxLength='50'
             />
-            <br></br>
+        </FormControl>
       </Box>
       <Box h='15vh'>
-      <Textarea
+        <FormControl isRequired>
+            <FormLabel htmlFor='message'>Message</FormLabel>
+            <Textarea
                 name='message'
                 placeholder='Tell us your favorite color'
-                _placeholder={{ color: 'black' }}
+                _placeholder={{ color: 'grey' }}
                 value={toSend.message}
                 onChange={handleChange}
                 maxLength='500'
             />
-            <br></br>
+        </FormControl>
       </Box>
       <Box
             marginTop='12%' 
