@@ -5,7 +5,6 @@ import {
     Flex,
     Spacer,
     Box,
-    // Text,
     IconButton,
 } from "@chakra-ui/react"
 
@@ -26,7 +25,6 @@ export default function Header({ onOpen, ...rest }) {
     >
     <Box p='4'>
     <IconButton
-        // display="flex"
         onClick={onOpen}
         variant="outline"
         aria-label="open menu"
@@ -34,16 +32,6 @@ export default function Header({ onOpen, ...rest }) {
       />
     </Box>
     <Spacer />
-    {/* <Box p='4'>
-    <Text
-        // display="flex"
-        fontSize="2xl"
-        fontFamily="monospace"
-        fontWeight="bold"
-      >
-        LWB
-    </Text>
-    </Box> */}
     </Flex>
     );
 }

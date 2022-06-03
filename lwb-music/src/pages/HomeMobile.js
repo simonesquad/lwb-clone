@@ -48,14 +48,13 @@ const breakpoints = createBreakpoints({
         </Drawer>
         <Stack>
         <VStack 
-                divider={<StackDivider borderColor='gray.200' />}
                 spacing={1}
                 align='center'
             >
         <VStack 
                     marginTop='45px'
                     w='80vw'
-                    h='120vh'
+                    h='140vh'
                 >
         <Box fontSize={["sm"]}>
                 <Heading 
@@ -67,17 +66,19 @@ const breakpoints = createBreakpoints({
                 </Heading>
                     </Box>
                 </VStack>
-            
+                <Box
+                    h='50vh'
+                >
                 <Image 
                 src={LWB} 
                 h='100vw'
                 w='45vw'
                 />
-                
+                 </Box>
                 <VStack 
-                    marginTop='60px'
+                    marginTop='20vh'
                     w='80vw'
-                    h='70vh'
+                    h='100vh'
                 >
                 <Box h='22vh'>
                 <Heading as='h2' size='2xl'>Welcome to the Louis W. Ballard Memorial Page</Heading>
@@ -95,9 +96,9 @@ const breakpoints = createBreakpoints({
                 />
 
                 <VStack 
-                    marginTop='45px'
+                    marginTop='20vh'
                     w='80vw'
-                    h='85vh'
+                    h='120vh'
                 >
                 <Heading as='h2' size='2xl'>I have found myself</Heading><Heading as='h3' size='md'>in a curious circumstance, in that I am literally</Heading><Heading as='h2' size='2xl'>between two worlds ...</Heading><Heading as='h3' size='md'>that of the American Indian and that of Western society. These two worlds, of historical necessity, have been forced to coexist yet their</Heading><Heading as='h2' size='xl'>values and aesthetic concepts have remained almost irreconcilable.</Heading><Heading as='h3' size='md'>In my music I have sought to fuse these worlds for I believe that an artist can get to the heart of a culture through</Heading><Heading as='h2' size='2xl'>new forms alien to that culture.</Heading>
                 </VStack>
@@ -109,8 +110,8 @@ const breakpoints = createBreakpoints({
                     />
 
                 <VStack 
-                    marginTop='45px'
-                    h='95vh'
+                    marginTop='20vh'
+                    h='120vh'
                     w='80vw'
                 >
                 <Heading as='h2' size='xl'>
@@ -118,9 +119,9 @@ const breakpoints = createBreakpoints({
                 </VStack>
 
                 <VStack 
-                    marginTop='45px'
+                    marginTop='20vh'
                     w='80vw'
-                    h='100vh'
+                    h='120vh'
                 >
                 <Heading as='h2' size='2xl'>
                 "I want to thank you for the excellent coverage of my activities...</Heading><Heading as='h3' size='md'>Society, of course, needs the composer, but often it is felt that the composer does not need society. This is not true and I take the opportunity to verify it.</Heading><Heading as='h2' size='xl'>Many people have called to express their interest in my work and the thriving Santa Fe music scene.</Heading><Heading as='h3' size='md'>I even received an invitation to conduct a program of my music in the Midwest by a gentleman who was passing through our town.</Heading><Heading as='h2' size='xl'>Keep up your coverage of Santa Fe arts and artists."</Heading>
@@ -130,7 +131,7 @@ const breakpoints = createBreakpoints({
                 <VStack
                     align='center'
                     w='100vw'
-                    h='50vh'
+                    h='75vh'
                     marginTop={65}
                 >
                     <iframe
@@ -145,12 +146,12 @@ const breakpoints = createBreakpoints({
                 <VStack
                     align='center'
                     w='100vw'
-                    h='60vh'
+                    h='100vh'
                 >
                 <Image 
                     src={LWB3} 
                     w='90vw'
-                    marginTop='25px'
+                    marginTop='15vh'
                     />
                 <Heading as='h3' size='md'>1931-2008</Heading>
                 </VStack>
