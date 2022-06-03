@@ -35,6 +35,7 @@ function Music() {
                     lg:'70vw'
                 }}
                 h={{
+                    base: '100vh',
                     sm: '80vh',
                     md: '77vh',
                     lg: '75vh'
@@ -319,7 +320,7 @@ function Music() {
                 </Box>
                 <Box style={{ 
                     marginTop: '17%', 
-                    marginLeft: '25%' 
+                    marginLeft: '45%' 
                 }}>
                     <a href="https://www.navonarecords.com/catalog/nv6429/" target="_blank">
                     <Buttons
@@ -383,7 +384,10 @@ function Music() {
                     At this stage, Ballard had composed two previous ballets based on Iroquois and Hopi tribal mythology. Those ballets are <Text as='i'>Ji-jo-gweh and Koshare.</Text> The Four Moons was different because it wasn’t based on mythology, but rather an actual historical event that marked a turning point for many tribes. That event was the Trail of Tears and the forced migration of Native Americans from their ancestral homelands within the U.S. to less favorable land out west. Due to Ballard’s Cherokee and Quapaw heritage, the subject matter held a special significance for all artists involved. The 22-minute long ballet is structured as a <Text as='i'>pas de quatre,</Text> with solos from each ballerina and an <Text as='i'>ensemble</Text> finale. The choreography was highly personalized to each ballerina’s story and style. There was a reception at the Governor’s Mansion in Oklahoma to celebrate the announcement, and the ballet itself premiered later that year at the Tulsa Municipal Theater on October 28th, 1967 as a part of Oklahoma’s 60th Anniversary of Statehood celebration. The ballet received a glowing review from dance critic Walter Terry in World of Dance: <Text as='i'>“...and to the art of ballet in this fascinating and wholly rewarding Oklahoma Indian Ballerina Festival, for in their care the four moons did, indeed, shine warmly and brightly.”</Text>
                     </Text>
                 </Box>
-                <Box style={{ marginTop: '17%', marginLeft: '45%' }}>
+                <Box style={{ 
+                    marginTop: '17%', 
+                    marginLeft: '45%' 
+                    }}>
                     <a href="https://open.spotify.com/album/4dOgH1viKCbfX2h56VoPvh" target="_blank">
                     <Buttons
                         text="Listen" />

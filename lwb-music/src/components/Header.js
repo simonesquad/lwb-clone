@@ -5,15 +5,15 @@ import {
     Flex,
     Spacer,
     Box,
-    // Text,
     IconButton,
+    Text,
 } from "@chakra-ui/react"
 
 
 export default function Header({ onOpen, ...rest }) {
     return (
     <Flex
-      px="4"
+      px="1"
       position="sticky"
       top="0"
       height="20"
@@ -21,12 +21,11 @@ export default function Header({ onOpen, ...rest }) {
       bg="white"
       borderBottomWidth="1px"
       borderBottomColor="gray.200"
-      flexDirection="row"
-      {...rest}
+      // flexDirection="row"
+      // {...rest}
     >
     <Box p='4'>
     <IconButton
-        // display="flex"
         onClick={onOpen}
         variant="outline"
         aria-label="open menu"
@@ -34,16 +33,18 @@ export default function Header({ onOpen, ...rest }) {
       />
     </Box>
     <Spacer />
-    {/* <Box p='4'>
-    <Text
-        // display="flex"
-        fontSize="2xl"
-        fontFamily="monospace"
+    <Box
+      marginTop='2.75vh'
+      marginRight='2.5vh'
+    >
+    <Text 
+        fontSize="2xl" 
+        fontFamily="monospace" 
         fontWeight="bold"
       >
-        LWB
-    </Text>
-    </Box> */}
+          LWB
+        </Text>
+    </Box>
     </Flex>
     );
 }

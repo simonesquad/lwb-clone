@@ -33,6 +33,7 @@ function About() {
                     lg:'70vw'
                 }}
                 h={{
+                    base: '100vh',
                     sm: '80vh',
                     md: '77vh',
                     lg: '75vh'

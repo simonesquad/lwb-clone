@@ -11,8 +11,6 @@ import {
   Textarea,
   FormControl,
   FormLabel,
-  FormErrorMessage,
-  FormHelperText,
 } from '@chakra-ui/react';
 import { createBreakpoints } from '@chakra-ui/theme-tools';
 
@@ -100,22 +98,31 @@ const ContactForm = () => {
             />
         </FormControl>
       </Box>
+
       <Box
-            marginTop='12%' 
+            marginTop={{
+                base: '20%',
+                lg: '12%' 
+            }}
             marginLeft={{
-                sm: '27%',
+                base: '26%',
                 md: '31%',
                 lg: '35%'
             }}
+            w='100%'
         >
         <Button
             colorScheme='blackAlpha'
             w={{
+                base: '33vw',
                 sm: '25vw',
                 md: '21vw',
                 lg: '12vw'
             }}
-            h='6vh'
+            h={{
+                base: '6vh',
+                lg: '6vh'
+            }}
             type="submit" 
         >
             Send

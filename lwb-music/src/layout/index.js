@@ -12,7 +12,11 @@ export default function Layout({ children }) {
     const { isOpen, onOpen, onClose } = useDisclosure();
 
     return (
-        <Box minH="100vh" bg="gray.100">
+        <Box 
+            minH="100vh" 
+            bg="gray.100"
+            w='100vw'
+            >
             <Sidebar 
                 onClose={() => onClose}
                 display={{ base: "none", md: "block" }}
