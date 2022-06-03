@@ -54,7 +54,7 @@ const breakpoints = createBreakpoints({
               >
                 <Box
                     w={{
-                        base: '70vw',
+                        base: '47vw',
                         sm: '50vw',
                         md: '40vw',
                         lg: '35vw'
@@ -65,7 +65,7 @@ const breakpoints = createBreakpoints({
                 <Spacer />
                 <Box
                     w={{
-                        base: '25vw',
+                        base: '35vw',
                         sm: '35vw',
                         md: '35vw',
                         lg: '40vw'
@@ -86,7 +86,7 @@ const breakpoints = createBreakpoints({
               >
             <Box
                 h={{
-                    base: '90vh',
+                    base: '70vh',
                     sm: '82vh',
                     md: '85vh',
                     lg: '95vh'
@@ -104,7 +104,7 @@ const breakpoints = createBreakpoints({
             </Box>
             <Box
                 h={{
-                    base: '60vh',
+                    base: '50vh',
                     sm: '45vh',
                     md: '30vh',
                     lg: '15vh'
@@ -124,7 +124,7 @@ const breakpoints = createBreakpoints({
               <VStack
                 w='100%'
                 h={{
-                    base: '40vh',
+                    base: '30vh',
                     sm: '45vh',
                     md: '60vh',
                     lg: '80vh'
@@ -148,7 +148,7 @@ const breakpoints = createBreakpoints({
             
             <Box
                 h={{
-                    base: '25vh',
+                    base: '20vh',
                     lg: '15vh'
                 }}
                 w='70vw'
@@ -163,13 +163,16 @@ const breakpoints = createBreakpoints({
               <HStack
                 w='95%'
                 h={{
-                    base: '120vh',
+                    base: '90vh',
                     sm: '75vh',
                     lg: '100vh'
                 }}
               >
                 <Box
-                    w='40vw'
+                    w={{
+                        base: '35vw',
+                        lg: '40vw'
+                    }}
                 >
                 <Heading as='h4' size='md'>
                 The composer in a promotional shot that he often used. Probably taken in Oklahoma, USA.
@@ -188,7 +191,7 @@ const breakpoints = createBreakpoints({
               <VStack
                 w='100%'
                 h={{
-                    base: '100vh',
+                    base: '90vh',
                     sm: '70vh',
                     md: '80vh',
                     lg: '100vh'
