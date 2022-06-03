@@ -66,7 +66,7 @@ const breakpoints = createBreakpoints({
                     </Box>
                 </VStack>
                 <Box
-                    h='100vh'
+                    h='70vh'
                 >
                 <Image 
                     src={LWB} 
@@ -89,7 +89,7 @@ const breakpoints = createBreakpoints({
                 </Box>
                 </VStack>
                 <Box
-                    h='100vh'
+                    h='70vh'
                 >
                 <Image 
                     src={LWB2} 
@@ -106,7 +106,7 @@ const breakpoints = createBreakpoints({
                 </VStack>
 
                 <Box
-                    h='100vh'
+                    h='70vh'
                 >
                 <Image 
                     src={LWB4} 
@@ -116,7 +116,7 @@ const breakpoints = createBreakpoints({
 
                 <VStack 
                     marginTop='20vh'
-                    h='120vh'
+                    h='100vh'
                     w='80vw'
                 >
                 <Heading as='h2' size='xl'>
@@ -136,7 +136,10 @@ const breakpoints = createBreakpoints({
                 <VStack
                     align='center'
                     w='100vw'
-                    h='75vh'
+                    h={{
+                        base: '50vh',
+                        lg:'75vh'
+                    }}
                     marginTop={65}
                 >
                     <iframe
