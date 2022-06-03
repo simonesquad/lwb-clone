@@ -9,7 +9,6 @@ import {
     VStack, 
     Box,
     Stack,
-    StackDivider,
     Heading,
     Image,
     Drawer,
@@ -67,16 +66,16 @@ const breakpoints = createBreakpoints({
                     </Box>
                 </VStack>
                 <Box
-                    h='50vh'
+                    h='100vh'
                 >
                 <Image 
-                src={LWB} 
-                h='100vw'
-                w='45vw'
+                    src={LWB} 
+                    h='100vw'
+                    w='45vw'
                 />
                  </Box>
                 <VStack 
-                    marginTop='20vh'
+                    marginTop='5vh'
                     w='80vw'
                     h='100vh'
                 >
@@ -89,25 +88,31 @@ const breakpoints = createBreakpoints({
                 </Heading>
                 </Box>
                 </VStack>
-
+                <Box
+                    h='100vh'
+                >
                 <Image 
                     src={LWB2} 
                     w='85vw'
                 />
+                </Box>
 
                 <VStack 
-                    marginTop='20vh'
+                    marginTop='5vh'
                     w='80vw'
                     h='120vh'
                 >
                 <Heading as='h2' size='2xl'>I have found myself</Heading><Heading as='h3' size='md'>in a curious circumstance, in that I am literally</Heading><Heading as='h2' size='2xl'>between two worlds ...</Heading><Heading as='h3' size='md'>that of the American Indian and that of Western society. These two worlds, of historical necessity, have been forced to coexist yet their</Heading><Heading as='h2' size='xl'>values and aesthetic concepts have remained almost irreconcilable.</Heading><Heading as='h3' size='md'>In my music I have sought to fuse these worlds for I believe that an artist can get to the heart of a culture through</Heading><Heading as='h2' size='2xl'>new forms alien to that culture.</Heading>
                 </VStack>
 
-
+                <Box
+                    h='100vh'
+                >
                 <Image 
                     src={LWB4} 
                     w='90vw'
                     />
+                </Box>
 
                 <VStack 
                     marginTop='20vh'
@@ -146,7 +151,10 @@ const breakpoints = createBreakpoints({
                 <VStack
                     align='center'
                     w='100vw'
-                    h='100vh'
+                    h={{
+                        base: '75vh',
+                        lg:'100vh'
+                    }}
                 >
                 <Image 
                     src={LWB3} 
