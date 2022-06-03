@@ -22,7 +22,9 @@ const breakpoints = createBreakpoints({
 
 function Resources() {
     return (
-        <Stack>
+        <Stack
+            w='100vw'
+        >
 
         <Tabs align='left' size='md' isFitted variant='enclosed'>
         <TabList>
