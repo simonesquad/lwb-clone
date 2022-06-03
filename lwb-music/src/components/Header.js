@@ -5,6 +5,7 @@ import {
     Flex,
     Spacer,
     Box,
+    ButtonGroup,
     IconButton,
     Text,
 } from "@chakra-ui/react"
@@ -21,8 +22,11 @@ export default function Header({ onOpen, ...rest }) {
       bg="white"
       borderBottomWidth="1px"
       borderBottomColor="gray.200"
-      // flexDirection="row"
-      // {...rest}
+      flexDirection="flex-end"
+      {...rest}
+    >
+    <ButtonGroup
+      display="flex"
     >
     <Box p='4'>
     <IconButton
@@ -33,10 +37,7 @@ export default function Header({ onOpen, ...rest }) {
       />
     </Box>
     <Spacer />
-    <Box
-      marginTop='2.75vh'
-      marginRight='2.5vh'
-    >
+    <Box p='5'>
     <Text 
         fontSize="2xl" 
         fontFamily="monospace" 
@@ -45,6 +46,7 @@ export default function Header({ onOpen, ...rest }) {
           LWB
         </Text>
     </Box>
+    </ButtonGroup>
     </Flex>
     );
 }
