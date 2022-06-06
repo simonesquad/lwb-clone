@@ -313,14 +313,14 @@ function Music() {
                     The Three Cities consists of three pieces: <Text as='i'>A City of Silver (1981), A City of Fire (1984), and A City of Light (1987).</Text> Ballard visited Buenos Aires, Argentina for the first time in 1980 for the world premiere of his choral cantata <Text as='i'>Thus Spoke Abraham</Text> as performed by the Choro Conservatorio Gilardo Gilardi. The trip deeply affected him and afterwards he began composing the first city piece, A City of Silver. He dedicated this piece: <Text as='i'>“Para todos los desaparecidos del mundo,”</Text> or <Text as='i'>“For all the disappeared ones of the world.”</Text> His visit was during the aftermath of Argentina’s “Dirty War” from 1975-1978 and the military’s brutal mass executions of dissenters.
                     </Text>
                     </Box>
-                    <Box w='100vw' style={{ margin: '3vh' }}>
+                    <Box w='100vw' style={{ margin: '5px', marginTop: '3vh' }}>
                     <Text>
                     The world premiere for A City of Silver was on April 30th, 1981 at Northeastern Oklahoma University in Tahlequah. A few years later, it premiered at Carnegie Hall with pianist Roberta Rust. The New York Tribune stated that Rust’s performance: <Text as='i'>“held the promise of raising Native American music into new and undiscovered dimensions.”</Text> The performance itself was historic in that it was the first performance in Carnegie Hall of music by a Native American composer and performed by a Native American concert pianist. A City of Fire was also performed during this concert and it is a tribute to Los Alamos, New Mexico and the nuclear testing sites, a location that Ballard saw in person and had a morbid fascination with afterwards. Finally, a City of Light was inspired by Ballard’s first trip to Paris, France. In Paris, he sought out the district of his ancestral namesake, the <Text as='i'>“Place Balárd,”</Text> where the original music publishing house of the sixteenth century was located. A City of Light premiered at Carnegie Hall on February 8th, 1987 and was performed by pianist Stephan Drury. Ballard would later perform the piece himself at the Beethoven-Haus in Bonn, Germany in 1989.
                     </Text>
                 </Box>
                 <Box style={{ 
                     marginTop: '17%', 
-                    marginLeft: '45%' 
+                    marginLeft: '19%' 
                 }}>
                     <a href="https://www.navonarecords.com/catalog/nv6429/" target="_blank">
                     <Buttons
