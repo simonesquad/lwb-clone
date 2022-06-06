@@ -46,13 +46,13 @@ const breakpoints = createBreakpoints({
               <VStack
                 w='95%'
                 h={{
-                    base: '120vh',
+                    base: '90vh',
                     sm: '100vh',
                 }}
               >
                 <Box
                     w={{
-                        base: '75vw',
+                        base: '65vw',
                         sm: '70vw',
                     }}
                 >
@@ -76,7 +76,7 @@ const breakpoints = createBreakpoints({
               <VStack
                 w='100%'
                 h={{
-                    base: '120vh',
+                    base: '90vh',
                     sm: '100vh',
                 }}
               >
@@ -98,7 +98,7 @@ const breakpoints = createBreakpoints({
             </Box>
             <Box
                 h={{
-                    base: '40vh',
+                    base: '35vh',
                     sm: '45vh',
                     md: '30vh',
                     lg: '15vh'
@@ -121,7 +121,7 @@ const breakpoints = createBreakpoints({
               <VStack
                 w='100%'
                 h={{
-                    base: '70vh',
+                    base: '50vh',
                     sm: '55vh',
                 }}
               >
@@ -143,14 +143,14 @@ const breakpoints = createBreakpoints({
             
             <Box
                 h={{
-                    base: '20vh',
+                    base: '15vh',
                     sm: '30vh'
                 }}
                 w={{
                     base: '90vw',
                     lg: '70vw'
                 }}
-                marginTop='6vh'
+                marginTop='2vh'
             >
             <Heading as='h5' size='sm'>
             The world premiere of the Portrait of Will Rogers in 1972. Pictured on the left are Dr. Wesley Forbis and Will Rogers Jr. in the center alongside Ballard.
@@ -161,7 +161,7 @@ const breakpoints = createBreakpoints({
               <VStack
                 w='95%'
                 h={{
-                    base: '80vh',
+                    base: '70vh',
                     sm: '85vh'
                 }}
               >
@@ -171,7 +171,7 @@ const breakpoints = createBreakpoints({
                         sm: '65vw'
                     }}
                     h={{
-                        base: '60vh',
+                        base: '70vh',
                         sm: '80vh'
                     }}
                 >
@@ -179,14 +179,14 @@ const breakpoints = createBreakpoints({
                 </Box>
                 <Box
                    h={{
-                    base: '30vh',
+                    base: '25vh',
                     sm: '30vh'
                     }}
                     w={{
                         base: '90vw',
 
                     }}
-                    marginTop='6vh'
+                    marginTop='2vh'
                 >
                 <Heading as='h5' size='sm'>
                 The composer in a promotional shot that he often used. Probably taken in Oklahoma, USA.
@@ -197,14 +197,14 @@ const breakpoints = createBreakpoints({
               <VStack
                 w='100%'
                 h={{
-                    base: '70vh',
+                    base: '50vh',
                     sm: '70vh',
                 }}
               >
             
             <Box
                 h={{
-                    base: '45vh',
+                    base: '35vh',
                     sm: '40vh'
                 }}
             >
@@ -220,14 +220,14 @@ const breakpoints = createBreakpoints({
 
             <Box
                 h={{
-                    base: '30vh',
+                    base: '25vh',
                     sm: '30vh'
                 }}
                 w={{
                     base: '90vw',
 
                 }}
-                marginTop='6vh'
+                marginTop='2vh'
                 >
                 <Heading as='h5' size='sm'>
                 On the Right: Sammy Davis Jr. and Louis W. Ballard attending the Tulsa Philharmonic Silver Anniversary in 1973. Sammy Davis Jr. performed and two Ballard pieces were performed.
