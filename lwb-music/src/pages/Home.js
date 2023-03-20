@@ -156,6 +156,28 @@ function Home() {
                 />
 
             </HStack>
+
+            <HStack
+                w='100vw'
+                h='100vh'
+            >
+                <VStack
+                    align='center'
+                    w={{
+                        sm: '100vw',
+                        md:'90vw'
+                    }}
+                >
+                    <iframe
+                        title='four_moons_ballet'
+                        src='https://www.youtube.com/embed/a0hLybPK42A'
+                        height="500"
+                        width="800"
+                        >
+                    </iframe>
+                </VStack>
+            </HStack>
+
             <HStack 
                     w={{
                         md: '90vw',
