@@ -76,6 +76,8 @@ function Music() {
                 <br></br>
                 <Link href='#chamber_music'>Chamber Music Overview</Link>
                 <br></br>
+                <Link href='#request'>Music Scores Available</Link>
+                <br></br>
                 <Link href='#notes'>Note on music*</Link>
                 </Box>
             </VStack>
@@ -483,6 +485,43 @@ function Music() {
                 </Box>
                 </VStack>
                 </HStack>
+
+                <a id="request"></a>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '165vh',
+                        md: '140vh',
+                        lg:'100vh'
+                        }}>
+                <VStack 
+                    align='center'
+                >
+                <Box w='100vw' style={{ margin: '5px' }}>
+                    <Box h='7vh'>
+                    <Heading as='h3' size='md'>Music Scores Available for Request</Heading>
+                    </Box>
+                    <List>
+                        <ListItem>American Indian Doxology</ListItem>
+                        <ListItem>Awakening of Love</ListItem>
+                        <ListItem>Katcina Dances</ListItem>
+                        <ListItem>A City of Silver</ListItem>
+                        <ListItem>A City of Fire</ListItem>
+                        <ListItem>A City of Light</ListItem>
+                        <ListItem>Four American Indian Piano Preludes</ListItem>
+                        <ListItem>The Four Moons Ballet</ListItem>
+                        <ListItem>The Lonely Sentinel</ListItem>
+                        <ListItem>The Fire Moon String Quartet</ListItem>
+                        <ListItem>String Trio No. 1</ListItem>
+                        <ListItem>Pan-Indian Rhythms</ListItem>
+                    </List>
+                </Box>
+            </VStack>
+            </HStack>
                 
                 <a id="notes"></a>
                 <HStack 
