@@ -9,6 +9,7 @@ import  {
     Text,
     List,
     ListItem,
+    ListIcon
 } from '@chakra-ui/react';
 import { Buttons } from '../components'
 import { createBreakpoints } from '@chakra-ui/theme-tools';
@@ -506,18 +507,29 @@ function Music() {
                     <Heading as='h3' size='md'>Music Scores Available for Request</Heading>
                     </Box>
                     <List>
-                        <ListItem>American Indian Doxology</ListItem>
-                        <ListItem>Awakening of Love</ListItem>
-                        <ListItem>Katcina Dances</ListItem>
-                        <ListItem>A City of Silver</ListItem>
-                        <ListItem>A City of Fire</ListItem>
-                        <ListItem>A City of Light</ListItem>
-                        <ListItem>Four American Indian Piano Preludes</ListItem>
-                        <ListItem>The Four Moons Ballet</ListItem>
-                        <ListItem>The Lonely Sentinel</ListItem>
-                        <ListItem>The Fire Moon String Quartet</ListItem>
-                        <ListItem>String Trio No. 1</ListItem>
-                        <ListItem>Pan-Indian Rhythms</ListItem>
+                        <ListItem><b>American Indian Doxology</b></ListItem>
+                            <Text>- organ score with voices and congregation sheet as well as percussion parts</Text>
+                        <ListItem><b>Awakening of Love</b></ListItem>
+                            <Text>- from the ballet Koshare written for pipe organ</Text>
+                        <ListItem><b>Katcina Dances</b></ListItem>
+                            <Text>- suite for violoncello and pianoforte</Text>
+                        <ListItem><b>A City of Silver</b></ListItem>
+                            <Text>- a concert fantasy for pianoforte</Text>
+                        <ListItem><b>A City of Fire</b></ListItem>
+                            <Text>- a concert fantasy for pianoforte</Text>
+                        <ListItem><b>A City of Light</b></ListItem>
+                            <Text>- a concert impromptu for pianoforte</Text>
+                        <ListItem><b>Four American Indian Piano Preludes</b></ListItem>
+                            <Text>- Ombaska (Daylight), Tabideh (The Hunt), Nikatoheh (Love Song), To'Kah'Ni (Warrior Dance)</Text>
+                        <ListItem><b>The Lonely Sentinel</b></ListItem>
+                            <Text>- sextet for flute, oboe, trumpet, horn in F, trombone, and tuba</Text>
+                        <ListItem><b>The Fire Moon String Quartet</b></ListItem>
+                            <Text>- score and parts</Text>
+                        <ListItem><b>String Trio No. 1</b></ListItem>
+                            <Text>- score and parts</Text>
+                        <ListItem><b>Pan-Indian Rhythms</b></ListItem>
+                            <Text>- a collection of graded percussion pieces</Text>
+                        <ListItem><b>The Four Moons Ballet</b></ListItem>
                     </List>
                 </Box>
             </VStack>
