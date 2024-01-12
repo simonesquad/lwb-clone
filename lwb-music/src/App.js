@@ -9,7 +9,9 @@ import Gallery from './pages/Gallery';
 import Music from './pages/Music';
 import About from './pages/About';
 import LandingPage from './pages/LandingPage';
+import Checkout from './pages/Checkout';
 import Greeting from './components/Greeting';
+
 
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
     <Router>
       <Layout>
       <Switch>
+        <Route exact path='/checkout' component={Checkout} />
         <Route exact path='/thankyou' component={Greeting} />
         <Route exact path='/contact' component={Contact} />
         <Route exact path='/resources' component={Resources} />
