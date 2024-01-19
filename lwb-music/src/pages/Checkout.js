@@ -17,16 +17,25 @@ const breakpoints = createBreakpoints({
 
 function Checkout() {
   return (
-    <Stack>
-        <Heading>I am the checkout page!!</Heading>
-        <Box>
-            {/* <Image /> */}
+    <div>
+      <img></img>
 
-            <Box>
-                <Heading>Your Selection Cart</Heading>
-            </Box>
-        </Box>
-    </Stack>
+      <div>
+        <h1>Your Shopping Basket</h1>
+      </div>
+    </div>
+
+
+    // <Stack>
+    //     <Heading>I am the checkout page!!</Heading>
+    //     <Box>
+    //         {/* <Image /> */}
+
+    //         <Box>
+    //             <Heading>Your Selection Cart</Heading>
+    //         </Box>
+    //     </Box>
+    // </Stack>
   )
 }
 

@@ -4,7 +4,7 @@ function ProductFeed({ products }) {
     return(
         <div>
             <h1>Our Scores:</h1>
-            {products.map(({ id, title, price, description, image },
+            {products.slice(0,4).map(({ id, title, price, description, image },
               <Product 
                 key={id}
                 id={id}
@@ -14,6 +14,8 @@ function ProductFeed({ products }) {
                 image={image}
               />
             ))}
+
+            {/* <img /> */}
         </div>
     );
 }

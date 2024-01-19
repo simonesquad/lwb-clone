@@ -28,6 +28,8 @@ function Product({ id, title, price, description, image }) {
                 <Currency quantity={price} currency="USD" />
             </div>
 
+            
+
             <button>Add to Basket*</button>
 
 
