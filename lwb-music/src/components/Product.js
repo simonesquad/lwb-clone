@@ -1,5 +1,7 @@
 import React from 'react';
 import Currency from 'react-currency-formatter';
+import { useDispatch } from "react-redux";
+import { addToBasket } from "../slices/basketSlice";
 
 // import {
 //     Flex,
@@ -11,8 +13,21 @@ import Currency from 'react-currency-formatter';
 // } from "@chakra-ui/react"
 
 function Product({ id, title, price, description, image }) {
+    const dispatch = useDispatch();
     
-
+    const addItemToBasket = () => {
+        const product = {
+            id,
+            title,
+            price,
+            description,
+            category,
+            image,
+        };
+        // Sending the product as an action to the REDUX store... the basket slice**
+        dispatch(addToBasket(product));
+    };
+    
 
     return (
         <div>
@@ -30,7 +45,7 @@ function Product({ id, title, price, description, image }) {
 
             
 
-            <button>Add to Basket*</button>
+            <button onClick={addItemToBasket}>Add to Basket*</button>
 
 
         </div>
