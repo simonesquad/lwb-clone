@@ -1,6 +1,7 @@
 import React from 'react'
 import { useSelector } from "react-redux"
 import { selectItems } from "../slices/basketSlice";
+import CheckoutProduct from "../components/CheckoutProduct";
 
 // import {
 //     Box,
@@ -37,6 +38,18 @@ function Checkout() {
             />
           ))}
       </div>
+
+      <div>
+        {items.length > 0 && (
+          <>
+            <h2>
+              Subtotal ({items.length} items): 
+            </h2>
+
+            <button>{session}</button>
+          </>
+        )}
+        </div>
     </div>
 
 

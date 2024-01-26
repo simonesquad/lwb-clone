@@ -21,7 +21,6 @@ function Product({ id, title, price, description, image }) {
             title,
             price,
             description,
-            category,
             image,
         };
         // Sending the product as an action to the REDUX store... the basket slice**
@@ -31,23 +30,15 @@ function Product({ id, title, price, description, image }) {
 
     return (
         <div>
-            <p>{category}</p>
-
             <Image src={image}/>
-
             <h4>{title}</h4>
-
             <p>{description}</p>
 
             <div>
                 <Currency quantity={price} currency="USD" />
             </div>
 
-            
-
             <button onClick={addItemToBasket}>Add to Basket*</button>
-
-
         </div>
 
     )
