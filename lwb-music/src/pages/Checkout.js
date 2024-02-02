@@ -1,7 +1,11 @@
 import React from 'react'
 import { useSelector } from "react-redux"
-import { selectItems } from "../slices/basketSlice";
+import { selectItems, selectTotal } from "../slices/basketSlice";
+import { useSession } from "next-auth/client";
 import CheckoutProduct from "../components/CheckoutProduct";
+import { loadStripe } from "@strip/stripe-js";
+const stripePromise = loadStripe();
+
 
 // import {
 //     Box,
@@ -20,6 +24,12 @@ import CheckoutProduct from "../components/CheckoutProduct";
 
 function Checkout() {
   const items = useSelector(selectItems);
+  const total = useSelector(selectTotal);
+  const [session] = useSession();
+
+  const createCheckoutSession = () => {
+
+  }
 
   return (
     <div>
@@ -46,7 +56,11 @@ function Checkout() {
               Subtotal ({items.length} items): 
             </h2>
 
-            <button>{session}</button>
+            <button 
+              role='link'
+              onClick={createCheckoutSession}
+              disabled={!session}
+              >Proceed to checkout</button>
           </>
         )}
         </div>
