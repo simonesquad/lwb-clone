@@ -18,12 +18,6 @@ function success() {
                     <p>
                         Thank you for shopping with us. We'll send a confirmation email with details.
                     </p>
-                    {/* <button 
-                        onClick={() => router.push("/orders")}
-                        className="button mt-8"
-                        >
-                            Go to my orders
-                    </button> */}
                 </div>
             </main>
         </div>
