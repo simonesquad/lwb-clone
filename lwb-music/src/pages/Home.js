@@ -278,7 +278,7 @@ function Home() {
                         xl: '100%'
                     }}
                     />
-                <Heading as='h3' size='md'>1931-2008</Heading>
+                <Heading as='h3' size='md'>1931-2007</Heading>
                 </VStack>
             </HStack>
 
