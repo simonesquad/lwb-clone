@@ -77,14 +77,14 @@ const breakpoints = createBreakpoints({
               <VStack
                 w='100%'
                 h={{
-                    base: '70vh',
-                    sm: '90vh',
+                    base: '80vh',
+                    sm: '100vh',
                 }}
               >
             <Box
                 h={{
-                    base: '45vh',
-                    sm: '60vh',
+                    base: '55vh',
+                    sm: '70vh',
                 }}
 
             >
@@ -99,13 +99,13 @@ const breakpoints = createBreakpoints({
             </Box>
             <Box
                 h={{
-                    base: '50vh',
-                    sm: '65vh',
+                    base: '70vh',
+                    sm: '85vh',
                 }}
                 w={{
                     base: '90vw'
                 }}
-                marginTop='2vh'
+                marginTop='7vh'
             >
                 <Heading as='h5' size='sm'>
                 From Left to Right:
@@ -119,14 +119,14 @@ const breakpoints = createBreakpoints({
               <VStack
                 w='100%'
                 h={{
-                    base: '55vh',
-                    sm: '65vh',
+                    base: '65vh',
+                    sm: '75vh',
                 }}
               >
                 <Box
                     h={{
-                        base: '30vh',
-                        sm: '40vh'
+                        base: '40vh',
+                        sm: '50vh'
                     }}
                 >
                 <Grid templateColumns='repeat(2, 1fr)' gap={5}>
@@ -141,13 +141,13 @@ const breakpoints = createBreakpoints({
             
             <Box
                 h={{
-                    base: '45vh',
-                    sm: '55vh'
+                    base: '55vh',
+                    sm: '65vh'
                 }}
                 w={{
                     base: '90vw'
                 }}
-                marginTop='5vh'
+                marginTop='7vh'
             >
                 <Heading as='h5' size='sm'>
                 The world premiere of the Portrait of Will Rogers in 1972. Pictured on the left are Dr. Wesley Forbis and Will Rogers Jr. in the center alongside Ballard.
@@ -158,8 +158,8 @@ const breakpoints = createBreakpoints({
               <VStack
                 w='95%'
                 h={{
-                    base: '85vh',
-                    sm: '75vh'
+                    base: '95vh',
+                    sm: '85vh'
                 }}
               >
                 <Box
@@ -168,22 +168,22 @@ const breakpoints = createBreakpoints({
                         sm: '75vw'
                     }}
                     h={{
-                        base: '70vh',
-                        sm: '75vh'
+                        base: '90vh',
+                        sm: '95vh'
                     }}
                 >
                 <Image src={g8} alt='lwb-flute2' />
                 </Box>
                 <Box
                    h={{
-                    base: '55vh',
-                    sm: '40vh'
+                    base: '65vh',
+                    sm: '50vh'
                     }}
                     w={{
                         base: '90vw',
 
                     }}
-                    marginTop='5vh'
+                    marginTop='7vh'
                 >
                 <Heading as='h5' size='sm'>
                 The composer in a promotional shot that he often used. Probably taken in Oklahoma, USA.
@@ -194,15 +194,15 @@ const breakpoints = createBreakpoints({
               <VStack
                 w='100%'
                 h={{
-                    base: '80vh',
-                    sm: '90vh',
+                    base: '90vh',
+                    sm: '100vh',
                 }}
               >
             
             <Box
                 h={{
-                    base: '40vh',
-                    sm: '60vh'
+                    base: '70vh',
+                    sm: '80vh'
                 }}
             >
             <Grid templateColumns='repeat(2, 1fr)' gap={7}>
@@ -217,14 +217,14 @@ const breakpoints = createBreakpoints({
 
             <Box
                 h={{
-                    base: '45vh',
-                    sm: '50vh'
+                    base: '55vh',
+                    sm: '70vh'
                 }}
                 w={{
                     base: '90vw',
 
                 }}
-                marginTop='5vh'
+                marginTop='7vh'
                 >
                 <Heading as='h5' size='sm'>
                 On the Right: Sammy Davis Jr. and Louis W. Ballard attending the Tulsa Philharmonic Silver Anniversary in 1973. Sammy Davis Jr. performed and two Ballard pieces were performed.
