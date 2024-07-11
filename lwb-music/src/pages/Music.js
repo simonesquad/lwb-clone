@@ -111,6 +111,15 @@ function Music() {
                     The piece was originally commissioned by the Saint Paul Chamber Orchestra in 1974. It consists of the following movements: “Procession,” “Prayer,” “Blood and War,” and “Ritual.” It was dedicated to their esteemed conductor at the time, Dennis Russell Davies. According to Ballard, the piece: <Text as='i'>“is not a literal depiction of any programmatic materials, but rather…tone-rhythmical series of musical episodes meant to suggest violent conflict…emotion-laden processions…spiritual state of being.”</Text> It premiered in the U.S. on May 4th, 1974 in St. Paul Minnesota, and later in Warsaw, Poland on October 12th, 1974. The European tour continued to debut the piece in Prague, Budapest, Belgrade, Berlin, Munich, Amsterdam, and Paris. The premieres received mixed critical reviews, but the work and tour garnered Ballard much more international attention. To date, it remains his most well-known piece and a symbol of supra-tribal Native American classical composition, which would become a Ballard trademark.
                    </Text>
                 </Box>
+                <Box style={{ 
+                    marginTop: '17%', 
+                    marginLeft: '45%' 
+                    }}>
+                    <a href="https://content.thespco.org/music/concert-library/composition/incident-at-wounded-knee-louis-w-ballard" target="_blank">
+                    <Buttons
+                        text="Listen" />
+                    </a>
+                    </Box>
                 </VStack>
                 </HStack>
                 
