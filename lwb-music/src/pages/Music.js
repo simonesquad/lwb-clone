@@ -8,8 +8,7 @@ import  {
     Link,
     Text,
     List,
-    ListItem,
-    ListIcon
+    ListItem
 } from '@chakra-ui/react';
 import { Buttons } from '../components'
 import { createBreakpoints } from '@chakra-ui/theme-tools';
@@ -91,12 +90,12 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '165vh',
-                        md: '140vh',
-                        lg:'100vh'
-                        }}>
+                        base: '190vh',
+                        md: '170vh',
+                        lg:'130vh'
+                        }} >
                 <VStack 
-                    align='center'
+                    align='left'
                 >
                 <Box w='100vw' style={{ margin: '5px' }}>
                     <Box h= '7vh'>
@@ -106,7 +105,7 @@ function Music() {
                     This four-movement work for chamber orchestra is inspired by one of America’s darkest historical moments, the original massacre at Wounded Knee and the modern day siege that occurred while Ballard was composing the score commemorating the first event. The original massacre took place on December 29, 1890 when over 200 men, women, and children belonging to the Miniconjou and Hunkpapa tribes were killed by U.S. troops on Sioux territory after surrender and an unplanned skirmish with a rifle. On February 27, 1973, nearly a century later, 200 members of the inter-tribal American Indian Movement occupied the same site in a standoff with the U.S. government over oppressive living conditions and treaty disputes. The site and events remain one of the most visible reference points for the often dysfunctional relationship between the U.S. government and Native American tribes.
                     </Text>
                 </Box>
-                <Box w='100vw' style={{ margin: '3vh' }}>
+                <Box w='100vw' style={{ margin: '5px', marginTop: '3vh' }}>
                     <Text>
                     The piece was originally commissioned by the Saint Paul Chamber Orchestra in 1974. It consists of the following movements: “Procession,” “Prayer,” “Blood and War,” and “Ritual.” It was dedicated to their esteemed conductor at the time, Dennis Russell Davies. According to Ballard, the piece: <Text as='i'>“is not a literal depiction of any programmatic materials, but rather…tone-rhythmical series of musical episodes meant to suggest violent conflict…emotion-laden processions…spiritual state of being.”</Text> It premiered in the U.S. on May 4th, 1974 in St. Paul Minnesota, and later in Warsaw, Poland on October 12th, 1974. The European tour continued to debut the piece in Prague, Budapest, Belgrade, Berlin, Munich, Amsterdam, and Paris. The premieres received mixed critical reviews, but the work and tour garnered Ballard much more international attention. To date, it remains his most well-known piece and a symbol of supra-tribal Native American classical composition, which would become a Ballard trademark.
                    </Text>
