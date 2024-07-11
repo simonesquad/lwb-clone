@@ -64,7 +64,7 @@ function Home() {
                     h={{
                         sm: '150vh',
                         md: '218vh',
-                        lg:'150vh',
+                        lg:'160vh',
                         xl: '110vh'
                         }} 
                     spacing='3vw'
@@ -261,10 +261,10 @@ function Home() {
                         lg:'97vw'
                         }} 
                     h={{
-                        sm: '90vh',
-                        md: '100vh',
-                        lg:'110vh',
-                        xl: '120vh'
+                        sm: '100vh',
+                        md: '110vh',
+                        lg:'120vh',
+                        xl: '130vh'
                         }} spacing='3vw'>
             <VStack
                     align='center'
@@ -278,7 +278,9 @@ function Home() {
                         xl: '90%'
                     }}
                     />
+                <Box>
                 <Heading as='h3' size='md'>1931-2007</Heading>
+                </Box>
                 </VStack>
             </HStack>
 
