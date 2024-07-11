@@ -46,14 +46,14 @@ const breakpoints = createBreakpoints({
               <VStack
                 w='95%'
                 h={{
-                    base: '80vh',
-                    sm: '100vh',
+                    base: '85vh',
+                    sm: '105vh',
                 }}
               >
                 <Box
                     w={{
-                        base: '100vw',
-                        sm: '70vw',
+                        base: '110vw',
+                        sm: '80vw',
                     }}
                     marginTop='5vh'
                 >
@@ -66,8 +66,8 @@ const breakpoints = createBreakpoints({
                         sm: '90vw',
                     }}
                     h={{
-                        base: '30vh',
-                        sm: '40vh'
+                        base: '35vh',
+                        sm: '45vh'
                     }}
                 >
                 <Heading as='h4' size='md'>The choreographer Donald Saddler with ballerina Marjorie Tallchief, dancers, and Louis W. Ballard seated in the background for rehearsal of the ballet Koshare.</Heading>
@@ -77,14 +77,14 @@ const breakpoints = createBreakpoints({
               <VStack
                 w='100%'
                 h={{
-                    base: '60vh',
-                    sm: '80vh',
+                    base: '70vh',
+                    sm: '90vh',
                 }}
               >
             <Box
                 h={{
-                    base: '35vh',
-                    sm: '50vh',
+                    base: '45vh',
+                    sm: '60vh',
                 }}
 
             >
@@ -99,8 +99,8 @@ const breakpoints = createBreakpoints({
             </Box>
             <Box
                 h={{
-                    base: '30vh',
-                    sm: '45vh',
+                    base: '50vh',
+                    sm: '65vh',
                 }}
                 w={{
                     base: '90vw'
@@ -119,14 +119,14 @@ const breakpoints = createBreakpoints({
               <VStack
                 w='100%'
                 h={{
-                    base: '45vh',
-                    sm: '55vh',
+                    base: '55vh',
+                    sm: '65vh',
                 }}
               >
                 <Box
                     h={{
-                        base: '20vh',
-                        sm: '30vh'
+                        base: '30vh',
+                        sm: '40vh'
                     }}
                 >
                 <Grid templateColumns='repeat(2, 1fr)' gap={5}>
@@ -141,13 +141,13 @@ const breakpoints = createBreakpoints({
             
             <Box
                 h={{
-                    base: '17vh',
-                    sm: '30vh'
+                    base: '45vh',
+                    sm: '55vh'
                 }}
                 w={{
                     base: '90vw'
                 }}
-                marginTop='2vh'
+                marginTop='5vh'
             >
                 <Heading as='h5' size='sm'>
                 The world premiere of the Portrait of Will Rogers in 1972. Pictured on the left are Dr. Wesley Forbis and Will Rogers Jr. in the center alongside Ballard.
@@ -158,7 +158,7 @@ const breakpoints = createBreakpoints({
               <VStack
                 w='95%'
                 h={{
-                    base: '75vh',
+                    base: '85vh',
                     sm: '75vh'
                 }}
               >
@@ -176,14 +176,14 @@ const breakpoints = createBreakpoints({
                 </Box>
                 <Box
                    h={{
-                    base: '35vh',
-                    sm: '30vh'
+                    base: '55vh',
+                    sm: '40vh'
                     }}
                     w={{
                         base: '90vw',
 
                     }}
-                    marginTop='2vh'
+                    marginTop='5vh'
                 >
                 <Heading as='h5' size='sm'>
                 The composer in a promotional shot that he often used. Probably taken in Oklahoma, USA.
@@ -194,15 +194,15 @@ const breakpoints = createBreakpoints({
               <VStack
                 w='100%'
                 h={{
-                    base: '70vh',
-                    sm: '80vh',
+                    base: '80vh',
+                    sm: '90vh',
                 }}
               >
             
             <Box
                 h={{
-                    base: '30vh',
-                    sm: '40vh'
+                    base: '40vh',
+                    sm: '60vh'
                 }}
             >
             <Grid templateColumns='repeat(2, 1fr)' gap={7}>
@@ -217,14 +217,14 @@ const breakpoints = createBreakpoints({
 
             <Box
                 h={{
-                    base: '25vh',
-                    sm: '30vh'
+                    base: '45vh',
+                    sm: '50vh'
                 }}
                 w={{
                     base: '90vw',
 
                 }}
-                marginTop='2vh'
+                marginTop='5vh'
                 >
                 <Heading as='h5' size='sm'>
                 On the Right: Sammy Davis Jr. and Louis W. Ballard attending the Tulsa Philharmonic Silver Anniversary in 1973. Sammy Davis Jr. performed and two Ballard pieces were performed.

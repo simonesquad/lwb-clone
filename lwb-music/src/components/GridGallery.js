@@ -104,10 +104,10 @@ const breakpoints = createBreakpoints({
             </Box>
             <Box
                 h={{
-                    base: '35vh',
-                    sm: '45vh',
-                    md: '30vh',
-                    lg: '15vh'
+                    base: '15vh',
+                    sm: '25vh',
+                    md: '35vh',
+                    lg: '45vh'
                 }}
                 w='70vw'
                 marginTop='6vh'
@@ -163,9 +163,9 @@ const breakpoints = createBreakpoints({
               <HStack
                 w='95%'
                 h={{
-                    base: '80vh',
-                    sm: '75vh',
-                    lg: '100vh'
+                    base: '85vh',
+                    sm: '80vh',
+                    lg: '110vh'
                 }}
               >
                 <Box

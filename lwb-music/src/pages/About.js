@@ -90,7 +90,7 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '175vh',
+                        base: '185vh',
                         md: '150vh',
                         lg:'90vh'
                         }}>
@@ -123,7 +123,7 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '150vh',
+                        base: '160vh',
                         md: '125vh',
                         lg:'90vh'
                         }} spacing='70px'>
@@ -156,7 +156,7 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '150vh',
+                        base: '160vh',
                         md: '125vh',
                         lg:'90vh'
                         }} spacing='70px'>
@@ -189,7 +189,7 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '180vh',
+                        base: '190vh',
                         md: '145vh',
                         lg:'100vh'
                         }} spacing='70px'>
@@ -222,7 +222,7 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '150vh',
+                        base: '160vh',
                         md: '140vh',
                         lg:'90vh'
                         }} spacing='70px'>
@@ -255,7 +255,7 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '210vh',
+                        base: '220vh',
                         md: '175vh',
                         lg:'110vh'
                         }} spacing='70px'>
@@ -290,7 +290,7 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '255vh',
+                        base: '265vh',
                         md: '200vh',
                         lg:'140vh'
                         }} spacing='70px'>
@@ -337,7 +337,7 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '225vh',
+                        base: '235vh',
                         md: '185vh',
                         lg:'120vh'
                         }} spacing='70px'>
@@ -378,7 +378,7 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '235vh',
+                        base: '245vh',
                         md: '195vh',
                         lg:'120vh'
                         }} spacing='70px'>
@@ -421,7 +421,7 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '235vh',
+                        base: '245vh',
                         md: '195vh',
                         lg:'110vh'
                         }} spacing='70px'>
@@ -455,7 +455,7 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '200vh',
+                        base: '210vh',
                         md: '175vh',
                         lg:'110vh'
                         }} spacing='70px'>
@@ -490,7 +490,7 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '200vh',
+                        base: '210vh',
                         md: '175vh',
                         lg:'110vh'
                         }} spacing='70px'>
@@ -535,7 +535,7 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '200vh',
+                        base: '210vh',
                         md: '175vh',
                         lg:'110vh'
                         }} spacing='70px'>
@@ -582,7 +582,7 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '235vh',
+                        base: '245vh',
                         md: '195vh',
                         lg:'110vh'
                         }} spacing='70px'>
@@ -629,7 +629,7 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '150vh',
+                        base: '160vh',
                         md: '175vh',
                         lg:'110vh'
                         }} spacing='70px'>
@@ -663,9 +663,6 @@ function About() {
                 </Box>
                 </VStack>
                 </HStack>
-
-                
-                
             </VStack>
         </Stack>
     )
