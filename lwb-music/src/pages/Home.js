@@ -237,7 +237,7 @@ function Home() {
 
             <HStack
                 w='100vw'
-                h='100vh'
+                h='110vh'
             >
                 <VStack
                     align='center'
@@ -273,9 +273,9 @@ function Home() {
                 <Image 
                     src={LWB3} 
                     height={{
-                        md: '130%',
+                        md: '70%',
                         lg: '80%',
-                        xl: '100%'
+                        xl: '90%'
                     }}
                     />
                 <Heading as='h3' size='md'>1931-2007</Heading>
