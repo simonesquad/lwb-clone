@@ -88,7 +88,7 @@ const breakpoints = createBreakpoints({
                 h={{
                     sm: '35vh',
                     md: '45vh',
-                    lg: '65vh'
+                    lg: '55vh'
                 }}
                 w='70vw'
                 marginTop='6vh'
@@ -102,9 +102,9 @@ const breakpoints = createBreakpoints({
 
             <Box
                 h={{
-                    sm: '85vh',
-                    md: '95vh',
-                    lg: '105vh'
+                    sm: '95vh',
+                    md: '105vh',
+                    lg: '115vh'
                 }}
 
             >
@@ -123,15 +123,29 @@ const breakpoints = createBreakpoints({
             <VStack
                 w='100%'
                 h={{
-                    sm: '45vh',
-                    md: '60vh',
-                    lg: '80vh'
+                    sm: '55vh',
+                    md: '65vh',
+                    lg: '85vh'
                 }}
             >
+
             <Box
                 h={{
-                    base: '35vh',
-                    lg: '65vh'
+                    md: '30vh',
+                    lg: '25vh'
+                }}
+                w='70vw'
+                marginTop='6vh'
+            >
+            <Heading as='h4' size='md'>
+            The world premiere of the Portrait of Will Rogers in 1972. Pictured on the left are Dr. Wesley Forbis and Will Rogers Jr. in the center alongside Ballard.
+            </Heading>
+            </Box>
+
+            <Box
+                h={{
+                    md: '65vh',
+                    lg: '75vh'
                 }}
             >
             <Grid templateColumns='repeat(2, 1fr)' gap={5}>
@@ -143,20 +157,7 @@ const breakpoints = createBreakpoints({
                 </GridItem> 
             </Grid>
             </Box>
-            
-            <Box
-                h={{
-                    base: '20vh',
-                    lg: '15vh'
-                }}
-                w='70vw'
-                marginTop='6vh'
-            >
-            <Heading as='h4' size='md'>
-            The world premiere of the Portrait of Will Rogers in 1972. Pictured on the left are Dr. Wesley Forbis and Will Rogers Jr. in the center alongside Ballard.
-            </Heading>
-            </Box>
-              </VStack>
+            </VStack>
 
               <HStack
                 w='95%'
