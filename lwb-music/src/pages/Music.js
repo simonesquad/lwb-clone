@@ -90,7 +90,7 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '190vh',
+                        base: '210vh',
                         md: '170vh',
                         lg:'130vh'
                         }} >
@@ -130,7 +130,7 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '150vh',
+                        base: '170vh',
                         md: '140vh',
                         lg:'115vh'
                         }}>
@@ -170,7 +170,7 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '160vh',
+                        base: '180vh',
                         md: '140vh',
                         lg:'115vh'
                         }}>
@@ -210,7 +210,7 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '145vh',
+                        base: '165vh',
                         md: '120vh',
                         lg:'80vh'
                         }}>
@@ -241,7 +241,7 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '130vh',
+                        base: '150vh',
                         md: '120vh',
                         lg:'100vh'
                         }}>
@@ -278,7 +278,7 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '135vh',
+                        base: '155vh',
                         md: '120vh',
                         lg:'100vh'
                         }} >
@@ -309,7 +309,7 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '170vh',
+                        base: '190vh',
                         md: '145vh',
                         lg:'115vh'
                         }}>
@@ -331,7 +331,7 @@ function Music() {
                 </Box>
                 <Box style={{ 
                     marginTop: '17%', 
-                    marginLeft: '19%' 
+                    marginLeft: '45%' 
                 }}>
                     <a href="https://www.navonarecords.com/catalog/nv6429/" target="_blank">
                     <Buttons
@@ -349,7 +349,7 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '105vh',
+                        base: '145vh',
                         md: '120vh',
                         lg:'100vh'
                         }} spacing='70px'>
@@ -375,7 +375,7 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '190vh',
+                        base: '210vh',
                         md: '170vh',
                         lg:'130vh'
                         }} >
@@ -415,7 +415,7 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '120vh',
+                        base: '140vh',
                         md: '125vh',
                         lg:'105vh'
                         }}>
@@ -463,7 +463,7 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '80vh',
+                        base: '100vh',
                         md: '120vh',
                         lg:'100vh'
                         }} spacing='70px'>
@@ -503,7 +503,7 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '165vh',
+                        base: '185vh',
                         md: '140vh',
                         lg:'100vh'
                         }}>
@@ -551,7 +551,7 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '105vh',
+                        base: '125vh',
                         md: '120vh',
                         lg:'100vh'
                         }} spacing='70px'>
