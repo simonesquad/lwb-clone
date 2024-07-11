@@ -75,31 +75,15 @@ const breakpoints = createBreakpoints({
                 </Box>
               </HStack>
 
-              <VStack
+            <VStack
                 w='100%'
                 h={{
-                    sm: '100vh',
-                    md: '110vh',
-                    lg: '130vh'
+                    sm: '110vh',
+                    md: '130vh',
+                    lg: '150vh'
                 }}
               >
-            <Box
-                h={{
-                    sm: '80vh',
-                    md: '95vh',
-                    lg: '105vh'
-                }}
 
-            >
-                <Grid templateColumns='repeat(2, 1fr)' gap={10}>
-                    <GridItem w='90' h='20'>
-                        <Image src={g2} alt='lwb-flute' />
-                    </GridItem>
-                    <GridItem w='90' h='20'>
-                        <Image src={g4} alt='koshare-piano' />
-                    </GridItem>
-                </Grid>
-            </Box>
             <Box
                 h={{
                     sm: '35vh',
@@ -115,18 +99,35 @@ const breakpoints = createBreakpoints({
                 Donald Sadler and Louis W. Ballard along with George Skibine director of the Harkness Ballet in rehearsal for the 1965 performance of Koshare.
                 </Heading>
             </Box>
-              </VStack>
+
+            <Box
+                h={{
+                    sm: '85vh',
+                    md: '95vh',
+                    lg: '105vh'
+                }}
+
+            >
+                <Grid templateColumns='repeat(2, 1fr)' gap={10}>
+                    <GridItem w='90' h='20'>
+                        <Image src={g2} alt='lwb-flute' />
+                    </GridItem>
+                    <GridItem w='90' h='20'>
+                        <Image src={g4} alt='koshare-piano' />
+                    </GridItem>
+                </Grid>
+            </Box>
+            </VStack>
 
 
-              <VStack
+            <VStack
                 w='100%'
                 h={{
-                    base: '70vh',
                     sm: '45vh',
                     md: '60vh',
                     lg: '80vh'
                 }}
-              >
+            >
             <Box
                 h={{
                     base: '35vh',
