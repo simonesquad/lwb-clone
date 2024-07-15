@@ -78,17 +78,34 @@ const breakpoints = createBreakpoints({
             <VStack
                 w='100%'
                 h={{
-                    sm: '110vh',
+                    sm: '135vh',
                     md: '130vh',
-                    lg: '150vh'
+                    lg: '145vh'
                 }}
               >
+            <Box
+                h={{
+                    sm: '85vh',
+                    md: '95vh',
+                    lg: '105vh'
+                }}
+
+            >
+            <Grid templateColumns='repeat(2, 1fr)' gap={10}>
+                    <GridItem w='90' h='20'>
+                        <Image src={g2} alt='lwb-flute' />
+                    </GridItem>
+                    <GridItem w='90' h='20'>
+                        <Image src={g4} alt='koshare-piano' />
+                    </GridItem>
+                </Grid>
+            </Box>
 
             <Box
                 h={{
-                    sm: '25vh',
-                    md: '35vh',
-                    lg: '45vh'
+                    sm: '55vh',
+                    md: '45vh',
+                    lg: '65vh'
                 }}
                 w='70vw'
                 marginTop='6vh'
@@ -99,54 +116,23 @@ const breakpoints = createBreakpoints({
                 Donald Sadler and Louis W. Ballard along with George Skibine director of the Harkness Ballet in rehearsal for the 1965 performance of Koshare.
                 </Heading>
             </Box>
-
-            <Box
-                h={{
-                    sm: '85vh',
-                    md: '95vh',
-                    lg: '105vh'
-                }}
-
-            >
-                <Grid templateColumns='repeat(2, 1fr)' gap={10}>
-                    <GridItem w='90' h='20'>
-                        <Image src={g2} alt='lwb-flute' />
-                    </GridItem>
-                    <GridItem w='90' h='20'>
-                        <Image src={g4} alt='koshare-piano' />
-                    </GridItem>
-                </Grid>
-            </Box>
             </VStack>
 
 
             <VStack
                 w='100%'
                 h={{
-                    sm: '55vh',
-                    md: '65vh',
+                    sm: '85vh',
+                    md: '75vh',
+                    lg: '95vh'
+                }}
+            >
+
+            <Box
+                h={{
+                    sm: '65vh',
+                    md: '75vh',
                     lg: '85vh'
-                }}
-            >
-
-            <Box
-                h={{
-                    sm: '25vh',
-                    md: '35vh',
-                    lg: '45vh'
-                }}
-                w='70vw'
-                marginTop='6vh'
-            >
-            <Heading as='h4' size='md'>
-            The world premiere of the Portrait of Will Rogers in 1972. Pictured on the left are Dr. Wesley Forbis and Will Rogers Jr. in the center alongside Ballard.
-            </Heading>
-            </Box>
-
-            <Box
-                h={{
-                    md: '65vh',
-                    lg: '75vh'
                 }}
             >
             <Grid templateColumns='repeat(2, 1fr)' gap={5}>
@@ -158,6 +144,21 @@ const breakpoints = createBreakpoints({
                 </GridItem> 
             </Grid>
             </Box>
+
+            <Box
+                h={{
+                    sm: '55vh',
+                    md: '45vh',
+                    lg: '65vh'
+                }}
+                w='70vw'
+                marginTop='6vh'
+            >
+            <Heading as='h4' size='md'>
+            The world premiere of the Portrait of Will Rogers in 1972. Pictured on the left are Dr. Wesley Forbis and Will Rogers Jr. in the center alongside Ballard.
+            </Heading>
+            </Box>
+
             </VStack>
 
               <HStack

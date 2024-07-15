@@ -77,9 +77,9 @@ const breakpoints = createBreakpoints({
                 <VStack 
                     marginTop='5vh'
                     w='80vw'
-                    h='140vh'
+                    h='120vh'
                 >
-                <Box h='22vh'>
+                <Box h='40vh'>
                 <Heading as='h2' size='2xl'>Welcome to the Louis W. Ballard Memorial Page</Heading>
                 </Box>
                 <Box marginLeft={20}>
@@ -89,7 +89,7 @@ const breakpoints = createBreakpoints({
                 </Box>
                 </VStack>
                 <Box
-                    h='70vh'
+                    h='50vh'
                 >
                 <Image 
                     src={LWB2} 
@@ -100,13 +100,13 @@ const breakpoints = createBreakpoints({
                 <VStack 
                     marginTop='5vh'
                     w='80vw'
-                    h='140vh'
+                    h='130vh'
                 >
                 <Heading as='h2' size='2xl'>I have found myself</Heading><Heading as='h3' size='md'>in a curious circumstance, in that I am literally</Heading><Heading as='h2' size='2xl'>between two worlds ...</Heading><Heading as='h3' size='md'>that of the American Indian and that of Western society. These two worlds, of historical necessity, have been forced to coexist yet their</Heading><Heading as='h2' size='xl'>values and aesthetic concepts have remained almost irreconcilable.</Heading><Heading as='h3' size='md'>In my music I have sought to fuse these worlds for I believe that an artist can get to the heart of a culture through</Heading><Heading as='h2' size='2xl'>new forms alien to that culture.</Heading>
                 </VStack>
 
                 <Box
-                    h='70vh'
+                    h='50vh'
                 >
                 <Image 
                     src={LWB4} 
@@ -115,8 +115,8 @@ const breakpoints = createBreakpoints({
                 </Box>
 
                 <VStack 
-                    marginTop='20vh'
-                    h='120vh'
+                    marginTop='10vh'
+                    h='130vh'
                     w='80vw'
                 >
                 <Heading as='h2' size='xl'>
@@ -155,8 +155,8 @@ const breakpoints = createBreakpoints({
                     align='center'
                     w='100vw'
                     h={{
-                        base: '85vh',
-                        lg:'110vh'
+                        base: '80vh',
+                        lg:'100vh'
                     }}
                 >
                 <Image 
