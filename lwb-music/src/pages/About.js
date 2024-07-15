@@ -33,10 +33,10 @@ function About() {
                     lg:'70vw'
                 }}
                 h={{
-                    base: '120vh',
-                    sm: '90vh',
-                    md: '87vh',
-                    lg: '85vh'
+                    base: '125vh',
+                    sm: '100vh',
+                    md: '105vh',
+                    lg: '110vh'
                 }}
                 align='left'
             >
@@ -222,9 +222,9 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '180vh',
-                        md: '150vh',
-                        lg:'90vh'
+                        base: '185vh',
+                        md: '165vh',
+                        lg:'145vh'
                         }} spacing='70px'>
                 <VStack 
                     align='center'
@@ -255,9 +255,9 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '200vh',
-                        md: '155vh',
-                        lg:'90vh'
+                        base: '205vh',
+                        md: '185vh',
+                        lg:'165vh'
                         }} spacing='70px'>
                 <VStack 
                     align='center'
@@ -291,8 +291,8 @@ function About() {
                         }} 
                     h={{
                         base: '265vh',
-                        md: '200vh',
-                        lg:'140vh'
+                        md: '215vh',
+                        lg:'160vh'
                         }} spacing='70px'>
                 <VStack 
                     align='center'
@@ -320,8 +320,13 @@ function About() {
                 <Text>
                 From the early 70’s onwards, Ballard’s work was recorded to meet international standards and more frequently played around the country. In 1972, some of his music was broadcast across the Smithsonian’s 80 FM member stations, as well as snippets played on Swedish national television. He created his first educational products for the classroom including: American Indians: Yesterday and Today and Oklahoma Indian Chants for the Classroom, both of which were precursors to American Indian Music for the Classroom. The following year, he accepted the Indian Achievement Award and was the first Quapaw tribal member, and fifth Cherokee tribal member, to win. The president of the council stated:</Text>
                 <Box w='100vw' style={{ marginTop: '3vh' }}>
-                <Text as='i'> “Mr. Ballard fully epitomizes the spirit and philosophy of the Indian Achievement Award…It is given in recognition of achievement and accomplishment, either personal in nature or humanitarian in endeavor. He is a combination of both – in his personal life he has struggled to rise in his chosen profession, and in his work he is helping to usher in a new era of enlightenment concerning Indians and their culture.” </Text><Text>
-                He also received an honorary doctorate from the College of Santa Fe that year, and according to the Santa Fe New Mexican:</Text><Text as='i'>“His honorary degree praised his commitment to enrich the lives of young people, whatever their origin.”</Text>
+                <Text as='i'> “Mr. Ballard fully epitomizes the spirit and philosophy of the Indian Achievement Award…It is given in recognition of achievement and accomplishment, either personal in nature or humanitarian in endeavor. He is a combination of both – in his personal life he has struggled to rise in his chosen profession, and in his work he is helping to usher in a new era of enlightenment concerning Indians and their culture.” </Text>
+                <Box w='100vw' style={{ marginTop: '3vh' }}>
+                <Text>
+                He also received an honorary doctorate from the College of Santa Fe that year, and according to the Santa Fe New Mexican:</Text>
+                
+                <Text as='i'>“His honorary degree praised his commitment to enrich the lives of young people, whatever their origin.”</Text>
+                </Box>
                 </Box>
                 </Box>
                 </Box>
@@ -394,9 +399,9 @@ function About() {
                 </Box>
                 <Box 
                     h={{
-                        base: '35vh',
+                        base: '30vh',
                         md: '25vh',
-                        lg: '20vh'
+                        lg: '15vh'
                     }}      
                 >
                 <Text as='i'> “‘I first wrote Indian music as a protest to correct stereotypes and cliches,’ he said. Until Dr. Ballard, no ‘Indian’ music was written by Indians, but by Caucasians who transcribed Indian themes for piano and orchestra for pseudo ‘Indian-sounding’ music.” </Text>
@@ -584,9 +589,9 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '245vh',
-                        md: '195vh',
-                        lg:'110vh'
+                        base: '225vh',
+                        md: '185vh',
+                        lg:'150vh'
                         }} spacing='70px'>
                 <VStack 
                     align='center'
@@ -606,9 +611,9 @@ function About() {
                 <Box 
                     style={{ marginTop: '3.5vh' }}
                     h={{
-                        base: '23vh',
-                        md: '15vh',
-                        lg: '7vh'
+                        base: '30vh',
+                        md: '22vh',
+                        lg: '17vh'
                     }}      
                 >
                 <Text as='i'> “This guidebook means a lot to me, and to Americans everywhere, including Native Americans…This is America’s cultural heritage. I want the tradition of our songs and our music to live on, and the best way to do that is to teach all teachers how to teach them. Simple as that.” </Text>
