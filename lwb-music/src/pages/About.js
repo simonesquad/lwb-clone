@@ -33,7 +33,7 @@ function About() {
                     lg:'70vw'
                 }}
                 h={{
-                    base: '110vh',
+                    base: '120vh',
                     sm: '90vh',
                     md: '87vh',
                     lg: '85vh'
@@ -123,8 +123,8 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '160vh',
-                        md: '125vh',
+                        base: '170vh',
+                        md: '135vh',
                         lg:'90vh'
                         }} spacing='70px'>
                 <VStack 
@@ -156,8 +156,8 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '160vh',
-                        md: '125vh',
+                        base: '180vh',
+                        md: '135vh',
                         lg:'90vh'
                         }} spacing='70px'>
                 <VStack 
@@ -189,9 +189,9 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '190vh',
-                        md: '145vh',
-                        lg:'100vh'
+                        base: '200vh',
+                        md: '165vh',
+                        lg:'110vh'
                         }} spacing='70px'>
                 <VStack 
                     align='center'
@@ -222,8 +222,8 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '160vh',
-                        md: '140vh',
+                        base: '180vh',
+                        md: '150vh',
                         lg:'90vh'
                         }} spacing='70px'>
                 <VStack 
@@ -255,9 +255,9 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '220vh',
-                        md: '175vh',
-                        lg:'110vh'
+                        base: '200vh',
+                        md: '155vh',
+                        lg:'90vh'
                         }} spacing='70px'>
                 <VStack 
                     align='center'
@@ -306,9 +306,9 @@ function About() {
                 </Box>
                 <Box 
                     h={{
-                        base: '24vh',
-                        md: '15vh',
-                        lg: '11vh'
+                        base: '45vh',
+                        md: '25vh',
+                        lg: '15vh'
                     }}      
                 >
                 <Text as='i'> “These art forms offer the basis for the development of a truly indigenous American expression which will be a contribution to the stream of world arts forms… Such expression need not be limited to the visual arts, but can infuse new life and vitality into our literature, architecture, and even our way of life.” </Text>
@@ -394,9 +394,9 @@ function About() {
                 </Box>
                 <Box 
                     h={{
-                        base: '21vh',
-                        md: '15vh',
-                        lg: '8vh'
+                        base: '35vh',
+                        md: '25vh',
+                        lg: '20vh'
                     }}      
                 >
                 <Text as='i'> “‘I first wrote Indian music as a protest to correct stereotypes and cliches,’ he said. Until Dr. Ballard, no ‘Indian’ music was written by Indians, but by Caucasians who transcribed Indian themes for piano and orchestra for pseudo ‘Indian-sounding’ music.” </Text>
@@ -508,16 +508,18 @@ function About() {
                 <Text>As Ballard approached elderly status, he began to see the fruits of his labor take hold in a more receptive national and international discourse. He composed an opera in 1994 entitled <Text as='i'>Moontide: The Man Who Hated Money,</Text> that premiered in Norden, Germany. The next year, the final installment of <Text as='i'>Scenes From Indian Life</Text> entitled <Text as='i'>Feast Day</Text> was performed alongside works by Aaron Copeland and Leonard Berstein. It was clear that his music was finally going to rest among the top American classical music composers of the century. Around this time, the first music composition software was being developed alongside other software transforming the way music had traditionally been written and shared. Likewise, recording equipment had advanced significantly, and Ballard was able to adapt quickly to the new composing options.</Text>
                 </Box>
                 <Box 
-                    style={{ marginTop: '3vh' }}
+                    style={{ 
+                        marginTop: '3vh'
+                     }}
                     h={{
-                        base: '17vh',
-                        md: '15vh',
-                        lg: '7vh'
+                        base: '20vh',
+                        md: '17vh',
+                        lg: '10vh'
                     }}      
                 >
                 <Text as='i'> “Ballard has embraced changes of his own, the latest being composing via computer, which allows him to hear the sounds right after writing them. It’s the best thing to happen to the composer since the invention of ink.” </Text>
                 </Box>
-                <Box w='100vw' style={{ marginTop: '3vh' }}>
+                <Box w='100vw' style={{ marginTop: '0.3vh' }}>
                 <Text>
                 The technology allowed Ballard to compose new scores more easily and revisit old ones for revision with a new perspective. Besides technology, new Native American composers had begun to enter the field and follow in Ballard’s trailblazing footsteps. A Mohican composer, Brent Michael Davids mentioned Ballard in an Indian Country Today article for his ideas towards a Native American Music Association and also the more sophisticated role that Natives could potentially occupy in Hollywood.
                 </Text>

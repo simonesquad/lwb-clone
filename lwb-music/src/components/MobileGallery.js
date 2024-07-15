@@ -46,7 +46,7 @@ const breakpoints = createBreakpoints({
               <VStack
                 w='95%'
                 h={{
-                    base: '85vh',
+                    base: '100vh',
                     sm: '105vh',
                 }}
               >
@@ -66,8 +66,8 @@ const breakpoints = createBreakpoints({
                         sm: '90vw',
                     }}
                     h={{
-                        base: '35vh',
-                        sm: '45vh'
+                        base: '45vh',
+                        sm: '55vh'
                     }}
                 >
                 <Heading as='h4' size='md'>The choreographer Donald Saddler with ballerina Marjorie Tallchief, dancers, and Louis W. Ballard seated in the background for rehearsal of the ballet Koshare.</Heading>
@@ -77,17 +77,17 @@ const breakpoints = createBreakpoints({
               <VStack
                 w='100%'
                 h={{
-                    base: '80vh',
-                    sm: '100vh',
+                    base: '100vh',
+                    sm: '105vh',
                 }}
               >
-            <Box
-                h={{
-                    base: '55vh',
-                    sm: '70vh',
-                }}
+                <Box
+                    h={{
+                        base: '95vh',
+                        sm: '85vh',
+                    }}
 
-            >
+                >
                 <Grid templateColumns='repeat(2, 1fr)' gap={10}>
                     <GridItem w='90' h='20'>
                         <Image src={g2} alt='lwb-flute' />
@@ -99,8 +99,8 @@ const breakpoints = createBreakpoints({
             </Box>
             <Box
                 h={{
-                    base: '70vh',
-                    sm: '85vh',
+                    base: '85vh',
+                    sm: '95vh',
                 }}
                 w={{
                     base: '90vw'
@@ -194,8 +194,8 @@ const breakpoints = createBreakpoints({
               <VStack
                 w='100%'
                 h={{
-                    base: '90vh',
-                    sm: '100vh',
+                    base: '95vh',
+                    sm: '85vh',
                 }}
               >
             
@@ -217,8 +217,8 @@ const breakpoints = createBreakpoints({
 
             <Box
                 h={{
-                    base: '55vh',
-                    sm: '70vh'
+                    base: '50vh',
+                    sm: '60vh'
                 }}
                 w={{
                     base: '90vw',
@@ -236,4 +236,4 @@ const breakpoints = createBreakpoints({
       )
   }
 
-  export default MobileGallery
+  export default MobileGallery;
