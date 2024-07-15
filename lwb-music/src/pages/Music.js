@@ -35,10 +35,10 @@ function Music() {
                     lg:'70vw'
                 }}
                 h={{
-                    base: '110vh',
-                    sm: '90vh',
-                    md: '87vh',
-                    lg: '85vh'
+                    base: '120vh',
+                    sm: '100vh',
+                    md: '90vh',
+                    lg: '95vh'
                 }}
                 align='left'
             >
@@ -331,7 +331,7 @@ function Music() {
                 </Box>
                 <Box style={{ 
                     marginTop: '17%', 
-                    marginLeft: '45%' 
+                    marginLeft: '40%' 
                 }}>
                     <a href="https://www.navonarecords.com/catalog/nv6429/" target="_blank">
                     <Buttons

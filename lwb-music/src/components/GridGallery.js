@@ -85,9 +85,9 @@ const breakpoints = createBreakpoints({
               >
             <Box
                 h={{
-                    sm: '85vh',
-                    md: '95vh',
-                    lg: '105vh'
+                    sm: '105vh',
+                    md: '115vh',
+                    lg: '125vh'
                 }}
 
             >
@@ -103,9 +103,9 @@ const breakpoints = createBreakpoints({
 
             <Box
                 h={{
-                    sm: '55vh',
-                    md: '45vh',
-                    lg: '65vh'
+                    sm: '50vh',
+                    md: '40vh',
+                    lg: '60vh'
                 }}
                 w='70vw'
                 marginTop='6vh'
@@ -130,9 +130,9 @@ const breakpoints = createBreakpoints({
 
             <Box
                 h={{
-                    sm: '65vh',
-                    md: '75vh',
-                    lg: '85vh'
+                    sm: '75vh',
+                    md: '85vh',
+                    lg: '95vh'
                 }}
             >
             <Grid templateColumns='repeat(2, 1fr)' gap={5}>
@@ -147,9 +147,9 @@ const breakpoints = createBreakpoints({
 
             <Box
                 h={{
-                    sm: '55vh',
-                    md: '45vh',
-                    lg: '65vh'
+                    sm: '50vh',
+                    md: '40vh',
+                    lg: '55vh'
                 }}
                 w='70vw'
                 marginTop='6vh'
