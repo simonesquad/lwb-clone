@@ -6,6 +6,9 @@ import g1 from '../assets/gallery/g_1.png';
 import g2 from '../assets/gallery/g_2.png';
 import g4 from '../assets/gallery/g_4.png';
 import g8 from '../assets/gallery/g_8.png';
+// later addition 2024
+import g3 from '../assets/gallery/g_3.png';
+import g7 from '../assets/gallery/g_7.png';
 
 // horizontal
 import g5 from '../assets/gallery/g_5.png';
@@ -230,6 +233,48 @@ const breakpoints = createBreakpoints({
             </Grid>
             </Box>
             </VStack>
+
+            <VStack
+                w='100%'
+                h={{
+                    sm: '135vh',
+                    md: '130vh',
+                    lg: '145vh'
+                }}
+              >
+            <Box
+                h={{
+                    sm: '115vh',
+                    md: '125vh',
+                    lg: '145vh'
+                }}
+
+            >
+            <Grid templateColumns='repeat(2, 1fr)' gap={10}>
+                    <GridItem w='90' h='20'>
+                        <Image src={g7} alt='lwb-pose' />
+                    </GridItem>
+                    <GridItem w='90' h='20'>
+                        <Image src={g3} alt='maria-costume' />
+                    </GridItem>
+                </Grid>
+            </Box>
+
+            <Box
+                h={{
+                    sm: '30vh',
+                    md: '40vh',
+                    lg: '50vh'
+                }}
+                w='70vw'
+                marginTop='6vh'
+            >
+                <Heading as='h4' size='md'>
+                Louis W. Ballard classical music composer and his contemporary maverick ballerina Maria Tallchief - both native Oklahomans who represented the US worldwide in the performance arts for decades. 
+                </Heading>
+            </Box>
+            </VStack>
+
         </VStack>
     </Stack>
       )

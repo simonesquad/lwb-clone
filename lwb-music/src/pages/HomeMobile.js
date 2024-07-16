@@ -79,7 +79,7 @@ const breakpoints = createBreakpoints({
                     w='80vw'
                     h='120vh'
                 >
-                <Box h='40vh'>
+                <Box h='35vh'>
                 <Heading as='h2' size='2xl'>Welcome to the Louis W. Ballard Memorial Page</Heading>
                 </Box>
                 <Box marginLeft={20}>
@@ -89,7 +89,7 @@ const breakpoints = createBreakpoints({
                 </Box>
                 </VStack>
                 <Box
-                    h='50vh'
+                    h='70vh'
                 >
                 <Image 
                     src={LWB2} 
@@ -100,13 +100,13 @@ const breakpoints = createBreakpoints({
                 <VStack 
                     marginTop='5vh'
                     w='80vw'
-                    h='130vh'
+                    h='100vh'
                 >
                 <Heading as='h2' size='2xl'>I have found myself</Heading><Heading as='h3' size='md'>in a curious circumstance, in that I am literally</Heading><Heading as='h2' size='2xl'>between two worlds ...</Heading><Heading as='h3' size='md'>that of the American Indian and that of Western society. These two worlds, of historical necessity, have been forced to coexist yet their</Heading><Heading as='h2' size='xl'>values and aesthetic concepts have remained almost irreconcilable.</Heading><Heading as='h3' size='md'>In my music I have sought to fuse these worlds for I believe that an artist can get to the heart of a culture through</Heading><Heading as='h2' size='2xl'>new forms alien to that culture.</Heading>
                 </VStack>
 
                 <Box
-                    h='50vh'
+                    h='70vh'
                 >
                 <Image 
                     src={LWB4} 
@@ -116,7 +116,7 @@ const breakpoints = createBreakpoints({
 
                 <VStack 
                     marginTop='10vh'
-                    h='130vh'
+                    h='100vh'
                     w='80vw'
                 >
                 <Heading as='h2' size='xl'>
@@ -144,7 +144,7 @@ const breakpoints = createBreakpoints({
                 <VStack 
                     marginTop='20vh'
                     w='80vw'
-                    h='140vh'
+                    h='120vh'
                 >
                 <Heading as='h2' size='2xl'>
                 "I want to thank you for the excellent coverage of my activities...</Heading><Heading as='h3' size='md'>Society, of course, needs the composer, but often it is felt that the composer does not need society. This is not true and I take the opportunity to verify it.</Heading><Heading as='h2' size='xl'>Many people have called to express their interest in my work and the thriving Santa Fe music scene.</Heading><Heading as='h3' size='md'>I even received an invitation to conduct a program of my music in the Midwest by a gentleman who was passing through our town.</Heading><Heading as='h2' size='xl'>Keep up your coverage of Santa Fe arts and artists."</Heading>
@@ -154,10 +154,7 @@ const breakpoints = createBreakpoints({
                 <VStack
                     align='center'
                     w='100vw'
-                    h={{
-                        base: '80vh',
-                        lg:'100vh'
-                    }}
+                    h='70vh'
                 >
                 <Image 
                     src={LWB3} 
