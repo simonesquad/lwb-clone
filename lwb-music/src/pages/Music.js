@@ -503,9 +503,9 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '185vh',
+                        base: '165vh',
                         md: '140vh',
-                        lg:'100vh'
+                        lg:'110vh'
                         }}>
                 <VStack 
                     align='center'
@@ -551,10 +551,10 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '125vh',
-                        md: '120vh',
+                        base: '120vh',
+                        md: '115vh',
                         lg:'100vh'
-                        }} spacing='70px'>
+                        }}>
                 <VStack 
                     align='center'
                 >
@@ -573,4 +573,4 @@ function Music() {
     )
 }
 
-export default Music
+export default Music;

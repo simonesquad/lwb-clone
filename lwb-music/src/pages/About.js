@@ -189,9 +189,9 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '185vh',
-                        md: '150vh',
-                        lg:'100vh'
+                        base: '195vh',
+                        md: '160vh',
+                        lg:'105vh'
                         }}>
                 <VStack 
                     align='center'
@@ -222,9 +222,9 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '185vh',
-                        md: '150vh',
-                        lg:'100vh'
+                        base: '200vh',
+                        md: '170vh',
+                        lg:'110vh'
                         }}>
                 <VStack 
                     align='center'
@@ -255,9 +255,9 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '195vh',
-                        md: '160vh',
-                        lg:'120vh'
+                        base: '210vh',
+                        md: '180vh',
+                        lg:'130vh'
                         }}>
                 <VStack 
                     align='center'
@@ -290,9 +290,9 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '265vh',
-                        md: '225vh',
-                        lg:'165vh'
+                        base: '285vh',
+                        md: '245vh',
+                        lg:'175vh'
                         }}>
                 <VStack 
                     align='center'
@@ -306,7 +306,7 @@ function About() {
                 </Box>
                 <Box 
                     h={{
-                        base: '45vh',
+                        base: '35vh',
                         md: '25vh',
                         lg: '15vh'
                     }}      
@@ -342,9 +342,9 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '235vh',
-                        md: '185vh',
-                        lg:'140vh'
+                        base: '245vh',
+                        md: '190vh',
+                        lg:'145vh'
                         }}>
                 <VStack 
                     align='center'
@@ -399,7 +399,7 @@ function About() {
                 </Box>
                 <Box 
                     h={{
-                        base: '30vh',
+                        base: '27vh',
                         md: '25vh',
                         lg: '15vh'
                     }}      
@@ -495,7 +495,7 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '200vh',
+                        base: '195vh',
                         md: '165vh',
                         lg:'110vh'
                         }}>
@@ -513,14 +513,12 @@ function About() {
                 <Text>As Ballard approached elderly status, he began to see the fruits of his labor take hold in a more receptive national and international discourse. He composed an opera in 1994 entitled <Text as='i'>Moontide: The Man Who Hated Money,</Text> that premiered in Norden, Germany. The next year, the final installment of <Text as='i'>Scenes From Indian Life</Text> entitled <Text as='i'>Feast Day</Text> was performed alongside works by Aaron Copeland and Leonard Berstein. It was clear that his music was finally going to rest among the top American classical music composers of the century. Around this time, the first music composition software was being developed alongside other software transforming the way music had traditionally been written and shared. Likewise, recording equipment had advanced significantly, and Ballard was able to adapt quickly to the new composing options.</Text>
                 </Box>
                 <Box 
-                    style={{ 
-                        marginTop: '3vh'
-                     }}
+                    style={{ marginTop: '3.5vh' }}
                     h={{
-                        base: '20vh',
+                        base: '23vh',
                         md: '17vh',
-                        lg: '10vh'
-                    }}      
+                        lg: '12vh'
+                    }}     
                 >
                 <Text as='i'> “Ballard has embraced changes of his own, the latest being composing via computer, which allows him to hear the sounds right after writing them. It’s the best thing to happen to the composer since the invention of ink.” </Text>
                 </Box>
@@ -542,7 +540,7 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '210vh',
+                        base: '215vh',
                         md: '175vh',
                         lg:'110vh'
                         }}>
@@ -589,9 +587,9 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '225vh',
-                        md: '185vh',
-                        lg:'150vh'
+                        base: '235vh',
+                        md: '190vh',
+                        lg:'155vh'
                         }}>
                 <VStack 
                     align='center'
@@ -636,8 +634,8 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '160vh',
-                        md: '175vh',
+                        base: '175vh',
+                        md: '155vh',
                         lg:'110vh'
                         }}>
                 <VStack 

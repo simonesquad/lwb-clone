@@ -129,8 +129,13 @@ function Resources() {
             </div>
             <br></br>
             <div>
+            <a rel="noreferrer" href="https://cso.org/experience/article/11000/recalling-the-legacy-of-louis-ballard-father" target="_blank"><b>Recalling the legacy of Louis Ballard, father of Native American music</b> <br></br>[Chicago Symphony Orchestra]</a>
+            </div>
+            <br></br>
+            <div>
             <a rel="noreferrer" href="http://www.sentineltimes.com/musical-presentation-honoring-dr-louis-w-ballard/" target="_blank"><b>Sentinel Times: Musical Presentation Honoring Dr. Louis W. Ballard</b> <br></br>[Quapaw Tribe]</a>
             </div>
+           
             </TabPanel>
 
             <TabPanel>
