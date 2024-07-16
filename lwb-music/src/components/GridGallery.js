@@ -85,9 +85,9 @@ const breakpoints = createBreakpoints({
               >
             <Box
                 h={{
-                    sm: '105vh',
-                    md: '115vh',
-                    lg: '125vh'
+                    sm: '115vh',
+                    md: '125vh',
+                    lg: '145vh'
                 }}
 
             >
@@ -103,9 +103,9 @@ const breakpoints = createBreakpoints({
 
             <Box
                 h={{
-                    sm: '50vh',
+                    sm: '30vh',
                     md: '40vh',
-                    lg: '60vh'
+                    lg: '50vh'
                 }}
                 w='70vw'
                 marginTop='6vh'
@@ -147,9 +147,9 @@ const breakpoints = createBreakpoints({
 
             <Box
                 h={{
-                    sm: '50vh',
-                    md: '40vh',
-                    lg: '55vh'
+                    sm: '40vh',
+                    md: '45vh',
+                    lg: '50vh'
                 }}
                 w='70vw'
                 marginTop='6vh'
@@ -235,4 +235,4 @@ const breakpoints = createBreakpoints({
       )
   }
 
-  export default GridGallery
+  export default GridGallery;

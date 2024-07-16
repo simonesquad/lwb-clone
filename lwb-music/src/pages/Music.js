@@ -331,7 +331,7 @@ function Music() {
                 </Box>
                 <Box style={{ 
                     marginTop: '17%', 
-                    marginLeft: '40%' 
+                    marginLeft: '35%' 
                 }}>
                     <a href="https://www.navonarecords.com/catalog/nv6429/" target="_blank">
                     <Buttons
