@@ -92,7 +92,7 @@ function About() {
                     h={{
                         base: '185vh',
                         md: '150vh',
-                        lg:'90vh'
+                        lg:'100vh'
                         }}>
                 <VStack 
                     align='center'
@@ -123,10 +123,10 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '170vh',
-                        md: '135vh',
-                        lg:'90vh'
-                        }} spacing='70px'>
+                        base: '185vh',
+                        md: '150vh',
+                        lg:'100vh'
+                        }}>
                 <VStack 
                     align='center'
                 >
@@ -156,10 +156,10 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '180vh',
-                        md: '135vh',
-                        lg:'90vh'
-                        }} spacing='70px'>
+                        base: '185vh',
+                        md: '150vh',
+                        lg:'100vh'
+                        }}>
                 <VStack 
                     align='center'
                 >
@@ -189,10 +189,10 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '200vh',
-                        md: '165vh',
-                        lg:'110vh'
-                        }} spacing='70px'>
+                        base: '185vh',
+                        md: '150vh',
+                        lg:'100vh'
+                        }}>
                 <VStack 
                     align='center'
                 >
@@ -223,9 +223,9 @@ function About() {
                         }} 
                     h={{
                         base: '185vh',
-                        md: '165vh',
-                        lg:'145vh'
-                        }} spacing='70px'>
+                        md: '150vh',
+                        lg:'100vh'
+                        }}>
                 <VStack 
                     align='center'
                 >
@@ -255,10 +255,10 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '205vh',
-                        md: '185vh',
-                        lg:'165vh'
-                        }} spacing='70px'>
+                        base: '195vh',
+                        md: '160vh',
+                        lg:'120vh'
+                        }}>
                 <VStack 
                     align='center'
                 >
@@ -291,9 +291,9 @@ function About() {
                         }} 
                     h={{
                         base: '265vh',
-                        md: '215vh',
-                        lg:'160vh'
-                        }} spacing='70px'>
+                        md: '225vh',
+                        lg:'165vh'
+                        }}>
                 <VStack 
                     align='center'
                 >
@@ -344,8 +344,8 @@ function About() {
                     h={{
                         base: '235vh',
                         md: '185vh',
-                        lg:'120vh'
-                        }} spacing='70px'>
+                        lg:'140vh'
+                        }}>
                 <VStack 
                     align='center'
                 >
@@ -385,8 +385,8 @@ function About() {
                     h={{
                         base: '245vh',
                         md: '195vh',
-                        lg:'120vh'
-                        }} spacing='70px'>
+                        lg:'140vh'
+                        }}>
                 <VStack 
                     align='center'
                 >
@@ -428,8 +428,8 @@ function About() {
                     h={{
                         base: '245vh',
                         md: '195vh',
-                        lg:'110vh'
-                        }} spacing='70px'>
+                        lg:'140vh'
+                        }}>
                 <VStack 
                     align='center'
                 >
@@ -460,10 +460,10 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '210vh',
-                        md: '175vh',
-                        lg:'110vh'
-                        }} spacing='70px'>
+                        base: '185vh',
+                        md: '150vh',
+                        lg:'100vh'
+                        }}>
                 <VStack 
                     align='center'
                 >
@@ -495,10 +495,10 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '210vh',
-                        md: '175vh',
+                        base: '200vh',
+                        md: '165vh',
                         lg:'110vh'
-                        }} spacing='70px'>
+                        }}>
                 <VStack 
                     align='center'
                 >
@@ -545,7 +545,7 @@ function About() {
                         base: '210vh',
                         md: '175vh',
                         lg:'110vh'
-                        }} spacing='70px'>
+                        }}>
                 <VStack 
                     align='center'
                 >
@@ -565,8 +565,8 @@ function About() {
                     style={{ marginTop: '3.5vh' }}
                     h={{
                         base: '23vh',
-                        md: '15vh',
-                        lg: '9vh'
+                        md: '17vh',
+                        lg: '12vh'
                     }}      
                 >
                 <Text as='i'> “I’m very gratified and proud to have this opportunity to make my contributions known in the musical field… A lot of my work is based upon my heritage…It’s important for young people…I want to encourage young composers and artists.” </Text>
@@ -592,7 +592,7 @@ function About() {
                         base: '225vh',
                         md: '185vh',
                         lg:'150vh'
-                        }} spacing='70px'>
+                        }}>
                 <VStack 
                     align='center'
                 >
@@ -611,9 +611,9 @@ function About() {
                 <Box 
                     style={{ marginTop: '3.5vh' }}
                     h={{
-                        base: '30vh',
-                        md: '22vh',
-                        lg: '17vh'
+                        base: '25vh',
+                        md: '20vh',
+                        lg: '12vh'
                     }}      
                 >
                 <Text as='i'> “This guidebook means a lot to me, and to Americans everywhere, including Native Americans…This is America’s cultural heritage. I want the tradition of our songs and our music to live on, and the best way to do that is to teach all teachers how to teach them. Simple as that.” </Text>
@@ -639,7 +639,7 @@ function About() {
                         base: '160vh',
                         md: '175vh',
                         lg:'110vh'
-                        }} spacing='70px'>
+                        }}>
                 <VStack 
                     align='center'
                 >
