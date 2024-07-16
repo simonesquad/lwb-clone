@@ -252,10 +252,10 @@ const breakpoints = createBreakpoints({
             >
             <Grid templateColumns='repeat(2, 1fr)' gap={10}>
                     <GridItem w='90' h='20'>
-                        <Image src={g7} alt='lwb-pose' />
+                        <Image src={g3} alt='maria-costume' />
                     </GridItem>
                     <GridItem w='90' h='20'>
-                        <Image src={g3} alt='maria-costume' />
+                        <Image src={g7} alt='lwb-pose' />
                     </GridItem>
                 </Grid>
             </Box>
