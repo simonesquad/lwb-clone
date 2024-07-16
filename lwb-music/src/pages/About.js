@@ -255,8 +255,8 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '210vh',
-                        md: '180vh',
+                        base: '225vh',
+                        md: '185vh',
                         lg:'130vh'
                         }}>
                 <VStack 

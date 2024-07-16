@@ -90,7 +90,7 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '210vh',
+                        base: '215vh',
                         md: '170vh',
                         lg:'130vh'
                         }} >
@@ -130,8 +130,8 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '170vh',
-                        md: '140vh',
+                        base: '200vh',
+                        md: '160vh',
                         lg:'115vh'
                         }}>
                 <VStack 
@@ -170,8 +170,8 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '180vh',
-                        md: '140vh',
+                        base: '200vh',
+                        md: '160vh',
                         lg:'115vh'
                         }}>
                 <VStack 
@@ -210,9 +210,9 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '165vh',
-                        md: '120vh',
-                        lg:'80vh'
+                        base: '200vh',
+                        md: '160vh',
+                        lg:'115vh'
                         }}>
                 <VStack 
                     align='center'
@@ -241,9 +241,9 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '150vh',
-                        md: '120vh',
-                        lg:'100vh'
+                        base: '200vh',
+                        md: '160vh',
+                        lg:'115vh'
                         }}>
                 <VStack 
                     align='left'
@@ -278,9 +278,9 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '155vh',
-                        md: '120vh',
-                        lg:'100vh'
+                        base: '200vh',
+                        md: '160vh',
+                        lg:'115vh'
                         }} >
                 <VStack 
                     align='center'
@@ -309,8 +309,8 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '190vh',
-                        md: '145vh',
+                        base: '200vh',
+                        md: '160vh',
                         lg:'115vh'
                         }}>
                 <VStack 
@@ -349,9 +349,9 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '145vh',
-                        md: '120vh',
-                        lg:'100vh'
+                        base: '200vh',
+                        md: '160vh',
+                        lg:'115vh'
                         }} spacing='70px'>
                 <VStack 
                     align='center'
@@ -415,9 +415,9 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '140vh',
-                        md: '125vh',
-                        lg:'105vh'
+                        base: '150vh',
+                        md: '135vh',
+                        lg:'115vh'
                         }}>
                 <VStack 
                     align='center'
@@ -463,9 +463,9 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '100vh',
-                        md: '120vh',
-                        lg:'100vh'
+                        base: '150vh',
+                        md: '135vh',
+                        lg:'115vh'
                         }} spacing='70px'>
                 <VStack 
                     align='center'
@@ -474,6 +474,10 @@ function Music() {
                     <Box h='7vh'>
                     <Heading as='h3' size='md'>Chamber Music Overview</Heading>
                     </Box>
+                    <Box
+                        marginLeft='3%'
+                        marginTop='2%'
+                    >
                     <List>
                         <ListItem>String Trio [1959]</ListItem>
                         <ListItem>Perc Ego [1962]</ListItem>
@@ -491,6 +495,7 @@ function Music() {
                         <ListItem>The Fire Moon for String Quartet [1997]</ListItem>
                         <ListItem>Music for the Earth and the Sky [1986]</ListItem>
                     </List>
+                    </Box>
                 </Box>
                 </VStack>
                 </HStack>
@@ -503,9 +508,9 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '165vh',
-                        md: '140vh',
-                        lg:'110vh'
+                        base: '150vh',
+                        md: '135vh',
+                        lg:'115vh'
                         }}>
                 <VStack 
                     align='center'
