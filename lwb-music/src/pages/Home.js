@@ -104,16 +104,14 @@ function Home() {
                     h={{
                         sm: '90vh',
                         md: '120vh',
-                        lg:'110vh',
-                        xl: '110vh'
+                        lg:'110vh'
                         }} spacing='2vw'>
                 <VStack 
                     align='left'
                     w={{
                         sm: '80vw',
-                        md: '65vw',
-                        lg:'70vw',
-                        xl: '65vw'
+                        md: '85vw',
+                        lg:'75vw'
                     }}
                 >
                 <Box h='22vh'>
