@@ -237,19 +237,12 @@ const breakpoints = createBreakpoints({
             <VStack
                 w='100%'
                 h={{
-                    sm: '135vh',
-                    md: '130vh',
-                    lg: '145vh'
+                    sm: '125vh',
+                    md: '135vh',
+                    lg: '165vh'
                 }}
               >
-            <Box
-                h={{
-                    sm: '115vh',
-                    md: '125vh',
-                    lg: '145vh'
-                }}
-
-            >
+            <Box>
             <Grid templateColumns='repeat(2, 1fr)' gap={10}>
                     <GridItem w='90' h='20'>
                         <Image src={g3} alt='maria-costume' />

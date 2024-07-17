@@ -58,19 +58,19 @@ function Music() {
                 <br></br>
                 <Link href='#preludes'>Four American Indian Preludes</Link>
                 <br></br>
-                <Link href='#short_tail'>Why the Duck Has a Short Tail</Link>
-                <br></br>
                 <Link href='#ritmo_indio'>Ritmo Indio</Link>
                 <br></br>
-                <Link href='#fire_moon'>Fire Moon String Quartet</Link>
-                <br></br>
                 <Link href='#three_cities'>Three Cities</Link>
-                <br></br>
-                <Link href='#will_rogers'>Portrait of Will Rogers</Link>
                 <br></br>
                 <Link href='#four_moons'>The Four Moons</Link>
                 <br></br>
                 <Link href='#three_cities'>The Three Cities</Link>
+                <br></br>
+                <Link href='#short_tail'>Why the Duck Has a Short Tail</Link>
+                <br></br>
+                <Link href='#fire_moon'>Fire Moon String Quartet</Link>
+                <br></br>
+                <Link href='#will_rogers'>Portrait of Will Rogers</Link>
                 <br></br>
                 <Link href='#na_songs'>Native American Indian Songs</Link>
                 <br></br>
@@ -202,37 +202,6 @@ function Music() {
                 </VStack>
                 </HStack>
                 
-                <a id="short_tail"></a>
-                <HStack 
-                    w={{
-                        base: '75vw',
-                        md: '60vw',
-                        lg:'70vw'
-                        }} 
-                    h={{
-                        base: '200vh',
-                        md: '160vh',
-                        lg:'115vh'
-                        }}>
-                <VStack 
-                    align='center'
-                >
-                <Box w='100vw' style={{ margin: '5px' }}>
-                    <Box h='7vh'>
-                    <Heading as='h3' size='md'>Why the Duck Has a Short Tail</Heading>
-                    </Box>
-                    <Text>
-                    <Text as='i'>Why the Duck Has a Short Tail: An American Indian Folktale,</Text> is a narrative work composed for a juvenile audience and follows from the quintessential oral history tradition of indigenous cultures. It premiered in Tempe, Arizona on May 8th, 1969 during the Communication Through Music tour. As Ballard described it: <Text as='i'>“This work, which is based on an authentic legend of the Navajo people, includes narration, Indian chant, and instruments within the framework of a modern orchestral composition. It tells the story of the First Indian Man upon this continent and of the creation of the mountain ranges. The animal characters, which are featured in this story, are the Eagle, Coyote, Bear, and the Little Duck who sacrifices his beauty in order to help bring the magic stones to the First Man.”</Text>
-                    </Text>
-                </Box>
-                <Box w='100vw' style={{ margin: '3vh' }}>
-                    <Text>
-                    As this music was inspired by the Navajo tradition, it was performed locally by the Phoenix Symphony at key Navajo community centers and also for a benefit concert to send eight Native American IAIA students on a trip to France. The concerts were given to utilize local Native choral talent from multiple tribes, and to involve Native youth as much as possible in the performance creation process. This coincided with Ballard’s appointment at the Bureau of Indian Affairs towards Bureau Music Education. In conjunction with Ballard’s Native American Indian Songs, this piece has lasting cultural value by preserving indigenous storytelling within the format of Classical Music. 
-                    </Text>
-                </Box>
-                </VStack>
-                </HStack>
-                
                 <a id="ritmo_indio"></a>
                 <HStack 
                     w={{
@@ -270,37 +239,6 @@ function Music() {
                 </VStack>
                 </HStack>
                 
-                <a id="fire_moon"></a>
-                <HStack 
-                    w={{
-                        base: '75vw',
-                        md: '60vw',
-                        lg:'70vw'
-                        }} 
-                    h={{
-                        base: '200vh',
-                        md: '160vh',
-                        lg:'115vh'
-                        }} >
-                <VStack 
-                    align='center'
-                >
-                <Box w='100vw' style={{ margin: '5px' }}>
-                    <Box h='7vh'>
-                    <Heading as='h3' size='md'>Fire Moon String Quartet</Heading>
-                    </Box>
-                    <Text>
-                    The Fire Moon or <Text as='i'>“Pe’teh Minoba”</Text> string quartet is unique in that it directly relates to one of Ballard’s own tribes, the Quapaw tribe of Oklahoma. This is one of his later works and was released in 1998 through his own publishing company at the time, New Southwest Music Publications. The piece consists of 3 movements: <Text as='i'>“I. Tourima”, “II: Osotouy”, and “III. Kappa”.</Text> Three years prior to composition, there was an exhibition of historical Quapaw artifacts including those influenced by French colonial trade times. The French government had loaned several 250 year-old elk and buffalo robes to the Territorial Restoration Museum in Little Rock, Arkansas that were from three historical Quapaw villages which are no longer in existence. 
-                    </Text>
-                </Box>
-                <Box w='100vw' style={{ margin: '3vh' }}>
-                    <Text>
-                    The Quapaws and French had a military alliance in the 1800’s and this cultural influence is still visible in some of the tribe’s regalia today. Ballard sought to reflect this musically by incorporating elements of French Impressionist music with his own compositional style. He named the three movements after historical Quapaw villages that were in existence at that time. The piece could be interpreted as Ballard paying homage to his roots towards the end of his career. He concludes this work with a traditional stomp dance, which he grew up dancing himself, making it one of his most personal and signature compositions. 
-                    </Text>
-                </Box>
-                </VStack>
-                </HStack>
-                
                 <a id="three_cities"></a>
                 <HStack 
                     w={{
@@ -331,38 +269,12 @@ function Music() {
                 </Box>
                 <Box style={{ 
                     marginTop: '17%', 
-                    marginLeft: '35%' 
+                    marginLeft: '40%' 
                 }}>
                     <a href="https://www.navonarecords.com/catalog/nv6429/" target="_blank">
                     <Buttons
                         text="Listen" />
                     </a>
-                </Box>
-                </VStack>
-                </HStack>
-                
-                <a id="will_rogers"></a>
-                <HStack 
-                    w={{
-                        base: '75vw',
-                        md: '60vw',
-                        lg:'70vw'
-                        }} 
-                    h={{
-                        base: '200vh',
-                        md: '160vh',
-                        lg:'115vh'
-                        }} spacing='70px'>
-                <VStack 
-                    align='center'
-                >
-                <Box w='100vw' style={{ margin: '5px' }}>
-                    <Box h='7vh'>
-                    <Heading as='h3' size='md'>Portrait of Will Rogers</Heading>
-                    </Box>
-                    <Text>
-                    A unique and perhaps “tongue-and-cheek” work is the <Text as='i'>Portrait of Will Rogers (Tribute to a Great American).</Text> It’s a piece that allowed Ballard to flex his literary side as well as his cultural sensibilities in reading the audience of the day. It was commissioned by The William Jewell College Choir and conducted by his friend, Wesley Forbis, while Will Rogers Jr. narrated the premiere. In the construction of the piece, Ballard states that: <Text as='i'>“I used a half-dozen quotes from Will Rogers in the libretto I wrote for the piece, something in the manner of Copland’s Lincoln Portrait.”</Text>Will Rogers was an American vaudeville performer, actor, and comedian known colloquially as “Oklahoma’s Favorite Son.” He was a well-known Oklahoman celebrity of Cherokee descent and the best man in Ballard grandparent's wedding at the 1904 World Fair.
-                    </Text>
                 </Box>
                 </VStack>
                 </HStack>
@@ -404,6 +316,94 @@ function Music() {
                         text="Listen" />
                     </a>
                     </Box>
+                </VStack>
+                </HStack>
+
+                <a id="short_tail"></a>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '200vh',
+                        md: '160vh',
+                        lg:'115vh'
+                        }}>
+                <VStack 
+                    align='center'
+                >
+                <Box w='100vw' style={{ margin: '5px' }}>
+                    <Box h='7vh'>
+                    <Heading as='h3' size='md'>Why the Duck Has a Short Tail</Heading>
+                    </Box>
+                    <Text>
+                    <Text as='i'>Why the Duck Has a Short Tail: An American Indian Folktale,</Text> is a narrative work composed for a juvenile audience and follows from the quintessential oral history tradition of indigenous cultures. It premiered in Tempe, Arizona on May 8th, 1969 during the Communication Through Music tour. As Ballard described it: <Text as='i'>“This work, which is based on an authentic legend of the Navajo people, includes narration, Indian chant, and instruments within the framework of a modern orchestral composition. It tells the story of the First Indian Man upon this continent and of the creation of the mountain ranges. The animal characters, which are featured in this story, are the Eagle, Coyote, Bear, and the Little Duck who sacrifices his beauty in order to help bring the magic stones to the First Man.”</Text>
+                    </Text>
+                </Box>
+                <Box w='100vw' style={{ margin: '3vh' }}>
+                    <Text>
+                    As this music was inspired by the Navajo tradition, it was performed locally by the Phoenix Symphony at key Navajo community centers and also for a benefit concert to send eight Native American IAIA students on a trip to France. The concerts were given to utilize local Native choral talent from multiple tribes, and to involve Native youth as much as possible in the performance creation process. This coincided with Ballard’s appointment at the Bureau of Indian Affairs towards Bureau Music Education. In conjunction with Ballard’s Native American Indian Songs, this piece has lasting cultural value by preserving indigenous storytelling within the format of Classical Music. 
+                    </Text>
+                </Box>
+                </VStack>
+                </HStack>
+
+                <a id="fire_moon"></a>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '200vh',
+                        md: '160vh',
+                        lg:'115vh'
+                        }} >
+                <VStack 
+                    align='center'
+                >
+                <Box w='100vw' style={{ margin: '5px' }}>
+                    <Box h='7vh'>
+                    <Heading as='h3' size='md'>Fire Moon String Quartet</Heading>
+                    </Box>
+                    <Text>
+                    The Fire Moon or <Text as='i'>“Pe’teh Minoba”</Text> string quartet is unique in that it directly relates to one of Ballard’s own tribes, the Quapaw tribe of Oklahoma. This is one of his later works and was released in 1998 through his own publishing company at the time, New Southwest Music Publications. The piece consists of 3 movements: <Text as='i'>“I. Tourima”, “II: Osotouy”, and “III. Kappa”.</Text> Three years prior to composition, there was an exhibition of historical Quapaw artifacts including those influenced by French colonial trade times. The French government had loaned several 250 year-old elk and buffalo robes to the Territorial Restoration Museum in Little Rock, Arkansas that were from three historical Quapaw villages which are no longer in existence. 
+                    </Text>
+                </Box>
+                <Box w='100vw' style={{ margin: '3vh' }}>
+                    <Text>
+                    The Quapaws and French had a military alliance in the 1800’s and this cultural influence is still visible in some of the tribe’s regalia today. Ballard sought to reflect this musically by incorporating elements of French Impressionist music with his own compositional style. He named the three movements after historical Quapaw villages that were in existence at that time. The piece could be interpreted as Ballard paying homage to his roots towards the end of his career. He concludes this work with a traditional stomp dance, which he grew up dancing himself, making it one of his most personal and signature compositions. 
+                    </Text>
+                </Box>
+                </VStack>
+                </HStack>
+
+                <a id="will_rogers"></a>
+                <HStack 
+                    w={{
+                        base: '75vw',
+                        md: '60vw',
+                        lg:'70vw'
+                        }} 
+                    h={{
+                        base: '200vh',
+                        md: '160vh',
+                        lg:'115vh'
+                        }} spacing='70px'>
+                <VStack 
+                    align='center'
+                >
+                <Box w='100vw' style={{ margin: '5px' }}>
+                    <Box h='7vh'>
+                    <Heading as='h3' size='md'>Portrait of Will Rogers</Heading>
+                    </Box>
+                    <Text>
+                    A unique and perhaps “tongue-and-cheek” work is the <Text as='i'>Portrait of Will Rogers (Tribute to a Great American).</Text> It’s a piece that allowed Ballard to flex his literary side as well as his cultural sensibilities in reading the audience of the day. It was commissioned by The William Jewell College Choir and conducted by his friend, Wesley Forbis, while Will Rogers Jr. narrated the premiere. In the construction of the piece, Ballard states that: <Text as='i'>“I used a half-dozen quotes from Will Rogers in the libretto I wrote for the piece, something in the manner of Copland’s Lincoln Portrait.”</Text>Will Rogers was an American vaudeville performer, actor, and comedian known colloquially as “Oklahoma’s Favorite Son.” He was a well-known Oklahoman celebrity of Cherokee descent and the best man in Ballard grandparent's wedding at the 1904 World Fair.
+                    </Text>
+                </Box>
                 </VStack>
                 </HStack>
                 
