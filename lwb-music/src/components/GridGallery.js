@@ -242,17 +242,6 @@ const breakpoints = createBreakpoints({
                     lg: '165vh'
                 }}
               >
-            <Box>
-            <Grid templateColumns='repeat(2, 1fr)' gap={10}>
-                    <GridItem w='90' h='20'>
-                        <Image src={g3} alt='maria-costume' />
-                    </GridItem>
-                    <GridItem w='90' h='20'>
-                        <Image src={g7} alt='lwb-pose' />
-                    </GridItem>
-                </Grid>
-            </Box>
-
             <Box
                 h={{
                     sm: '30vh',
@@ -266,6 +255,19 @@ const breakpoints = createBreakpoints({
                 Louis W. Ballard classical music composer and his contemporary maverick ballerina Maria Tallchief - both native Oklahomans who represented the US worldwide in the performance arts for decades. 
                 </Heading>
             </Box>
+            
+            <Box>
+            <Grid templateColumns='repeat(2, 1fr)' gap={10}>
+                    <GridItem w='90' h='20'>
+                        <Image src={g3} alt='maria-costume' />
+                    </GridItem>
+                    <GridItem w='90' h='20'>
+                        <Image src={g7} alt='lwb-pose' />
+                    </GridItem>
+                </Grid>
+            </Box>
+
+            
             </VStack>
 
         </VStack>

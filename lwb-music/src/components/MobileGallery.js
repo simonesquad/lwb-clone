@@ -63,12 +63,12 @@ const breakpoints = createBreakpoints({
                 <Spacer />
                 <Box
                     w={{
-                        base: '90vw',
-                        sm: '90vw',
+                        base: '90vw'
                     }}
                     h={{
-                        base: '55vh'
+                        base: '45vh'
                     }}
+                    marginTop='5vh'
                 >
                 <Heading as='h4' size='md'>The choreographer Donald Saddler with ballerina Marjorie Tallchief, dancers, and Louis W. Ballard seated in the background for rehearsal of the ballet Koshare.</Heading>
                 </Box>
@@ -80,7 +80,11 @@ const breakpoints = createBreakpoints({
                     base: '125vh',
                 }}
               >
-                <Box>
+                <Box
+                 h={{
+                    base: '65vh',
+                 }}
+                >
                 <Grid templateColumns='repeat(2, 1fr)' gap={10}>
                     <GridItem w='90' h='20'>
                         <Image src={g2} alt='lwb-flute' />
@@ -92,7 +96,7 @@ const breakpoints = createBreakpoints({
             </Box>
             <Box
                 h={{
-                    base: '55vh'
+                    base: '45vh'
                 }}
                 w={{
                     base: '90vw'
@@ -114,7 +118,11 @@ const breakpoints = createBreakpoints({
                     base: '80vh'
                 }}
               >
-                <Box>
+                <Box
+                h={{
+                    base: '40vh'
+                }}
+                >
                 <Grid templateColumns='repeat(2, 1fr)' gap={5}>
                     <GridItem w='50' h='20'>
                     <Image src={g5} alt='me' />
@@ -174,7 +182,11 @@ const breakpoints = createBreakpoints({
                     base: '105vh'
                 }}
               >
-            <Box>
+            <Box
+                h={{
+                    base: '65vh'
+                }}
+            >
             <Grid templateColumns='repeat(2, 1fr)' gap={7}>
                 <GridItem w='50' h='20'>
                     <Image src={g9} alt='tree' />
@@ -207,16 +219,7 @@ const breakpoints = createBreakpoints({
                     base: '110vh'
                 }}
               >
-                <Box>
-                <Grid templateColumns='repeat(2, 1fr)' gap={10}>
-                    <GridItem w='90' h='20'>
-                        <Image src={g3} alt='maria-costume' />
-                    </GridItem>
-                    <GridItem w='90' h='20'>
-                        <Image src={g7} alt='lwb-pose' />
-                    </GridItem>
-                </Grid>
-            </Box>
+
             <Box
                 h={{
                     base: '45vh'
@@ -230,6 +233,22 @@ const breakpoints = createBreakpoints({
                 Louis W. Ballard classical music composer and his contemporary maverick ballerina Maria Tallchief - both native Oklahomans who represented the US worldwide in the performance arts for decades. 
                 </Heading>
             </Box>
+
+                <Box
+                    h={{
+                        base: '75vh'
+                    }}
+                >
+                <Grid templateColumns='repeat(2, 1fr)' gap={10}>
+                    <GridItem w='90' h='20'>
+                        <Image src={g3} alt='maria-costume' />
+                    </GridItem>
+                    <GridItem w='90' h='20'>
+                        <Image src={g7} alt='lwb-pose' />
+                    </GridItem>
+                </Grid>
+            </Box>
+            
               </VStack>
 
         </VStack>
