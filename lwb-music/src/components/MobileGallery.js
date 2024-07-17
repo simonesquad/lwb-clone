@@ -77,12 +77,12 @@ const breakpoints = createBreakpoints({
               <VStack
                 w='100%'
                 h={{
-                    base: '125vh',
+                    base: '115vh',
                 }}
               >
                 <Box
                  h={{
-                    base: '65vh',
+                    base: '55vh',
                  }}
                 >
                 <Grid templateColumns='repeat(2, 1fr)' gap={10}>
@@ -96,7 +96,7 @@ const breakpoints = createBreakpoints({
             </Box>
             <Box
                 h={{
-                    base: '45vh'
+                    base: '40vh'
                 }}
                 w={{
                     base: '90vw'
@@ -115,12 +115,12 @@ const breakpoints = createBreakpoints({
               <VStack
                 w='100%'
                 h={{
-                    base: '80vh'
+                    base: '70vh'
                 }}
               >
                 <Box
                 h={{
-                    base: '40vh'
+                    base: '35vh'
                 }}
                 >
                 <Grid templateColumns='repeat(2, 1fr)' gap={5}>
@@ -135,7 +135,7 @@ const breakpoints = createBreakpoints({
             
             <Box
                 h={{
-                    base: '45vh'
+                    base: '40vh'
                 }}
                 w={{
                     base: '90vw'
@@ -163,7 +163,7 @@ const breakpoints = createBreakpoints({
                 </Box>
                 <Box
                    h={{
-                    base: '45vh'
+                    base: '40vh'
                     }}
                     w={{
                         base: '90vw'
@@ -179,12 +179,12 @@ const breakpoints = createBreakpoints({
               <VStack
                 w='100%'
                 h={{
-                    base: '105vh'
+                    base: '75vh'
                 }}
               >
             <Box
                 h={{
-                    base: '65vh'
+                    base: '55vh'
                 }}
             >
             <Grid templateColumns='repeat(2, 1fr)' gap={7}>
@@ -199,7 +199,7 @@ const breakpoints = createBreakpoints({
 
             <Box
                 h={{
-                    base: '50vh'
+                    base: '40vh'
                 }}
                 w={{
                     base: '90vw',
@@ -216,9 +216,23 @@ const breakpoints = createBreakpoints({
             <VStack
                 w='100%'
                 h={{
-                    base: '110vh'
+                    base: '90vh'
                 }}
               >
+            <Box
+                h={{
+                    base: '65vh'
+                    }}
+                >
+                <Grid templateColumns='repeat(2, 1fr)' gap={10}>
+                    <GridItem w='90' h='20'>
+                        <Image src={g3} alt='maria-costume' />
+                    </GridItem>
+                    <GridItem w='90' h='20'>
+                        <Image src={g7} alt='lwb-pose' />
+                    </GridItem>
+                </Grid>
+            </Box>
 
             <Box
                 h={{
@@ -233,24 +247,7 @@ const breakpoints = createBreakpoints({
                 Louis W. Ballard classical music composer and his contemporary maverick ballerina Maria Tallchief - both native Oklahomans who represented the US worldwide in the performance arts for decades. 
                 </Heading>
             </Box>
-
-                <Box
-                    h={{
-                        base: '75vh'
-                    }}
-                >
-                <Grid templateColumns='repeat(2, 1fr)' gap={10}>
-                    <GridItem w='90' h='20'>
-                        <Image src={g3} alt='maria-costume' />
-                    </GridItem>
-                    <GridItem w='90' h='20'>
-                        <Image src={g7} alt='lwb-pose' />
-                    </GridItem>
-                </Grid>
-            </Box>
-            
-              </VStack>
-
+            </VStack>
         </VStack>
     </Stack>
       )
