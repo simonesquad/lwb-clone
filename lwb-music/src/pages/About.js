@@ -255,9 +255,9 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '225vh',
-                        md: '185vh',
-                        lg:'130vh'
+                        base: '235vh',
+                        md: '195vh',
+                        lg:'140vh'
                         }}>
                 <VStack 
                     align='center'
@@ -306,7 +306,7 @@ function About() {
                 </Box>
                 <Box 
                     h={{
-                        base: '35vh',
+                        base: '32vh',
                         md: '25vh',
                         lg: '15vh'
                     }}      
