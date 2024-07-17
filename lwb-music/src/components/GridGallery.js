@@ -242,19 +242,6 @@ const breakpoints = createBreakpoints({
                     lg: '165vh'
                 }}
               >
-            <Box
-                h={{
-                    sm: '20vh',
-                    md: '25vh',
-                    lg: '35vh'
-                }}
-                w='70vw'
-                marginTop='6vh'
-            >
-                <Heading as='h4' size='md'>
-                Louis W. Ballard classical music composer and his contemporary maverick ballerina Maria Tallchief - both native Oklahomans who represented the US worldwide in the performance arts for decades. 
-                </Heading>
-            </Box>
 
             <Box
                 h={{
@@ -271,6 +258,20 @@ const breakpoints = createBreakpoints({
                         <Image src={g7} alt='lwb-pose' />
                     </GridItem>
                 </Grid>
+            </Box>
+
+            <Box
+                h={{
+                    sm: '20vh',
+                    md: '25vh',
+                    lg: '35vh'
+                }}
+                w='70vw'
+                marginTop='6vh'
+            >
+                <Heading as='h4' size='md'>
+                Louis W. Ballard classical music composer and his contemporary maverick ballerina Maria Tallchief - both native Oklahomans who represented the US worldwide in the performance arts for decades. 
+                </Heading>
             </Box>
 
             
