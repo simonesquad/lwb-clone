@@ -155,8 +155,8 @@ const breakpoints = createBreakpoints({
                 }}
               >
                 <Box
-                    h={{
-                        base: '70vh'
+                    w={{
+                        base: '100vw'
                     }}
                 >
                 <Image src={g8} alt='lwb-flute2' />
