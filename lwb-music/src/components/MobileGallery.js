@@ -77,7 +77,7 @@ const breakpoints = createBreakpoints({
               <VStack
                 w='100%'
                 h={{
-                    base: '115vh',
+                    base: '100vh',
                 }}
               >
                 <Box
@@ -184,7 +184,7 @@ const breakpoints = createBreakpoints({
               >
             <Box
                 h={{
-                    base: '55vh'
+                    base: '50vh'
                 }}
             >
             <Grid templateColumns='repeat(2, 1fr)' gap={7}>
@@ -221,7 +221,7 @@ const breakpoints = createBreakpoints({
               >
             <Box
                 h={{
-                    base: '65vh'
+                    base: '75vh'
                     }}
                 >
                 <Grid templateColumns='repeat(2, 1fr)' gap={10}>
@@ -236,7 +236,7 @@ const breakpoints = createBreakpoints({
 
             <Box
                 h={{
-                    base: '45vh'
+                    base: '40vh'
                 }}
                 w={{
                     base: '90vw'
@@ -250,7 +250,7 @@ const breakpoints = createBreakpoints({
             </VStack>
         </VStack>
     </Stack>
-      )
+    )
   }
 
   export default MobileGallery;

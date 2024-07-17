@@ -191,7 +191,7 @@ function About() {
                     h={{
                         base: '195vh',
                         md: '160vh',
-                        lg:'105vh'
+                        lg:'110vh'
                         }}>
                 <VStack 
                     align='center'
@@ -255,9 +255,9 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '235vh',
-                        md: '195vh',
-                        lg:'140vh'
+                        base: '245vh',
+                        md: '200vh',
+                        lg:'145vh'
                         }}>
                 <VStack 
                     align='center'
@@ -290,9 +290,9 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '285vh',
-                        md: '245vh',
-                        lg:'175vh'
+                        base: '295vh',
+                        md: '255vh',
+                        lg:'185vh'
                         }}>
                 <VStack 
                     align='center'
@@ -540,9 +540,9 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '215vh',
-                        md: '175vh',
-                        lg:'110vh'
+                        base: '225vh',
+                        md: '185vh',
+                        lg:'115vh'
                         }}>
                 <VStack 
                     align='center'
@@ -587,7 +587,7 @@ function About() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '235vh',
+                        base: '245vh',
                         md: '190vh',
                         lg:'155vh'
                         }}>
