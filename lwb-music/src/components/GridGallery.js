@@ -88,8 +88,8 @@ const breakpoints = createBreakpoints({
               >
             <Box
                 h={{
-                    sm: '115vh',
-                    md: '125vh',
+                    sm: '105vh',
+                    md: '115vh',
                     lg: '145vh'
                 }}
 
@@ -133,8 +133,8 @@ const breakpoints = createBreakpoints({
 
             <Box
                 h={{
-                    sm: '75vh',
-                    md: '85vh',
+                    sm: '65vh',
+                    md: '75vh',
                     lg: '95vh'
                 }}
             >
@@ -245,8 +245,8 @@ const breakpoints = createBreakpoints({
 
             <Box
                 h={{
-                    sm: '115vh',
-                    md: '125vh',
+                    sm: '100vh',
+                    md: '110vh',
                     lg: '145vh'
                 }}
             >
