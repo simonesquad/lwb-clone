@@ -247,7 +247,7 @@ function Music() {
                         lg:'70vw'
                         }} 
                     h={{
-                        base: '200vh',
+                        base: '220vh',
                         md: '160vh',
                         lg:'115vh'
                         }}>
