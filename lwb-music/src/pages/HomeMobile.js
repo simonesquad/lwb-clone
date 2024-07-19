@@ -66,7 +66,7 @@ const breakpoints = createBreakpoints({
                     </Box>
                 </VStack>
                 <Box
-                    h='110vh'
+                    h='120vh'
                 >
                 <Image 
                     src={LWB} 
@@ -77,7 +77,7 @@ const breakpoints = createBreakpoints({
                 <VStack 
                     marginTop='5vh'
                     w='80vw'
-                    h='100vh'
+                    h='90vh'
                 >
                 <Box h='35vh'>
                 <Heading as='h2' size='2xl'>Welcome to the Louis W. Ballard Memorial Page</Heading>
@@ -89,7 +89,7 @@ const breakpoints = createBreakpoints({
                 </Box>
                 </VStack>
                 <Box
-                    h='110vh'
+                    h='120vh'
                 >
                 <Image 
                     src={LWB2} 
@@ -100,13 +100,13 @@ const breakpoints = createBreakpoints({
                 <VStack 
                     marginTop='75px'
                     w='80vw'
-                    h='120vh'
+                    h='100vh'
                 >
                 <Heading as='h2' size='2xl'>I have found myself</Heading><Heading as='h3' size='md'>in a curious circumstance, in that I am literally</Heading><Heading as='h2' size='2xl'>between two worlds ...</Heading><Heading as='h3' size='md'>that of the American Indian and that of Western society. These two worlds, of historical necessity, have been forced to coexist yet their</Heading><Heading as='h2' size='xl'>values and aesthetic concepts have remained almost irreconcilable.</Heading><Heading as='h3' size='md'>In my music I have sought to fuse these worlds for I believe that an artist can get to the heart of a culture through</Heading><Heading as='h2' size='2xl'>new forms alien to that culture.</Heading>
                 </VStack>
 
                 <Box
-                    h='110vh'
+                    h='120vh'
                 >
                 <Image 
                     src={LWB4} 
@@ -117,7 +117,7 @@ const breakpoints = createBreakpoints({
                 <VStack 
                     marginTop='75px'
                     w='80vw'
-                    h='120vh'
+                    h='100vh'
                 >
                 <Heading as='h2' size='xl'>
                 Don't think because you're a non-Indian</Heading><Heading as='h3' size='md'>you can't sing Indian songs. These are our songs as Americans and we must learn to recognize it.</Heading><Heading as='h2' size='2xl'>Indian singing is the most natural in the world'...</Heading><Heading as='h3' size='md'>Find an Indian who knows songs, he said, and listen carefully...</Heading><Heading as='h2' size='xl'>Learn so you can sing them under water or in your sleep!</Heading><Heading as='h3' size='md'>When a lead Indian singer dies its like an archive burning down...</Heading><Heading as='h2' size='xl'>Here's epic literature. Here's epic poetry - and it's unwritten.</Heading>
