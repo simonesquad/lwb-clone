@@ -66,7 +66,7 @@ const breakpoints = createBreakpoints({
                     </Box>
                 </VStack>
                 <Box
-                    h='90vh'
+                    h='110vh'
                 >
                 <Image 
                     src={LWB} 
@@ -89,7 +89,7 @@ const breakpoints = createBreakpoints({
                 </Box>
                 </VStack>
                 <Box
-                    h='90vh'
+                    h='110vh'
                 >
                 <Image 
                     src={LWB2} 
@@ -106,7 +106,7 @@ const breakpoints = createBreakpoints({
                 </VStack>
 
                 <Box
-                    h='90vh'
+                    h='110vh'
                 >
                 <Image 
                     src={LWB4} 
