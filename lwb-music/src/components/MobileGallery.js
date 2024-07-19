@@ -216,12 +216,12 @@ const breakpoints = createBreakpoints({
             <VStack
                 w='100%'
                 h={{
-                    base: '90vh'
+                    base: '130vh'
                 }}
               >
             <Box
                     h={{
-                        base: '100vh'
+                        base: '110vh'
                     }}
                 >
                 <Grid templateColumns='repeat(2, 1fr)' gap={10}>
