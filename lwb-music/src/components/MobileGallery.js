@@ -82,7 +82,7 @@ const breakpoints = createBreakpoints({
               >
                 <Box
                     h={{
-                        base: '80vh'
+                        base: '85vh'
                     }}
                 >
                 <Grid templateColumns='repeat(2, 1fr)' gap={10}>
@@ -96,7 +96,7 @@ const breakpoints = createBreakpoints({
             </Box>
             <Box
                 h={{
-                    base: '30vh'
+                    base: '25vh'
                 }}
                 w={{
                     base: '90vw'
@@ -179,12 +179,12 @@ const breakpoints = createBreakpoints({
               <VStack
                 w='100%'
                 h={{
-                    base: '85vh'
+                    base: '75vh'
                 }}
               >
               <Box
                     h={{
-                        base: '70vh'
+                        base: '65vh'
                     }}
                 >
             <Grid templateColumns='repeat(2, 1fr)' gap={7}>
@@ -216,12 +216,12 @@ const breakpoints = createBreakpoints({
             <VStack
                 w='100%'
                 h={{
-                    base: '130vh'
+                    base: '120vh'
                 }}
               >
             <Box
                     h={{
-                        base: '110vh'
+                        base: '80vh'
                     }}
                 >
                 <Grid templateColumns='repeat(2, 1fr)' gap={10}>
@@ -236,7 +236,7 @@ const breakpoints = createBreakpoints({
 
             <Box
                 h={{
-                    base: '30vh'
+                    base: '25vh'
                 }}
                 w={{
                     base: '90vw'
