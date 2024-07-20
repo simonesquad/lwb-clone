@@ -94,6 +94,9 @@ const breakpoints = createBreakpoints({
                     </GridItem>
                 </Grid>
             </Box>
+            </VStack>
+
+            <VStack>
             <Box
                 h={{
                     base: '25vh'
@@ -109,7 +112,7 @@ const breakpoints = createBreakpoints({
                 Donald Sadler and Louis W. Ballard along with George Skibine director of the Harkness Ballet in rehearsal for the 1965 performance of Koshare.
                 </Heading>
             </Box>
-              </VStack>
+            </VStack>
 
 
               <VStack
@@ -132,7 +135,9 @@ const breakpoints = createBreakpoints({
                     </GridItem> 
                 </Grid>
                 </Box>
-            
+            </VStack>
+
+            <VStack>
             <Box
                 h={{
                     base: '30vh'
@@ -161,6 +166,9 @@ const breakpoints = createBreakpoints({
                 >
                 <Image src={g8} alt='lwb-flute2' />
                 </Box>
+                </VStack>
+
+            <VStack>
                 <Box
                    h={{
                     base: '30vh'
@@ -176,7 +184,7 @@ const breakpoints = createBreakpoints({
                 </Box>
               </VStack>
 
-              <VStack
+            <VStack
                 w='100%'
                 h={{
                     base: '75vh'
@@ -196,7 +204,9 @@ const breakpoints = createBreakpoints({
                 </GridItem>
             </Grid>
             </Box>
-
+            </VStack>
+            
+            <VStack>
             <Box
                 h={{
                     base: '30vh'
@@ -233,7 +243,9 @@ const breakpoints = createBreakpoints({
                     </GridItem>
                 </Grid>
             </Box>
-
+            </VStack>
+            
+            <VStack>
             <Box
                 h={{
                     base: '25vh'
