@@ -46,14 +46,13 @@ const breakpoints = createBreakpoints({
                 align='center'
             >
               <VStack
-                w='95%'
                 h={{
                     base: '100vh'
                 }}
               >
                 <Box
                     w={{
-                        base: '100vw'
+                        base: '90vw'
                     }}
                     marginTop='5vh'
                 >
@@ -66,9 +65,9 @@ const breakpoints = createBreakpoints({
                         base: '90vw'
                     }}
                     h={{
-                        base: '45vh'
+                        base: '30vh'
                     }}
-                    marginTop='5vh'
+                    marginTop='10vh'
                 >
                 <Heading as='h4' size='md'>The choreographer Donald Saddler with ballerina Marjorie Tallchief, dancers, and Louis W. Ballard seated in the background for rehearsal of the ballet Koshare.</Heading>
                 </VStack>
@@ -90,15 +89,15 @@ const breakpoints = createBreakpoints({
             </VStack>
 
               <VStack
-                w='100%'
                 h={{
-                    base: '100vh',
+                    base: '70vh',
                 }}
               >
                 <Box
-                    h={{
-                        base: '85vh'
+                    w={{
+                        base: '90vw'
                     }}
+                    marginTop='5vh'
                 >
                 <Grid templateColumns='repeat(2, 1fr)' gap={10}>
                     <GridItem w='90' h='20'>
@@ -113,7 +112,7 @@ const breakpoints = createBreakpoints({
 
             <VStack
                 h={{
-                    base: '30vh'
+                    base: '25vh'
                 }}
                 w={{
                     base: '90vw'
@@ -126,15 +125,15 @@ const breakpoints = createBreakpoints({
               </VStack>
 
               <VStack
-                w='100%'
                 h={{
-                    base: '100vh'
+                    base: '70vh'
                 }}
               >
                 <Box
-                    h={{
-                        base: '70vh'
+                    w={{
+                        base: '90vw'
                     }}
+                    marginTop='5vh'
                 >
                 <Grid templateColumns='repeat(2, 1fr)' gap={5}>
                     <GridItem w='50' h='20'>
@@ -149,7 +148,7 @@ const breakpoints = createBreakpoints({
 
             <VStack
                    h={{
-                    base: '30vh'
+                    base: '25vh'
                     }}
                     w={{
                         base: '90vw'
@@ -162,15 +161,15 @@ const breakpoints = createBreakpoints({
               </VStack>
 
               <VStack
-                w='95%'
                 h={{
                     base: '100vh'
                 }}
               >
                 <Box
                     w={{
-                        base: '100vw'
+                        base: '90vw'
                     }}
+                    marginTop='5vh'
                 >
                 <Image src={g8} alt='lwb-flute2' />
                 </Box>
@@ -179,7 +178,7 @@ const breakpoints = createBreakpoints({
 
             <VStack
                 h={{
-                    base: '30vh'
+                    base: '25vh'
                 }}
                 w={{
                     base: '90vw',
@@ -193,15 +192,15 @@ const breakpoints = createBreakpoints({
             </VStack>
 
             <VStack
-                w='100%'
                 h={{
-                    base: '100vh'
+                    base: '70vh'
                 }}
               >
               <Box
-                    h={{
-                        base: '65vh'
+                    w={{
+                        base: '90vw'
                     }}
+                    marginTop='5vh'
                 >
             <Grid templateColumns='repeat(2, 1fr)' gap={7}>
                 <GridItem w='50' h='20'>
@@ -229,15 +228,15 @@ const breakpoints = createBreakpoints({
             </VStack>
 
             <VStack
-                w='100%'
                 h={{
-                    base: '100vh'
+                    base: '70vh'
                 }}
               >
             <Box
-                    h={{
-                        base: '80vh'
-                    }}
+                w={{
+                    base: '90vw'
+                }}
+                marginTop='5vh'
                 >
                 <Grid templateColumns='repeat(2, 1fr)' gap={10}>
                     <GridItem w='90' h='20'>
