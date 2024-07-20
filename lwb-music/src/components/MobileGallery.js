@@ -24,7 +24,6 @@ import {
     Heading,
     Image,
     Stack,
-    Spacer,
     VStack,
 } from '@chakra-ui/react';
 import { createBreakpoints } from '@chakra-ui/theme-tools';
@@ -49,7 +48,7 @@ const breakpoints = createBreakpoints({
               <VStack
                 w='95%'
                 h={{
-                    base: '150vh'
+                    base: '100vh'
                 }}
               >
                 <Box
@@ -60,8 +59,9 @@ const breakpoints = createBreakpoints({
                 >
                 <Image src={g1} alt='koshare-ballet' />
                 </Box>
-                <Spacer />
-                <Box
+                </VStack>
+
+                <VStack
                     w={{
                         base: '90vw'
                     }}
@@ -71,8 +71,23 @@ const breakpoints = createBreakpoints({
                     marginTop='5vh'
                 >
                 <Heading as='h4' size='md'>The choreographer Donald Saddler with ballerina Marjorie Tallchief, dancers, and Louis W. Ballard seated in the background for rehearsal of the ballet Koshare.</Heading>
-                </Box>
-              </VStack>
+                </VStack>
+
+            <VStack
+                h={{
+                    base: '25vh'
+                }}
+                w={{
+                    base: '90vw'
+                }}
+                marginTop='75px'
+            >
+                <Heading as='h5' size='sm'>
+                From Left to Right:
+                Ballard holding a Sioux flute from his personal collection.
+                Donald Sadler and Louis W. Ballard along with George Skibine director of the Harkness Ballet in rehearsal for the 1965 performance of Koshare.
+                </Heading>
+            </VStack>
 
               <VStack
                 w='100%'
@@ -96,10 +111,9 @@ const breakpoints = createBreakpoints({
             </Box>
             </VStack>
 
-            <VStack>
-            <Box
+            <VStack
                 h={{
-                    base: '25vh'
+                    base: '30vh'
                 }}
                 w={{
                     base: '90vw'
@@ -107,18 +121,14 @@ const breakpoints = createBreakpoints({
                 marginTop='75px'
             >
                 <Heading as='h5' size='sm'>
-                From Left to Right:
-                Ballard holding a Sioux flute from his personal collection.
-                Donald Sadler and Louis W. Ballard along with George Skibine director of the Harkness Ballet in rehearsal for the 1965 performance of Koshare.
+                The world premiere of the Portrait of Will Rogers in 1972. Pictured on the left are Dr. Wesley Forbis and Will Rogers Jr. in the center alongside Ballard.
                 </Heading>
-            </Box>
-            </VStack>
-
+              </VStack>
 
               <VStack
                 w='100%'
                 h={{
-                    base: '70vh'
+                    base: '100vh'
                 }}
               >
                 <Box
@@ -137,39 +147,7 @@ const breakpoints = createBreakpoints({
                 </Box>
             </VStack>
 
-            <VStack>
-            <Box
-                h={{
-                    base: '30vh'
-                }}
-                w={{
-                    base: '90vw'
-                }}
-                marginTop='75px'
-            >
-                <Heading as='h5' size='sm'>
-                The world premiere of the Portrait of Will Rogers in 1972. Pictured on the left are Dr. Wesley Forbis and Will Rogers Jr. in the center alongside Ballard.
-                </Heading>
-                </Box>
-              </VStack>
-
-              <VStack
-                w='95%'
-                h={{
-                    base: '125vh'
-                }}
-              >
-                <Box
-                    w={{
-                        base: '100vw'
-                    }}
-                >
-                <Image src={g8} alt='lwb-flute2' />
-                </Box>
-                </VStack>
-
-            <VStack>
-                <Box
+            <VStack
                    h={{
                     base: '30vh'
                     }}
@@ -181,13 +159,43 @@ const breakpoints = createBreakpoints({
                 <Heading as='h5' size='sm'>
                 The composer in a promotional shot that he often used. Probably taken in Oklahoma, USA.
                 </Heading>
-                </Box>
               </VStack>
+
+              <VStack
+                w='95%'
+                h={{
+                    base: '100vh'
+                }}
+              >
+                <Box
+                    w={{
+                        base: '100vw'
+                    }}
+                >
+                <Image src={g8} alt='lwb-flute2' />
+                </Box>
+                </VStack>
+
+
+            <VStack
+                h={{
+                    base: '30vh'
+                }}
+                w={{
+                    base: '90vw',
+
+                }}
+                marginTop='75px'
+                >
+                <Heading as='h5' size='sm'>
+                On the Right: Sammy Davis Jr. and Louis W. Ballard attending the Tulsa Philharmonic Silver Anniversary in 1973. Sammy Davis Jr. performed and two Ballard pieces were performed.
+                </Heading>
+            </VStack>
 
             <VStack
                 w='100%'
                 h={{
-                    base: '75vh'
+                    base: '100vh'
                 }}
               >
               <Box
@@ -206,27 +214,24 @@ const breakpoints = createBreakpoints({
             </Box>
             </VStack>
             
-            <VStack>
-            <Box
+            <VStack
                 h={{
-                    base: '30vh'
+                    base: '25vh'
                 }}
                 w={{
-                    base: '90vw',
-
+                    base: '90vw'
                 }}
                 marginTop='75px'
-                >
+            >
                 <Heading as='h5' size='sm'>
-                On the Right: Sammy Davis Jr. and Louis W. Ballard attending the Tulsa Philharmonic Silver Anniversary in 1973. Sammy Davis Jr. performed and two Ballard pieces were performed.
+                Louis W. Ballard classical music composer and his contemporary maverick ballerina Maria Tallchief - both native Oklahomans who represented the US worldwide in the performance arts for decades. 
                 </Heading>
-            </Box>
             </VStack>
 
             <VStack
                 w='100%'
                 h={{
-                    base: '120vh'
+                    base: '100vh'
                 }}
               >
             <Box
@@ -245,21 +250,7 @@ const breakpoints = createBreakpoints({
             </Box>
             </VStack>
             
-            <VStack>
-            <Box
-                h={{
-                    base: '25vh'
-                }}
-                w={{
-                    base: '90vw'
-                }}
-                marginTop='75px'
-            >
-                <Heading as='h5' size='sm'>
-                Louis W. Ballard classical music composer and his contemporary maverick ballerina Maria Tallchief - both native Oklahomans who represented the US worldwide in the performance arts for decades. 
-                </Heading>
-            </Box>
-            </VStack>
+           
         </VStack>
     </Stack>
     )

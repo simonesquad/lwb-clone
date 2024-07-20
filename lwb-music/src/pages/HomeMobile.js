@@ -53,7 +53,7 @@ const breakpoints = createBreakpoints({
         <VStack 
                 marginTop='75px'
                 w='80vw'
-                h='140vh'
+                h='160vh'
                 >
         <Box fontSize={["sm"]}>
                 <Heading 
@@ -65,11 +65,12 @@ const breakpoints = createBreakpoints({
                 </Heading>
                     </Box>
                 </VStack>
+
                 <VStack
                     align='center'
-                    w='100vw'
+                    w='80vw'
                     h={{
-                        base: '85vh'
+                        base: '70vh'
                     }}
                     marginTop={45}
                 >
@@ -77,11 +78,12 @@ const breakpoints = createBreakpoints({
                     src={LWB} 
                 />
                  </VStack>
+
                  <VStack
                     align='center'
-                    w='100vw'
+                    w='90vw'
                     h={{
-                        base: '90vh'
+                        base: '60vh'
                     }}
                     marginTop={45}
                 >
@@ -97,9 +99,9 @@ const breakpoints = createBreakpoints({
 
                 <VStack
                     align='center'
-                    w='100vw'
+                    w='80vw'
                     h={{
-                        base: '80vh'
+                        base: '70vh'
                     }}
                     marginTop={45}
                 >
@@ -110,17 +112,17 @@ const breakpoints = createBreakpoints({
 
                 <VStack 
                     marginTop='75px'
-                    w='80vw'
-                    h='140vh'
+                    w='90vw'
+                    h='120vh'
                 >
                 <Heading as='h2' size='2xl'>I have found myself</Heading><Heading as='h3' size='md'>in a curious circumstance, in that I am literally</Heading><Heading as='h2' size='2xl'>between two worlds ...</Heading><Heading as='h3' size='md'>that of the American Indian and that of Western society. These two worlds, of historical necessity, have been forced to coexist yet their</Heading><Heading as='h2' size='xl'>values and aesthetic concepts have remained almost irreconcilable.</Heading><Heading as='h3' size='md'>In my music I have sought to fuse these worlds for I believe that an artist can get to the heart of a culture through</Heading><Heading as='h2' size='2xl'>new forms alien to that culture.</Heading>
                 </VStack>
 
                 <VStack
                     align='center'
-                    w='100vw'
+                    w='80vw'
                     h={{
-                        base: '85vh'
+                        base: '70vh'
                     }}
                     marginTop={45}
                 >
@@ -131,8 +133,8 @@ const breakpoints = createBreakpoints({
 
                 <VStack 
                     marginTop='75px'
-                    w='80vw'
-                    h='140vh'
+                    w='90vw'
+                    h='120vh'
                 >
                 <Heading as='h2' size='xl'>
                 Don't think because you're a non-Indian</Heading><Heading as='h3' size='md'>you can't sing Indian songs. These are our songs as Americans and we must learn to recognize it.</Heading><Heading as='h2' size='2xl'>Indian singing is the most natural in the world'...</Heading><Heading as='h3' size='md'>Find an Indian who knows songs, he said, and listen carefully...</Heading><Heading as='h2' size='xl'>Learn so you can sing them under water or in your sleep!</Heading><Heading as='h3' size='md'>When a lead Indian singer dies its like an archive burning down...</Heading><Heading as='h2' size='xl'>Here's epic literature. Here's epic poetry - and it's unwritten.</Heading>
@@ -140,9 +142,9 @@ const breakpoints = createBreakpoints({
 
                 <VStack
                     align='center'
-                    w='100vw'
+                    w='90vw'
                     h={{
-                        base: '80vh'
+                        base: '100vh'
                     }}
                     marginTop={45}
                 >
@@ -157,7 +159,7 @@ const breakpoints = createBreakpoints({
 
                 <VStack 
                     marginTop='45px'
-                    w='80vw'
+                    w='90vw'
                     h='120vh'
                 >
                 <Heading as='h2' size='2xl'>
@@ -167,8 +169,9 @@ const breakpoints = createBreakpoints({
 
                 <VStack
                     align='center'
-                    w='90vw'
-                    h='85vh'
+                    w='80vw'
+                    h='70vh'
+                    marginTop={45}
                 >
                 <Image 
                     src={LWB3} 
