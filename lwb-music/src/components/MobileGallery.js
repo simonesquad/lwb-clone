@@ -65,32 +65,16 @@ const breakpoints = createBreakpoints({
                         base: '90vw'
                     }}
                     h={{
-                        base: '30vh'
+                        base: '40vh'
                     }}
                     marginTop='10vh'
                 >
                 <Heading as='h4' size='md'>The choreographer Donald Saddler with ballerina Marjorie Tallchief, dancers, and Louis W. Ballard seated in the background for rehearsal of the ballet Koshare.</Heading>
                 </VStack>
 
-            <VStack
-                h={{
-                    base: '25vh'
-                }}
-                w={{
-                    base: '90vw'
-                }}
-                marginTop='75px'
-            >
-                <Heading as='h5' size='sm'>
-                From Left to Right:
-                Ballard holding a Sioux flute from his personal collection.
-                Donald Sadler and Louis W. Ballard along with George Skibine director of the Harkness Ballet in rehearsal for the 1965 performance of Koshare.
-                </Heading>
-            </VStack>
-
               <VStack
                 h={{
-                    base: '70vh',
+                    base: '55vh',
                 }}
               >
                 <Box
@@ -120,13 +104,16 @@ const breakpoints = createBreakpoints({
                 marginTop='75px'
             >
                 <Heading as='h5' size='sm'>
-                The world premiere of the Portrait of Will Rogers in 1972. Pictured on the left are Dr. Wesley Forbis and Will Rogers Jr. in the center alongside Ballard.
+                From Left to Right:
+                Ballard holding a Sioux flute from his personal collection.
+                Donald Sadler and Louis W. Ballard along with George Skibine director of the Harkness Ballet in rehearsal for the 1965 performance of Koshare.
                 </Heading>
-              </VStack>
+            </VStack>
+
 
               <VStack
                 h={{
-                    base: '70vh'
+                    base: '55vh'
                 }}
               >
                 <Box
@@ -147,18 +134,19 @@ const breakpoints = createBreakpoints({
             </VStack>
 
             <VStack
-                   h={{
+                h={{
                     base: '25vh'
-                    }}
-                    w={{
-                        base: '90vw'
-                    }}
-                    marginTop='75px'
-                >
+                }}
+                w={{
+                    base: '90vw'
+                }}
+                marginTop='75px'
+            >
                 <Heading as='h5' size='sm'>
-                The composer in a promotional shot that he often used. Probably taken in Oklahoma, USA.
+                The world premiere of the Portrait of Will Rogers in 1972. Pictured on the left are Dr. Wesley Forbis and Will Rogers Jr. in the center alongside Ballard.
                 </Heading>
               </VStack>
+
 
               <VStack
                 h={{
@@ -175,25 +163,24 @@ const breakpoints = createBreakpoints({
                 </Box>
                 </VStack>
 
-
             <VStack
-                h={{
+                   h={{
                     base: '25vh'
-                }}
-                w={{
-                    base: '90vw',
-
-                }}
-                marginTop='75px'
+                    }}
+                    w={{
+                        base: '90vw'
+                    }}
+                    marginTop='75px'
                 >
                 <Heading as='h5' size='sm'>
-                On the Right: Sammy Davis Jr. and Louis W. Ballard attending the Tulsa Philharmonic Silver Anniversary in 1973. Sammy Davis Jr. performed and two Ballard pieces were performed.
+                The composer in a promotional shot that he often used. Probably taken in Oklahoma, USA.
                 </Heading>
-            </VStack>
+              </VStack>
+
 
             <VStack
                 h={{
-                    base: '70vh'
+                    base: '55vh'
                 }}
               >
               <Box
@@ -212,24 +199,25 @@ const breakpoints = createBreakpoints({
             </Grid>
             </Box>
             </VStack>
-            
+
             <VStack
                 h={{
                     base: '25vh'
                 }}
                 w={{
-                    base: '90vw'
+                    base: '90vw',
+
                 }}
                 marginTop='75px'
-            >
+                >
                 <Heading as='h5' size='sm'>
-                Louis W. Ballard classical music composer and his contemporary maverick ballerina Maria Tallchief - both native Oklahomans who represented the US worldwide in the performance arts for decades. 
+                On the Right: Sammy Davis Jr. and Louis W. Ballard attending the Tulsa Philharmonic Silver Anniversary in 1973. Sammy Davis Jr. performed and two Ballard pieces were performed.
                 </Heading>
             </VStack>
 
             <VStack
                 h={{
-                    base: '70vh'
+                    base: '60vh'
                 }}
               >
             <Box
@@ -247,6 +235,20 @@ const breakpoints = createBreakpoints({
                     </GridItem>
                 </Grid>
             </Box>
+            </VStack>
+
+            <VStack
+                h={{
+                    base: '25vh'
+                }}
+                w={{
+                    base: '90vw'
+                }}
+                marginTop='75px'
+            >
+                <Heading as='h5' size='sm'>
+                Louis W. Ballard classical music composer and his contemporary maverick ballerina Maria Tallchief - both native Oklahomans who represented the US worldwide in the performance arts for decades. 
+                </Heading>
             </VStack>
             
            
