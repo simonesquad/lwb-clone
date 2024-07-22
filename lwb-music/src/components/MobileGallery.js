@@ -62,7 +62,7 @@ const breakpoints = createBreakpoints({
 
               <VStack
                 h={{
-                    base: '55vh',
+                    base: '65vh',
                 }}
               >
                 <Box
@@ -84,7 +84,7 @@ const breakpoints = createBreakpoints({
 
               <VStack
                 h={{
-                    base: '55vh'
+                    base: '45vh'
                 }}
               >
                 <Box
@@ -107,7 +107,7 @@ const breakpoints = createBreakpoints({
 
               <VStack
                 h={{
-                    base: '100vh'
+                    base: '110vh'
                 }}
               >
                 <Box
@@ -123,7 +123,7 @@ const breakpoints = createBreakpoints({
 
             <VStack
                 h={{
-                    base: '55vh'
+                    base: '65vh'
                 }}
               >
               <Box
@@ -145,12 +145,12 @@ const breakpoints = createBreakpoints({
 
             <VStack
                 h={{
-                    base: '60vh'
+                    base: '100vh'
                 }}
               >
             <Box
                 w={{
-                    base: '90vw'
+                    base: '85vw'
                 }}
                 marginTop='5vh'
                 >
