@@ -30,6 +30,7 @@ function Resources() {
             <Tab>Biographical</Tab>
             <Tab>Cultural</Tab>
             <Tab>Featured</Tab>
+            <Tab>Medium</Tab>
             <Tab>Tribal</Tab>
             
             
@@ -136,6 +137,20 @@ function Resources() {
             <a rel="noreferrer" href="http://www.sentineltimes.com/musical-presentation-honoring-dr-louis-w-ballard/" target="_blank"><b>Sentinel Times: Musical Presentation Honoring Dr. Louis W. Ballard</b> <br></br>[Quapaw Tribe]</a>
             </div>
            
+            </TabPanel>
+
+            <TabPanel>
+            <div>
+            <a rel="noreferrer" href="https://simone-a-ballard.medium.com/keeping-the-rhythm-alive-a-journey-into-unknown-scores-and-hidden-corners-75a16075c389" target="_blank"><b>Keeping the Rhythm Alive: ...</b><br></br> [Medium Blog]</a>
+            </div>
+            <br></br>
+            <div>
+            <a rel="noreferrer" href="https://simone-a-ballard.medium.com/native-american-legends-45bba500888b" target="_blank"><b>"Native American Legends"</b><br></br> [Medium Blog]</a>
+            </div>
+            <br></br>
+            <div>
+            <a rel="noreferrer" href="https://simone-a-ballard.medium.com/classical-revival-unleashed-516d9e705c12" target="_blank"><b>Classical Revival Unleashed!</b><br></br> [Medium Blog]</a>
+            </div>
             </TabPanel>
 
             <TabPanel>
