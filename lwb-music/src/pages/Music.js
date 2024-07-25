@@ -311,7 +311,7 @@ function Music() {
                     marginTop: '17%', 
                     marginLeft: '45%' 
                     }}>
-                    <a href="https://open.spotify.com/album/4dOgH1viKCbfX2h56VoPvh" target="_blank">
+                    <a href="https://www.naxos.com/CatalogueDetail/?id=8.559923" target="_blank">
                     <Buttons
                         text="Listen" />
                     </a>
