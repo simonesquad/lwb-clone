@@ -5,7 +5,8 @@ import {
     Box,
     Heading,
     Text,
-    Image
+    Image,
+    VStack
 } from '@chakra-ui/react';
 import { createBreakpoints } from '@chakra-ui/theme-tools';
 
@@ -37,19 +38,32 @@ const Greeting = () => {
           }}>
             <Heading>Thank You for Reaching Out Over the LWB Music Project!</Heading>
           </Box>
+          <VStack
+            align='center'
+            w='90vw'
+          >
+          <Box>
             <Text>
               We appreciate the continued interest in the Louis W. Ballard music, life, and history. The team will get back to your inquiry as soon as they can. If you requested a certain music piece, please also check the music section of the website with an updated list of scores readily available. Other pieces might be found with publishers nationwide. Enjoy the #music
             </Text>
-
+            </Box>
+            <Box h={{
+              sm: '20vh',
+              md: '22vh',
+              lg: '23vh'
+            }}>
             <Image
               src={FiveMoons} 
-              height={{
-                  sm: '45%',
-                  md: '35%',
-                  lg: '65%',
-                  xl: '85%',
-              }}
+              w='100%'
+              // height={{
+              //     sm: '45%',
+              //     md: '35%',
+              //     lg: '65%',
+              //     xl: '85%',
+              // }}
             />
+          </Box>
+        </VStack>
         </Box>
     </Box>
   )
