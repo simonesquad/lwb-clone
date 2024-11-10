@@ -36,7 +36,12 @@ const Greeting = () => {
             >
             <Heading>Thank You for Reaching Out Over the LWB Music Project!</Heading>
           </Box>
-          
+          </VStack>
+          <VStack
+            align='center'
+            w='90vw'
+            
+          >
           <Box
             marginLeft='5%'
             w='80vw'
@@ -53,15 +58,14 @@ const Greeting = () => {
             <Image
               src={FiveMoons} 
               w='100%'
-              h={{
-                  sm: '45%',
-                  md: '55%',
-                  lg: '65%',
-                  xl: '85%',
+              height={{
+                md: '70%',
+                lg: '80%',
+                xl: '90%'
               }}
             />
           </Box>
-      </VStack>
+        </VStack>
     </div>
   )
 }
