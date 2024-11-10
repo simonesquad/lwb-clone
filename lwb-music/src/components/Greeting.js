@@ -20,32 +20,36 @@ const breakpoints = createBreakpoints({
 
 const Greeting = () => {
   return (
+    <div>
         <VStack
             align='center'
             w='90vw'
+            
           >
           <Box 
-            marginTop='5vh'
             h={{
               sm: '17vh',
               md: '19vh',
               lg: '22vh'
-          }}>
+            }}
+            marginTop='10%'
+            >
             <Heading>Thank You for Reaching Out Over the LWB Music Project!</Heading>
           </Box>
           
           <Box
             marginLeft='5%'
-            w='90vw'
+            w='80vw'
           >
             <Text>
               We appreciate the continued interest in the Louis W. Ballard music, life, and history. The team will get back to your inquiry as soon as they can. If you requested a certain music piece, please also check the music section of the website with an updated list of scores readily available. Other pieces might be found with publishers nationwide. Enjoy the #music
             </Text>
-            </Box>
-            <Box
-              w='80vw'
-              marginTop='5vh'
-            >
+          </Box>
+
+          <Box
+            w='80vw'
+            marginTop='5vh'
+          >
             <Image
               src={FiveMoons} 
               w='100%'
@@ -58,6 +62,7 @@ const Greeting = () => {
             />
           </Box>
       </VStack>
+    </div>
   )
 }
 
