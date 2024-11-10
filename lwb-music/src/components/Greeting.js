@@ -6,7 +6,8 @@ import {
     Heading,
     Text,
     Image,
-    VStack
+    VStack,
+    HStack
 } from '@chakra-ui/react';
 import { createBreakpoints } from '@chakra-ui/theme-tools';
 
