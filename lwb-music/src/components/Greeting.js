@@ -25,7 +25,6 @@ const Greeting = () => {
         <VStack
             align='center'
             w='90vw'
-            
           >
           <Box 
             h={{
@@ -49,7 +48,7 @@ const Greeting = () => {
           >
             <Box
               marginLeft='5%'
-              w='80vw'
+              w='80%'
             >
               <Text>
                 We appreciate the continued interest in the Louis W. Ballard music, life, and history. The team will get back to your inquiry as soon as they can. If you requested a certain music piece, please also check the music section of the website with an updated list of scores readily available. Other pieces might be found with publishers nationwide. Enjoy the #music
@@ -60,16 +59,16 @@ const Greeting = () => {
             w='100vw'
           >
             <Box
-              w='80vw'
-              marginTop='5vh'
+              marginTop='10%'
+              w='80%' 
             >
               <Image
                 src={FiveMoons} 
                 w='100%'
                 height={{
-                  md: '70%',
-                  lg: '80%',
-                  xl: '90%'
+                  md: '60%',
+                  lg: '70%',
+                  xl: '80%'
                 }}
               />
             </Box>
