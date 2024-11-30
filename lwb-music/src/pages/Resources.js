@@ -22,7 +22,10 @@ const breakpoints = createBreakpoints({
 function Resources() {
     return (
     <div>
-        <Tabs align='left' isFitted variant='enclosed'>
+        <Tabs 
+            align='left' 
+            variant='enclosed'
+        >
         <TabList>
             <Tab>Academic</Tab>
             <Tab>Biographical</Tab>
@@ -33,7 +36,7 @@ function Resources() {
         </TabList>
 
         <TabPanels>
-        <TabPanel>
+        <TabPanel px={0}>
             <div>
             <a rel="noreferrer" href="https://fau.digital.flvc.org/islandora/object/fau%3A31263/datastream/OBJ/view/Finding_a_place_for_Cacega_Ayuwipi_within_the_structure_of_American_Indian_music_and_dance_traditions.pdf" target="_blank"><b>Finding a Place for Cacega Ayuwipi within the Structure of American Indian Music and Dance Traditions</b> 
             <br></br>[Adam Eric Berkowitz]</a>
@@ -56,7 +59,7 @@ function Resources() {
             </div>
             </TabPanel>
 
-            <TabPanel>
+            <TabPanel px={0}>
             <div>
             <a rel="noreferrer" href="https://www.britannica.com/biography/Louis-Ballard" target="_blank"><b>Louis Ballard</b><br></br>[Britannica]</a>
             </div>
@@ -74,7 +77,7 @@ function Resources() {
             </div>
             </TabPanel>
 
-            <TabPanel>
+            <TabPanel px={0}>
             <div>
             <a rel="noreferrer" href="https://composersforum.org/resources/organizations-supporting-composers-new-music/" target="_blank"><b>American Composers Forum</b><br></br> [Supporting Organizations]</a>
             </div>
@@ -100,7 +103,7 @@ function Resources() {
             </div>
             </TabPanel>
 
-            <TabPanel>
+            <TabPanel px={0}>
             <div>
             <a rel="noreferrer" href="https://italianacademy.columbia.edu/event/american-voices-selected-piano-works-by-black-and-native-american-composers" target="_blank"><b>American Voices: Selected Piano Works by Black and Native American Composers</b></a>
             </div>
@@ -135,7 +138,7 @@ function Resources() {
            
             </TabPanel>
 
-            <TabPanel>
+            <TabPanel px={0}>
             <div>
             <a rel="noreferrer" href="https://simone-a-ballard.medium.com/keeping-the-rhythm-alive-a-journey-into-unknown-scores-and-hidden-corners-75a16075c389" target="_blank"><b>Keeping the Rhythm Alive: ...</b><br></br> [Medium Blog]</a>
             </div>
@@ -149,7 +152,7 @@ function Resources() {
             </div>
             </TabPanel>
 
-            <TabPanel>
+            <TabPanel px={0}>
             <div>
             <a rel="noreferrer" href="https://www.cherokee.org/" target="_blank"><b>Cherokee Nation</b><br></br> [Official Website]</a>
             </div>
@@ -162,9 +165,6 @@ function Resources() {
             <a rel="noreferrer" href="https://www.quapawtribe.com/" target="_blank"><b>Quapaw Nation</b><br></br> [Official Website]</a>
             </div>
             </TabPanel>
-            
-            
-
         </TabPanels>
         </Tabs>
     </div>
