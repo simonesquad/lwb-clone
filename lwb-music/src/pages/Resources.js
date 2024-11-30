@@ -3,7 +3,6 @@ import '../styles/Resources.css';
 
 //chakra ui styles for this section
 import {
-    Stack,
     Tabs,
     TabList,
     TabPanels,
@@ -22,8 +21,7 @@ const breakpoints = createBreakpoints({
 
 function Resources() {
     return (
-        <Stack>
-
+    <div>
         <Tabs align='left' isFitted variant='enclosed'>
         <TabList>
             <Tab>Academic</Tab>
@@ -32,8 +30,6 @@ function Resources() {
             <Tab>Featured</Tab>
             <Tab>Medium</Tab>
             <Tab>Tribal</Tab>
-            
-            
         </TabList>
 
         <TabPanels>
@@ -171,9 +167,8 @@ function Resources() {
 
         </TabPanels>
         </Tabs>
-
-        </Stack>
+    </div>
     )
 }
 
-export default Resources
+export default Resources;
