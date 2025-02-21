@@ -159,8 +159,8 @@ function Resources() {
                         <br></br>
                         <div>
                         <a rel="noreferrer" href="https://simone-a-ballard.medium.com/classical-revival-unleashed-516d9e705c12" target="_blank"><b>Classical Revival Unleashed!</b><br></br> [Medium Blog]</a>
-                        <br></br>
                         </div>
+                        <br></br>
                         <div>
                         <a rel="noreferrer" href="https://simone-a-ballard.medium.com/five-moons-festival-24-032d312aaecc" target="_blank"><b>Five Moons Festival '24</b><br></br> [Medium Blog]</a>
                         </div>
