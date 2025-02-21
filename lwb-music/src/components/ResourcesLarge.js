@@ -149,6 +149,22 @@ function Resources() {
             <br></br>
             <div>
             <a rel="noreferrer" href="https://simone-a-ballard.medium.com/classical-revival-unleashed-516d9e705c12" target="_blank"><b>Classical Revival Unleashed!</b><br></br> [Medium Blog]</a>
+            <br></br>
+            </div>
+            <div>
+            <a rel="noreferrer" href="https://simone-a-ballard.medium.com/five-moons-festival-24-032d312aaecc" target="_blank"><b>Five Moons Festival '24</b><br></br> [Medium Blog]</a>
+            </div>
+            <br></br>
+            <div>
+            <a rel="noreferrer" href="https://simone-a-ballard.medium.com/highlights-cherokee-variation-revival-1f4b8acdf526" target="_blank"><b>Highlights: Cherokee Variation Revival</b><br></br> [Medium Blog]</a>
+            </div>
+            <br></br>
+            <div>
+            <a rel="noreferrer" href="https://simone-a-ballard.medium.com/what-is-the-hollywoodbowl-573137822d1e" target="_blank"><b>What is the #hollywoodbowl?</b><br></br> [Medium Blog]</a>
+            </div>
+            <br></br>
+            <div>
+            <a rel="noreferrer" href="https://simone-a-ballard.medium.com/a-brief-introduction-to-the-fleisher-collection-an-american-classical-haven-4dc83baa0761" target="_blank"><b>A Brief Introduction to the Fleisher Collection - An American Classical Haven</b><br></br> [Medium Blog]</a>
             </div>
             </TabPanel>
 
