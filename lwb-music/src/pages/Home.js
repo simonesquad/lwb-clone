@@ -6,12 +6,14 @@ import LWB4 from '../assets/gallery/g_6.png'
 import Sidebar from '../components/Sidebar'
 
 import {
+    Box,
+    Link,
+    Text,
     VStack, 
     HStack,
     Stack,
     Heading,
     Image,
-    Box,
     Drawer,
     DrawerContent,
     useDisclosure,
@@ -51,10 +53,48 @@ function Home() {
         </Drawer>
 
         <Stack>
+       
         <VStack 
                 spacing={1}
                 align='center'
             >
+            <Box
+                w={{
+                    md: '50vw',
+                    lg: '55vw',
+                }}
+            >
+                <Box
+                    marginTop={10}
+                    h={{
+                        md: '6vh',
+                        lg: '7vh'
+                    }}
+                >
+                <Heading size='md'>The Louis W. Ballard Project 2025 Updates:</Heading>
+                </Box>
+                <Text>The Louis W. Ballard project continues into 2025 and is pleased to continue with several more initiatives. We'd be delighted if you'd like to lend your expertise and time to the overall revival efforts. Please follow the links below to learn more and don't hesitate to reach out. Thank you and enjoy diving into history!</Text>
+                <HStack
+                    h={{
+                        md: '15vh'
+                    }}
+                >
+                <Box
+                    h={{
+                        lg: '10vh'
+                    }}
+                >
+                <Link href='https://drive.google.com/file/d/1szvO_SnkDcUoA_Ttw8SoYrFvYJl5b3fp/view?usp=sharing' isExternal>Digital Archiving</Link>
+                </Box>
+                <Box
+                    h={{
+                        lg: '10vh'
+                    }}
+                >
+                <Link href='https://drive.google.com/file/d/1Oc5KQ_qJU4u6VXJeTrkvuZFE_HPHNhpQ/view?usp=sharing' isExternal>Education Proposal</Link>
+                </Box>
+                </HStack>
+            </Box>
             <HStack 
                     w={{
                         md: '80vw',

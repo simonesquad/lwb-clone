@@ -15,6 +15,9 @@ import {
     DrawerContent,
     useDisclosure,
     useBreakpointValue,
+    Text,
+    HStack,
+    Link,
 } from '@chakra-ui/react';
 import { createBreakpoints } from '@chakra-ui/theme-tools';
 
