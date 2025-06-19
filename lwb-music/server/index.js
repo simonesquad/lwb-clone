@@ -2,22 +2,22 @@ const express = require('express');
 const app = express();
 const port = 5000;
 
-app.get('/api/data', (req, res) => {
+    // Example (Node.js with Express)
+    const stripe = require('stripe')('YOUR_STRIPE_SECRET_KEY');
 
-    // async function getClientSecret() {
-    //     const response = await fetch('/create-payment-intent', {
-    //         method: 'POST',
-    //         headers: {
-    //             'Content-Type': 'application/json',
-    //         },
-    //         body: JSON.stringify({ items: [{ id: 'prod_123' }] }), // Replace with your product or service information
-    //     });
-    //         const data = await response.json();
-    //         return data.clientSecret;
-    // }
+    app.post('/create-payment-intent', async (req, res) => {
+        try {
+            const paymentIntent = await stripe.paymentIntents.create({
+                amount: 1000, // Amount in cents (e.g., $10.00)
+                currency: 'usd',
+                // Add other parameters as needed
+            });
+            res.json({ clientSecret: paymentIntent.client_secret });
+        } catch (error) {
+            res.status(500).json({ error: error.message });
+        }
+    });
 
-  res.json({ message: 'Hello from the server!' });
-});
 
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
