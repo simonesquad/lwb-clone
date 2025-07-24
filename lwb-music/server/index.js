@@ -3,7 +3,7 @@ const app = express();
 const port = 5000;
 
     // Example (Node.js with Express)
-    const stripe = require('stripe')('YOUR_STRIPE_SECRET_KEY');
+    const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 
     app.post('/create-payment-intent', async (req, res) => {
         try {

@@ -3,7 +3,7 @@ import { Elements } from '@stripe/react-stripe-js';
 import CheckoutForm from './CheckoutForm'; // Your custom form component
 import { loadStripe } from '@stripe/stripe-js';
 
-const stripePromise = loadStripe('your-publishable-key');
+const stripePromise = loadStripe(process.env.STRIPE_PUBLISHABLE_KEY);
 
 const CheckoutPage = () => {
   return (
