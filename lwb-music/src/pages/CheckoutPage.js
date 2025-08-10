@@ -1,6 +1,6 @@
 import React from 'react';
 import { Elements } from '@stripe/react-stripe-js';
-import CheckoutForm from './CheckoutForm'; // Your custom form component
+import CheckoutForm from '../components/CheckoutForm'; // Your custom form component
 import { loadStripe } from '@stripe/stripe-js';
 
 const stripePromise = loadStripe(process.env.STRIPE_PUBLISHABLE_KEY);
