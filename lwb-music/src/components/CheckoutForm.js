@@ -1,43 +1,53 @@
-// new checkout page here**
 
-import React, { useState } from 'react';
-import { CardElement, useStripe, useElements } from '@stripe/react-stripe-js';
+import React, { useState, useEffect } from "react";
 
-const CheckoutForm = () => {
-const [error, setError] = useState(null);
-const stripe = useStripe();
-const elements = useElements();
+const CheckoutForm = () => (
+  <section>
+    <div className="product">
+      <img
+        src="https://i.imgur.com/EHyR2nP.png"
+        alt="The cover of Stubborn Attachments"
+      />
+      <div className="description">
+      <h3>Stubborn Attachments</h3>
+      <h5>$20.00</h5>
+      </div>
+    </div>
+    <form action="/create-checkout-session" method="POST">
+      <button type="submit">
+        Checkout
+      </button>
+    </form>
+  </section>
+);
 
-const handleSubmit = async (event) => {
-    event.preventDefault();
-        if (!stripe || !elements) {
-        // Stripe.js has not loaded yet. Make sure to disable form submission until Stripe.js has loaded.
-        return;
-        }
+const Message = ({ message }) => (
+  <section>
+    <p>{message}</p>
+  </section>
+);
 
-    const cardElement = elements.getElement(CardElement);
-    const { error } = await stripe.createPaymentMethod({
-        type: 'card',
-        card: cardElement,
-    });
+export default function App() {
+  const [message, setMessage] = useState("");
 
-    if (error) {
-        setError(error.message);
-    } else {
-        setError(null);
-        // Handle successful payment method creation
+  useEffect(() => {
+    // Check to see if this is a redirect back from Checkout
+    const query = new URLSearchParams(window.location.search);
+
+    if (query.get("success")) {
+      setMessage("Order placed! You will receive an email confirmation.");
     }
-    };
 
-    return (
-        <form onSubmit={handleSubmit}>
-             <CardElement />
-        {error && <div className="error">{error}</div>}
-        <button type="submit" disabled={!stripe}>
-            Pay
-        </button>
-        </form>
-    );
-};
+    if (query.get("canceled")) {
+      setMessage(
+        "Order canceled -- continue to shop around and checkout when you're ready."
+      );
+    }
+  }, []);
 
-export default CheckoutForm;
+  return message ? (
+    <Message message={message} />
+  ) : (
+    <CheckoutForm />
+  );
+}
