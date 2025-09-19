@@ -22,10 +22,11 @@ import {
   EmbeddedCheckoutProvider,
   EmbeddedCheckout
 } from '@stripe/react-stripe-js';
-
+require('dotenv').config();
 // Make sure to call `loadStripe` outside of a component’s render to avoid
 // recreating the `Stripe` object on every render.
-const stripePromise = loadStripe('pk_test_51NPs51EBtRupEVleuM8SiW0Mgs8vHyM6WwyHyUHF0UHqPpANB4f6lMun8oWZwnoXzKRalUIvFuo1f4xv0Y7meBoP00X3aIWwuu');
+
+const stripePromise = loadStripe(process.env.STRIPE_PUBLISHABLE_KEY);
 
 const CheckoutPage = () => {
   const fetchClientSecret = useCallback(() => {

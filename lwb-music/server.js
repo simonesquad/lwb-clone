@@ -1,8 +1,10 @@
 // This example sets up an endpoint using the Express framework.
+
 const express = require('express');
 const app = express();
+require('dotenv').config();
 
-const stripe = require('stripe')('sk_test_51NPs51EBtRupEVleXTGb45mafbLCPm7dW9447U8Ew3pxysPPGiws8Kjn1vOHmGB14Y9G5bfWym5Gk6iYlG1tHZxf00XbCYLyhC');
+const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 
 app.post('/create-checkout-session', async (req, res) => {
   const session = await stripe.checkout.sessions.create({
