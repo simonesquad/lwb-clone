@@ -1,52 +1,39 @@
-// import React, { useState, useEffect } from "react";
+import * as React from 'react';
+import { useCallback } from 'react';
+import {loadStripe} from '@stripe/stripe-js';
+import {
+  EmbeddedCheckoutProvider,
+  EmbeddedCheckout
+} from '@stripe/react-stripe-js';
+require('dotenv').config();
+// Make sure to call `loadStripe` outside of a component’s render to avoid
+// recreating the `Stripe` object on every render.
 
-// const CheckoutForm = () => (
-//   <section>
-//     <div className="product">
-//       <img
-//         src="https://i.imgur.com/EHyR2nP.png"
-//         alt="The cover of Stubborn Attachments"
-//       />
-//       <div className="description">
-//       <h3>Stubborn Attachments</h3>
-//       <h5>$20.00</h5>
-//       </div>
-//     </div>
-//     <form action="/create-checkout-session" method="POST">
-//       <button type="submit">
-//         Checkout
-//       </button>
-//     </form>
-//   </section>
-// );
+const stripePromise = loadStripe(process.env.STRIPE_PUBLISHABLE_KEY);
 
-// const Message = ({ message }) => (
-//   <section>
-//     <p>{message}</p>
-//   </section>
-// );
+const CheckoutForm = () => {
+  const fetchClientSecret = useCallback(() => {
+    // Create a Checkout Session
+    return fetch("/create-checkout-session", {
+      method: "POST",
+    })
+      .then((res) => res.json())
+      .then((data) => data.clientSecret);
+  }, []);
 
-// export default function App() {
-//   const [message, setMessage] = useState("");
+  const options = {fetchClientSecret};
 
-//   useEffect(() => {
-//     // Check to see if this is a redirect back from Checkout
-//     const query = new URLSearchParams(window.location.search);
 
-//     if (query.get("success")) {
-//       setMessage("Order placed! You will receive an email confirmation.");
-//     }
+  return (
+    <div id="checkout">
+      <EmbeddedCheckoutProvider
+        stripe={stripePromise}
+        options={options}
+      >
+        <EmbeddedCheckout />
+      </EmbeddedCheckoutProvider>
+    </div>
+  )
+}
 
-//     if (query.get("canceled")) {
-//       setMessage(
-//         "Order canceled -- continue to shop around and checkout when you're ready."
-//       );
-//     }
-//   }, []);
-
-//   return message ? (
-//     <Message message={message} />
-//   ) : (
-//     <CheckoutForm />
-//   );
-// }
+export default CheckoutForm;
