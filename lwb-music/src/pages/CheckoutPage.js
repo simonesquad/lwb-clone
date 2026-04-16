@@ -1,55 +1,37 @@
-// import React from 'react';
-// import { Elements } from '@stripe/react-stripe-js';
-// import CheckoutForm from '../components/CheckoutForm'; // Your custom form component
-// import { loadStripe } from '@stripe/stripe-js';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Elements } from '@stripe/react-stripe-js';
+import { loadStripe } from '@stripe/stripe-js';
 
-// const stripePromise = loadStripe(process.env.STRIPE_PUBLISHABLE_KEY);
-
-// const CheckoutPage = () => {
-//   return (
-//    <Elements stripe={stripePromise}>
-//      <CheckoutForm />
-//     </Elements>
-//   );
-// };
-
-// export default CheckoutPage;
-
-import * as React from 'react';
-import { useCallback } from 'react';
-import {loadStripe} from '@stripe/stripe-js';
-import {
-  EmbeddedCheckoutProvider,
-  EmbeddedCheckout
-} from '@stripe/react-stripe-js';
-
-// Make sure to call `loadStripe` outside of a component’s render to avoid
-// recreating the `Stripe` object on every render.
-const stripePromise = loadStripe('pk_test_123');
+const stripePromise = loadStripe('pk_test_51NPs51EBtRupEVleuM8SiW0Mgs8vHyM6WwyHyUHF0UHqPpANB4f6lMun8oWZwnoXzKRalUIvFuo1f4xv0Y7meBoP00X3aIWwuu');
 
 const CheckoutPage = () => {
-  const fetchClientSecret = useCallback(() => {
-    // Create a Checkout Session
-    return fetch("/create-checkout-session", {
-      method: "POST",
-    })
-      .then((res) => res.json())
-      .then((data) => data.clientSecret);
-  }, []);
-
-  const options = {fetchClientSecret};
-
 
   return (
-    <div id="checkout">
-      <EmbeddedCheckoutProvider
-        stripe={stripePromise}
-        options={options}
-      >
-        <EmbeddedCheckout />
-      </EmbeddedCheckoutProvider>
-    </div>
-  )
-}
+   <Elements stripe={stripePromise}>
+        <section>
+        <div className="product">
+          <img
+            src="https://i.imgur.com/EHyR2nP.png"
+            alt="The cover of Stubborn Attachments"
+          />
+          <div className="description">
+          <h3>Stubborn Attachments</h3>
+          <h5>$50.00</h5>
+          </div>
+        </div>
+        <Link to="/checkout">
+        <form action="/create-checkout-session" method="POST">
+          <button type="submit">
+            Checkout
+          </button>
+        </form>
+        </Link>
+      </section>
+    </Elements>
+  );
+};
 
 export default CheckoutPage;
+
+

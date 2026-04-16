@@ -10,7 +10,8 @@ import Music from './pages/Music';
 import About from './pages/About';
 import LandingPage from './pages/LandingPage';
 import Greeting from './components/Greeting';
-import Checkout from './pages/CheckoutPage';
+import CheckoutPage from './pages/CheckoutPage';
+import CheckoutForm from './components/CheckoutForm';
 
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
     <Router>
       <Layout>
       <Switch>
-        <Route exact path='/checkout' component={Checkout} />
+        <Route exact path='/checkout' component={CheckoutForm} />
+        <Route exact path='/eshop' component={CheckoutPage} />
         <Route exact path='/thankyou' component={Greeting} />
         <Route exact path='/contact' component={Contact} />
         <Route exact path='/resources' component={Resources} />
