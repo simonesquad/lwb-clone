@@ -1,10 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Elements } from '@stripe/react-stripe-js';
 import { loadStripe } from '@stripe/stripe-js';
 
-const stripePromise = loadStripe(process.env.STRIPE_PUBLISHABLE_KEY);
+const stripePromise = loadStripe('pk_test_51NPs51EBtRupEVleuM8SiW0Mgs8vHyM6WwyHyUHF0UHqPpANB4f6lMun8oWZwnoXzKRalUIvFuo1f4xv0Y7meBoP00X3aIWwuu');
 
 const CheckoutPage = () => {
+
   return (
    <Elements stripe={stripePromise}>
         <section>
@@ -15,14 +17,16 @@ const CheckoutPage = () => {
           />
           <div className="description">
           <h3>Stubborn Attachments</h3>
-          <h5>$20.00</h5>
+          <h5>$50.00</h5>
           </div>
         </div>
-        <form action="/checkout" method="POST">
+        <Link to="/checkout">
+        <form action="/create-checkout-session" method="POST">
           <button type="submit">
             Checkout
           </button>
         </form>
+        </Link>
       </section>
     </Elements>
   );
@@ -30,11 +34,4 @@ const CheckoutPage = () => {
 
 export default CheckoutPage;
 
-//new comment here
-
-// import React, { useState, useEffect } from "react";
-
-// const CheckoutForm = () => (
-  
-// );
 

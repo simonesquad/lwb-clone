@@ -1,37 +1,49 @@
-// This example sets up an endpoint using the Express framework.
+const stripe = require('stripe')('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');
 
 const express = require('express');
 const app = express();
-require('dotenv').config();
+app.use(express.static('public'));
 
-const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
+const YOUR_DOMAIN = 'http://localhost:3000';
 
 app.post('/create-checkout-session', async (req, res) => {
   const session = await stripe.checkout.sessions.create({
-    line_items: [{
-      price_data: {
-        currency: 'usd',
-        product_data: {
-          name: 'T-shirt',
-        },
-        unit_amount: 2000,
-      },
-      quantity: 1,
-    }],
-    mode: 'payment',
     ui_mode: 'embedded',
-    return_url: 'https://example.com/checkout/return?session_id={CHECKOUT_SESSION_ID}'
+    line_items: [
+      {
+        price: 'price_1STDsnEBtRupEVleJCCPeLMa',
+        quantity: 1,
+      },
+    ],
+    mode: 'payment',
+    return_url: `${YOUR_DOMAIN}/return?session_id={CHECKOUT_SESSION_ID}`,
   });
 
   res.send({clientSecret: session.client_secret});
 });
+  //   line_items: [
+  //     {
+  //   //   price_data: {
+  //   //     currency: 'usd',
+  //   //     product_data: {
+  //   //       name: 'Stubborn Attachments',
+  //   //     },
+  //   //     unit_amount: 5000,
+  //   //   },
+  //   //   quantity: 1,
+  //   // }],
+  //   // mode: 'payment',
+  //   // ui_mode: 'embedded',
+  //   // return_url: 'https://example.com/checkout/return?session_id={CHECKOUT_SESSION_ID}'
+  // });
+
+
 
 app.get('/session_status', async (req, res) => {
     const session = await stripe.checkout.sessions.retrieve(req.query.session_id);
   
     res.send({
       status: session.status,
-      payment_status: session.payment_status,
       customer_email: session.customer_details.email
     });
   });

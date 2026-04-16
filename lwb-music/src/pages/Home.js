@@ -71,9 +71,9 @@ function Home() {
                         lg: '7vh'
                     }}
                 >
-                <Heading size='md'>The Louis W. Ballard Project 2025 Updates:</Heading>
+                <Heading size='md'>View the augural newsletter here!</Heading>
                 </Box>
-                <Text>The Louis W. Ballard project continues into 2025 and is pleased to continue with several more initiatives. We'd be delighted if you'd like to lend your expertise and time to the overall revival efforts. Please follow the links below to learn more and don't hesitate to reach out. Thank you and enjoy diving into history!</Text>
+                <Text></Text>
                 <HStack
                     h={{
                         md: '15vh'
@@ -84,14 +84,7 @@ function Home() {
                         lg: '10vh'
                     }}
                 >
-                <Link href='https://drive.google.com/file/d/1szvO_SnkDcUoA_Ttw8SoYrFvYJl5b3fp/view?usp=sharing' isExternal>Digital Archiving</Link>
-                </Box>
-                <Box
-                    h={{
-                        lg: '10vh'
-                    }}
-                >
-                <Link href='https://drive.google.com/file/d/1Oc5KQ_qJU4u6VXJeTrkvuZFE_HPHNhpQ/view?usp=sharing' isExternal>Education Proposal</Link>
+                <Link href='https://drive.google.com/file/d/1tq7XhMTMO3Oom-JozD2qR_dpc-Im8_cM/view?usp=sharing' isExternal>LWB Newsletter '26</Link>
                 </Box>
                 </HStack>
             </Box>
