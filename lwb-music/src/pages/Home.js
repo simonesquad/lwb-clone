@@ -76,12 +76,12 @@ function Home() {
                 <Text></Text>
                 <HStack
                     h={{
-                        md: '15vh'
+                        md: '10vh'
                     }}
                 >
                 <Box
                     h={{
-                        lg: '10vh'
+                        lg: '7vh'
                     }}
                 >
                 <Link href='https://drive.google.com/file/d/1tq7XhMTMO3Oom-JozD2qR_dpc-Im8_cM/view?usp=sharing' isExternal>LWB Newsletter '26</Link>
