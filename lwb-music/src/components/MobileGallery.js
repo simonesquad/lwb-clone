@@ -174,3 +174,4 @@ const breakpoints = createBreakpoints({
   export default MobileGallery;
 
   //COMMENT HERE
+    //COMMENT HERE
